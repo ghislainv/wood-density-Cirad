@@ -1,0 +1,883 @@
+Taxon	Family	New.Genus	New.Species	New.Authority	New.ID	New.Taxonomic.status
+Abarema jupunba	Leguminosae	Abarema	jupunba	(Willd.) Britton & Killip	ild-17547	Accepted
+Abies alba	Pinaceae	Abies	alba	Mill.	kew-2609691	Accepted
+Acacia elata	Leguminosae	Acacia	elata	Benth.	ild-404	Accepted
+Acacia heterophylla	Leguminosae	Acacia	heterophylla	(Lam.) Willd.	ild-31792	Accepted
+Acacia mangium	Leguminosae	Acacia	mangium	Willd.	ild-48913	Accepted
+Acacia shirleyi	Leguminosae	Acacia	shirleyi	Maiden	ild-31539	Accepted
+Afzelia africana	Leguminosae	Afzelia	africana	Pers.	ild-828	Accepted
+Afzelia bella	Leguminosae	Afzelia	bella	Harms	ild-685	Accepted
+Afzelia bipindensis	Leguminosae	Afzelia	bipindensis	Harms	ild-686	Accepted
+Afzelia pachyloba	Leguminosae	Afzelia	pachyloba	Harms	ild-691	Accepted
+Agathis dammara	Araucariaceae	Agathis	dammara	(Lamb.) Rich. & A.Rich.	kew-4514	Accepted
+Agathis lanceolata	Araucariaceae	Agathis	lanceolata	Warb.	kew-4522	Accepted
+Agathis moorei	Araucariaceae	Agathis	moorei	(Lindl.) Mast.	kew-4532	Accepted
+Agathis obtusa	Araucariaceae	Agathis	macrophylla	(Lindl.) Mast.	kew-4526	Accepted
+Albizia adianthifolia	Leguminosae	Albizia	adianthifolia	(Schum.) W.Wight	ild-262	Accepted
+Albizia ferruginea	Leguminosae	Albizia	ferruginea	(Guill. & Perr.) Benth.	ild-287	Accepted
+Albizia lebbeck	Leguminosae	Albizia	lebbeck	(L.) Benth.	ild-303	Accepted
+Albizia sassa	Leguminosae	Albizia	gummifera	(J.F.Gmel.) C.A.Sm.	ild-296	Accepted
+Albizia zygia	Leguminosae	Albizia	zygia	(DC.) J.F.Macbr.	ild-192	Accepted
+Aldina heterophylla	Leguminosae	Aldina	heterophylla	Benth.	ild-19935	Accepted
+Aleurites moluccana	Euphorbiaceae	Aleurites	moluccanus	(L.) Willd.	kew-5934	Accepted
+Alexa grandiflora	Leguminosae	Alexa	grandiflora	Ducke	ild-15848	Accepted
+Allanblackia floribunda	Clusiaceae	Allanblackia	floribunda	Oliv.	kew-2628579	Accepted
+Allanblackia staneriana	Clusiaceae	Allanblackia	staneriana	Exell & Mendonça	kew-2628590	Accepted
+Alluaudia procera	Didiereaceae	Alluaudia	procera	(Drake) Drake	kew-6238	Accepted
+Alphitonia neocaledonica	Rhamnaceae	Alphitonia	neocaledonica	(Schltr.) Guillaumin	kew-2629992	Accepted
+Alstonia boonei	Apocynaceae	Alstonia	boonei	De Wild.	kew-7007	Accepted
+Amanoa caribaea	Phyllanthaceae	Amanoa	caribaea	Krug & Urb.	kew-7557	Accepted
+Amburana cearensis	Leguminosae	Amburana	cearensis	(Allemao) A.C.Sm.	ild-28260	Accepted
+Ampelocera edentula	Ulmaceae	Ampelocera	edentula	Kuhlm.	kew-2634287	Accepted
+Amphimas pterocarpoides	Leguminosae	Amphimas	pterocarpoides	Harms	ild-6980	Accepted
+Anacardium giganteum	Anacardiaceae	Anacardium	giganteum	Hancock ex Engl.	kew-2635899	Accepted
+Andira coriacea	Leguminosae	Andira	coriacea	Pulle	ild-15869	Accepted
+Andira inermis	Leguminosae	Andira	inermis	(Wright) DC.	ild-1783	Accepted
+Andira parviflora	Leguminosae	Andira	parviflora	Ducke	ild-15883	Accepted
+Androstachys viticoides		Androstachys	viticoides			
+Aniba amazonica	Lauraceae	Aniba	puchury-minor	(Mart.) Mez	kew-2639736	Accepted
+Aniba burchellii	Lauraceae	Aniba	burchellii	Kosterm.	kew-2639674	Accepted
+Aniba canelilla		Aniba	canelilla			
+Aniba melinonii	Lauraceae	Aniba	melinonii	Lemée	kew-2639718	Unresolved
+Aniba parviflora	Lauraceae	Aniba	parviflora	(Meisn.) Mez	kew-2639727	Accepted
+Aningeria altissima	Sapotaceae	Pouteria	altissima	(A.Chev.) Baehni	kew-163903	Accepted
+Aningeria robusta	Sapotaceae	Pouteria	pierrei	(A.Chev.) Baehni	kew-164349	Accepted
+Aningeria superba	Sapotaceae	Pouteria	superba	(Vermoesen) L.Gaut.	kew-164482	Accepted
+Anisoptera costata	Dipterocarpaceae	Anisoptera	costata	Korth.	kew-2640339	Accepted
+Anisoptera laevis	Dipterocarpaceae	Anisoptera	laevis	Ridl.	kew-2640347	Accepted
+Anisoptera thurifera	Dipterocarpaceae	Anisoptera	thurifera	(Blanco) Blume	kew-2640364	Accepted
+Anonidium mannii	Annonaceae	Anonidium	mannii	(Oliv.) Engl. & Diels	kew-2641336	Accepted
+Anopyxis klaineana	Rhizophoraceae	Anopyxis	klaineana	(Pierre) Pierre ex Engl.	kew-2641399	Accepted
+Anthocarapa nitidula		Anthocarapa	nitidula			
+Anthocleista nobilis	Gentianaceae	Anthocleista	nobilis	G.Don	kew-2641645	Accepted
+Anthonotha fragrans	Leguminosae	Anthonotha	fragrans	(Baker f.) Exell & Hillc.	ild-721	Accepted
+Anthostema madagascariense	Euphorbiaceae	Anthostema	madagascariense	Baill.	kew-10579	Accepted
+Antiaris toxicaria	Moraceae	Antiaris	toxicaria	Lesch.	kew-2642230	Accepted
+Antonia ovata	Loganiaceae	Antonia	ovata	Pohl	kew-2643055	Accepted
+Antrocaryon klaineanum	Anacardiaceae	Antrocaryon	klaineanum	Pierre	kew-2643076	Accepted
+Antrocaryon micraster	Anacardiaceae	Antrocaryon	micraster	A.Chev. & Guillaumin	kew-2643077	Accepted
+Apeiba membranacea	Malvaceae	Apeiba	membranacea	Spruce ex Benth.	kew-2643251	Accepted
+Apodocephala pauciflora	Compositae	Apodocephala	pauciflora	Baker	gcc-36059	Accepted
+Apodytes clusiifolia	Icacinaceae	Apodytes	clusiifolia	(Baill.) Villiers	kew-2644281	Accepted
+Apuleia leiocarpa	Leguminosae	Apuleia	leiocarpa	(Vogel) J.F.Macbr.	ild-33268	Accepted
+Araucaria angustifolia	Araucariaceae	Araucaria	angustifolia	(Bertol.) Kuntze	kew-14337	Accepted
+Araucaria columnaris	Araucariaceae	Araucaria	columnaris	(G.Forst.) Hook.	kew-14348	Accepted
+Araucaria luxurians	Araucariaceae	Araucaria	luxurians	(Brongn. & Gris) de Laub.	kew-14368	Accepted
+Araucaria subulata	Araucariaceae	Araucaria	subulata	Vieill.	kew-14382	Accepted
+Archidendropsis granulosa	Leguminosae	Archidendropsis	granulosa	(Labill.) I.C. Nielsen	tro-50198650	Accepted
+Arillastrum gummiferum	Myrtaceae	Arillastrum	gummiferum	(Brongn. & Gris) Pancher ex Baill.	kew-15213	Accepted
+Artocarpus altilis	Moraceae	Artocarpus	altilis	(Parkinson ex F.A.Zorn) Fosberg	kew-2653919	Accepted
+Arytera collina	Sapindaceae	Arytera	collina	(Pancher & Sebert) Radlk.	kew-2654174	Accepted
+Aspidosperma album	Apocynaceae	Aspidosperma	album	(Vahl) Benoist ex Pichon	kew-17226	Accepted
+Aspidosperma cylindrocarpum		Aspidosperma	cylindrocarpum			
+Aspidosperma obscurinervium	Apocynaceae	Aspidosperma	obscurinervium	Azambuja	kew-17325	Accepted
+Aspidosperma sandwithianum	Apocynaceae	Aspidosperma	sandwithianum	Markgr.	kew-17362	Accepted
+Asteropeia rhopaloides	Asteropeiaceae	Asteropeia	rhopaloides	(Baker) Baill.	kew-17451	Accepted
+Astronium lecointei	Anacardiaceae	Astronium	lecointei	Ducke	kew-2664136	Accepted
+Astrotrichilia thouvenotii	Meliaceae	Astrotrichilia	thouvenotii	J.-F.Leroy	kew-2664272	Accepted
+Aucoumea klaineana	Burseraceae	Aucoumea	klaineana	Pierre	kew-2666183	Accepted
+Autranella congolensis	Sapotaceae	Autranella	congolensis	(De Wild.) A.Chev.	kew-18423	Accepted
+Avicennia germinans	Acanthaceae	Avicennia	germinans	(L.) L.	kew-18443	Accepted
+Bagassa guianensis	Moraceae	Bagassa	guianensis	Aubl.	kew-2667845	Accepted
+Baillonella toxisperma	Sapotaceae	Baillonella	toxisperma	Pierre	kew-19315	Accepted
+Balfourodendron riedelianum	Rutaceae	Balfourodendron	riedelianum	(Engl.) Engl.	kew-2668180	Accepted
+Balizia pedicellaris	Leguminosae	Albizia	pedicellaris	(Dc.) L.Rico	ild-56574	Accepted
+Beilschmiedia corbisieri	Lauraceae	Beilschmiedia	corbisieri	(Robyns) Robyns & R.Wilczek	kew-2672418	Accepted
+Beilschmiedia diversiflora	Lauraceae	Beilschmiedia	diversiflora	Pierre ex Robyns & R.Wilczek	kew-2672440	Accepted
+Beilschmiedia letouzeyi	Lauraceae	Beilschmiedia	letouzeyi	Robyns & R.Wilczek	kew-2672522	Accepted
+Beilschmiedia nitida	Lauraceae	Beilschmiedia	nitida	Engl.	kew-2672576	Accepted
+Beilschmiedia velutina	Lauraceae	Beilschmiedia	velutina	(Kosterm.) Kosterm.	kew-2672692	Accepted
+Berlinia bracteosa	Leguminosae	Berlinia	bracteosa	Benth.	ild-842	Accepted
+Berlinia confusa	Leguminosae	Berlinia	confusa	Hoyle	ild-846	Accepted
+Berlinia grandiflora	Leguminosae	Berlinia	grandiflora	(Vahl) Hutch. & Dalziel	ild-856	Accepted
+Berlinia viridicans	Leguminosae	Berlinia	viridicans	Baker f.	ild-869	Accepted
+Bertholletia excelsa	Lecythidaceae	Bertholletia	excelsa	Bonpl.	kew-313577	Accepted
+Bikinia grisea	Leguminosae	Bikinia	grisea	Wieringa	ild-40287	Accepted
+Bixa arborea	Bixaceae	Bixa	arborea	Huber	kew-22270	Accepted
+Blighia sapida	Sapindaceae	Blighia	sapida	K.D.Koenig	kew-2677575	Accepted
+Blighia welwitschii	Sapindaceae	Blighia	welwitschii	(Hiern) Radlk.	kew-2677577	Accepted
+Bocoa prouacensis	Leguminosae	Bocoa	prouacensis	Aubl.	ild-10925	Accepted
+Bombacopsis nervosa	Malvaceae	Pachira	nervosa	(Uittien) Fern.Alonso	kew-2412799	Accepted
+Bombax costatum	Malvaceae	Bombax	costatum	Pellegr. & Vuillet	kew-2679096	Accepted
+Borassus aethiopum	Arecaceae	Borassus	aethiopum	Mart.	kew-23000	Accepted
+Brachylaena ramiflora	Compositae	Brachylaena	ramiflora	(DC.) Humbert	gcc-17770	Accepted
+Brachystegia cynometroides	Leguminosae	Brachystegia	cynometroides	Harms	ild-879	Accepted
+Brachystegia laurentii	Leguminosae	Brachystegia	laurentii	(De Wild.) Hoyle	ild-887	Accepted
+Brachystegia leonensis	Leguminosae	Brachystegia	leonensis	Burtt Davy & Hutch.	ild-888	Accepted
+Brachystegia mildbraedii	Leguminosae	Brachystegia	mildbraedii	Harms	ild-896	Accepted
+Breonia keliravina	Rubiaceae	Breonia	decaryana	Homolle	kew-24362	Accepted
+Breonia macrocarpa	Rubiaceae	Breonia	macrocarpa	Homolle	kew-24367	Accepted
+Breonia perrieri	Rubiaceae	Breonia	perrieri	Homolle	kew-24373	Accepted
+Breviea leptosperma	Sapotaceae	Breviea	sericea	Aubrév. & Pellegr.	kew-24382	Accepted
+Bridelia grandis	Phyllanthaceae	Bridelia	grandis	Pierre ex Hutch.	kew-24531	Accepted
+Bridelia stenocarpa	Phyllanthaceae	Bridelia	micrantha	(Hochst.) Baill.	kew-24564	Accepted
+Bridelia tulasneana	Phyllanthaceae	Bridelia	tulasneana	Baill.	kew-24681	Accepted
+Brosimum parinarioides	Moraceae	Brosimum	parinarioides	Ducke	kew-2683629	Accepted
+Brosimum potabile	Moraceae	Brosimum	potabile	Ducke	kew-2683632	Accepted
+Brosimum rubescens	Moraceae	Brosimum	rubescens	Taub.	kew-2683638	Accepted
+Brosimum utile	Moraceae	Brosimum	utile	(Kunth) Oken	kew-2683645	Accepted
+Broussonetia greveana	Moraceae	Broussonetia	greveana	(Baill.) C.C.Berg	kew-2683753	Accepted
+Buchenavia oxycarpa	Combretaceae	Buchenavia	oxycarpa	(Mart.) Eichler	kew-2684869	Accepted
+Bureavella wakere	Sapotaceae	Planchonella	wakere	(Pancher & Sebert) Pierre	kew-156996	Accepted
+Byrsonima spicata	Malpighiaceae	Byrsonima	spicata	(Cav.) Rich. ex Kunth	kew-2688397	Accepted
+Cabralea cangerana	Meliaceae	Cabralea	cangerana	Saldanha	tro-20400005	Accepted
+Callitris endlicheri	Cupressaceae	Callitris	endlicheri	(Parl.) F.M.Bailey	kew-2692877	Accepted
+Callitris glauca	Cupressaceae	Callitris	columellaris	F.Muell.	kew-2692863	Accepted
+Callitris robusta	Cupressaceae	Callitris	preissii	Miq.	kew-2692900	Accepted
+Calophyllum angulare	Clusiaceae	Calophyllum	angulare	A.C.Sm.	kew-2693199	Accepted
+Calophyllum brasiliense	Clusiaceae	Calophyllum	brasiliense	Cambess.	kew-2693230	Accepted
+Calophyllum calaba	Clusiaceae	Calophyllum	calaba	L.	kew-2693247	Accepted
+Calophyllum caledonicum	Clusiaceae	Calophyllum	caledonicum	Vieill. ex Planch. & Triana	kew-2693254	Accepted
+Calophyllum drouhardii	Clusiaceae	Calophyllum	drouhardii	H.Perrier	kew-2693296	Accepted
+Calophyllum ferrugineum	Clusiaceae	Calophyllum	ferrugineum	Ridl.	kew-2693310	Accepted
+Calophyllum inophyllum	Clusiaceae	Calophyllum	inophyllum	L.	kew-2693350	Accepted
+Calophyllum milvum	Clusiaceae	Calophyllum	milvum	P.F.Stevens	kew-2693395	Accepted
+Calophyllum montanum	Clusiaceae	Calophyllum	caledonicum	Vieill. ex Planch. & Triana	kew-2693254	Accepted
+Calophyllum neo-ebudicum	Clusiaceae	Calophyllum	neoebudicum	Guillaumin	kew-2693406	Accepted
+Calpocalyx heitzii	Leguminosae	Calpocalyx	heitzii	Pellegr.	ild-15	Accepted
+Canarium madagascariense	Burseraceae	Canarium	madagascariense	Engl.	kew-2695953	Accepted
+Canarium oleiferum	Burseraceae	Canarium	oleiferum	Baill.	kew-2696001	Accepted
+Canarium velutinum	Burseraceae	Canarium	velutinum	Guillaumin	kew-2696115	Unresolved
+Caraipa densifolia	Calophyllaceae	Caraipa	densifolia	Mart.	kew-2698918	Accepted
+Carapa guianensis	Meliaceae	Carapa	guianensis	Aubl.	kew-2699327	Accepted
+Carapa procera	Meliaceae	Carapa	procera	DC.	tro-20400504	Accepted
+Cariniana integrifolia	Lecythidaceae	Allantoma	integrifolia	(Ducke) S.A.Mori, Ya Y.Huang & Prance	kew-372196	Accepted
+Cariniana pyriformis	Lecythidaceae	Cariniana	pyriformis	Miers	kew-313635	Accepted
+Carpinus betulus	Betulaceae	Carpinus	betulus	L.	kew-34291	Accepted
+Carpolepis laurifolia	Myrtaceae	Metrosideros	laurifolia	Brongn. & Gris	kew-126445	Accepted
+Carpolepis tardiflora	Myrtaceae	Metrosideros	laurifolia	Brongn. & Gris	kew-126445	Accepted
+Caryocar glabrum	Caryocaraceae	Caryocar	glabrum	(Aubl.) Pers.	kew-34638	Accepted
+Caryocar microcarpum	Caryocaraceae	Caryocar	microcarpum	Ducke	kew-34648	Accepted
+Caryocar villosum	Caryocaraceae	Caryocar	villosum	(Aubl.) Pers.	kew-34658	Accepted
+Cassipourea guianensis	Rhizophoraceae	Cassipourea	guianensis	Aubl.	kew-2704462	Accepted
+Castanopsis acuminatissima	Fagaceae	Castanopsis	acuminatissima	(Blume) A.DC.	kew-35082	Accepted
+Castanospermum australe	Leguminosae	Castanospermum	australe	A.Cunn. & C.Fraser	ild-7146	Accepted
+Casuarina collina	Casuarinaceae	Casuarina	collina	Poiss. ex Pancher & Sebert	kew-2705426	Accepted
+Casuarina equisetifolia	Casuarinaceae	Casuarina	equisetifolia	L.	kew-2705446	Accepted
+Casuarina glauca	Casuarinaceae	Casuarina	glauca	Sieber ex Spreng.	kew-2705458	Accepted
+Cathormion altissimum	Leguminosae	Cathormion	altissimum	Hutch.	tro-13069452	Accepted
+Cathormion dinklagei	Leguminosae	Samanea	dinklagei	(Harms) Keay	ild-41510	Accepted
+Catostemma albuquerquei	Malvaceae	Catostemma	albuquerquei	Paula	kew-2705824	Accepted
+Catostemma fragrans	Malvaceae	Catostemma	fragrans	Benth.	kew-2705832	Accepted
+Cecropia sciadophylla	Urticaceae	Cecropia	sciadophylla	Mart.	kew-2707133	Accepted
+Cedrela fissilis	Meliaceae	Cedrela	fissilis	Vell.	kew-2707200	Accepted
+Cedrela odorata	Meliaceae	Cedrela	odorata	L.	kew-2707234	Accepted
+Cedrelinga catenaeformis	Leguminosae	Cedrelinga	cateniformis	(Ducke) Ducke	ild-33028	Accepted
+Cedrus libani	Pinaceae	Cedrus	libani	A.Rich.	kew-2707327	Accepted
+Ceiba pentandra	Malvaceae	Ceiba	pentandra	(L.) Gaertn.	kew-2707382	Accepted
+Celtis adolfi-friderici	Cannabaceae	Celtis	adolfi-friderici	Engl.	kew-2708137	Accepted
+Celtis mildbraedii	Cannabaceae	Celtis	mildbraedii	Engl.	kew-2708362	Accepted
+Celtis tessmannii	Cannabaceae	Celtis	tessmannii	Rendle	kew-2708500	Accepted
+Celtis zenkeri	Cannabaceae	Celtis	zenkeri	Engl.	kew-2708535	Accepted
+Cerberiopsis candelabra	Apocynaceae	Cerberiopsis	candelabra	Vieill. ex Pancher & Sebert	kew-37194	Accepted
+Chaetocarpus schomburgkianus	Peraceae	Chaetocarpus	schomburgkianus	(Kuntze) Pax & K.Hoffm.	kew-37365	Accepted
+Chamaecyparis nootkatensis	Cupressaceae	Cupressus	nootkatensis	D.Don	kew-2748751	Accepted
+Chimarrhis cymosa	Rubiaceae	Chimarrhis	cymosa	Jacq.	kew-39033	Accepted
+Chlorocardium rodiei	Lauraceae	Chlorocardium	rodiei	(Schomb.) Rohwer, H.G.Richt. & van der Werff	kew-2719180	Accepted
+Chloroxylon faho	Rutaceae	Chloroxylon	faho	Capuron	kew-2719263	Unresolved
+Chrysophyllum lucentifolium	Sapotaceae	Chrysophyllum	lucentifolium	Cronquist	kew-40147	Accepted
+Chrysophyllum pomiferum	Sapotaceae	Chrysophyllum	pomiferum	(Eyma) T.D.Penn.	kew-40250	Accepted
+Chrysophyllum prieurii	Sapotaceae	Chrysophyllum	prieurii	A.DC.	kew-40252	Accepted
+Chrysophyllum sanguinolentum	Sapotaceae	Chrysophyllum	sanguinolentum	(Pierre) Baehni	kew-40277	Accepted
+Cinnamomum camphora	Lauraceae	Cinnamomum	camphora	(L.) J.Presl	kew-2721183	Accepted
+Cinnamomum tetragonum	Lauraceae	Cinnamomum	tetragonum	A.Chev.	kew-2721659	Accepted
+Citronella sarmentosa	Cardiopteridaceae	Citronella	sarmentosa	(Baill.) R.A.Howard	kew-2723783	Accepted
+Clarisia racemosa	Moraceae	Clarisia	racemosa	Ruiz & Pav.	kew-2724628	Accepted
+Cleistopholis glauca	Annonaceae	Cleistopholis	glauca	Pierre ex Engl. & Diels	kew-2725511	Accepted
+Cocos nucifera	Arecaceae	Cocos	nucifera	L.	kew-44645	Accepted
+Coelocaryon preussii	Myristicaceae	Coelocaryon	preussii	Warb.	kew-2730248	Accepted
+Colubrina faralaotra		Colubrina	faralaotra			
+Commiphora barorum		Commiphora	barorum			
+Commiphora pterocarpa	Burseraceae	Commiphora	pterocarpa	H.Perrier	kew-2733631	Accepted
+Copaifera duckei	Leguminosae	Copaifera	duckei	Dwyer	ild-12064	Accepted
+Copaifera guyanensis	Leguminosae	Copaifera	guyanensis	Desf.	ild-12068	Accepted
+Copaifera mildbraedii	Leguminosae	Copaifera	mildbraedii	Harms	ild-1163	Accepted
+Copaifera multijuga	Leguminosae	Copaifera	multijuga	Hayne	ild-12080	Accepted
+Copaifera religiosa	Leguminosae	Copaifera	religiosa	J.Leonard	ild-1167	Accepted
+Copaifera salikounda	Leguminosae	Copaifera	salikounda	Heckel	ild-1169	Accepted
+Cordia alliodora	Boraginaceae	Cordia	alliodora	(Ruiz & Pav.) Oken	kew-2736526	Accepted
+Cordia collococca	Boraginaceae	Cordia	collococca	L.	kew-2736663	Accepted
+Cordia goeldiana	Boraginaceae	Cordia	goeldiana	Huber	kew-2736818	Accepted
+Cordia platythyrsa	Boraginaceae	Cordia	platythyrsa	Baker	kew-2737124	Accepted
+Cordia trichotoma	Boraginaceae	Cordia	trichotoma	(Vell.) Arráb. ex Steud.	kew-2737306	Accepted
+Cordyla pinnata	Leguminosae	Cordyla	pinnata	(A.Rich.) Milne-Redh.	ild-1771	Accepted
+Corynanthe pachyceras	Rubiaceae	Corynanthe	pachyceras	K.Schum.	kew-48188	Accepted
+Corythophora rimosa	Lecythidaceae	Corythophora	rimosa	W.A.Rodrigues	kew-313650	Accepted
+Couepia guianensis	Chrysobalanaceae	Couepia	guianensis	Aubl.	kew-367952	Accepted
+Coula edulis	Olacaceae	Coula	edulis	Baill.	kew-2740459	Accepted
+Couma guianensis	Apocynaceae	Couma	guianensis	Aubl.	kew-48381	Accepted
+Couratari guianensis	Lecythidaceae	Couratari	guianensis	Aubl.	kew-313671	Accepted
+Couratari multiflora	Lecythidaceae	Couratari	multiflora	(Sm.) Eyma	kew-313682	Accepted
+Couratari oblongifolia	Lecythidaceae	Couratari	oblongifolia	Ducke & R.Knuth	kew-313683	Accepted
+Couratari stellata	Lecythidaceae	Couratari	stellata	A.C.Sm.	kew-313697	Accepted
+Couroupita subsessilis	Lecythidaceae	Couroupita	subsessilis	Pilg.	kew-313721	Accepted
+Couthovia novocaledonica	Loganiaceae	Couthovia	novocaledonica	Gilg & Benedict	kew-2740729	Unresolved
+Craspidospermum verticillatum	Apocynaceae	Craspidospermum	verticillatum	Bojer ex Decne.	kew-48715	Accepted
+Crescentia cujete	Bignoniaceae	Crescentia	cujete	L.	kew-320517	Accepted
+Crossostylis grandiflora	Rhizophoraceae	Crossostylis	grandiflora	Brongn. & Gris	kew-2743176	Accepted
+Crossostylis multiflora	Rhizophoraceae	Crossostylis	multiflora	Brongn. & Gris ex Pancher & Sebert	kew-2743178	Accepted
+Croton oligandrus	Euphorbiaceae	Croton	oligandrus	Pierre ex Hutch.	kew-50711	Accepted
+Croton tchibangensis	Euphorbiaceae	Croton	tchibangensis	Pellegr.	kew-51330	Accepted
+Crudia chrysantha	Leguminosae	Crudia	chrysantha	(Pierre) K.Schum.	ild-46104	Accepted
+Cryptocarya aristata	Lauraceae	Cryptocarya	aristata	Kosterm.	kew-2745843	Accepted
+Cryptocarya elliptica	Lauraceae	Cryptocarya	elliptica	Schltr.	kew-2745934	Accepted
+Cryptocarya leptospermoides	Lauraceae	Cryptocarya	leptospermoides	Kosterm.	kew-2746054	Accepted
+Cryptocarya louvelii	Lauraceae	Cryptocarya	louvelii	Danguy	kew-2746065	Accepted
+Cryptocarya macrocarpa	Lauraceae	Cryptocarya	macrocarpa	Guillaumin	kew-2746074	Accepted
+Cryptocarya odorata	Lauraceae	Cryptocarya	odorata	Guillaumin	kew-2746145	Accepted
+Cryptocarya thouvenotii	Lauraceae	Cryptocarya	thouvenotii	(Danguy) Kosterm.	kew-2746263	Accepted
+Cryptomeria japonica	Cupressaceae	Cryptomeria	japonica	(Thunb. ex L.f.) D.Don	kew-2746448	Accepted
+Cryptosepalum staudtii	Leguminosae	Cryptosepalum	staudtii	Harms	ild-1219	Accepted
+Ctenolophon englerianus	Ctenolophonaceae	Ctenolophon	englerianus	Mildbr.	kew-52195	Accepted
+Cunonia austrocaledonica	Cunoniaceae	Cunonia	austrocaledonica	Brongn. ex Guillaumin	kew-2747432	Accepted
+Cunonia linearisepala	Cunoniaceae	Cunonia	linearisepala	(Guillaumin) Bernardi	kew-2747444	Accepted
+Cupaniopsis apiocarpa	Sapindaceae	Cupaniopsis	apiocarpa	Radlk.	kew-2747734	Accepted
+Cupressus lusitanica	Cupressaceae	Cupressus	lusitanica	Mill.	kew-2748717	Accepted
+Cylicodiscus gabunensis	Leguminosae	Cylicodiscus	gabunensis	Harms	ild-21	Accepted
+Cynometra ananta	Leguminosae	Cynometra	ananta	Hutch. & Dalziel	ild-1225	Accepted
+Cynometra hankei	Leguminosae	Cynometra	hankei	Harms	ild-1234	Accepted
+Dacrycarpus imbricatus	Podocarpaceae	Dacrycarpus	imbricatus	(Blume) de Laub.	kew-2755038	Accepted
+Dacrydium balansae	Podocarpaceae	Dacrydium	balansae	Brongn. & Gris	kew-2755051	Accepted
+Dacryodes buettneri	Burseraceae	Dacryodes	buettneri	(Engl.) H.J.Lam	kew-2755108	Accepted
+Dacryodes excelsa	Burseraceae	Dacryodes	excelsa	Vahl	kew-2755123	Accepted
+Dacryodes heterotricha	Burseraceae	Dacryodes	heterotricha	(Pellegr.) H.J.Lam	kew-2755131	Accepted
+Dacryodes igaganga	Burseraceae	Dacryodes	igaganga	Aubrév. & Pellegr.	kew-2755133	Accepted
+Dacryodes klaineana	Burseraceae	Dacryodes	klaineana	(Pierre) H.J.Lam	kew-2755136	Accepted
+Dacryodes macrophylla	Burseraceae	Dacryodes	macrophylla	(Oliv.) H.J.Lam	kew-2755149	Accepted
+Dacryodes normandii	Burseraceae	Dacryodes	normandii	Aubrév. & Pellegr.	kew-2755156	Accepted
+Dacryodes pubescens	Burseraceae	Dacryodes	pubescens	(Vermoesen) H.J.Lam	kew-2755166	Accepted
+Dalbergia baronii	Leguminosae	Dalbergia	baronii	Baker	ild-4450	Accepted
+Dalbergia melanoxylon	Leguminosae	Dalbergia	melanoxylon	Guill. & Perr.	ild-1852	Accepted
+Dalbergia monticola	Leguminosae	Dalbergia	monticola	Bosser & R.Rabev.	ild-42774	Accepted
+Dalbergia spruceana	Leguminosae	Dalbergia	spruceana	(Benth.) Benth.	ild-28275	Accepted
+Daniellia klainei	Leguminosae	Daniellia	klainei	A.Chev.	ild-1262	Accepted
+Daniellia ogea	Leguminosae	Daniellia	ogea	(Harms) Holland	ild-1265	Accepted
+Daniellia oliveri	Leguminosae	Daniellia	oliveri	(Rolfe) Hutch. & Dalziel	ild-1269	Accepted
+Daniellia soyauxii	Leguminosae	Daniellia	soyauxii	(Harms) Rolfe	ild-1274	Accepted
+Daniellia thurifera	Leguminosae	Daniellia	thurifera	Benn.	ild-1275	Accepted
+Dendrobangia boliviana	Cardiopteridaceae	Dendrobangia	boliviana	Rusby	kew-2760656	Accepted
+Desbordesia glaucescens	Irvingiaceae	Desbordesia	insignis	Pierre	kew-2761682	Accepted
+Detarium macrocarpum	Leguminosae	Detarium	macrocarpum	Harms	ild-1281	Accepted
+Detarium senegalense	Leguminosae	Detarium	senegalense	J.F.Gmel.	ild-1284	Accepted
+Dialium aubrevillei	Leguminosae	Dialium	aubrevillei	Pellegr.	ild-1288	Accepted
+Dialium bipindense	Leguminosae	Dialium	bipindense	Harms	ild-1289	Accepted
+Dialium cochinchinense	Leguminosae	Dialium	cochinchinense	Pierre	ild-45935	Accepted
+Dialium dinklagei	Leguminosae	Dialium	dinklagei	Harms	ild-1294	Accepted
+Dialium indum	Leguminosae	Dialium	indum	L.	ild-45936	Accepted
+Dialium pachyphyllum	Leguminosae	Dialium	pachyphyllum	Harms	ild-1313	Accepted
+Dicorynia guianensis	Leguminosae	Dicorynia	guianensis	Amshoff	ild-28268	Accepted
+Didelotia brevipaniculata	Leguminosae	Didelotia	brevipaniculata	J.Leonard	ild-1330	Accepted
+Didelotia idae	Leguminosae	Didelotia	idae	Oldeman & al.	ild-1337	Accepted
+Didelotia letouzeyi	Leguminosae	Didelotia	letouzeyi	Pellegr.	ild-1340	Accepted
+Dilobeia tenuinervis	Proteaceae	Dilobeia	tenuinervis	Bosser & R.Rabev	kew-2768451	Accepted
+Dilobeia thouarsii	Proteaceae	Dilobeia	thouarsii	Roem. & Schult.	kew-2768452	Accepted
+Dimorphandra polyandra	Leguminosae	Dimorphandra	polyandra	Benoist	ild-16702	Accepted
+Dinizia excelsa	Leguminosae	Dinizia	excelsa	Ducke	ild-16704	Accepted
+Diogoa zenkeri	Olacaceae	Diogoa	zenkeri	(Engl.) Exell & Mendonça	kew-2768919	Accepted
+Diospyros mespiliformis	Ebenaceae	Diospyros	mespiliformis	Hochst. ex A.DC.	kew-2770144	Accepted
+Diospyros revoluta	Ebenaceae	Diospyros	nigra	(J.F.Gmel.) Perrier	kew-2770214	Accepted
+Diospyros sanza-minika	Ebenaceae	Diospyros	sanza-minika	A.Chev.	kew-2770497	Accepted
+Diplotropis purpurea	Leguminosae	Diplotropis	purpurea	(Rich.) Amshoff	ild-10275	Accepted
+Dipterocarpus alatus	Dipterocarpaceae	Dipterocarpus	alatus	Roxb. ex G.Don	kew-2772115	Accepted
+Dipterocarpus costatus	Dipterocarpaceae	Dipterocarpus	costatus	C.F.Gaertn.	kew-2772147	Accepted
+Dipterocarpus grandiflorus	Dipterocarpaceae	Dipterocarpus	grandiflorus	(Blanco) Blanco	kew-2772169	Accepted
+Dipterocarpus obtusifolius	Dipterocarpaceae	Dipterocarpus	obtusifolius	Teijsm. ex Miq.	kew-2772211	Accepted
+Dipteryx odorata	Leguminosae	Dipteryx	odorata	(Aubl.) Willd.	ild-16819	Accepted
+Dipteryx polyphylla	Leguminosae	Dipteryx	polyphylla	Huber	ild-24975	Accepted
+Dipteryx punctata	Leguminosae	Dipteryx	punctata	(S.F.Blake) Amshoff	ild-10284	Accepted
+Discoglypremna caloneura	Euphorbiaceae	Discoglypremna	caloneura	(Pax) Prain	kew-63062	Accepted
+Distemonanthus benthamianus	Leguminosae	Distemonanthus	benthamianus	Baill.	ild-1347	Accepted
+Dryobalanops sumatrensis	Dipterocarpaceae	Dryobalanops	sumatrensis	(J.F.Gmel.) Kosterm.	kew-2778765	Accepted
+Drypetes gossweileri	Putranjivaceae	Drypetes	gossweileri	S.Moore	kew-64890	Accepted
+Drypetes variabilis	Putranjivaceae	Drypetes	variabilis	Uittien	kew-65084	Accepted
+Duabanga moluccana	Lythraceae	Duabanga	moluccana	Blume	kew-2778789	Accepted
+Dysoxylum loureirii	Meliaceae	Dysoxylum	loureirii	(Pierre) Pierre ex Laness.	kew-2780043	Accepted
+Dysoxylum macranthum	Meliaceae	Dysoxylum	macranthum	C.DC.	kew-2780046	Accepted
+Dysoxylum rufescens	Meliaceae	Dysoxylum	rufescens	Vieill. ex Pancher & Sebert	kew-2780155	Accepted
+Dysoxylum translucidum	Meliaceae	Dysoxylum	translucidum	Pierre	kew-2780197	Unresolved
+Elaeocarpus angustifolius	Elaeocarpaceae	Elaeocarpus	angustifolius	Blume	kew-2785314	Accepted
+Elaeocarpus comptonii	Elaeocarpaceae	Elaeocarpus	comptonii	Baker f.	kew-2785433	Accepted
+Elaeocarpus speciosus	Elaeocarpaceae	Elaeocarpus	speciosus	Brongn. & Gris	kew-2786018	Accepted
+Enantia chlorantha	Annonaceae	Annickia	chlorantha	(Oliv.) Setten & Maas	kew-2640759	Accepted
+Endodesmia calophylloides	Calophyllaceae	Endodesmia	calophylloides	Benth.	kew-2789068	Accepted
+Engelhardtia roxburghiana	Juglandaceae	Engelhardtia	roxburghiana	Lindl.	kew-2789177	Accepted
+Entandrophragma angolense	Meliaceae	Entandrophragma	angolense	(Welw.) C.DC.	kew-2789539	Accepted
+Entandrophragma candollei	Meliaceae	Entandrophragma	candollei	Harms	kew-2789542	Accepted
+Entandrophragma congoense	Meliaceae	Entandrophragma	congoense	(Pierre ex De Wild.) A.Chev.	kew-2789547	Accepted
+Entandrophragma cylindricum	Meliaceae	Entandrophragma	cylindricum	(Sprague) Sprague	kew-2789548	Accepted
+Entandrophragma excelsum	Meliaceae	Entandrophragma	excelsum	(Dawe & Sprague) Sprague	kew-2789552	Accepted
+Entandrophragma utile	Meliaceae	Entandrophragma	utile	(Dawe & Sprague) Sprague	kew-2789574	Accepted
+Enterolobium contortisiliquum	Leguminosae	Enterolobium	contortisiliquum	(Vell.) Morong	ild-41452	Accepted
+Enterolobium oldemannii	Leguminosae	Enterolobium	oldemanii	Barneby & J.W.Grimes	ild-41063	Accepted
+Enterolobium schomburgkii	Leguminosae	Enterolobium	schomburgkii	(Benth.) Benth.	ild-20218	Accepted
+Eperua falcata	Leguminosae	Eperua	falcata	Aubl.	ild-20220	Accepted
+Eperua grandiflora	Leguminosae	Eperua	grandiflora	(Aubl.) Benth.	ild-20221	Accepted
+Eperua rubiginosa	Leguminosae	Eperua	rubiginosa	Miq.	ild-20224	Accepted
+Eribroma oblonga	Malvaceae	Sterculia	oblonga	Mast.	kew-2579970	Accepted
+Eriotheca crassa	Malvaceae	Eriotheca	crassa	(Uittien) A.Robyns	kew-2797568	Accepted
+Eriotheca globosa	Malvaceae	Eriotheca	globosa	(Aubl.) A.Robyns	kew-2797574	Accepted
+Erisma uncinatum	Vochysiaceae	Erisma	uncinatum	Warm.	kew-2797636	Accepted
+Erismadelphus exsul	Vochysiaceae	Erismadelphus	exsul	Mildbr.	kew-2797640	Accepted
+Erythrina vogelii	Leguminosae	Erythrina	vogelii	Hook.f.	ild-2738	Accepted
+Erythrophleum chlorostachys	Leguminosae	Erythrophleum	chlorostachys	(F.Muell.) Baill.	ild-41454	Accepted
+Erythrophleum fordii	Leguminosae	Erythrophleum	fordii	Oliv.	ild-41456	Accepted
+Erythrophleum ivorense	Leguminosae	Erythrophleum	ivorense	A.Chev.	ild-41457	Accepted
+Erythrophleum suaveolens	Leguminosae	Erythrophleum	suaveolens	(Guill. & Perr.) Brenan	ild-41460	Accepted
+Erythroxylum mannii	Erythroxylaceae	Erythroxylum	mannii	Oliv.	kew-2801520	Accepted
+Eschweilera congestiflora	Lecythidaceae	Eschweilera	congestiflora	(Benoist) Eyma	kew-313786	Accepted
+Eschweilera coriacea	Lecythidaceae	Eschweilera	coriacea	(DC.) S.A.Mori	kew-313788	Accepted
+Eschweilera simiorum	Lecythidaceae	Eschweilera	simiorum	(Benoist) Eyma	kew-313916	Accepted
+Eucalyptus acmenoides	Myrtaceae	Eucalyptus	acmenoides	Schauer	kew-72379	Accepted
+Eucalyptus botryoides	Myrtaceae	Eucalyptus	botryoides	Sm.	kew-72549	Accepted
+Eucalyptus camaldulensis	Myrtaceae	Eucalyptus	camaldulensis	Dehnh.	kew-72616	Accepted
+Eucalyptus citriodora	Myrtaceae	Corymbia	citriodora	(Hook.) K.D.Hill & L.A.S.Johnson	kew-47992	Accepted
+Eucalyptus cloeziana	Myrtaceae	Eucalyptus	cloeziana	F.Muell.	kew-72687	Accepted
+Eucalyptus deglupta	Myrtaceae	Eucalyptus	deglupta	Blume	kew-72809	Accepted
+Eucalyptus delegatensis	Myrtaceae	Eucalyptus	delegatensis	F.Muell. ex R.T.Baker	kew-72810	Accepted
+Eucalyptus globulus	Myrtaceae	Eucalyptus	globulus	Labill.	kew-73008	Accepted
+Eucalyptus gomphocephala	Myrtaceae	Eucalyptus	gomphocephala	A.Cunn. ex DC.	kew-73019	Accepted
+Eucalyptus goniocalyx	Myrtaceae	Eucalyptus	goniocalyx	F.Muell. ex Miq.	kew-73028	Accepted
+Eucalyptus grandis	Myrtaceae	Eucalyptus	grandis	W.Hill	kew-73044	Accepted
+Eucalyptus gummifera	Myrtaceae	Corymbia	gummifera	(Gaertn.) K.D.Hill & L.A.S.Johnson	kew-48036	Accepted
+Eucalyptus leucoxylon	Myrtaceae	Eucalyptus	leucoxylon	F.Muell.	kew-73247	Accepted
+Eucalyptus maculata	Myrtaceae	Corymbia	maculata	(Hook.) K.D.Hill & L.A.S.Johnson	kew-48059	Accepted
+Eucalyptus microcorys	Myrtaceae	Eucalyptus	microcorys	F.Muell.	kew-73375	Accepted
+Eucalyptus muelleriana	Myrtaceae	Eucalyptus	muelleriana	Howitt	kew-73406	Accepted
+Eucalyptus paniculata	Myrtaceae	Eucalyptus	paniculata	Sm.	kew-73562	Accepted
+Eucalyptus pilularis	Myrtaceae	Eucalyptus	pilularis	Sm.	kew-73636	Accepted
+Eucalyptus piperita	Myrtaceae	Eucalyptus	piperita	Sm.	kew-73642	Accepted
+Eucalyptus resinifera	Myrtaceae	Eucalyptus	resinifera	Sm.	kew-73786	Accepted
+Eucalyptus robusta	Myrtaceae	Eucalyptus	robusta	Sm.	kew-73814	Accepted
+Eucalyptus saligna	Myrtaceae	Eucalyptus	saligna	Sm.	kew-73847	Accepted
+Eucalyptus tereticornis	Myrtaceae	Eucalyptus	tereticornis	Sm.	kew-74009	Accepted
+Eucalyptus tetrodonta	Myrtaceae	Eucalyptus	tetrodonta	F.Muell.	kew-74033	Accepted
+Eucalyptus viminalis	Myrtaceae	Eucalyptus	viminalis	Labill.	kew-74103	Accepted
+Eugenia monticola	Myrtaceae	Eugenia	monticola	(Sw.) DC.	kew-76016	Accepted
+Eugenia parkeri	Myrtaceae	Syzygium	parkeri	(Baker) Labat & Schatz	kew-200068	Accepted
+Euplassa pinnata	Proteaceae	Euplassa	pinnata	(Lam.) I.M.Johnst.	kew-2804599	Accepted
+Euroschinus vieillardii	Anacardiaceae	Euroschinus	vieillardii	Engl.	kew-2804699	Accepted
+Euxylophora paraensis	Rutaceae	Euxylophora	paraensis	Huber	kew-2805566	Accepted
+Excoecaria parvifolia	Euphorbiaceae	Excoecaria	parvifolia	Müll.Arg.	kew-83461	Accepted
+Fagara heitzii	Rutaceae	Zanthoxylum	heitzii	(Aubrév. & Pellegr.) P.G.Waterman	kew-2469457	Accepted
+Fagara macrophylla	Rutaceae	Zanthoxylum	gilletii	(De Wild.) P.G.Waterman	kew-2469299	Accepted
+Fagraea schlechteri	Gentianaceae	Fagraea	berteroana	A.Gray ex Benth.	kew-2807367	Accepted
+Fagus sylvatica	Fagaceae	Fagus	sylvatica	L.	kew-83891	Accepted
+Faidherbia albida	Leguminosae	Faidherbia	albida	(Delile) A.Chev.	ild-32479	Accepted
+Faucherea ambrensis	Sapotaceae	Faucherea	ambrensis	Aubrév.	kew-84276	Accepted
+Faucherea laciniata	Sapotaceae	Faucherea	laciniata	Lecomte	kew-84280	Accepted
+Faucherea parvifolia	Sapotaceae	Faucherea	parvifolia	Lecomte	kew-84283	Accepted
+Faucherea thouvenotii	Sapotaceae	Faucherea	thouvenotii	Lecomte	kew-84286	Accepted
+Ficus elastica	Moraceae	Ficus	elastica	Roxb. ex Hornem.	kew-2810307	Accepted
+Ficus insipida	Moraceae	Ficus	insipida	Willd.	kew-2810868	Accepted
+Ficus thonningii	Moraceae	Ficus	thonningii	Blume	kew-2812561	Accepted
+Fillaeopsis discophora	Leguminosae	Fillaeopsis	discophora	Harms	ild-100	Accepted
+Fitzroya cupressoides	Cupressaceae	Fitzroya	cupressoides	(Molina) I.M.Johnst.	kew-2813201	Accepted
+Flindersia fournieri	Rutaceae	Flindersia	fournieri	Pancher & Sebert	kew-2813496	Accepted
+Flueggea flexuosa	Phyllanthaceae	Flueggea	flexuosa	Müll.Arg.	kew-84589	Accepted
+Foetidia clusioides	Lecythidaceae	Foetidia	clusioides	Baker	kew-84638	Accepted
+Fraxinus angustifolia	Oleaceae	Fraxinus	angustifolia	Vahl	kew-369513	Accepted
+Fraxinus excelsior	Oleaceae	Fraxinus	excelsior	L.	kew-369664	Accepted
+Gambeya africana	Sapotaceae	Chrysophyllum	africanum	A.DC.	kew-39941	Accepted
+Gambeya boiviniana	Sapotaceae	Chrysophyllum	boivinianum	(Pierre) Baehni	kew-39989	Accepted
+Gambeya lacourtiana	Sapotaceae	Chrysophyllum	lacourtianum	De Wild.	kew-40126	Accepted
+Gambeya perpulchra	Sapotaceae	Chrysophyllum	perpulchrum	Mildbr. ex Hutch. & Dalziel	kew-40243	Accepted
+Gambeya subnuda	Sapotaceae	Chrysophyllum	subnudum	Baker	kew-40300	Accepted
+Gambeyobotrys gigantea	Sapotaceae	Chrysophyllum	giganteum	A.Chev.	kew-40081	Accepted
+Ganophyllum giganteum	Sapindaceae	Ganophyllum	giganteum	(A.Chev.) Hauman	kew-2816645	Accepted
+Garcinia verrucosa	Clusiaceae	Garcinia	verrucosa	Jum. & H.Perrier	kew-2817236	Accepted
+Gastrolepis austrocaledonica	Stemonuraceae	Gastrolepis	austrocaledonica	(Baill.) R.A.Howard	kew-2817414	Accepted
+Geissois balansae	Cunoniaceae	Geissois	montana	Guillaumin	kew-2587696	Accepted
+Geissois racemosa	Cunoniaceae	Geissois	racemosa	Labill.	kew-2818673	Accepted
+Gilbertiodendron brachystegioides	Leguminosae	Gilbertiodendron	brachystegioides	(Harms) J.Leonard	ild-1374	Accepted
+Gilbertiodendron dewevrei	Leguminosae	Gilbertiodendron	dewevrei	(De Wild.) J.Leonard	ild-1382	Accepted
+Gilbertiodendron grandiflorum	Leguminosae	Gilbertiodendron	grandiflorum	(De Wild.) J.Leonard	ild-1384	Accepted
+Gilbertiodendron klainei	Leguminosae	Gilbertiodendron	klainei	(Pellegr.) J.Leonard	ild-1393	Accepted
+Gilbertiodendron mayombense	Leguminosae	Gilbertiodendron	mayombense	(Pellegr.) J.Leonard	ild-1399	Accepted
+Gilbertiodendron preussii	Leguminosae	Gilbertiodendron	preussii	(Harms) J.Leonard	ild-1414	Accepted
+Gilbertiodendron splendidum	Leguminosae	Gilbertiodendron	splendidum	(Hutch. & Dalziel) J.Leonard	ild-1419	Accepted
+Gluta tourtour	Anacardiaceae	Gluta	tourtour	Marchand	kew-2827193	Accepted
+Glycydendron amazonicum	Euphorbiaceae	Glycydendron	amazonicum	Ducke	kew-91174	Accepted
+Gmelina arborea	Lamiaceae	Gmelina	arborea	Roxb.	kew-91180	Accepted
+Gmelina lignum-vitreum	Lamiaceae	Gmelina	lignum-vitreum	Guillaumin	kew-91208	Accepted
+Gossweilerodendron balsamiferum	Leguminosae	Gossweilerodendron	balsamiferum	(Vermoesen) Harms	ild-1447	Accepted
+Goupia glabra	Goupiaceae	Goupia	glabra	Aubl.	kew-2831531	Accepted
+Grevillea robusta	Proteaceae	Grevillea	robusta	A.Cunn. ex R.Br.	kew-2832700	Accepted
+Grewia oligoneura	Malvaceae	Grewia	oligoneura	Sprague	kew-2833270	Accepted
+Guarea cedrata	Meliaceae	Guarea	cedrata	(A.Chev.) Pellegr.	kew-2833959	Accepted
+Guarea gomma	Meliaceae	Guarea	gomma	Pulle	kew-2834017	Accepted
+Guarea guidonia	Meliaceae	Guarea	guidonia	(L.) Sleumer	kew-2834025	Accepted
+Guarea macrophylla	Meliaceae	Guarea	macrophylla	Vahl	kew-2834067	Accepted
+Guarea punctulata	Meliaceae	Guarea	macrophylla	(Vell.) T.D.Penn.	kew-2834071	Accepted
+Guarea thompsonii	Meliaceae	Guarea	thompsonii	Sprague & Hutch.	kew-2834196	Accepted
+Guibourtia arnoldiana	Leguminosae	Guibourtia	arnoldiana	(De Wild. & T.Durand) J.Leonard	ild-1457	Accepted
+Guibourtia demeusei	Leguminosae	Guibourtia	demeusei	(Harms) J.Leonard	ild-1471	Accepted
+Guibourtia ehie	Leguminosae	Guibourtia	ehie	(A.Chev.) J.Leonard	ild-1475	Accepted
+Guibourtia pellegriniana	Leguminosae	Guibourtia	pellegriniana	Leonard	ild-33429	Accepted
+Guibourtia tessmannii	Leguminosae	Guibourtia	tessmannii	(Harms) J.Leonard	ild-1483	Accepted
+Gymnostemon zaizou	Simaroubaceae	Gymnostemon	zaizou	Aubrév. & Pellegr.	kew-2836329	Accepted
+Gymnostoma nodiflorum	Casuarinaceae	Gymnostoma	nodiflorum	(Thunb.) L.A.S.Johnson	kew-2836349	Accepted
+Gyrocarpus americanus	Hernandiaceae	Gyrocarpus	americanus	Jacq.	kew-2836998	Accepted
+Gyrostipula comorensis	Rubiaceae	Gyrostipula	comorensis	J.-F.Leroy	kew-94119	Accepted
+Gyrostipula foveolata	Rubiaceae	Gyrostipula	foveolata	(Capuron) J.-F.Leroy	kew-94120	Accepted
+Hallea ciliata	Rubiaceae	Fleroya	ledermannii	(K.Krause) Y.F.Deng	kew-346920	Accepted
+Hallea stipulosa	Rubiaceae	Fleroya	stipulosa	(DC.) Y.F.Deng	kew-346922	Accepted
+Hannoa klaineana	Simaroubaceae	Quassia	gabonensis	Pierre	kew-2868429	Accepted
+Haplormosia monophylla	Leguminosae	Haplormosia	monophylla	(Harms) Harms	ild-7150	Accepted
+Hernandia cordigera	Hernandiaceae	Hernandia	cordigera	Vieill.	kew-2846831	Unresolved
+Hernandia voyroni	Hernandiaceae	Hazomalania	voyronii	(Jum.) Capuron	kew-2840343	Unresolved
+Hevea brasiliensis	Euphorbiaceae	Hevea	brasiliensis	(Willd. ex A.Juss.) Müll.Arg.	kew-98927	Accepted
+Hexalobus crispiflorus	Annonaceae	Hexalobus	crispiflorus	A.Rich.	kew-2848909	Accepted
+Hibiscus lasiococcus	Malvaceae	Hibiscus	lasiococcus	Baill.	tro-19601618	Accepted
+Hibiscus tiliaceus		Hibiscus	tiliaceus			
+Holoptelea grandis	Ulmaceae	Holoptelea	grandis	(Hutch.) Mildbr.	kew-2852473	Accepted
+Homalium letestui	Salicaceae	Homalium	le-testui	Pellegr.	kew-4852720	Accepted
+Homalium racemosum	Salicaceae	Homalium	racemosum	Jacq.	kew-4852801	Accepted
+Hopea odorata	Dipterocarpaceae	Hopea	odorata	Roxb.	kew-2853232	Accepted
+Hopea sangal	Dipterocarpaceae	Hopea	sangal	Korth.	kew-2853258	Unresolved
+Humbertia madagascariensis	Convolvulaceae	Humbertia	madagascariensis	Lam.	tro-8501623	Accepted
+Humiria balsamifera	Humiriaceae	Humiria	balsamifera	Aubl.	kew-2854910	Accepted
+Hura crepitans	Euphorbiaceae	Hura	crepitans	L.	kew-100851	Accepted
+Hylodendron gabunense	Leguminosae	Hylodendron	gabunense	Taub.	ild-1495	Accepted
+Hymenaea courbaril	Leguminosae	Hymenaea	courbaril	L.	ild-1496	Accepted
+Hymenaea intermedia	Leguminosae	Hymenaea	intermedia	Ducke	ild-11544	Accepted
+Hymenaea parvifolia	Leguminosae	Hymenaea	parvifolia	Huber	ild-11546	Accepted
+Hymenolobium excelsum	Leguminosae	Hymenolobium	excelsum	Ducke	ild-11553	Accepted
+Hymenolobium petraeum	Leguminosae	Hymenolobium	petraeum	Ducke	ild-11558	Accepted
+Hymenolobium sericeum	Leguminosae	Hymenolobium	sericeum	Ducke	ild-11559	Accepted
+Hymenostegia pellegrinii	Leguminosae	Hymenostegia	pellegrinii	(A.Chev.) J.Leonard	ild-1519	Accepted
+Ilex casiquiarensis	Aquifoliaceae	Ilex	casiquiarensis	Loes.	kew-2860500	Accepted
+Ilex sebertii	Aquifoliaceae	Ilex	sebertii	Pancher	kew-2861420	Unresolved
+Ilex sideroxyloides	Aquifoliaceae	Ilex	sideroxyloides	(Sw.) Griseb.	kew-2861438	Accepted
+Inga alba	Leguminosae	Inga	alba	(Sw.) Willd.	ild-19794	Accepted
+Inga capitata	Leguminosae	Inga	capitata	Desv.	ild-11661	Accepted
+Inga ingoides	Leguminosae	Inga	ingoides	(Rich.) Willd.	ild-19803	Accepted
+Inga vera	Leguminosae	Inga	vera	Willd.	ild-19817	Accepted
+Intsia bijuga	Leguminosae	Intsia	bijuga	(Colebr.) Kuntze	ild-1524	Accepted
+Intsia palembanica	Leguminosae	Intsia	palembanica	Miq.	ild-31806	Accepted
+Irvingia gabonensis	Irvingiaceae	Irvingia	gabonensis	(Aubry-Lecomte ex O'Rorke) Baill.	kew-2866788	Accepted
+Irvingia grandifolia	Irvingiaceae	Irvingia	grandifolia	(Engl.) Engl.	kew-2866792	Accepted
+Iryanthera sagotiana	Myristicaceae	Iryanthera	sagotiana	(Benth.) Warb.	tro-21800019	Accepted
+Iryanthera tricornis	Myristicaceae	Iryanthera	tricornis	Ducke	kew-2866845	Accepted
+Isoberlinia doka	Leguminosae	Isoberlinia	doka	Craib & Stapf	ild-1529	Accepted
+Jacaranda copaia	Bignoniaceae	Jacaranda	copaia	(Aubl.) D.Don	kew-317413	Accepted
+Juglans regia	Juglandaceae	Juglans	regia	L.	kew-2331747	Accepted
+Julbernardia pellegriniana	Leguminosae	Julbernardia	pellegriniana	Troupin	ild-1557	Accepted
+Julbernardia seretii	Leguminosae	Julbernardia	seretii	(De Wild.) Troupin	ild-1559	Accepted
+Juniperus oxycedrus	Cupressaceae	Juniperus	oxycedrus	L.	kew-2332702	Accepted
+Juniperus thurifera	Cupressaceae	Juniperus	thurifera	L.	kew-2329479	Accepted
+Kermadecia sinuata	Proteaceae	Kermadecia	sinuata	Brongn. & Gris	kew-2334755	Unresolved
+Keteleeria evelyniana	Pinaceae	Keteleeria	evelyniana	Mast.	kew-2334828	Accepted
+Khaya anthotheca	Meliaceae	Khaya	anthotheca	(Welw.) C.DC.	kew-2335002	Accepted
+Khaya grandifoliola	Meliaceae	Khaya	grandifoliola	C.DC.	kew-2334999	Accepted
+Khaya ivorensis	Meliaceae	Khaya	ivorensis	A.Chev.	kew-2334996	Accepted
+Khaya senegalensis	Meliaceae	Khaya	senegalensis	(Desv.) A.Juss.	kew-2334985	Accepted
+Klainedoxa gabonensis	Irvingiaceae	Klainedoxa	gabonensis	Pierre	kew-2336483	Accepted
+Labourdonnaisia calophylloides	Sapotaceae	Labourdonnaisia	calophylloides	Bojer	kew-106670	Accepted
+Laetia procera	Salicaceae	Laetia	procera	(Poepp.) Eichler	tro-13200215	Accepted
+Lagerstroemia angustifolia	Lythraceae	Lagerstroemia	angustifolia	Pierre ex Laness.	kew-2354070	Unresolved
+Lannea welwitschii	Anacardiaceae	Lannea	welwitschii	(Hiern) Engl.	kew-2340792	Accepted
+Laurelia philippiana	Atherospermataceae	Laureliopsis	philippiana	(Looser) Schodde	tro-21200404	Accepted
+Lecomtedoxa klaineana	Sapotaceae	Lecomtedoxa	klaineana	(Pierre ex Engl.) Pierre ex Dubard	kew-109192	Accepted
+Lecythis corrugata	Lecythidaceae	Lecythis	corrugata	Poit.	kew-313017	Accepted
+Lecythis idatimon	Lecythidaceae	Lecythis	idatimon	Aubl.	kew-312978	Accepted
+Lecythis persistens	Lecythidaceae	Lecythis	persistens	Sagot	kew-312998	Accepted
+Lecythis pisonis	Lecythidaceae	Lecythis	pisonis	Cambess.	kew-313001	Accepted
+Lecythis zabucajo	Lecythidaceae	Lecythis	zabucajo	Aubl.	kew-313097	Accepted
+Leptolaena multiflora	Sarcolaenaceae	Leptolaena	multiflora	Thouars	kew-274516	Accepted
+Letestua durissima	Sapotaceae	Letestua	durissima	(A.Chev.) Lecomte	kew-111602	Accepted
+Librevillea klainei	Leguminosae	Librevillea	klainei	(Harms) Hoyle	ild-1579	Accepted
+Licania alba	Chrysobalanaceae	Licania	alba	(Bernoulli) Cuatrec.	kew-353929	Accepted
+Licania canescens	Chrysobalanaceae	Licania	canescens	Benoist	kew-354149	Accepted
+Licania licaniiflora	Chrysobalanaceae	Licania	licaniiflora	(Sagot) S.F.Blake	kew-353786	Accepted
+Licania macrophylla	Chrysobalanaceae	Licania	macrophylla	Benth.	kew-353767	Accepted
+Licania majuscula	Chrysobalanaceae	Licania	majuscula	Sagot	kew-353766	Accepted
+Licania membranacea	Chrysobalanaceae	Licania	membranacea	Sagot ex Laness.	kew-353764	Accepted
+Licania micrantha	Chrysobalanaceae	Licania	micrantha	Miq.	kew-353763	Accepted
+Licania ovalifolia	Chrysobalanaceae	Licania	ovalifolia	Kleinh.	kew-354023	Accepted
+Licania ternatensis	Chrysobalanaceae	Licania	ternatensis	Hook.f. ex Duss	kew-353815	Accepted
+Licaria aritu	Lauraceae	Misanteca	aritu	(Ducke) Lundell	tro-17804835	Accepted
+Licaria canella	Lauraceae	Licaria	canella	(Meisn.) Kosterm.	kew-2349219	Accepted
+Licaria cayennensis	Lauraceae	Licaria	canella	(Meisn.) Kosterm.	kew-2349219	Accepted
+Licaria chrysophylla	Lauraceae	Licaria	chrysophylla	(Meisn.) Kosterm.	kew-2349189	Accepted
+Licaria polyphylla	Lauraceae	Licaria	polyphylla	(Nees) Kosterm.	kew-2351868	Accepted
+Lithocarpus celebicus	Fagaceae	Lithocarpus	celebicus	(Miq.) Rehder	kew-114348	Accepted
+Litsea costalis	Lauraceae	Litsea	costalis	(Nees) Kosterm.	tro-17803539	Accepted
+Litsea vang	Lauraceae	Litsea	vang	Lecomte	tro-17802067	Accepted
+Lonchocarpus heptaphyllus	Leguminosae	Lonchocarpus	heptaphyllus	(Poir.) DC.	ild-56521	Accepted
+Lophira alata	Ochnaceae	Lophira	alata	Banks ex C.F.Gaertn.	kew-2493774	Accepted
+Lophopetalum duperreanum	Celastraceae	Lophopetalum	duperreanum	Pierre	kew-2339051	Unresolved
+Lovoa trichilioides	Meliaceae	Lovoa	trichilioides	Harms	kew-2494617	Accepted
+Mabea speciosa	Euphorbiaceae	Mabea	speciosa	Müll.Arg.	kew-116224	Accepted
+Macadamia leptophylla	Proteaceae	Virotia	leptophylla	(Guillaumin) L.A.S. Johnson & B.G. Briggs	tro-100363517	Accepted
+Macarisia pyramidata	Rhizophoraceae	Macarisia	pyramidata	Thouars	tro-27600048	Accepted
+Maclura tinctoria	Moraceae	Maclura	tinctoria	(L.) D.Don ex Steud.	kew-2501253	Accepted
+Macrolobium bifolium	Leguminosae	Macrolobium	bifolium	(Aubl.) Pers.	ild-20551	Accepted
+Maesopsis eminii	Rhamnaceae	Maesopsis	eminii	Engl.	kew-2509037	Accepted
+Mammea africana	Calophyllaceae	Mammea	africana	Sabine	kew-2369968	Accepted
+Mammea americana	Calophyllaceae	Mammea	americana	L.	kew-2369960	Accepted
+Mammea bongo	Calophyllaceae	Mammea	bongo	(R.Vig. & Humbert) Kosterm.	kew-2372802	Accepted
+Mangifera indica	Anacardiaceae	Mangifera	indica	L.	kew-2362842	Accepted
+Manilkara bidentata	Sapotaceae	Manilkara	bidentata	(A.DC.) A.Chev.	kew-120114	Accepted
+Manilkara dissecta	Sapotaceae	Manilkara	dissecta	(L.f.) Dubard	kew-120146	Accepted
+Manilkara huberi	Sapotaceae	Manilkara	huberi	(Ducke) Standl.	kew-120173	Accepted
+Manilkara mabokeensis	Sapotaceae	Manilkara	mabokeensis	Aubrév.	kew-120194	Accepted
+Manilkara obovata	Sapotaceae	Manilkara	obovata	(Sabine & G.Don) J.H.Hemsl.	kew-120222	Accepted
+Mansonia altissima	Malvaceae	Mansonia	altissima	(A.Chev.) A.Chev.	kew-2506438	Accepted
+Maquira coriacea	Moraceae	Maquira	coriacea	(H.Karst.) C.C.Berg	kew-2501258	Accepted
+Maranthes glabra	Chrysobalanaceae	Maranthes	glabra	(Oliv.) Prance	kew-354397	Accepted
+Maranthes robusta	Chrysobalanaceae	Maranthes	robusta	(Oliv.) Prance ex F.White	kew-354372	Accepted
+Margaritaria nobilis	Phyllanthaceae	Margaritaria	nobilis	L.f.	kew-120587	Accepted
+Markhamia tomentosa	Bignoniaceae	Markhamia	tomentosa	(Benth.) K.Schum. ex Engl.	kew-317590	Accepted
+Melaleuca dealbata	Myrtaceae	Melaleuca	dealbata	S.T.Blake	kew-123598	Accepted
+Melaleuca leucadendron		Melaleuca	leucadendron			
+Melia azedarach	Meliaceae	Melia	azedarach	L.	kew-2505106	Accepted
+Mezilaurus itauba	Lauraceae	Mezilaurus	ita-uba	(Meisn.) Taub. ex Mez	kew-2365562	Accepted
+Microberlinia bisulcata	Leguminosae	Microberlinia	bisulcata	A.Chev.	ild-1599	Accepted
+Microberlinia brazzavillensis	Leguminosae	Microberlinia	brazzavillensis	A.Chev.	ild-1602	Accepted
+Micropholis guyanensis	Sapotaceae	Micropholis	guyanensis	(A.DC.) Pierre	kew-127544	Accepted
+Micropholis melinoniana	Sapotaceae	Micropholis	melinoniana	Pierre	kew-127555	Accepted
+Micropholis venulosa	Sapotaceae	Micropholis	venulosa	(Mart. & Eichler ex Miq.) Pierre	kew-127590	Accepted
+Milicia excelsa	Moraceae	Milicia	excelsa	(Welw.) C.C.Berg	kew-2501387	Accepted
+Milicia regia	Moraceae	Milicia	regia	(A.Chev.) C.C.Berg	kew-2501386	Accepted
+Millettia laurentii	Leguminosae	Millettia	laurentii	De Wild.	ild-4674	Accepted
+Mimusops maxima	Sapotaceae	Mimusops	balata	(Aubl.) C.F.Gaertn.	kew-128390	Accepted
+Minquartia guianensis	Olacaceae	Minquartia	guianensis	Aubl.	kew-2502112	Accepted
+Monopetalanthus coriaceus	Leguminosae	Monopetalanthus	coriaceus	Morel ex Aubrév.	tro-13056444	Accepted
+Monopetalanthus durandii	Leguminosae	Monopetalanthus	durandii	F. Hallé & Normand	tro-13052157	Accepted
+Monopetalanthus heitzii	Leguminosae	Aphanocalyx	heitzii	(Pellegr.) Wieringa	ild-40276	Accepted
+Monopetalanthus letestui	Leguminosae	Bikinia	le-testui	(Pellegr.) Wieringa	ild-40288	Accepted
+Monopetalanthus pellegrinii	Leguminosae	Bikinia	pellegrinii	(A.Chev.) Wieringa	ild-40293	Accepted
+Monopteryx inpae	Leguminosae	Monopteryx	inpae	W.A.Rodrigues	ild-15049	Accepted
+Montrouziera cauliflora	Clusiaceae	Montrouziera	cauliflora	Planch. & Triana	kew-2372504	Unresolved
+Mora excelsa	Leguminosae	Mora	excelsa	Benth.	ild-20562	Accepted
+Mora paraensis	Leguminosae	Mora	paraensis	(Ducke) Ducke	ild-10262	Accepted
+Moronobea coccinea	Clusiaceae	Moronobea	coccinea	Aubl.	kew-2372514	Accepted
+Morus mesozygia	Moraceae	Morus	mesozygia	Stapf	kew-2501415	Accepted
+Musanga cecropioides	Urticaceae	Musanga	cecropioides	R.Br. ex Tedlie	kew-2369493	Accepted
+Myodocarpus pinnatus	Myodocarpaceae	Myodocarpus	pinnatus	Brongn. & Gris	kew-130767	Accepted
+Myrocarpus frondosus	Leguminosae	Myrocarpus	frondosus	Allemao	ild-20570	Accepted
+Myroxylon balsamum	Leguminosae	Myroxylon	balsamum	(L.) Harms	ild-7152	Accepted
+Nageia comptonii	Podocarpaceae	Retrophyllum	comptonii	(J.Buchholz) C.N.Page	kew-2425485	Accepted
+Nageia mannii	Podocarpaceae	Afrocarpus	mannii	(Hook.f.) C.N.Page	kew-2624887	Accepted
+Nauclea diderrichii	Rubiaceae	Nauclea	diderrichii	(De Wild.) Merr.	kew-133162	Accepted
+Neea floribunda	Nyctaginaceae	Neea	floribunda	Poepp. & Endl.	kew-2384132	Accepted
+Neoguillauminia cleopatra	Euphorbiaceae	Neoguillauminia	cleopatra	(Baill.) Croizat	kew-133771	Accepted
+Neolemonniera clitandrifolia	Sapotaceae	Neolemonniera	clitandrifolia	(A.Chev.) Heine	kew-133849	Accepted
+Nesogordonia fouassieri	Malvaceae	Nesogordonia	fouassieri	(A. Chev.) Capuron	tro-50039136	Accepted
+Nesogordonia papaverifera	Malvaceae	Nesogordonia	papaverifera	(A. Chev.) Capuron ex N. Hallé	tro-30401506	Accepted
+Newtonia buchananii	Leguminosae	Newtonia	buchananii	(Baker) G.C.C.Gilbert & Boutiqu	ild-130	Accepted
+Newtonia glandulifera	Leguminosae	Newtonia	glandulifera	(Pellegr.) G.C.C.Gilbert & Bout	ild-138	Accepted
+Newtonia leucocarpa	Leguminosae	Newtonia	leucocarpa	(Harms) G.C.C.Gilbert & Boutiqu	ild-144	Accepted
+Nothofagus aequilateralis	Nothofagaceae	Nothofagus	aequilateralis	(Baum.-Bod.) Steenis	kew-135737	Accepted
+Ochna calodendron	Ochnaceae	Ochna	calodendron	Gilg & Mildbr.	kew-2397656	Accepted
+Ochroma pyramidale	Malvaceae	Ochroma	pyramidale	(Cav. ex Lam.) Urb.	kew-2401123	Accepted
+Ochrosia borbonica	Apocynaceae	Ochrosia	borbonica	J.F.Gmel.	kew-136697	Accepted
+Ochrothallus gordoniifolius	Sapotaceae	Pycnandra	gordoniifolia	(S.Moore) Swenson & Munzinger	kew-463925	Accepted
+Ochrothallus multipetalus	Sapotaceae	Pycnandra	fastuosa	(Baill.) Vink	kew-171024	Accepted
+Ochrothallus sarlinii	Sapotaceae	Pycnandra	sarlinii	(Aubrév.) Swenson & Munzinger	kew-135499	Accepted
+Ocotea amazonica	Lauraceae	Ocotea	amazonica	(Meisn.) Mez	tro-17800046	Accepted
+Ocotea benthamiana	Lauraceae	Ocotea	benthamiana	Mez	tro-17800054	Accepted
+Ocotea comoriensis	Lauraceae	Ocotea	comoriensis	Kosterm.	tro-17802472	Accepted
+Ocotea cymbarum	Lauraceae	Ocotea	cymbarum	Kunth	kew-2386431	Accepted
+Ocotea cymosa	Lauraceae	Ocotea	cymosa	(Nees) Palacky	tro-17804020	Accepted
+Ocotea floribunda	Lauraceae	Ocotea	floribunda	(Sw.) Mez	kew-2386492	Accepted
+Ocotea fragrantissima	Lauraceae	Ocotea	fragrantissima	Ducke	tro-17802476	Accepted
+Ocotea glomerata	Lauraceae	Ocotea	glomerata	(Nees) Mez	kew-2386030	Accepted
+Ocotea guianensis	Lauraceae	Ocotea	guianensis	Aubl.	kew-2385951	Accepted
+Ocotea laevis	Lauraceae	Ocotea	racemosa	(Danguy) Kosterm.	tro-17802486	Accepted
+Ocotea neesiana	Lauraceae	Ocotea	neesiana	(Miq.) Kosterm.	kew-2386156	Accepted
+Ocotea oblonga	Lauraceae	Ocotea	oblonga	(Meisn.) Mez	kew-2386144	Accepted
+Ocotea petalanthera	Lauraceae	Ocotea	petalanthera	(Meisn.) Mez	tro-17800291	Accepted
+Ocotea platydisca	Lauraceae	Ocotea	racemosa	(Danguy) Kosterm.	tro-17802486	Accepted
+Ocotea racemosa	Lauraceae	Ocotea	racemosa	(Danguy) Kosterm.	tro-17802486	Accepted
+Ocotea schomburgkiana	Lauraceae	Ocotea	schomburgkiana	(Nees) Mez	kew-2387010	Accepted
+Ocotea splendens	Lauraceae	Ocotea	splendens	(Meisn.) Baill.	kew-2387041	Accepted
+Ocotea thouvenotii	Lauraceae	Ocotea	thouvenotii	(Danguy) Kosterm.	tro-17802491	Accepted
+Ocotea trichophlebia	Lauraceae	Ocotea	trichophlebia	Baker	tro-17801248	Accepted
+Oddoniodendron normandii	Leguminosae	Oddoniodendron	normandii	Aubrev.	ild-1629	Accepted
+Odyendyea gabonensis	Simaroubaceae	Quassia	gabonensis	Pierre	kew-2868429	Accepted
+Oldfieldia africana	Picrodendraceae	Oldfieldia	africana	Benth. & Hook.f.	kew-138891	Accepted
+Ongokea gore	Olacaceae	Ongokea	gore	(Hua) Pierre	kew-2399098	Accepted
+Onychopetalum amazonicum	Annonaceae	Onychopetalum	amazonicum	R.E.Fr.	kew-2391588	Accepted
+Ormosia coccinea	Leguminosae	Ormosia	coccinea	(Aubl.) Jacks.	ild-17230	Accepted
+Ormosia flava	Leguminosae	Ormosia	flava	(Ducke) Rudd	ild-14588	Accepted
+Ormosia monosperma	Leguminosae	Ormosia	monosperma	(Sw.) Urb.	ild-14603	Accepted
+Osteophloeum platyspermum	Myristicaceae	Osteophloeum	platyspermum	(Spruce ex A.DC.) Warb.	kew-2397780	Accepted
+Oxystigma mannii	Leguminosae	Oxystigma	mannii	(Baill.) Harms	ild-1635	Accepted
+Oxystigma oxyphyllum	Leguminosae	Oxystigma	oxyphyllum	(Harms) Leonard	ild-33489	Accepted
+Pachypodanthium confine	Annonaceae	Duguetia	confinis	(Engl. & Diels) Chatrou	kew-2779079	Accepted
+Pachypodanthium staudtii	Annonaceae	Duguetia	staudtii	(Engl. & Diels) Chatrou	kew-2779164	Accepted
+Pachytrophe dimepate	Moraceae	Streblus	dimepate	(Bureau) C.C. Berg	tro-21301775	Accepted
+Pancheria brunhesii	Cunoniaceae	Pancheria	brunhesii	Pamp.	tro-50161006	Unresolved
+Pancheria sebertii	Cunoniaceae	Pancheria	sebertii	Guillaumin	kew-2411514	Unresolved
+Pancheria ternata	Cunoniaceae	Pancheria	ternata	Brongn. & Gris	kew-2411513	Unresolved
+Parahancornia fasciculata	Apocynaceae	Parahancornia	fasciculata	(Poir.) Benoist	kew-147481	Accepted
+Paraserianthes falcataria	Leguminosae	Falcataria	moluccana	(Miq.) Barneby & J.W.Grimes	ild-42690	Accepted
+Parashorea malaanonan	Dipterocarpaceae	Parashorea	malaanonan	Merr.	kew-2411441	Unresolved
+Parashorea stellata	Dipterocarpaceae	Shorea	stellata	(Kurz) Dyer	tro-50299954	Accepted
+Parinari campestris	Chrysobalanaceae	Parinari	campestris	Aubl.	kew-355480	Accepted
+Parinari excelsa	Chrysobalanaceae	Parinari	excelsa	Sabine	kew-355551	Accepted
+Parkia bicolor	Leguminosae	Parkia	bicolor	A.Chev.	ild-230	Accepted
+Parkia nitida	Leguminosae	Parkia	nitida	Miq.	ild-20275	Accepted
+Parkia pendula	Leguminosae	Parkia	pendula	(Willd.) Walp.	ild-20276	Accepted
+Parkia ulei	Leguminosae	Parkia	ulei	(Harms) Kuhlm.	ild-14669	Accepted
+Pausinystalia brachythyrsa		Pausinystalia	brachythyrsa			
+Peltogyne venosa	Leguminosae	Peltogyne	venosa	(M.Vahl) Benth.	ild-33225	Accepted
+Peltophorum dubium	Leguminosae	Peltophorum	dubium	(Spreng.) Taub.	ild-14687	Accepted
+Pentaclethra macrophylla	Leguminosae	Pentaclethra	macrophylla	Benth.	ild-241	Accepted
+Pentadesma butyracea	Clusiaceae	Pentadesma	butyracea	Sabine	kew-2409114	Accepted
+Pentadesma leptonema	Clusiaceae	Pentadesma	butyracea	Sabine	kew-2409114	Accepted
+Pericopsis elata	Leguminosae	Pericopsis	elata	(Harms) Meeuwen	ild-7160	Accepted
+Petersianthus macrocarpus	Lecythidaceae	Petersianthus	macrocarpus	(P.Beauv.) Liben	kew-313237	Accepted
+Petersianthus quadrialatus	Lecythidaceae	Petersianthus	quadrialatus	(Merr.) Merr.	kew-313235	Accepted
+Phoebe elongata	Lauraceae	Phoebe	elongata	Nees	kew-2531391	Unresolved
+Phoebe porosa	Lauraceae	Ocotea	porosa	(Nees & Mart.) Barroso	kew-2386884	Accepted
+Phyllarthron articulatum	Bignoniaceae	Phyllarthron	articulatum	(Desf.) K.Schum.	kew-317838	Accepted
+Phyllarthron madagascariense	Bignoniaceae	Phyllarthron	madagascariense	K. Schum.	tro-3700565	Unresolved
+Picea abies	Pinaceae	Picea	abies	(L.) H.Karst.	kew-2562738	Accepted
+Piliocalyx laurifolius	Myrtaceae	Piliocalyx	laurifolius	Brongn. & Gris	kew-156090	Accepted
+Pimenta racemosa	Myrtaceae	Pimenta	racemosa	(Mill.) J.W.Moore	kew-156163	Accepted
+Pinus caribaea	Pinaceae	Pinus	caribaea	Morelet	kew-2563099	Accepted
+Pinus elliottii	Pinaceae	Pinus	elliottii	Engelm.	kew-2562078	Accepted
+Pinus kesiya	Pinaceae	Pinus	kesiya	Royle ex Gordon	kew-2561617	Accepted
+Pinus laricio	Pinaceae	Pinus	pinaster	(Risso) K.Richt.	kew-2872394	Accepted
+Pinus oocarpa	Pinaceae	Pinus	oocarpa	Schiede	kew-2562388	Accepted
+Pinus patula	Pinaceae	Pinus	patula	Schiede ex Schltdl. & Cham.	kew-2562541	Accepted
+Pinus pinaster	Pinaceae	Pinus	pinaster	Aiton	kew-2562572	Accepted
+Pinus sylvestris	Pinaceae	Pinus	sylvestris	L.	kew-2562297	Accepted
+Piptadeniastrum africanum	Leguminosae	Piptadeniastrum	africanum	(Hook.f.) Brenan	ild-151	Accepted
+Plagiostyles africana	Euphorbiaceae	Plagiostyles	africana	(Müll.Arg.) Prain	kew-156766	Accepted
+Planchonella amieuana	Sapotaceae	Planchonella	amieuana	(Guillaumin) Aubrév.	kew-156771	Accepted
+Planchonella microphylla	Sapotaceae	Planchonella	microphylla	Pierre ex Dubard	kew-156904	Accepted
+Platonia insignis	Clusiaceae	Platonia	insignis	Mart.	kew-2408897	Accepted
+Platymiscium trinitatis	Leguminosae	Platymiscium	trinitatis	Benth.	ild-20349	Accepted
+Platymiscium ulei	Leguminosae	Platymiscium	ulei	Harms	ild-15751	Accepted
+Podocarpus salicifolius	Podocarpaceae	Podocarpus	salicifolius	Klotzsch & H.Karst. ex Endl.	kew-2567412	Accepted
+Podocarpus sylvestris	Podocarpaceae	Podocarpus	sylvestris	J.Buchholz	kew-2551825	Accepted
+Poga oleosa	Anisophylleaceae	Poga	oleosa	Pierre	tro-27600192	Accepted
+Polyalthia suaveolens	Annonaceae	Greenwayodendron	suaveolens	(Engl. & Diels) Verdc.	kew-2831998	Accepted
+Polyscias ornifolia	Araliaceae	Polyscias	ornifolia	(Baker) Harms	kew-162549	Accepted
+Pometia pinnata	Sapindaceae	Allophylus	cobbe	(L.) Raeusch.	kew-2629275	Accepted
+Populus deltoides	Salicaceae	Populus	deltoides	Marshall	kew-5000049	Accepted
+Porterandia cladantha	Rubiaceae	Aoranthe	cladantha	(K.Schum.) Somers	kew-12597	Accepted
+Potameia antevaratra	Lauraceae	Potameia	antevaratra	Kosterm.	tro-17804411	Accepted
+Pourouma villosa	Urticaceae	Pourouma	villosa	Trécul	tro-50086641	Accepted
+Pouteria guianensis	Sapotaceae	Pouteria	guianensis	Aubl.	kew-164157	Accepted
+Pouteria pallida	Sapotaceae	Pouteria	pallida	(C.F.Gaertn.) Baehni	kew-164324	Accepted
+Pouteria torricellensis	Sapotaceae	Planchonella	torricellensis	(K.Schum.) H.J.Lam	kew-156988	Accepted
+Pradosia cochlearia	Sapotaceae	Pradosia	cochlearia	(Lecomte) T.D.Penn.	kew-164549	Accepted
+Pradosia schomburgkiana	Sapotaceae	Pradosia	schomburgkiana	(A.DC.) Cronquist	kew-164570	Accepted
+Prosopis africana	Leguminosae	Prosopis	africana	(Guill. & Perr.) Taub.	ild-153	Accepted
+Protium sagotianum	Burseraceae	Protium	sagotianum	Marchand	kew-2414348	Accepted
+Protorhus ditimena	Anacardiaceae	Abrahamia	ditimena	(H. Perrier) Randrian. & Lowry	tro-50296416	Accepted
+Prunus africana	Rosaceae	Prunus	africana	(Hook.f.) Kalkman	rjp-25340	Accepted
+Prunus arborea	Rosaceae	Prunus	arborea	(Blume) Kalkman	rjp-25370	Accepted
+Pseudocedrela kotschyi	Meliaceae	Pseudocedrela	kotschyi	(Schweinf.) Harms	kew-2547087	Accepted
+Pseudopiptadenia psilostachya	Leguminosae	Pseudopiptadenia	psilostachya	(DC.) G.P.Lewis & M.P.Lima	ild-33928	Accepted
+Pseudopiptadenia suaveolens	Leguminosae	Pseudopiptadenia	suaveolens	(Miq.) J.W. Grimes	tro-13076047	Accepted
+Pseudotsuga menziesii	Pinaceae	Pseudotsuga	menziesii	(Mirb.) Franco	kew-2556763	Accepted
+Psidium guajava	Myrtaceae	Psidium	guajava	L.	kew-166741	Accepted
+Pteleopsis hylodendron	Combretaceae	Pteleopsis	hylodendron	Mildbr.	kew-2411164	Accepted
+Pterocarpus erinaceus	Leguminosae	Pterocarpus	erinaceus	Poir.	ild-1889	Accepted
+Pterocarpus officinalis	Leguminosae	Pterocarpus	officinalis	Jacq.	ild-41502	Accepted
+Pterocarpus soyauxii	Leguminosae	Pterocarpus	soyauxii	Taub.	ild-1904	Accepted
+Pterocarpus tinctorius	Leguminosae	Pterocarpus	tinctorius	Welw.	ild-1906	Accepted
+Pterogyne nitens	Leguminosae	Pterogyne	nitens	Tul.	ild-1688	Accepted
+Pterygota macrocarpa	Malvaceae	Pterygota	macrocarpa	K.Schum.	kew-2551684	Accepted
+Pycnandra comptonii	Sapotaceae	Pycnandra	comptonii	(S.Moore) Vink	kew-171019	Accepted
+Pycnanthus angolensis	Myristicaceae	Pycnanthus	angolensis	(Welw.) Warb.	kew-2552687	Accepted
+Pyriluma sphaerocarpum	Sapotaceae	Planchonella	sphaerocarpa	(Baill.) Dubard	kew-156976	Accepted
+Qualea coerulea	Vochysiaceae	Qualea	coerulea	Aubl.	kew-2868153	Accepted
+Qualea homosepala	Vochysiaceae	Qualea	homosepala	Ducke	kew-2868184	Accepted
+Qualea paraensis	Vochysiaceae	Qualea	paraensis	Ducke	kew-2868215	Accepted
+Qualea rosea	Vochysiaceae	Qualea	rosea	Aubl.	kew-2868228	Accepted
+Quercus afares	Fagaceae	Quercus	afares	Pomel	kew-171473	Accepted
+Quercus ilex	Fagaceae	Quercus	ilex	L.	kew-173162	Accepted
+Quercus mirbeckii	Fagaceae	Quercus	canariensis	Willd.	kew-171953	Accepted
+Quercus petraea	Fagaceae	Quercus	petraea	(Matt.) Liebl.	kew-174374	Accepted
+Quercus robur	Fagaceae	Quercus	robur	L.	kew-174750	Accepted
+Quercus suber	Fagaceae	Quercus	suber	L.	kew-175312	Accepted
+Rauvolfia caffra	Apocynaceae	Rauvolfia	caffra	Sond.	kew-176820	Accepted
+Ravensara ovalifolia	Lauraceae	Cryptocarya	ovalifolia	(Danguy) van der Werff	kew-2606844	Accepted
+Ravensara retusa	Lauraceae	Cryptocarya	retusa	(Willd. ex Nees) van der Werff	kew-2606845	Accepted
+Recordoxylon amazonicum	Leguminosae	Recordoxylon	amazonicum	(Ducke) Ducke	ild-15835	Accepted
+Recordoxylon speciosum	Leguminosae	Recordoxylon	speciosum	(Benoist) Gazel ex Barneby	tro-50072123	Accepted
+Rhabdodendron amazonicum	Rhabdodendraceae	Rhabdodendron	amazonicum	(Spruce ex Benth.) Huber	tro-28100252	Accepted
+Rhizophora mangle	Rhizophoraceae	Rhizophora	mangle	L.	kew-2523199	Accepted
+Rhizophora racemosa	Rhizophoraceae	Rhizophora	racemosa	G.Mey.	kew-2523186	Accepted
+Rhodognaphalon brevicuspe	Malvaceae	Rhodognaphalon	brevicuspe	(Sprague) Roberty	kew-2421989	Accepted
+Rhodolaena bakeriana	Sarcolaenaceae	Rhodolaena	bakeriana	Baill.	kew-274563	Accepted
+Rhodostemonodaphne grandis	Lauraceae	Rhodostemonodaphne	grandis	(Mez) Rohwer	tro-17804393	Accepted
+Rhodostemonodaphne kunthiana	Lauraceae	Rhodostemonodaphne	kunthiana	(Nees) Rohwer	kew-2428841	Accepted
+Rhus thouarsii	Anacardiaceae	Rhus	thouarsii	(Engl.) H. Perrier	tro-1300038	Accepted
+Richeria grandis	Phyllanthaceae	Richeria	grandis	Vahl	kew-178544	Accepted
+Ricinodendron heudelotii	Euphorbiaceae	Ricinodendron	heudelotii	(Baill.) Heckel	kew-178842	Accepted
+Ruizterania albiflora	Vochysiaceae	Qualea	albiflora	Warm.	kew-2868139	Accepted
+Sacoglottis cydonioides	Humiriaceae	Sacoglottis	cydonioides	Cuatrec.	kew-2589266	Accepted
+Sacoglottis gabonensis	Humiriaceae	Sacoglottis	gabonensis	(Baill.) Urb.	kew-2589249	Accepted
+Sacoglottis guianensis	Humiriaceae	Sacoglottis	guianensis	Benth.	kew-2589259	Accepted
+Samanea saman	Leguminosae	Albizia	saman	(Jacq.) Merr.	ild-32292	Accepted
+Santiria rubiginosa	Burseraceae	Santiria	rubiginosa	Blume	kew-2486172	Unresolved
+Santiria trimera	Burseraceae	Santiria	trimera	(Oliv.) Aubrév.	kew-2486154	Accepted
+Scaphium macropodum	Malvaceae	Scaphium	macropodum	(Miq.) Beumée ex K.Heyne	kew-2580300	Accepted
+Schefflera andraeana	Araliaceae	Schefflera	pancheri	Baill.	kew-187505	Accepted
+Schefflera decaphylla	Araliaceae	Schefflera	decaphylla	(Seem.) Harms	kew-187163	Accepted
+Schefflera gabriellae	Araliaceae	Schefflera	gabriellae	Baill.	kew-187237	Accepted
+Schefflera morototoni	Araliaceae	Schefflera	morototoni	(Aubl.) Maguire, Steyerm. & Frodin	kew-187438	Accepted
+Sclerolobium melanocarpum	Leguminosae	Sclerolobium	melanocarpum	Ducke	ild-11760	Accepted
+Sclerolobium melinonii	Leguminosae	Sclerolobium	melinonii	Harms	ild-11761	Accepted
+Scleronema micranthum	Malvaceae	Scleronema	micranthum	(Ducke) Ducke	kew-2475923	Accepted
+Scorodophloeus zenkeri	Leguminosae	Scorodophloeus	zenkeri	Harms	ild-1704	Accepted
+Scottellia klaineana	Achariaceae	Scottellia	klaineana	Pierre	kew-4589572	Accepted
+Scyphocephalium mannii	Myristicaceae	Scyphocephalium	mannii	(Benth. & Hook. f.) Warb.	tro-21800161	Accepted
+Scytopetalum klaineanum	Lecythidaceae	Scytopetalum	klaineanum	Pierre ex Engl.	kew-2870307	Accepted
+Scytopetalum tieghemii	Lecythidaceae	Scytopetalum	tieghemii	Hutch. & Dalziel	kew-2870313	Unresolved
+Sebertia acuminata	Sapotaceae	Pycnandra	acuminata	(Pierre ex Baill.) Swenson & Munzinger	kew-465942	Accepted
+Serianthes sachetae	Leguminosae	Serianthes	sachetae	Fosberg	kew-2591204	Unresolved
+Sextonia rubra	Lauraceae	Sextonia	rubra	(Mez) van der Werff	kew-2591960	Accepted
+Shorea almon	Dipterocarpaceae	Shorea	almon	Foxw.	kew-2593817	Unresolved
+Shorea assamica	Dipterocarpaceae	Shorea	assamica	Dyer	tro-11300066	Accepted
+Shorea contorta	Dipterocarpaceae	Shorea	contorta	S.Vidal	kew-2588178	Unresolved
+Shorea guiso	Dipterocarpaceae	Shorea	guiso	Blume	kew-2594013	Accepted
+Shorea hopeifolia	Dipterocarpaceae	Shorea	hopeifolia	(F.Heim) Symington	kew-2594003	Unresolved
+Shorea hypochra	Dipterocarpaceae	Shorea	hypochra	Hance	kew-2593988	Unresolved
+Shorea leprosula	Dipterocarpaceae	Shorea	leprosula	Miq.	kew-2594050	Unresolved
+Shorea negrosensis	Dipterocarpaceae	Shorea	negrosensis	Foxw.	kew-2593939	Unresolved
+Shorea palosapis	Dipterocarpaceae	Shorea	palosapis	Merr.	kew-2593983	Unresolved
+Shorea pauciflora	Dipterocarpaceae	Shorea	pauciflora	King	kew-2593959	Unresolved
+Shorea polita	Dipterocarpaceae	Shorea	polita	S.Vidal	kew-2593091	Unresolved
+Shorea polysperma	Dipterocarpaceae	Shorea	polysperma	Merr.	kew-2593355	Unresolved
+Simaba multiflora	Simaroubaceae	Simaba	orinocensis	Kunth	kew-2580361	Accepted
+Simarouba amara	Simaroubaceae	Simarouba	amara	Aubl.	kew-2580434	Accepted
+Sindora klaineana	Leguminosae	Sindora	klaineana	Pellegr.	ild-1705	Accepted
+Sindoropsis letestui	Leguminosae	Sindoropsis	letestui	(Pellegr.) J.Leonard	ild-1706	Accepted
+Sleumerodendron austrocaledonicum	Proteaceae	Sleumerodendron	austrocaledonicum	(Brongn. & Gris) Virot	tro-26500900	Accepted
+Sloanea latifolia	Elaeocarpaceae	Sloanea	latifolia	(Rich.) K.Schum.	kew-2592258	Accepted
+Sloanea massonii	Elaeocarpaceae	Sloanea	macrophylla	Benth. ex Turcz.	kew-2592241	Accepted
+Sloanea rhodantha	Elaeocarpaceae	Sloanea	rhodantha	(Baker) Capuron	tro-11700035	Accepted
+Spondias mombin	Anacardiaceae	Spondias	mombin	L.	kew-2480696	Accepted
+Staudtia kamerunensis	Myristicaceae	Staudtia	kamerunensis	Warb.	tro-21800243	Accepted
+Stemonocoleus micranthus	Leguminosae	Stemonocoleus	micranthus	Harms	ild-1715	Accepted
+Stenocarpus trinervis	Proteaceae	Stenocarpus	trinervis	Guillaumin	kew-2600852	Unresolved
+Sterculia pruriens	Malvaceae	Sterculia	pruriens	(Aubl.) K.Schum.	kew-2579957	Accepted
+Sterculia rhinopetala	Malvaceae	Sterculia	rhinopetala	K.Schum.	kew-2580002	Accepted
+Sterculia setigera	Malvaceae	Sterculia	setigera	Delile	kew-2580981	Accepted
+Storckiella pancheri	Leguminosae	Storckiella	pancheri	Baill.	kew-2597121	Unresolved
+Strephonema pseudocola	Combretaceae	Strephonema	pseudocola	A.Chev.	kew-2587770	Unresolved
+Strombosia grandifolia	Olacaceae	Strombosia	grandifolia	Hook.f. ex Benth.	kew-2602308	Accepted
+Strombosia pustulata	Olacaceae	Strombosia	pustulata	Oliv.	kew-2602326	Accepted
+Stryphnodendron polystachyum	Leguminosae	Stryphnodendron	polystachyum	(Miq.) Kleinhoonte	ild-10484	Accepted
+Swartzia benthamiana	Leguminosae	Swartzia	benthamiana	Miq.	ild-28187	Accepted
+Swartzia fistuloides	Leguminosae	Bobgunnia	fistuloides	(Harms) J.H.Kirkbr. & Wiersema	ild-39134	Accepted
+Swartzia ingaefolia	Leguminosae	Swartzia	ingaefolia	Ducke	ild-10534	Accepted
+Swartzia leptopetala	Leguminosae	Swartzia	leptopetala	Benth.	ild-10543	Accepted
+Swartzia oblanceolata	Leguminosae	Swartzia	oblanceolata	Sandwith	ild-10557	Accepted
+Swartzia panacoco	Leguminosae	Swartzia	panacoco	(Aubl.) Cowan	ild-15164	Accepted
+Sweetia fruticosa	Leguminosae	Sweetia	fruticosa	Spreng.	ild-20408	Accepted
+Swietenia macrophylla	Meliaceae	Swietenia	macrophylla	King	kew-2601504	Accepted
+Swietenia mahagoni	Meliaceae	Swietenia	mahagoni	(L.) Jacq.	kew-2601502	Accepted
+Symphonia fasciculata	Clusiaceae	Symphonia	fasciculata	(Noronha ex Thouars) Vesque	tro-7800590	Accepted
+Symphonia globulifera	Clusiaceae	Symphonia	globulifera	L.f.	kew-2484835	Accepted
+Symphonia louvelii	Clusiaceae	Symphonia	louvelii	Jum. & H. Perrier	tro-7800591	Accepted
+Symphonia tanalensis	Clusiaceae	Symphonia	tanalensis	Jum. & H. Perrier	tro-7800592	Accepted
+Symphonia urophylla	Clusiaceae	Symphonia	urophylla	(Decne. ex Planch. & Triana) Benth. & Hook. f. ex Vesque	tro-7800598	Accepted
+Symplocos martinicensis	Symplocaceae	Symplocos	martinicensis	Jacq.	kew-2578576	Accepted
+Syzygium dyerianum	Myrtaceae	Syzygium	dyerianum	(King) Chantaran. & J.Parn.	kew-199536	Accepted
+Syzygium frutescens	Myrtaceae	Syzygium	frutescens	Brongn. & Gris	kew-199605	Accepted
+Syzygium guineense	Myrtaceae	Syzygium	guineense	(Willd.) DC.	kew-199663	Accepted
+Syzygium inophylloides	Myrtaceae	Syzygium	inophylloides	(A.Gray) Müll.Stuttg.	kew-199724	Accepted
+Syzygium lateriflorum	Myrtaceae	Syzygium	lateriflorum	Brongn. & Gris	kew-199812	Accepted
+Syzygium wagapense	Myrtaceae	Syzygium	wagapense	Brongn. & Gris	kew-200495	Accepted
+Tabebuia fluviatilis	Bignoniaceae	Tabebuia	fluviatilis	(Aubl.) DC.	kew-318682	Accepted
+Tabebuia heptaphylla	Bignoniaceae	Handroanthus	heptaphyllus	(Vell.) Mattos	kew-317145	Accepted
+Tabebuia heterophylla	Bignoniaceae	Tabebuia	heterophylla	(DC.) Britton	kew-318644	Accepted
+Tabebuia pallida	Bignoniaceae	Tabebuia	pallida	(Lindl.) Miers	kew-318786	Accepted
+Tabebuia serratifolia	Bignoniaceae	Handroanthus	serratifolius	(Vahl) S.O.Grose	kew-347070	Accepted
+Tachigali myrmecophila	Leguminosae	Tachigali	myrmecophila	(Ducke) Ducke	ild-10597	Accepted
+Tachigali paniculata	Leguminosae	Tachigali	paniculata	Aubl.	ild-30251	Accepted
+Tachigali rusbyi	Leguminosae	Tachigali	rusbyi	Harms	ild-10605	Accepted
+Talauma dodecapetala	Magnoliaceae	Magnolia	dodecapetala	(Lam.) Govaerts	kew-117547	Accepted
+Tambourissa trichophylla	Monimiaceae	Tambourissa	trichophylla	Baker	tro-21200213	Accepted
+Tapirira guianensis	Anacardiaceae	Tapirira	guianensis	Aubl.	kew-2436204	Accepted
+Taralea oppositifolia	Leguminosae	Taralea	oppositifolia	Aubl.	ild-10615	Accepted
+Tarrietia densiflora	Malvaceae	Tarrietia	densiflora	(Pellegr.) Aubrév. & Normand	kew-2519838	Unresolved
+Tarrietia javanica	Malvaceae	Tarrietia	javanica	Blume	kew-2519836	Unresolved
+Tarrietia simplicifolia	Malvaceae	Tarrietia	simplicifolia	Mast.	kew-2519790	Unresolved
+Tarrietia utilis	Malvaceae	Tarrietia	utilis	(Sprague) Sprague	tro-50054806	Accepted
+Tectona grandis	Lamiaceae	Tectona	grandis	L.f.	kew-202018	Accepted
+Terminalia amazonia	Combretaceae	Terminalia	amazonia	(J.F.Gmel.) Exell	kew-2431494	Accepted
+Terminalia avicennioides	Combretaceae	Terminalia	avicennioides	Guill. & Perr.	kew-2431551	Accepted
+Terminalia bellirica	Combretaceae	Terminalia	bellirica	(Gaertn.) Roxb.	tro-8200807	Accepted
+Terminalia benzoin	Combretaceae	Terminalia	benzoin	L.f.	kew-2431536	Unresolved
+Terminalia catappa	Combretaceae	Terminalia	catappa	L.	kew-2431102	Accepted
+Terminalia guianensis	Combretaceae	Terminalia	guyanensis	Eichler	kew-2434252	Accepted
+Terminalia ivorensis	Combretaceae	Terminalia	ivorensis	A.Chev.	kew-2434278	Accepted
+Terminalia mantaly	Combretaceae	Terminalia	mantaly	H.Perrier	kew-2434420	Accepted
+Terminalia superba	Combretaceae	Terminalia	superba	Engl. & Diels	kew-2434017	Accepted
+Terminalia tetrandra	Combretaceae	Terminalia	tetrandra	(Danguy) Capuron	tro-8200473	Accepted
+Testulea gabonensis	Ochnaceae	Testulea	gabonensis	Pellegr.	kew-2516302	Accepted
+Tetraberlinia bifoliolata	Leguminosae	Tetraberlinia	bifoliolata	(Harms) Hauman	ild-1736	Accepted
+Tetraberlinia tubmaniana	Leguminosae	Tetraberlinia	tubmaniana	J.Leonard	ild-1740	Accepted
+Tetraclinis articulata	Cupressaceae	Tetraclinis	articulata	(Vahl) Mast.	kew-2516538	Accepted
+Tetragastris altissima	Burseraceae	Tetragastris	altissima	(Aubl.) Swart	kew-2432749	Accepted
+Tetragastris hostmannii	Burseraceae	Tetragastris	hostmannii	(Engl.) Kuntze	kew-2432755	Accepted
+Tetragastris panamensis	Burseraceae	Tetragastris	panamensis	(Engl.) Kuntze	kew-2432736	Accepted
+Tetrapleura tetraptera	Leguminosae	Tetrapleura	tetraptera	(Schum. & Thonn.) Taub.	ild-176	Accepted
+Thuya plicata		Thuya	plicata			
+Thyrsodium guianense	Anacardiaceae	Thyrsodium	guianense	Sagot ex Marchand	tro-1300237	Accepted
+Thyrsodium spruceanum	Anacardiaceae	Thyrsodium	spruceanum	Benth.	kew-2435296	Accepted
+Tieghemella africana	Sapotaceae	Tieghemella	africana	Pierre	kew-205757	Accepted
+Tieghemella heckelii	Sapotaceae	Tieghemella	heckelii	(A.Chev.) Pierre ex Dubard	kew-205758	Accepted
+Tinopsis apiculata	Sapindaceae	Tina	apiculata	(Radlk.) Radlk. ex Choux	tro-28601027	Accepted
+Toona sureni	Meliaceae	Toona	sureni	(Blume) Merr.	kew-2515095	Accepted
+Tovomita carinata	Clusiaceae	Tovomita	carinata	Eyma	kew-2431706	Accepted
+Trattinnickia burserifolia	Burseraceae	Trattinnickia	burserifolia	Mart.	kew-2432658	Accepted
+Trattinnickia rhoifolia	Burseraceae	Trattinnickia	rhoifolia	Willd.	kew-2432662	Accepted
+Trema orientalis	Cannabaceae	Trema	orientalis	(L.) Blume	kew-2518675	Accepted
+Trichilia tessmannii	Meliaceae	Trichilia	tessmannii	Harms	kew-2515506	Accepted
+Trichoscypha arborea	Anacardiaceae	Trichoscypha	arborea	(A.Chev.) A.Chev.	kew-2902092	Accepted
+Triplaris weigeltiana	Polygonaceae	Triplaris	weigeltiana	(Rchb.) Kuntze	kew-2513045	Accepted
+Triplochiton scleroxylon	Malvaceae	Triplochiton	scleroxylon	K.Schum.	kew-2515995	Accepted
+Tsuga heterophylla	Pinaceae	Tsuga	heterophylla	(Raf.) Sarg.	kew-2516641	Accepted
+Turraeanthus africana	Meliaceae	Turraeanthus	africana	(Welw. ex C.DC.) Pellegr.	kew-2517056	Accepted
+Uapaca densifolia	Phyllanthaceae	Uapaca	densifolia	Baker	kew-209578	Accepted
+Uapaca esculenta	Phyllanthaceae	Uapaca	corbisieri	De Wild.	kew-209577	Accepted
+Uapaca guineensis	Phyllanthaceae	Uapaca	guineensis	Müll.Arg.	kew-209599	Accepted
+Uapaca heudelotii	Phyllanthaceae	Uapaca	heudelotii	Baill.	kew-209602	Accepted
+Uapaca louvelii	Phyllanthaceae	Uapaca	louvelii	Denis	kew-209617	Accepted
+Uapaca paludosa	Phyllanthaceae	Uapaca	paludosa	Aubrév. & Leandri	kew-209645	Accepted
+Ulmus minor	Ulmaceae	Ulmus	minor	Mill.	kew-2448634	Accepted
+Vatairea paraensis	Leguminosae	Vatairea	paraensis	Ducke	ild-11814	Accepted
+Vataireopsis surinamensis	Leguminosae	Vataireopsis	surinamensis	Lima	ild-21567	Accepted
+Virola michelii	Myristicaceae	Virola	michelii	Heckel	kew-2873146	Accepted
+Virola pavonis	Myristicaceae	Virola	pavonis	(A.DC.) A.C.Sm.	kew-2451952	Accepted
+Virola surinamensis	Myristicaceae	Virola	surinamensis	(Rol. ex Rottb.) Warb.	kew-2451940	Accepted
+Vitellaria paradoxa	Sapotaceae	Vitellaria	paradoxa	C.F.Gaertn.	kew-213267	Accepted
+Vitex grandifolia	Lamiaceae	Vitex	grandifolia	Gürke	kew-213484	Accepted
+Vitex micrantha	Lamiaceae	Vitex	micrantha	Gürke	kew-213622	Accepted
+Vitex pachyphylla	Lamiaceae	Vitex	doniana	Sweet	kew-213428	Accepted
+Vochysia cayennensis	Vochysiaceae	Vochysia	cayennensis	Warm.	tro-34100057	Accepted
+Vochysia guianensis	Vochysiaceae	Vochysia	guianensis	Aubl.	tro-34100169	Accepted
+Vochysia neyratii	Vochysiaceae	Vochysia	neyratii	Normand	tro-50185043	Accepted
+Vochysia speciosa	Vochysiaceae	Vochysia	speciosa	Warm.	tro-34100113	Accepted
+Vochysia tomentosa	Vochysiaceae	Vochysia	tomentosa	(G.Mey.) DC.	kew-2461016	Accepted
+Vouacapoua americana	Leguminosae	Vouacapoua	americana	Aubl.	ild-20484	Accepted
+Walsura trichostemon	Meliaceae	Walsura	trichostemon	Miq.	kew-2450775	Accepted
+Weinmannia comorensis	Cunoniaceae	Weinmannia	comorensis	Tul.	tro-9300121	Accepted
+Weinmannia minutiflora	Cunoniaceae	Weinmannia	minutiflora	Baker	tro-9300174	Accepted
+Weinmannia rutenbergii	Cunoniaceae	Weinmannia	rutenbergii	Engl.	tro-9300142	Accepted
+Xanthocercis madagascariensis	Leguminosae	Xanthocercis	madagascariensis	Baill.	ild-42696	Accepted
+Xanthomyrtus hienghenensis	Myrtaceae	Xanthomyrtus	hienghenensis	Guillaumin	kew-214991	Accepted
+Xylia evansii	Leguminosae	Xylia	evansii	Hutch.	ild-179	Accepted
+Xylopia aethiopica	Annonaceae	Xylopia	aethiopica	(Dunal) A.Rich.	kew-2468107	Accepted
+Xylopia grandiflora	Annonaceae	Xylopia	aromatica	(Lam.) Mart.	kew-2468137	Accepted
+Xylopia hypolampra	Annonaceae	Xylopia	hypolampra	Mildbr.	kew-2468201	Accepted
+Xylopia quintasii	Annonaceae	Xylopia	quintasii	Pierre ex Engl. & Diels	kew-2467899	Accepted
+Xylopia sericea	Annonaceae	Xylopia	sericea	A.St.-Hil.	kew-2467939	Accepted
+Xylopia vieillardii	Annonaceae	Xylopia	vieillardii	Baill.	kew-2467859	Unresolved
+Zanthoxylum flavum	Rutaceae	Zanthoxylum	flavum	Vahl	kew-2469314	Accepted
+Zanthoxylum martinicense	Rutaceae	Zanthoxylum	martinicense	(Lam.) DC.	kew-2469445	Accepted
+Zanthoxylum rhoifolium	Rutaceae	Zanthoxylum	rhoifolium	Lam.	kew-2469000	Accepted
+Zanthoxylum tsihanimposa	Rutaceae	Zanthoxylum	tsihanimposa	H. Perrier	tro-28100334	Accepted
+Ziziphus mauritiana	Rhamnaceae	Ziziphus	jujuba	Mill.	kew-2470699	Accepted
+Zygia racemosa	Leguminosae	Zygia	racemosa	(Ducke) Barneby & J.W. Grimes	tro-50157734	Accepted

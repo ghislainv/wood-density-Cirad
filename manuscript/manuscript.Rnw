@@ -1,0 +1,522 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preambule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt, leqno, dvipsnames]{article} %leqno: numéro d'équation à gauche
+\pagenumbering{arabic} % choose how to number the pages
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc} % accents interprétés
+\usepackage{graphicx}
+%\usepackage{subfig}
+%\usepackage[hmargin=2cm, vmargin = 2cm, noheadfoot]{geometry} %% Pour gérer le format des pages
+%\usepackage{layout} %% Pour avoir la longueur des marges
+\usepackage[round,sort]{natbib} %% Natbib is a popular style for formatting references.
+%\usepackage{multibib}
+%\newcites{secnm}{Bibliographie} 
+%\usepackage{verbatim} % for multiline comments
+\usepackage{amssymb} %symbole de maths
+\usepackage{amsmath} %idem
+%\usepackage{stmaryrd} %% Symbole flèche à l'envers
+%\usepackage{amsfonts}
+\usepackage[english]{babel} %% Les titres en anglais
+\usepackage{array} %% Pour centrer verticalement le contenu d'un tableau, entre autres...
+\setcounter{secnumdepth}{4} %% Profondeur des sections, subsections
+\usepackage{setspace} %% Gère l'interligne: singlespacing, doublespacing
+\usepackage{booktabs}
+%\singlespacing
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\setlength{\LTleft}{-5cm plus 1 fill}
+\setlength{\LTright}{-5cm plus 1 fill}
+\usepackage[colorlinks=true,citecolor=Blue,urlcolor=Maroon]{hyperref} %% Gère les hyperliens
+\usepackage{lineno} %% Numérotation des lignes
+%\linenumbers
+\newcommand{\logit}{\text{logit}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\p}{\text{p}}
+\newcommand{\R}{\textnormal{\sffamily\bfseries R}}
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+% For changes in tables
+%\newcommand{\SetRowColor}[1]{\noalign{\gdef\RowColorName{#1}}\rowcolor{\RowColorName}}
+%\definecolor{gray90}{gray}{0.9}
+%\newcommand{\mymulticolumn}[3]{\multicolumn{#1}{>{\columncolor{gray90}}#2}{#3}}
+%\newcommand{\sizeBigTable}{\fontsize{9pt}{9pt}\selectfont}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{New formula and conversion factor to compute\\tree species basic wood density from a global wood technology database}
+\author{}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+\vspace{-1cm}
+\begin{center}
+  \large{Ghislain Vieilledent$^{\star,1,2,3}$\hspace{1cm}Fabian J\"org Fischer$^{4}$\\
+  \vspace{0.15cm}
+  Jérôme Chave$^{4}$\hspace{1cm}Daniel Guibal$^{5,6}$\\
+  \vspace{0.15cm}
+  Patrick Langbour$^{5,6}$\hspace{1cm}and\hspace{1cm}Jean Gérard$^{5,6}$}
+\end{center}
+
+\vspace{0.3cm}
+
+% {\footnotesize
+% \begin{flushleft}
+%   \textbf{Type of article:} Article for \textit{Ecological Applications}.\\
+%   \textbf{Running title:} Computing basic wood density.\\
+%   \textbf{Number of words and objects:} whole manuscript (X words) with abstract (X words),
+%   main text (X words), references (X, X words), table and figure legends (X, X words)\\
+% \end{flushleft}}
+% 
+% \vspace{0.2cm}
+
+{\footnotesize
+  \begin{flushleft}
+    $[\star]$ Corresponding author:~ghislain.vieilledent@Cirad.fr\\
+    $[1]$ Cirad, UPR Forêt et Sociétés, F-34398 Montpellier, France\\
+    $[2]$ Forêt et Sociétés, Univ Montpellier, Cirad, Montpellier, France\\
+    $[3]$ Joint Research Centre of the European Commission, Bio-economy unit, I-21027 Ispra, Italy\\
+    $[4]$ UMR 5174 Laboratoire Evolution et Diversité Biologique, Université Paul Sabatier, CNRS, IRD, Toulouse, France\\
+    $[5]$ Cirad, UPR BioWooEB, F-34398 Montpellier, France\\
+    $[6]$ BioWooEB, Univ Montpellier, Cirad, Montpellier, France\\
+\end{flushleft}}
+
+\newpage
+\linenumbers
+
+\renewcommand{\abstractname}{Abstract}
+\newcommand{\keywords}[1]{\par\noindent
+{\small{\em Keywords\/}: #1}}
+
+\begin{abstract}
+
+\noindent 1. Basic wood density is an important ecological trait for the study of woody plants. It is important to characterize species performance and fitness in community ecology, and to compute tree and forest biomass in carbon cycle studies. While wood density has been historically measured at 12\% moisture for construction purpose, it is convenient to convert this measure to basic wood density, i.e. the ratio of dry mass over green volume. Basic wood density can then be used to compute tree dry biomass from living tree volume.\\
+
+\noindent 2. Here, we show that previous conversion factors used to convert densities at 12\% moisture into basic wood densities are inconsistent. We derive a new, exact formula to compute the basic wood density $D_b$ from the density at moisture content $w$ denoted $D_w$, the fibre saturation point $S$, and the volumetric shrinkage coefficient $R$. We estimated a new conversion factor using a global wood technology database where values to use this formula are available for 4022 trees collected in 63 countries (mostly tropical) and representing 872 species.\\
+
+\noindent 3. Based on theory and data, we found that basic wood density could be inferred from the density at 12\% moisture using the following formula: $D_b = 0.828 D_{12}$. This value of 0.828 provides basic wood density estimates 4-5\% smaller than values inferred from previous methods.\\
+
+\noindent 4. This new conversion factor should be used to derive basic wood densities in global wood density databases. This would prevent overestimating global forest carbon stocks and allow predicting better tree species community dynamics from wood density.
+
+\vspace{0.5cm}
+
+\keywords{biomass, basic wood density, carbon stock, fibre saturation point, forest dynamics, functional trait, wood specific gravity, tropical forest, tree species}
+
+\end{abstract}
+
+\newpage
+\doublespacing
+
+\section{Introduction}
+
+%% Context: Importance of wood density for community ecology, global carbon cycle and wood science.
+
+Wood density of woody plant is a key functional trait \citep{Violle2007, Chave2009}. It helps understand the functionning of forest ecosystems both in terms of carbon sequestration \citep{Chave2005, Vieilledent2012} and community dynamics \citep{Westoby2006, Kunstler2016, Diaz2016}. In carbon cycle research, tree wood-density is used to compute forest carbon stock and assess the role of forest in mitigating climate-change \citep{Pan2011, Vieilledent2016} or evaluate the impact of deforestation on climate \citep{Achard2014}. In community ecology, wood density reflects a trade-off between growth potential and mortality risk from biomechanical or hydraulic failure \citep{Diaz2016}. Fast-growing, short-lived species tend to have a lower wood density while slow-growing, long-lived species tend to have a higher wood density \citep{Chave2009}. In wood technology, most physical and mechanical properties of wood (strength, stiffness, porosity, heat transmission, yield of pulp per unit volume, etc.) are closely related to wood density \citep{Sallenave1955, Thibaut2001, Shmulsky2011}. This explains why wood density has been one of the first wood characteristic to be measured by scientists in forestry institutes.
+
+%% Conversion between D_12 and D_b
+
+Wood density has been originally measured at ambient air moisture after air drying. Thereafter, wood density has been measured at fixed moisture content, such as 15\% or 12\%, this last value now being an international standard \citep{Sallenave1955}. In temperate countries, construction wood is at equilibrium with ambient air at an average moisture close to 12\%. Wood density at 12\% moisture is the ratio between the mass and volume of a wood sample at 12\% moisture, and is expressed in g/cm$^3$. In the past, this measure was also commonly reported in the British literature in pounds per cubic foot (1 g/cm$^3$ = 62.427 lb/ft$^3$) \citep{Sallenave1971, Reyes1992}. In carbon cycle research and ecology, the most useful metric is the basic wood density, the ratio between oven-dry mass (at 0\% moisture) and green volume (water-saturated wood volume) in g/cm$^3$. This trait is sometimes referred to as wood specific gravity (abbreviated WSG). Both terms describe the same quantity but wood specific gravity is usually the ratio between the mass of a given volume of wood and the mass of the same volume of water, and is therefore unitless \citep{Williamson2010}. Here we use the term ``basic wood density''. Basic wood density can be directly used to compute tree dry biomass and carbon stock from a standing tree volume estimated using an allometric equation \citep{Brown1997, Chave2005, Chave2014, Vieilledent2012}. For example, \citet{Chave2014} have estimated the following pantropical tree biomass allometric equation: $AGB=0.0673 \times (\rho D^{2} H)^{0.976}$ with $AGB$ the tree dry aboveground biomass in kg, $D$ the tree diameter at 1.30~m in cm, $H$ the tree height in m and $\rho$ the basic wood density in g/cm$^3$. Tree dry biomass can then be converted to carbon stock using the IPCC default carbon fraction of 0.47 \citep{McGroddy2004}.
+
+Different methods have been used to convert measures of wood density at 12\% moisture ($D_{12}$), which are often available in forestry institute databases, into basic wood density ($D_b$). Based on basic wood density data and air-dry wood density data (supposedly close to 12\% moisture) for 379 tropical species or genera \citep{Chudnoff1984}, \citet{Reyes1992} have proposed a linear regression between $D_b$ and $D_{12}$ (Eq.~\ref{eq:Reyes1992}). 
+
+\begin{equation}
+  \label{eq:Reyes1992}
+  D_b = 0.0134 + 0.800 D_{12}
+\end{equation}
+
+This relationship has been used to estimate the basic wood densities of 223 species in \citet{Reyes1992}, successively reported in \cite{Brown1997}, \citet{IPCC2006} and \citet{Zanne2009}. \citet{Sallenave1971} has proposed another formula to compute basic wood density from the wood density at 12\% moisture (Eq.~\ref{eq:Sallenave1971}). In this formula, $d$ is a density conversion factor per 1\% change in moisture content denominated ``hygroscopicity'' by \citet{Sallenave1971}, $S$ is the fibre saturation point (moisture content $S$ in \% at which wood volume starts decreasing in the drying process), and $\nu$ is the variation in volume on a dry basis per 1\% change in moisture content (in \%/\%). The values of $d$, $\nu$, and $S$ vary between species and individual trees. Sallenave (\citeyear{Sallenave1955, Sallenave1964, Sallenave1971}) published values of $D_{12}$, $d$, $\nu$, and $S$ for 1893 trees sampled worldwide in tropical forests.
+
+\begin{equation}
+  \label{eq:Sallenave1971}
+  D_b=\frac{D_{12} - 12 d}{1+(\nu/100)(S-12)}
+\end{equation}
+
+Using Sallenave's data and formula, it is possible to compute $D_{b,i}$ for each wood sample $i$ and estimate the conversion factor $\alpha_{12}$ between wood density at 12\% moisture and basic wood density from the following statistical model: $D_{b,i} = \alpha_{12} D_{12,i} + \varepsilon_i$, assuming a normal error term $\varepsilon_i~\sim~\mathcal{N}ormal(0,\sigma^2)$. Using the wood samples of the Sallenave data-set, \citet{Chave2006} obtained a value of 0.872 for the conversion factor $\alpha_{12}$ between $D_{12}$ and $D_b$. Several studies have since used Sallenave's method to derive conversion factors for particular sets of species \citep{Muller-Landau2004} or to convert wood density at a particular moisture content $w$ into basic wood density \citep{Bastin2015, Chave2009, Swenson2007} by extending Sallenave's original formula assuming that $D_b=(D_{w} - w d)/(1+(\nu/100)(S-w))$. The resulting conversion factor was close to 0.872. Notably, \citet{Chave2009} used a value of 0.861 (see supplementary material of the cited reference) to convert any wood density between 10-18\% moisture content into basic wood density. The estimated basic wood densities were included in the Global Wood Density Database, a large global compilation of wood density data \citep{Chave2009, Zanne2009}. This database combines measured (40\% of the data) and inferred (60\% of the data) basic wood densities. It has been extensively used to compute forest biomass and carbon stock with the aim of studying the role of forest in the global carbon cycle \citep{Saatchi2011, Baccini2012, Avitabile2016, Baccini2017, Vieilledent2016} or address questions in functional ecology \citep{Chave2009, Baraloto2010, Kunstler2016}.
+
+\citet{Simpson1993} proposed a simplified formula to compute wood density at any moisture content from basic wood density. With this formula, the relationship only depends on the moisture content $w$: $D_w=D_b(1+w/100)/(1-0.265aD_b)$, with $a=1-w/30$. Simpson's formula can be inverted to compute $D_b$ from $D_w$ (Eq.~\ref{eq:Simpson1993}).
+
+\begin{equation}
+  \label{eq:Simpson1993}
+  D_b=1/(0.265a+(100+w)/(100D_w))
+\end{equation}
+
+Two assumptions were made to derive this formula, (i) the fibre saturation point $S$ can be approximated to 30\% for all tree species, and (ii) the total volumetric shrinkage $R_T$ (in \%) from $S$ to 0\% moisture content is proportional to the basic wood density $D_b$, and can be approximated by the following relationship \citep{Stamm1964}: $R_T/100=0.265 D_b$. 
+
+Because relationships proposed by \citet{Reyes1992}, \citet{Sallenave1971} and \citet{Simpson1993} give significantly different estimates of the basic wood density for a same value of wood density at 12\% moisture, it is important to further test their underlying theories. In this study, we present a new and exact formula to convert wood density at any moisture content into basic wood density. The formula is derived from the definitions of the fibre saturation point and the volumetric shrinkage coefficient. We compare this new formula with formulas provided by Reyes, Sallenave and Simpson, and explain why they differ. We combine our theoretical formula with the latest version of a wood technology database compiled by Cirad (the French agricultural research and international cooperation organization) to estimate a new conversion factor between density at 12\% moisture and basic wood density. We finally discuss the consequences of this new conversion factor in carbon cycle research and ecology.
+
+\newpage
+
+\section{Materials and Methods}
+
+\subsection{The Cirad wood technology database}
+
+\subsubsection{A global database including 872 tree species}
+
+The Cirad wood technology database includes data from 4022 trees. Tree species names (latin binomial) were first spell-checked with the Global Names Resolver available in the \texttt{taxize} R package \citep{Chamberlain2013} using The Encyclopedia of Life, The International Plant Names Index, and the Tropicos databases as references. Then, we searched for synonyms in the list of species names and corrected the species names when necessary using The Plant List version 1.1 (\url{http://www.theplantlist.org}) as reference. We used the \texttt{Taxonstand} R package \citep{Cayuela2017} to do so. Taxonomic families were retrieved from updated species names using The Plant List. Trees belong to 1010 taxa from 484 genera and 94 taxonomic families. Most of the taxa (872) were identified up to the species level, with varieties and subspecies combined. Out of the 872 species names, 832 were ``accepted'' species names and 40 were ``unresolved'', according to The Plant List. The rest of the taxa (138) were identified up to the genus level. The dataset includes trees from 63 countries but the major part of the trees come from 13 tropical countries (countries with more than 20 tree species) mostly in South America, Africa and in Oceanic islands (Tab.~\ref{tab:Countries} and Fig.~\ref{fig:Location}). Sallenave was working for a tropical forestry institute now part of Cirad, the database is thus the direct continuation and extension of Sallenave's work.
+
+\subsubsection{Measuring wood mass, moisture content, and volume}
+
+The volume $V_w$ and mass $m_w$ of a wood sample depend on its water content $w$. The moisture content of wood is a function of both relative humidity and temperature of ambient air \citep{Hailwood1946}. In the Cirad database, wood volume and mass measurements were done in the same laboratory following the French standard AFNOR NF B51-005 (09/1985). Wood samples are cubes of about 20~mm side ($\pm$ 0.5~mm). To measure $V_w$ and $m_w$, wood samples were put under controled and fixed atmospheric conditions to reach a water content $w$. Wood samples were supposed to be stabilized when their variation in mass (in g) after four hours was less than 0.5\%.
+
+Wood mass $m_w$ (in g) was measured with a 0.01~g precision balance. The exact moisture content $w$ (in \%) of a wood sample is defined as a percentage of the dry mass, $w=100(m_w-m_0)/m_0$, with $m_0$ being the mass of the wood sample at the anhydrous state and $m_w$ being the mass of the wood at moisture content $w$. 
+
+Wood volume $V_w$ (in cm$^3$) was measured with three different methods. For wood samples of irregular dimensions, we used a mercury volumenometer, or the water displacement method based on Archimede's principle \citep{Williamson2010}. The mercury volumenometer for volume measurement was progressively abandoned from the end of years 90s due to mercury toxicity. For perfectly rectangular parallelepiped or cubic wood samples, a stereometric method was used measuring the wood cube size in the three dimensions using a digital caliper having a 0.02~mm precision. Using one of these three methods, wood volume was measured with a precision $<$0.003~cm$^3$.
+
+\subsubsection{Measuring fibre saturation point, volumetric shrinkage coefficient, and wood density at 12\% moisture}
+
+The fibre saturation point $S$ (in \%) is the water content above which the wood volume does not increase \citep{Skaar1988}. This is also the point in the wood drying process at which the only remaining water is that bound to the cell walls, no free water remaining in the cell cavities. Further drying of the wood results in the strengthening of the wood fibres, and is usually accompanied by shrinkage \citep{Skaar1988}.
+
+To estimate the fibre saturation point $S$, we first measured wood volume at the saturated state $V_S$ using the water displacement method. To reach a state saturated in water, whith $w>S$, wood samples were autoclaved, subjected to one hour of vacuum (to accelerate water impregnation) and then soaked in water during 15 hours at 5 bar pressure. Then, wood samples were stabilized at four decreasing moisture contents $w$ until reaching the anhydrous state. First, wood samples were put in a stove at 30$^\circ$C temperature and 85\% humidity to reach a moisture content close to 18\%. Second, wood samples were put in an air-conditioned room at 20$^\circ$C temperature and 65\% humidity to reach a moisture content close to 12\%. Third, they were put in a stove at 20$^\circ$C temperature and 50\% humidity to reach a moisture content close to 9\%. Fourth, they were put in a stove at 103$^\circ$C to reach the anhydrous state. Wood mass $m_w$ and wood volume $V_w$ were measured at each of the four stabilized stages. The exact water content $w$ at the three stabilized states previous to the anhydrous state was computed from the mass $m_w$ and the anhydrous mass $m_0$. Three volumetric shrinkage values $\Delta{V}/V = 100(V_S-V_w)/V_S$ were computed between the saturated state and the three other stabilized states. The fibre saturation point $S$ was defined as the intercept of the linear model $w = S + b \times \Delta{V}/V$ \citep{Stamm1964}. To minimise the errors in estimating $S$, only the relationships with a coefficient of determination $r^2 > 98\%$ were considered.
+
+The volumetric shrinkage coefficient $R$ (in \%/\%) is the variation in volume per 1\% change in water content. The total volumetric shrinkage $R_T$ of the wood samples from the saturated state to the anhydrous state (in \%) was computed from $V_S$ and $V_0$: $R_T=100(V_S-V_0)/V_S$. Then, the volumetric shrinkage coefficient $R$ (in \%/\%) was estimated from $R_T$ and the fibre saturation point $S$: $R=R_T/S$. This definition of the volumetric shrinkage coefficient differs from the one used in Sallenave's work. Sallenave used the anhydrous volume $V_0$ as the reference volume and $\nu$ was defined as $\nu=B/S$ with $B=100(V_S-V_0)/V_0$. Because this definition corresponded to wood swelling and not to wood shrinkage, it has been changed when compiling the new Cirad wood technology database. Sallenave's $B$ values were converted to $R_T$ values with the following formula derived from the definitions of $B$ and $R_T$: $R_T=100(1-1/(B/100+1))$. 
+
+Wood density at 12\% moisture ($D_{12}$ in g/cm$^3$) was obtained computing the ratio $m_w/V_w$ with $w$ close to 12\% moisture (when wood samples were stabilized at 20$^\circ$C temperature and 65\% humidity). Because the moisture content $w$ was not exactly 12\%, densities were initially corrected using the ``hygroscopicity'' term $d$ defined by Sallenave and the following formula $D_{12}=D_w-(w-12)d$ \citep{Sallenave1971}. This correction affected only the third decimal of the wood density value, so it was progressively abandonned. 
+
+Mean values for $S$, $R$ and $D_{12}$ for each tree were estimated using $>$10 wood samples taken at various positions in the trunk. Definitions and units of wood physical and mechanical properties used in the present study are all summarized in Supp.~Info.~\ref{sm:Definitions}.
+
+\subsection{Model relating $D_{w}$ and $D_b$}
+
+Using $D_{w}$ (the wood density at moisture content $w$), $R$ (the newly defined volumetric shrinkage coefficient), and $S$ (the fibre saturation point), we derived a new relationship linking the basic wood density $D_b$ with $D_w$. We first considered the relationship bewteen $V_S$ and $V_w$. The volumetric shrinkage coefficient $R$ (variation in volume per 1\% change in water content) is defined as $R=(100 \Delta V) / (V \Delta w)$. Let's consider a wood sample saturated in water ($w=S$) that would be dried until reaching a water content $w$. The volume of the wood sample would decrease (wood shrinkage) and $R$ can be written as: 
+
+\begin{equation}
+  R=(100(V_S-V_w))/(V_S(S-w))
+  \label{eq:R}
+\end{equation}
+
+Using Eq.~\ref{eq:R}, we can express $V_S$ as a function of $V_w$, $R$, $S$ and $w$:
+
+\begin{equation}
+  V_S=V_w/(1-(R/100)(S-w))
+  \label{eq:V_S}
+\end{equation}
+
+We then considered the relationship between $m_0$ and $m_w$. Water content $w$ is defined as $w=100(m_w-m_0)/m_0$. Using this definition, we expressed $m_0$ as a function of $m_w$ and $w$: 
+
+\begin{equation}
+  m_0=m_w/(1+w/100)
+  \label{eq:m_0}
+\end{equation}
+
+Following the definition of the basic wood density $D_b$ ($D_b=m_0/V_S$, $D_b$), and replacing $V_S$ and $m_0$ by their expressions in Eq.~\ref{eq:V_S} and Eq.~\ref{eq:m_0} respectively, we obtained $D_b=(m_w/(1+w/100))((1-(R/100)(S-w))/V_w)$. Given that $D_w=m_w/V_w$, we found the following relationship between $D_b$ and $D_w$:
+
+\begin{equation}
+  D_b=\frac{1-(R/100)(S-w)}{1+w/100}D_w
+  \label{eq:Db-Dw-new}
+\end{equation}
+
+For each individual tree $i$, we used this new formula to compute the basic wood density $D_{b,i}$ from the values of $D_{12,i}$ (wood density at 12\% moisture), $R_i$, and $S_i$ reported for 3832 trees in the Cirad wood technology database (190 trees had no values for $R$ or $S$). We then estimated the parameters of a statistical linear regression model linking $D_{b,i}$ to $D_{12,i}$, where parameter $\alpha_{12}$ corresponds to the conversion factor between $D_{12}$ and $D_b$ (Eq.~\ref{eq:Db-D12-stat}).
+
+\begin{equation}
+  D_{b,i}=\alpha_{12} D_{12,i} + \varepsilon_i, \varepsilon_i \sim N(0,\sigma^2)
+  \label{eq:Db-D12-stat}
+\end{equation}
+
+We extended this approach to compute an additional conversion factor $\alpha_{15}$ between $D_{15}$, the wood density at 15\% moisture (which was the French standard before international conventions fixed the moisture content at 12\%, see \citet{Sallenave1955}) and $D_b$. We inverted Eq.~\ref{eq:Db-Dw-new} to compute $D_{15,i}$ from previously computed $D_{b,i}$ values and estimated the slope of a linear regression model linking $D_{b,i}$ to $D_{15,i}$.
+
+\subsection{Comparison with the Global Wood Density Database}
+
+The Global Wood Density Database (GWDD, \url{http://hdl.handle.net/10255/dryad.235}) provides wood densities for 8412 species from around the world \citep{Chave2009, Zanne2009}. The GWDD and Cirad wood density databases share common wood samples and measurements from \citet{Sallenave1955, Sallenave1964, Sallenave1971}. We quantified the amount of novel information in the Cirad wood density database. We identified and computed (i) the number of species studied by Sallenave and present in the two databases, (ii) the number of species common to the two databases but not studied by Sallenave (for which wood density values were independent), and (iii) the number of species in the Cirad database not present in the GWDD. For the species shared between databases, and with independent measurements, we compared the mean basic wood density values in the two databases. To quantify the differences between the two databases, we computed the Pearson correlation coefficient between the two values, a measure of the linear correlation (dependence), and the coefficient of variation (in \%) between the two databases. The coefficient of variation is the ratio of the standard deviation of the differences between density values in the two databases divided by the mean basic wood density in the Cirad database. It is a measure of the average difference between the wood density values in the two databases. Finally, we quantified the bias (in \%) in the GWDD compared to the Cirad database. This bias was defined as the mean difference between density values in the two databases divided by the mean basic wood density in the Cirad database. 
+
+\newpage
+
+\section{Results}
+
+\subsection{Relationship between $D_b$ and $D_w$}
+
+The linear regression model linking $D_b$ and $D_{12}$ had a coefficient of determination $r^2=0.999$ and a residual standard error of 0.015 g/cm$3$ (Fig.~\ref{fig:Db-D12}). We estimated a new conversion factor $\alpha_{12}=0.828$ based on the slope estimate of the linear regression. Thus, the basic wood density can be estimated from wood density at 12 \% moisture from Eq.~\ref{eq:Db-D12}.
+
+\begin{equation}
+  [D_b]_{\text{est}}=0.828 D_{12} 
+  \label{eq:Db-D12}
+\end{equation}
+
+With this new conversion factor, we were able to compute the basic wood density $D_b$ from $D_{12}$ for the 190 trees without values for $R$ or $S$. At the species level, when accounting for all the trees in the data-base, $D_b$ ranged from 0.191 to 1.105 g/cm$^3$ (Tab.~\ref{tab:Stat}).
+
+We also observed that $R$, $S$ and $D_{12}$ were not independant (Fig.~\ref{fig:Correlations}). Thus, it is not possible to directly estimate the conversion factor from the means of $R$ and $S$ on the basis of the formula we derived to link basic wood density to wood density at moisture content $w$ (Eq.~\ref{eq:Db-Dw-new}). Instead, the conversion factor estimated with the linear regression model must be used.
+
+The linear regression model linking $D_b$ and $D_{15}$ had a coefficient of determination $r^2=0.999$ and a residual standard error of 0.014 g/cm$3$. We estimated a conversion factor $\alpha_{15}=0.819$ between $D_{15}$ and $D_b$.
+
+\subsection{Comparison with the Global Wood Density Database}
+
+Out of the 872 species in the Cirad wood density database, we identified 260 species that have been measured by \citet{Sallenave1955,Sallenave1964,Sallenave1971} and for which one or more samples were already included in the GWDD. For these species, the Cirad database provides additional information compared to the GWDD, with values for $R$, $S$, and $D_{12}$. We also identified 411 species common to the two databases but for which measurements of $D_b$ were completely independant. For these species, the Cirad wood density database also provides $R$, $S$, and $D_{12}$ values. Finally, we identified 201 original species in the Cirad database which were not present in the GWDD. Both $R$ and $S$ were highly variable among species (Tab.~\ref{tab:Stat}). In particular, $S$ ranged from 17 to 41\% with a mean of 27.93\% and a standard deviation of 4.06\%.
+
+Using the independent measurements for the 411 common species in the two databases, we estimated a Pearson correlation coefficient of 86\% and a coefficient of variation of 13.69\% (Fig.\ref{fig:Cirad-GWDD-Db}). We also observed that, on average, $D_b$ values in the GWDD were 3.05\% higher compared to $D_b$ values in the Cirad database.
+
+\newpage
+
+\section{Discussion}
+
+\subsection{Relationship between $D_b$ and $D_{12}$}
+
+We found a new value of 0.828 for the conversion factor between the wood density at 12\% moisture and the basic wood density. This value is 5\% lower compared to the value of 0.872 used by \citet{Chave2006} and based on Sallenave's data and formula. To compare this value with the results obtained by \citet{Reyes1992}, we derived the expectation $\mathbb{E}(D_b/D_{12})$ from Reyes' formula $D_b = 0.0134 + 0.800 D_{12}$. We obtained $\mathbb{E}(D_b/D_{12}) = 0.0134 \times \mathbb{E}(1/D_{12}) + 0.800$. This led to an estimate of 0.821 for the conversion factor. This value is much closer to our value of 0.828 than the value of 0.872 \citep{Chave2006}. 
+
+Why was the conversion factor overestimated in \citet{Chave2006}? As calculations were based on the formula from \citet{Sallenave1971}, we decided to re-examine its derivation. When looking more closely at Sallenave's own example page 11 in \citet{Sallenave1971}, a discrepancy became apparent. For the African tree species \emph{Khaya ivorensis} (with $D_{12}=0.57$ g/cm$^3$, $d=0.0030$, $S=24\%$, $\nu=0.46$ and measured $D_b=0.483$ g/cm$^3$), Sallenave's formula (Eq.~\ref{eq:Sallenave1971}) led to an estimate of 0.506 g/cm$^3$ for the basic wood density. Our formula, on the other hand, gave an estimate of 0.484 g/cm$^3$ which is much closer to the measured basic wood density value of 0.483 g/cm$^3$. Given these findings, we suspected an error or approximation in Sallenave's formula.
+
+Based on the definition of the basic wood density $D_b=m_0/V_S$ and the definition of the parameters used by \citet{Sallenave1971}, we demonstrate that Sallenave's formula is true only if $V_0=V_{12}$ (Eq.~\ref{eq:Sallenave-corrected} and demonstration in Supp.~Info.~\ref{sm:Correction}). This, however, is a too strong assumption if we want to estimate an accurate conversion factor.
+
+\begin{equation}
+  D_b=\frac{V_0[D_{12} - 12 d]}{V_{12}[1+(\nu/100)(S-12)]}
+  \label{eq:Sallenave-corrected}
+\end{equation}
+
+We thus recommend the use of the new formula we derived in this study (Eq.~\ref{eq:Db-Dw-new}) to compute individual basic wood density $D_{b}$ from $D_{12}$, the wood density at 12\% moisture, when $R$ and $S$ are available. This formula is more appropriate than Sallenave's one. It does not only avoid making the strong assumption that $V_0=V_{12}$, but also needs only two parameters to compute $D_b$ compared to Sallenave's formula which also includes a third parameter, the ``hygroscopicity'' $d$. Moreover, the new formula, unlike Sallenave's one, implies $D_0=0$ when $D_{12}=0$, which is physically consistent. Finally, the new formula we derived in this study is more generic than Reyes' and Sallenave's original formula. It can be used, together with the data-set on wood properties we provide as supplementary data, to derive conversion factors between $D_b$ and density $D_w$ at any water content $w$ under the fibre saturation point $S$.
+
+We also demonstrate that our formula is more appropriate than Simpson's one. Assumptions used to derive Simpson's formula are not supported by our data. In the Cirad database, the fibre saturation point $S$ is highly variable between species and cannot be assumed constant at 30\%. We also estimated a coefficient of 0.201 for the relationship between $R_T/100$ and $D_b$, a value different from the coefficient of 0.265 suggested by \citet{Stamm1964}. We estimated a mean error (coefficient of variation of the root-mean-square-error) of 26\% for $R_T/100$ predictions, suggesting that $R_T/100$ cannot be precisely estimated from $D_b$ using a simple correlation coefficient (see also Fig.~\ref{fig:Correlations}). As a consequence, Simpson's formula leads to a large under-estimation of basic wood densities for $D_{12}>0.7$ g/cm$^3$ (Fig.~\ref{fig:Db-D12}).
+
+If only $D_{12}$ and no other measurement is available, we recommend the use of the value 0.828 for the conversion factor to compute the basic wood density $D_b$. We also recommend this value of 0.828 over the value of 0.821 obtained with Reyes' relationship. The conversion factor of 0.828 is based on a larger and more consistent database than the one used by \citet{Reyes1992}. Database used by Reyes combined density data at the species and genera level and included air-dry densities not stabilized at 12\% \citep{Chudnoff1984}. 
+
+\subsection{Additional value of the Cirad wood density database}
+
+Using the new formula we obtained in this study (Eq.~\ref{eq:Db-Dw-new}), the new estimated conversion factor 0.828, and the Cirad database, we estimated the basic wood density of 4022 trees belonging to 872 species (1010 taxa), 484 genus and 94 families. Compared with the Global Wood Density Database \citep{Zanne2009}, we provide basic wood density for 201 new tree species. Most of the 872 species come from 13 oceanic tropical islands or countries in tropical America, Africa and Asia. We underline that the Cirad database is of high quality with regard to the measurements taken by experienced staff and following a consistent standard (NF-B51). Thus, the uncertainty regarding basic wood-densities computed at the individual tree level is low, at about 0.01 g/cm$^3$.
+
+In the Cirad wood density database, in addition to wood densities, the fibre saturation point $S$ and the volumetric shrinkage coefficient $R$ are provided for each tree. The fibre saturation point $S$ is an essential wood characteristic that can be used, in combination with the fresh volume, the fresh mass and the dry mass, to estimate the volume of water for each of the three bulk phases (``solid'' or bound water, liquid and gas) in a tree \citep{Berry2005}. The volume of ``solid'' water is an essential plant functional trait as it determines wood strength and constraints on plant architecture \citep{Niklas1993}, as is the volume of liquid water which is the ultimate source of the biochemical activity in living plants \citep{Berry2005}.
+
+Tree wood characteristic values in the Cirad database are the average of $>$10 wood samples taken at various position in the trunk. Thus, wood characteristic values at the tree level integrate intra-individual variability (for example the difference in wood density values for the same tree which depends on the position in the trunk \citep{Bastin2015}). But because the Cirad database provides wood characteristics for individual trees, it can be used to compute both intra-specific and inter-specific trait variability. Intra-specific trait variability, due to genetic variability and phenotypic plasticity, participates in determining species fitness and community assemblages \citep{Courbaud2012, Albert2011, Roughgarden1979}. The Cirad database could also help quantify phylogenetic conservatism and divergences of wood densities in tree species \citep{Flores2011}.
+
+\subsection{Consequences of the new conversion factor value for ecological studies}
+
+This new value of 0.828 for the conversion factor has significant implications for the study of the role of forest in the global carbon cycle. The error on the conversion factor between wood density at 12\% moisture and basic wood density propagates to forest carbon stock. Combined with biomass allometric equations available in the litterature \citep{Chave2005, Chave2014, Vieilledent2012}, these wood density values have been used to compute forest carbon maps globally \citep{Saatchi2011, Baccini2012, Avitabile2016, Baccini2017}. About 60\% of the basic wood densities in the Global Wood Density Database have been estimated with an overestimated conversion factor. On the basis of 411 tree species, we showed that the GWDD overestimates wood densities by +3.05\% on average. It is hard to quantify precisely the consequences of this bias on forest carbon stock estimates as it depends on relative species abundance in the forest and relative tree size distribution between species. However, if dominant species (in terms of size and abundance) have an overestimated wood density, due to the use of an inaccurate conversion factor (0.872 or 0.861 in \citep{Chave2006, Chave2009} against 0.828 in our study), it can potentially lead to an overestimation of 4-5\% of the forest biomass and carbon stock. We are currently in the process of updating the GWDD and the present study provides a firm basis for this revision.
+
+This study will also provide a firmer basis for future ecological research on wood density as a functional trait. Indeed, wood density is often considered as a key tree functional trait determining species performance and fitness \citep{Chave2009, Baraloto2010, Kunstler2016, Diaz2016}. For example, \citet{Kunstler2016} have demonstrated that values of wood density explained the competition outcome between pairs of tree species at the global scale. Using a wood density database with unbiased values of basic wood densities would allow to properly estimate species difference with regards to this trait and predict better the dynamics of tree species community.
+
+\newpage
+
+\section{Acknowledgements}
+
+Authors warmely thank all the researchers, technicians and students who have intensively and accurately measured wood properties of thousands of trees and hundreds of species from the tropical forests at the \emph{``Centre Technique Forestier Tropical''} and Cirad since the 1950s. They thank in particular Pierre Sallenave who made a considerable contribution to research in describing protocols and compiling data on wood properties in his three volumes \citep{Sallenave1955, Sallenave1964, Sallenave1971}. GV was funded by Cirad and through the European Commission ReCaREDD project at the Joint Research Center. This work has benefitted from \emph{``Investissement d'Avenir''} grants managed by Agence Nationale de la Recherche (CEBA: ANR-10-LABX-25-01; TULIP: ANR-10-LABX-0041).
+
+\section{Authors' contribution}
+
+GV, FF, JC, and JG conceived the ideas and designed methodology; DG, PL, and JG collected the data; GV and FF analysed the data; GV led the writing of the manuscript. All authors contributed critically to the drafts and gave final approval for publication.
+
+\section{Data accessibility}
+
+Data (including the Cirad wood density database) and R script associated to the present study will be archived on the Cirad Dataverse research data repository (\url{https://dataverse.cirad.fr}).
+
+%%in a GitHub repository at \url{https://github.com/ghislainv/wood-density-Cirad} and archived on Zenodo at \url{https://doi.org/10.5281/zenodo.1095453} \citep{Vieilledent2017-CWDD}.
+
+\newpage
+\singlespacing
+
+%\printbibliography
+\bibliographystyle{bib/mee}
+\bibliography{bib/biblio}
+
+\newpage
+
+\section{Tables}
+
+% \vfill
+% \vspace*{\stretch{1}}
+% \begin{table}[!h]
+%   \begin{longtable}{@{}lr@{}} 
+%     \toprule
+%     Category & $n$ \\
+%     \midrule
+%     Family & 103 \\ 
+%     Genus & 495 \\
+%     Taxa & 1042 \\
+%     Species & 885 \\
+%     Individual & 4022 \\
+%     \bottomrule\\
+%   \end{longtable}
+%   \addtocounter{table}{-1}
+
+%   \caption{\textbf{Number of observations by taxonomic level in the Cirad wood density database.}}
+
+%   \label{tab:Obs}
+% \end{table}
+% \vspace*{\stretch{1}}
+% \vfill
+
+% \newpage
+
+\vfill
+  \begin{longtable}{@{}lr@{}} 
+    \caption{\textbf{Countries with the highest number of tree species ($>$20) in the
+      Cirad wood density database.} The dataset includes values from 63 countries but the major
+    part of the measurements of wood physical and mechanical properties has been done in tropical
+    countries in South America, Africa and tropical Oceanic islands.}\label{tab:Countries}\\
+    \toprule
+    Country & $n$ species \\
+    \midrule
+    \textbf{South America} & ~ \\ 
+    Brazil & 108 \\
+    French Guiana & 168 \\
+    \textbf{Africa} & ~ \\
+    Burundi & 29 \\
+    Cameroon & 83 \\
+    Central African Republic & 27 \\
+    Côte d'Ivoire & 117 \\
+    Democratic Republic of the Congo & 60 \\
+    Gabon & 105 \\
+    Guinea & 20 \\
+    \textbf{Asia} & ~ \\
+    Viet Nam & 20 \\
+    \textbf{Oceanic islands} & ~ \\
+    Guadeloupe & 43 \\
+    Madagascar & 94 \\
+    New Caledonia & 87 \\
+    \bottomrule\\
+  \end{longtable}
+\vfill
+
+\newpage
+
+\vspace*{\stretch{1}}
+  \begin{longtable}{@{}lrrrrrr@{}} 
+    \caption{\textbf{Descriptive statistics at the species level (872 species) for the
+      wood physical and mechanical properties in the Cirad database.}}\label{tab:Stat}\\
+    \toprule
+    Variable & min & max & mean & median & sd & 95\% quantiles \\
+    \midrule
+    $R$ (\%/\%) & 0.190 & 0.810 & 0.461 & 0.456 & 0.098 & 0.292--0.660 \\
+    $S$ (\%) & 17 & 41 & 27.93 & 28.00 & 4.06 & 20.18--36.00 \\
+    $D_{12}$ (g/cm$^3$) & 0.228 & 1.290 & 0.736 & 0.720 & 0.194 & 0.396--1.107 \\
+    $D_b$ (g/cm$^3$) &  0.191 & 1.105 & 0.608 & 0.600 & 0.157 & 0.331--0.916 \\
+    \bottomrule\\
+  \end{longtable}
+\vspace*{\stretch{1}}
+
+\newpage
+
+\section{Figures}
+
+\vfill
+\begin{figure}[!ht] 
+    \begin{center} 
+      \includegraphics[width=\textwidth]{figs/Location.pdf}
+
+      \caption{\textbf{Number of tree species by country in the Cirad wood density
+          database}.}
+
+      \label{fig:Location}
+    \end{center}
+\end{figure}
+\vfill
+
+\newpage
+
+\vspace*{\stretch{1}}
+\begin{figure}[!ht] 
+    \begin{center} 
+
+      \includegraphics[width=12cm]{figs/Db-D12.pdf}
+
+      \caption{\textbf{Relationship between basic wood density ($D_b$ oven dry mass/green
+        volume, in g/cm$^3$) and wood density at 12\% moisture ($D_{12}$).} Grey dots
+        represent the 3832 trees from the Cirad database for which $D_{12}$, $R$
+        and $S$ have been measured and $D_b$ computed with our new formula. The grey dashed line represents the identity
+        line. Based on $D_{12}$ and $D_b$ values, we estimated the following relationship (plain large black line): $D_b=0.828 D_{12}$ ($n=3832$,
+        $r^2=0.999$). Using Sallenave's data and formula, \citet{Chave2006} estimated a significantly
+        different conversion factor of 0.872 (plain thin black line). We also plotted Simpson's (dashed black curve) and Reyes' relationships (dotted black line).}
+
+      \label{fig:Db-D12}
+    \end{center}
+\end{figure}
+\vspace*{\stretch{1}}
+
+\newpage
+
+\vspace*{\stretch{1}}
+\begin{figure}[!ht] 
+    \begin{center} 
+
+      \includegraphics[width=12cm]{figs/Correlation.pdf}
+
+      \caption{\textbf{Correlation between variables describing wood properties.} This figure shows the correlation between the volumetric shrinkage coefficient $R$, the fibre saturation point $S$, and the wood density at 12\% moisture $D_{12}$. In the lower-left panels, numbers indicate the absolute value of the Pearson's correlation coefficient for each pair of variables. In the upper-right panels, figures show the scatter-plot for each pair of variables with a non-parametric smoother in red.}
+
+      \label{fig:Correlations}
+    \end{center}
+\end{figure}
+\vspace*{\stretch{1}}
+
+\newpage
+
+\vspace*{\stretch{1}}
+\begin{figure}[!ht] 
+  \begin{center} 
+
+    \includegraphics[width=12cm]{figs/Cirad-GWDD-Db.pdf}
+
+    \caption{\textbf{Relationship between basic wood density ($D_b$ oven dry mass/green
+        volume, in g/cm$^3$) from Cirad and GWDD databases for 411 species.} The black
+      line represents the identity line. Grey dots represent species mean basic wood
+      densities from Cirad and GWDD databases. These 411 species are common to the two
+      databases but wood samples and measurement protocols differ in each
+      database. Comparing the two databases, we obtained a Pearson correlation coefficient
+      of 86\% and a coefficient of variation of 13.69\%. We also observed that, on average,
+      $D_b$ values in the GWDD were higher by 3.05\% compared with $D_b$ values
+      in the Cirad database.}
+    
+    \label{fig:Cirad-GWDD-Db}
+  \end{center}
+\end{figure}
+\vspace*{\stretch{1}}
+
+\newpage
+
+\section{Supporting Information}
+
+\setcounter{table}{0}
+\renewcommand{\tablename}{Supporting Information}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theHtable}{SuppInfo.\thetable}
+
+% \setcounter{figure}{0}
+% %\renewcommand{\figurename}{Appendix}
+% \renewcommand{\thefigure}{A\arabic{figure}}
+% \renewcommand{\captionlabeldelim}{:}
+
+\begin{longtable}{@{}lL{8cm}r@{}}
+  \caption{\textbf{Definition and unit of wood physical and mechanical properties.}}\label{sm:Definitions}\\
+  \toprule
+  Notation & Definition & Unit \\
+  \midrule
+  $w$ & water content or moisture \newline $w=100 (m_w-m_0)/m_0$ & \% of the dry mass \\
+  $m_w$ & mass at moisture $=w$ & g \\
+  $m_0$ & anhydrous mass or ``oven dry mass'' & g \\
+  $S$ & fibre saturation point (water content above which the wood volume does not
+  increase) & \% \\
+  $V_w$ & volume at moisture $=w$ & cm$^3$ \\
+  $V_S$ & volume at $w=S$ or ``green volume'' & cm$^3$ \\
+  $D_b$ & basic wood density ($m_0/V_S$) or ``wood specific gravity'' & g/cm$^3$ \\
+  $D_{12}$ & wood density at 12\% moisture ($m_{12}/V_{12}$) & g/cm$^3$ \\
+  $D_{15}$ & wood density at 15\% moisture ($m_{15}/V_{15}$) & g/cm$^3$ \\
+  $D_0$ & anhydrous wood density ($m_0/V_0$) & g/cm$^3$ \\
+  $R$ & volumetric shrinkage coefficient (variation in volume
+  per 1\% change in water content) \newline $R=100 (V_S-V_0) / (V_S S)$ & \%/\% \\
+  \bottomrule\\
+\end{longtable}
+
+\newpage
+
+\begin{longtable}{@{}L{\textwidth}@{}}
+  \caption{\textbf{Correcting Sallenave formula.}}\label{sm:Correction}\\
+  \textbf{Step 1: Computing the anhydrous mass $m_0$}\\
+  Using $d$ the density conversion factor per 1\% change in moisture content defined by \citet{Sallenave1955},
+  we compute $D_0$, the anhydrous density: $D_0=D_{12}-12d$.
+  Because $D_0=m_0/V_0$, we obtain $m_0=V_0 (D_{12}-12d)$ (Eq.~A5).\\
+  ~\\
+  \textbf{Step 2: Computing the saturated volume $V_S$}\\
+  \citet{Sallenave1955} defined $\nu$ as the volumetric shrinkage coefficient (in \%/\%) using $V_0$
+  as the reference volume: $\nu=100(V_S-V_{12})/(V_0 (S-12))$.
+  We use this definition to derive $V_S=V_{12}(1+(\nu/100)(S-12))$ (Eq.~A6)\\
+  ~\\
+  \textbf{Step 3: Computing the basic wood density $D_b$}\\
+  Basic wood density $D_b$ is defined as $D_b=m_0/V_S$. Using Eq.~A5 and Eq.~A6, $D_b$ can
+  be written $D_b=(V_0/V_{12})(D_{12}-12d)/(1+(\nu/100)(S-12))$.
+  This demonstrates that Sallenave's formula is true only if $V_0=V_{12}$.\\
+\end{longtable}
+
+\end{document}

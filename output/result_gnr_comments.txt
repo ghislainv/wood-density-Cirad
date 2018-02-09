@@ -1,0 +1,1028 @@
+submitted_name	matched_name2	score	implement	alternative	duplicate
+Abarema jupunba	Abarema jupunba	0.988	0		
+Abies alba	Abies alba	0.988	0		
+Acacia elata	Acacia elata	0.988	0		
+Acacia heterophylla	Acacia heterophylla	0.988	0		
+Acacia mangium	Acacia mangium	0.988	0		
+Acacia shirleyi	Acacia shirleyi	0.988	0		
+Afzelia africana	Afzelia africana	0.988	0		
+Afzelia bella	Afzelia bella	0.988	0		
+Afzelia bipindensis	Afzelia bipindensis	0.988	0		
+Afzelia pachyloba	Afzelia pachyloba	0.988	0		
+Agathis dammara	Agathis dammara	0.988	0		
+Agathis lanceolata	Agathis lanceolata	0.988	0		
+Agathis moorei	Agathis moorei	0.988	0		
+Agathis obtusa	Agathis obtusa	0.988	0		
+Albizia adianthifolia	Albizia adianthifolia	0.988	0		
+Albizia ferruginea	Albizia ferruginea	0.988	0		
+Albizia lebbeck	Albizia lebbeck	0.988	0		
+Albizia sassa	Albizia sassa	0.988	0		
+Albizia	Albizia	0.75	0		
+Albizia zygia	Albizia zygia	0.988	0		
+Aldina heterophylla	Aldina heterophylla	0.988	0		
+Aleurites moluccana	Aleurites moluccana	0.988	0		
+Alexa grandiflora	Alexa grandiflora	0.988	0		
+Allanblackia floribunda	Allanblackia floribunda	0.988	0		
+Allanblackia stanereana	Allanblackia stanerana	0.75	0		TRUE
+Allanblackia stanereana	Allanblackia staneriana	0.75	1		
+Alluaudia procera	Alluaudia procera	0.988	0		
+Alphitonia neo-caledonica	Alphitonia neocaledonica	0.75	1		
+Alstonia boonei	Alstonia boonei	0.988	0		
+Amanoa caribaea	Amanoa caribaea	0.988	0		
+Amburana cearensis	Amburana cearensis	0.988	0		
+Ampelocera edentula	Ampelocera edentula	0.988	0		
+Amphimas pterocarpoides	Amphimas pterocarpoides	0.988	0		
+Amphimas	Amphimas	0.75	0		
+Anacardium giganteum	Anacardium giganteum	0.988	0		
+Andira coriacea	Andira coriacea	0.988	0		
+Andira inermis	Andira inermis	0.988	0		
+Andira parviflora	Andira parviflora	0.988	0		
+Andira	Andira	0.75	0		
+Androstachys viticoides	Androstachys viticoides	0.988	0		
+Aniba amazonica	Aniba amazonica	0.988	0		
+Aniba burchellii	Aniba burchellii	0.988	0		
+Aniba canelilla	Aniba canelilla	0.988	0		
+Aniba melinonii	Aniba	0.75	0		
+Aniba parviflora	Aniba parviflora	0.988	0		
+Aningeria altissima	Aningeria altissima	0.988	0		
+Aningeria robusta	Aningeria robusta	0.988	0		
+Aningeria superba	Aningeria superba	0.988	0		
+Anisoptera costata	Anisoptera costata	0.988	0		
+Anisoptera laevis	Anisoptera laevis	0.988	0		
+Anisoptera thurifera	Anisoptera thurifera	0.988	0		
+Anonidium mannii	Anonidium mannii	0.988	0		
+Anopyxis klaineana	Anopyxis klaineana	0.988	0		
+Anthocarapa nitidula	Anthocarapa nitidula	0.988	0		
+Anthocleista nobilis	Anthocleista nobilis	0.988	0		
+Anthocleista	Anthocleista	0.75	0		
+Anthonotha fragrans	Anthonotha fragrans	0.988	0		
+Anthostema madagascariense	Anthostema madagascariense	0.988	0		
+Antiaris toxicaria	Antiaris toxicaria	0.988	0		
+Antonia ovata	Antonia ovata	0.988	0		
+Antrocaryon klaineanum	Antrocaryon klaineanum	0.988	0		
+Antrocaryon micraster	Antrocaryon micraster	0.988	0		
+Apeiba membranacea	Apeiba membranacea	0.988	0		
+Apodocephala pauciflora	Apodocephala pauciflora	0.988	0		
+Apodytes clusiifolia	Apodytes clusiifolia	0.988	0		
+Apuleia leiocarpa	Apuleia leiocarpa	0.988	0		
+Araucaria angustifolia	Araucaria angustifolia	0.988	0		
+Araucaria columnaris	Araucaria columnaris	0.988	0		
+Araucaria luxurians	Araucaria luxurians	0.988	0		
+Araucaria subulata	Araucaria subulata	0.988	0		
+Archidendropsis granulosa	Archidendropsis granulosa	0.988	0		
+Arillastrum gummiferum	Arillastrum gummiferum	0.988	0		
+Artocarpus altilis	Artocarpus altilis	0.988	0		
+Arytera collina	Arytera	0.75	0		
+Aspidosperma album	Aspidosperma album	0.988	0		
+Aspidosperma cylindrocarpum	Aspidosperma cylindrocarpum	0.988	0		
+Aspidosperma obscurinervium	Aspidosperma obscurinervium	0.988	0		
+Aspidosperma sandwithianum	Aspidosperma sandwithianum	0.988	0		
+Aspidosperma	Aspidosperma	0.75	0		
+Aspidostemon louvelii	Aspidostemon	0.75	0	Cryptocarya louvelii	
+Asteropeia rhopaloides	Asteropeia rhopaloides	0.988	0		
+Asteropeia	Asteropeia	0.75	0		
+Astronium lecointei	Astronium lecointei	0.988	0		
+Astrotrichilia thouvenotii	Astrotrichilia thouvenotii	0.988	0		
+Aucoumea klaineana	Aucoumea klaineana	0.988	0		
+Autranella congolensis	Autranella congolensis	0.988	0		
+Avicennia germinans	Avicennia germinans	0.988	0		
+Bagassa guianensis	Bagassa guianensis	0.988	0		
+Baillonella toxisperma	Baillonella toxisperma	0.988	0		
+Balfourodendron riedelianum	Balfourodendron riedelianum	0.988	0		
+Balizia pedicellaris	Balizia pedicellaris	0.988	0		
+Beilschmiedia corbisieri	Beilschmiedia corbisieri	0.988	0		
+Beilschmiedia diversiflora	Beilschmiedia diversiflora	0.988	0		
+Beilschmiedia letouzei	Beilschmiedia letouzeyi	0.75	1		
+Beilschmiedia nitida	Beilschmiedia nitida	0.988	0		
+Beilschmiedia	Beilschmiedia	0.75	0		
+Beilschmiedia velutina	Beilschmiedia velutina	0.988	0		
+Berlinia bracteosa	Berlinia bracteosa	0.988	0		
+Berlinia confusa	Berlinia confusa	0.988	0		
+Berlinia grandiflora	Berlinia grandiflora	0.988	0		
+Berlinia	Berlinia	0.75	0		
+Berlinia viridicans	Berlinia viridicans	0.988	0		
+Bertholletia excelsa	Bertholletia excelsa	0.988	0		
+Bikinia grisea	Bikinia grisea	0.988	0		
+Bixa arborea	Bixa arborea	0.988	0		
+Blighia sapida	Blighia sapida	0.988	0		
+Blighia welwitschii	Blighia welwitschii	0.988	0		
+Bocoa prouacensis	Bocoa prouacensis	0.988	0		
+Bombacopsis nervosa	Bombacopsis nervosa	0.988	0		
+Bombax costatum	Bombax costatum	0.988	0		
+Bombax	Bombax	0.75	0		
+Borassus aethiopum	Borassus aethiopum	0.988	0		
+Brachylaena ramiflora	Brachylaena ramiflora	0.988	0		
+Brachystegia cynometroides	Brachystegia cynometroides	0.988	0		
+Brachystegia laurentii	Brachystegia laurentii	0.988	0		
+Brachystegia leonensis	Brachystegia leonensis	0.988	0		
+Brachystegia mildbraedii	Brachystegia mildbraedii	0.988	0		
+Brachystegia	Brachystegia	0.75	0		
+Breonia decidua	Breonia	0.75	1		
+Breonia keliravina	Breonia keliravina	0.988	0		
+Breonia macrocarpa	Breonia macrocarpa	0.988	0		
+Breonia perrieri	Breonia perrieri	0.988	0		
+Breonia	Breonia	0.75	0		
+Breviea leptosperma	Breviea leptosperma	0.988	0		
+Bridelia grandis	Bridelia grandis	0.988	0		
+Bridelia stenocarpa	Bridelia stenocarpa	0.988	0		
+Bridelia tulasneana	Bridelia tulasneana	0.988	0		
+Brosimum parinarioides	Brosimum parinarioides	0.988	0		
+Brosimum potabile	Brosimum potabile	0.988	0		
+Brosimum rubescens	Brosimum rubescens	0.988	0		
+Brosimum utile	Brosimum utile	0.988	0		
+Broussonetia greveana	Broussonetia greveana	0.988	0		
+Buchenavia oxycarpa	Buchenavia oxycarpa	0.988	0		
+Bureavella wakere	Bureavella wakere	0.988	0		
+Byrsonima spicata	Byrsonima spicata	0.988	0		
+Cabralea cangerana	Cabralea cangerana	0.988	0		
+Callitris endlicheri	Callitris endlicheri	0.988	0		
+Callitris glauca	Callitris glauca	0.988	0		
+Callitris robusta	Callitris robusta	0.988	0		
+Callitris	Callitris	0.75	0		
+Calophyllum angulare	Calophyllum angulare	0.988	0		
+Calophyllum brasiliense	Calophyllum brasiliense	0.988	0		
+Calophyllum calaba	Calophyllum calaba	0.988	0		
+Calophyllum caledonicum	Calophyllum caledonicum	0.988	0		
+Calophyllum drouhardii	Calophyllum drouhardii	0.988	0		
+Calophyllum ferrugineum	Calophyllum ferrugineum	0.988	0		
+Calophyllum inophyllum	Calophyllum inophyllum	0.988	0		
+Calophyllum milvum	Calophyllum milvum	0.988	0		
+Calophyllum montanum	Calophyllum montanum	0.988	0		
+Calophyllum neo-ebudicum	Calophyllum neo-ebudicum	0.988	0		
+Calophyllum	Calophyllum	0.75	0		
+Calpocalyx heitzii	Calpocalyx heitzii	0.988	0		
+Calpocalyx	Calpocalyx	0.75	0		
+Calycophyllum	Calycophyllum	0.75	0		
+Canarium madagascariense	Canarium madagascariense	0.988	0		
+Canarium oleiferum	Canarium oleiferum	0.988	0		
+Canarium	Canarium	0.75	0		
+Canarium velutinum	Canarium velutinum	0.988	0		
+Canthium	Canthium	0.75	0		
+Caraipa densifolia	Caraipa densifolia	0.988	0		
+Carapa guianensis	Carapa guianensis	0.988	0		
+Carapa procera	Carapa procera	0.988	0		
+Carapa	Carapa	0.75	0		
+Cariniana integrifolia	Cariniana integrifolia	0.988	0		
+Cariniana pyriformis	Cariniana pyriformis	0.988	0		
+Carpinus betulus	Carpinus betulus	0.988	0		
+Carpolepis laurifolia	Carpolepis laurifolia	0.988	0		
+Carpolepis tardiflora	Carpolepis tardiflora	0.988	0		
+Carya	Carya	0.75	0		
+Caryocar glabrum	Caryocar glabrum	0.988	0		
+Caryocar microcarpum	Caryocar microcarpum	0.988	0		
+Caryocar	Caryocar	0.75	0		
+Caryocar villosum	Caryocar villosum	0.988	0		
+Cassipourea guianensis	Cassipourea guianensis	0.988	0		
+Castanopsis acuminatissima	Castanopsis acuminatissima	0.988	0		
+Castanospermum australe	Castanospermum australe	0.988	0		
+Casuarina collina	Casuarina collina	0.988	0		
+Casuarina equisetifolia	Casuarina equisetifolia	0.988	0		
+Casuarina glauca	Casuarina glauca	0.988	0		
+Cathormion altissimum	Cathormion altissimum	0.988	0		
+Cathormion dinklagei	Cathormion dinklagei	0.988	0		
+Catostemma albuquerquei	Catostemma albuquerquei	0.988	0		
+Catostemma fragrans	Catostemma fragrans	0.988	0		
+Cecropia sciadophylla	Cecropia sciadophylla	0.988	0		
+Cedrela fissilis	Cedrela fissilis	0.988	0		
+Cedrela odorata	Cedrela odorata	0.988	0		
+Cedrela	Cedrela	0.75	0		
+Cedrelinga catenaeformis	Cedrelinga catenaeformis	0.988	0		
+Cedrus libani	Cedrus libani	0.988	0		
+Ceiba pentandra	Ceiba pentandra	0.988	0		
+Celtis adolfi-friderici	Celtis adolfi-friderici	0.988	0		
+Celtis mildbraedii	Celtis mildbraedii	0.988	0		
+Celtis	Celtis	0.75	0		
+Celtis tessmannii	Celtis tessmannii	0.988	0		
+Celtis zenkeri	Celtis zenkeri	0.988	0		
+Cerberiopsis candelabrum	Cerberiopsis candelabra	0.75	1		
+Chaetocarpus schomburgkianus	Chaetocarpus schomburgkianus	0.988	0		
+Chamaecyparis nootkatensis	Chamaecyparis nootkatensis	0.988	0		
+Chimarrhis cymosa	Chimarrhis cymosa	0.988	0		
+Chlorocardium rodiaei	Chlorocardium rodiei	0.75	1		
+Chloroxylon faho	Chloroxylon faho	0.988	0		
+Chrysophyllum lucentifolium	Chrysophyllum lucentifolium	0.988	0		
+Chrysophyllum pomiferum	Chrysophyllum pomiferum	0.988	0		
+Chrysophyllum prieurii	Chrysophyllum prieurii	0.988	0		
+Chrysophyllum sanguinolentum	Chrysophyllum sanguinolentum	0.988	0		
+Cinnamomum camphora	Cinnamomum camphora	0.988	0		
+Cinnamomum tetragonum	Cinnamomum tetragonum	0.988	0		
+Citronella sarmentosa	Citronella sarmentosa	0.988	0		
+Clarisia racemosa	Clarisia racemosa	0.988	0		
+Cleistopholis glauca	Cleistopholis glauca	0.988	0		
+Cocos nucifera	Cocos nucifera	0.988	0		
+Cocos	Cocos	0.75	0		
+Codia	Codia	0.75	0		
+Coelocaryon preussii	Coelocaryon preussii	0.988	0		
+Colubrina faralaotra	Colubrina faralaotra	0.988	0		
+Commiphora barorum	Commiphora	0.75	0		
+Commiphora pterocarpa	Commiphora pterocarpa	0.988	0		
+Commiphora	Commiphora	0.75	0		
+Copaifera duckei	Copaifera duckei	0.988	0		
+Copaifera guianensis	Copaifera guyanensis	0.75	1		
+Copaifera mildbraedii	Copaifera mildbraedii	0.988	0		
+Copaifera multijuga	Copaifera multijuga	0.988	0		
+Copaifera religiosa	Copaifera religiosa	0.988	0		
+Copaifera salikounda	Copaifera salikounda	0.988	0		
+Copaifera	Copaifera	0.75	0		
+Cordia alliodora	Cordia alliodora	0.988	0		
+Cordia collococca	Cordia collococca	0.988	0		
+Cordia goeldiana	Cordia goeldiana	0.988	0		
+Cordia platythyrsa	Cordia platythyrsa	0.988	0		
+Cordia trichotoma	Cordia trichotoma	0.988	0		
+Cordyla pinnata	Cordyla pinnata	0.988	0		
+Corynanthe pachyceras	Corynanthe pachyceras	0.988	0		
+Corythophora rimosa	Corythophora rimosa	0.988	0		
+Couepia guianensis	Couepia guianensis	0.988	0		
+Coula edulis	Coula edulis	0.988	0		
+Couma guianensis	Couma guianensis	0.988	0		
+Couratari guianensis	Couratari guianensis	0.988	0		
+Couratari multiflora	Couratari multiflora	0.988	0		
+Couratari oblongifolia	Couratari oblongifolia	0.988	0		
+Couratari	Couratari	0.75	0		
+Couratari stellata	Couratari stellata	0.988	0		
+Couroupita	Couroupita	0.75	0		
+Couroupita subsessilis	Couroupita subsessilis	0.988	0		
+Couthovia neo-caledonica	Couthovia novocaledonica	0.75	1		
+Craspidospermum verticillatum	Craspidospermum verticillatum	0.988	0		
+Cratoxylon	Cratoxylon	0.75	0		
+Crescentia cujete	Crescentia cujete	0.988	0		
+Crossostylis grandiflora	Crossostylis grandiflora	0.988	0		
+Crossostylis multiflora	Crossostylis multiflora	0.988	0		
+Croton oligandrus	Croton oligandrus	0.988	0		
+Croton tchibangensis	Croton tchibangensis	0.988	0		
+Crudia chrysantha	Crudia chrysantha	0.988	0		
+Cryptocarya aristata	Cryptocarya aristata	0.988	0		
+Cryptocarya elliptica	Cryptocarya elliptica	0.988	0		
+Cryptocarya leptospermoides	Cryptocarya leptospermoides	0.988	0		
+Cryptocarya macrocarpa	Cryptocarya macrocarpa	0.988	0		
+Cryptocarya odorata	Cryptocarya odorata	0.988	0		
+Cryptocarya	Cryptocarya	0.75	0		
+Cryptocarya thouvenotii	Cryptocarya thouvenotii	0.988	0		
+Cryptomeria japonica	Cryptomeria japonica	0.988	0		
+Cryptosepalum staudtii	Cryptosepalum staudtii	0.988	0		
+Ctenolophon englerianus	Ctenolophon englerianus	0.988	0		
+Cunonia austrocaledonica	Cunonia austrocaledonica	0.988	0		
+Cunonia linearisepala	Cunonia linearisepala	0.988	0		
+Cupaniopsis apiocarpa	Cupaniopsis apiocarpa	0.988	0		
+Cupressus lusitanica	Cupressus lusitanica	0.988	0		
+Cylicodiscus gabunensis	Cylicodiscus gabunensis	0.988	0		
+Cynometra ananta	Cynometra ananta	0.988	0		
+Cynometra hankei	Cynometra hankei	0.988	0		
+Dacrycarpus imbricatus	Dacrycarpus imbricatus	0.988	0		
+Dacrydium balansae	Dacrydium balansae	0.988	0		
+Dacryodes buettneri	Dacryodes buettneri	0.988	0		
+Dacryodes excelsa	Dacryodes excelsa	0.988	0		
+Dacryodes heterotricha	Dacryodes heterotricha	0.988	0		
+Dacryodes igaganga	Dacryodes igaganga	0.988	0		
+Dacryodes klaineana	Dacryodes klaineana	0.988	0		
+Dacryodes macrophylla	Dacryodes macrophylla	0.988	0		
+Dacryodes normandii	Dacryodes normandii	0.988	0		
+Dacryodes pubescens	Dacryodes pubescens	0.988	0		
+Dacryodes	Dacryodes	0.75	0		
+Dalbergia baronii	Dalbergia baronii	0.988	0		
+Dalbergia melanoxylon	Dalbergia melanoxylon	0.988	0		
+Dalbergia monticola	Dalbergia monticola	0.988	0		
+Dalbergia	Dalbergia	0.75	0		
+Dalbergia spruceana	Dalbergia spruceana	0.988	0		
+Daniellia klainei	Daniellia klainei	0.988	0		
+Daniellia ogea	Daniellia ogea	0.988	0		
+Daniellia oliveri	Daniellia oliveri	0.988	0		
+Daniellia soyauxii	Daniellia soyauxii	0.988	0		
+Daniellia	Daniellia	0.75	0		
+Daniellia thurifera	Daniellia thurifera	0.988	0		
+Dendrobangia boliviana	Dendrobangia boliviana	0.988	0		
+Desbordesia glaucescens	Desbordesia glaucescens	0.988	0		
+Detarium macrocarpum	Detarium macrocarpum	0.988	0		
+Detarium senegalense	Detarium senegalense	0.988	0		
+Dialium aubrevillei	Dialium aubrevillei	0.988	0		
+Dialium bipindense	Dialium bipindense	0.988	0		
+Dialium cochinchinense	Dialium cochinchinense	0.988	0		
+Dialium dinklagei	Dialium dinklagei	0.988	0		
+Dialium indum	Dialium indum	0.988	0		
+Dialium pachyphyllum	Dialium pachyphyllum	0.988	0		
+Dialium	Dialium	0.75	0		
+Dicorynia guianensis	Dicorynia guianensis	0.988	0		
+Didelotia brevipaniculata	Didelotia brevipaniculata	0.988	0		
+Didelotia idae	Didelotia idae	0.988	0		
+Didelotia letouzeyi	Didelotia letouzeyi	0.988	0		
+Dilobeia tenuinervis	Dilobeia tenuinervis	0.988	0		
+Dilobeia thouarsii	Dilobeia thouarsii	0.988	0		
+Dimorphandra polyandra	Dimorphandra polyandra	0.988	0		
+Dinizia excelsa	Dinizia excelsa	0.988	0		
+Diogoa zenkeri	Diogoa zenkeri	0.988	0		
+Diospyros mespiliformis	Diospyros mespiliformis	0.988	0		
+Diospyros revoluta	Diospyros revoluta	0.988	0		
+Diospyros sanza-minika	Diospyros sanza-minika	0.988	0		
+Diplotropis purpurea	Diplotropis purpurea	0.988	0		
+Dipterocarpus alatus	Dipterocarpus alatus	0.988	0		
+Dipterocarpus costatus	Dipterocarpus costatus	0.988	0		
+Dipterocarpus grandiflorus	Dipterocarpus grandiflorus	0.988	0		
+Dipterocarpus obtusifolius	Dipterocarpus obtusifolius	0.988	0		
+Dipterocarpus	Dipterocarpus	0.75	0		
+Dipteryx odorata	Dipteryx odorata	0.988	0		
+Dipteryx polyphylla	Dipteryx polyphylla	0.988	0		
+Dipteryx punctata	Dipteryx punctata	0.988	0		
+Discoglypremna caloneura	Discoglypremna caloneura	0.988	0		
+Distemonanthus benthamianus	Distemonanthus benthamianus	0.988	0		
+Dryobalanops	Dryobalanops	0.75	0		
+Dryobalanops sumatrensis	Dryobalanops sumatrensis	0.988	0		
+Drypetes gossweileri	Drypetes gossweileri	0.988	0		
+Drypetes variabilis	Drypetes variabilis	0.988	0		
+Duabanga moluccana	Duabanga moluccana	0.988	0		
+Dysoxylum loureiri	Dysoxylum loureirii	0.75	1		
+Dysoxylum loureiri	Dysoxylum loureiroi	0.75	0		TRUE
+Dysoxylum macranthum	Dysoxylum macranthum	0.988	0		
+Dysoxylum rufescens	Dysoxylum rufescens	0.988	0		
+Dysoxylum	Dysoxylum	0.75	0		
+Dysoxylum translucidum	Dysoxylum translucidum	0.988	0		
+Elaeocarpus angustifolius	Elaeocarpus angustifolius	0.988	0		
+Elaeocarpus comptoni	Elaeocarpus comptonii	0.75	1		
+Elaeocarpus speciosus	Elaeocarpus speciosus	0.988	0		
+Elaeodendron	Elaeodendron	0.75	0		
+Enantia chlorantha	Enantia chlorantha	0.988	0		
+Endlicheria	Endlicheria	0.75	0		
+Endodesmia calophylloides	Endodesmia calophylloides	0.988	0		
+Engelhardtia roxburghiana	Engelhardtia roxburghiana	0.988	0		
+Entandrophragma angolense	Entandrophragma angolense	0.988	0		
+Entandrophragma candollei	Entandrophragma candollei	0.988	0		
+Entandrophragma congoense	Entandrophragma congoense	0.988	0		
+Entandrophragma cylindricum	Entandrophragma cylindricum	0.988	0		
+Entandrophragma excelsum	Entandrophragma excelsum	0.988	0		
+Entandrophragma utile	Entandrophragma utile	0.988	0		
+Enterolobium contortisiliquum	Enterolobium contortisiliquum	0.988	0		
+Enterolobium oldemannii	Enterolobium oldemannii	0.988	0		
+Enterolobium schomburgkii	Enterolobium schomburgkii	0.988	0		
+Eperua falcata	Eperua falcata	0.988	0		
+Eperua grandiflora	Eperua grandiflora	0.988	0		
+Eperua rubiginosa	Eperua rubiginosa	0.988	0		
+Eperua	Eperua	0.75	0		
+Eribroma oblonga	Eribroma oblonga	0.988	0		
+Eriotheca crassa	Eriotheca crassa	0.988	0		
+Eriotheca globosa	Eriotheca globosa	0.988	0		
+Eriotheca	Eriotheca	0.75	0		
+Erisma	Erisma	0.75	0		
+Erisma uncinatum	Erisma uncinatum	0.988	0		
+Erismadelphus exsul	Erismadelphus exsul	0.988	0		
+Erythrina	Erythrina	0.75	0		
+Erythrina vogelii	Erythrina vogelii	0.988	0		
+Erythrophleum chlorostachys	Erythrophleum chlorostachys	0.988	0		
+Erythrophleum fordii	Erythrophleum fordii	0.988	0		
+Erythrophleum ivorense	Erythrophleum ivorense	0.988	0		
+Erythrophleum	Erythrophleum	0.75	0		
+Erythrophleum suaveolens	Erythrophleum suaveolens	0.988	0		
+Erythroxylum mannii	Erythroxylum mannii	0.988	0		
+Eschweilera congestiflora	Eschweilera congestiflora	0.988	0		
+Eschweilera coriacea	Eschweilera coriacea	0.988	0		
+Eschweilera simiorum	Eschweilera simiorum	0.988	0		
+Eschweilera	Eschweilera	0.75	0		
+Eucalyptus acmenoides	Eucalyptus acmenoides	0.988	0		
+Eucalyptus botryoides	Eucalyptus botryoides	0.988	0		
+Eucalyptus camaldulensis	Eucalyptus camaldulensis	0.988	0		
+Eucalyptus citriodora	Eucalyptus citriodora	0.988	0		
+Eucalyptus cloeziana	Eucalyptus cloeziana	0.988	0		
+Eucalyptus deglupta	Eucalyptus deglupta	0.988	0		
+Eucalyptus delegatensis	Eucalyptus delegatensis	0.988	0		
+Eucalyptus globulus	Eucalyptus globulus	0.988	0		
+Eucalyptus gomphocephala	Eucalyptus gomphocephala	0.988	0		
+Eucalyptus goniocalyx	Eucalyptus goniocalyx	0.988	0		
+Eucalyptus grandis	Eucalyptus grandis	0.988	0		
+Eucalyptus gummifera	Eucalyptus gummifera	0.988	0		
+Eucalyptus leucoxylon	Eucalyptus leucoxylon	0.988	0		
+Eucalyptus maculata	Eucalyptus maculata	0.988	0		
+Eucalyptus microcorys	Eucalyptus microcorys	0.988	0		
+Eucalyptus muelleriana	Eucalyptus muelleriana	0.988	0		
+Eucalyptus paniculata	Eucalyptus paniculata	0.988	0		
+Eucalyptus pilularis	Eucalyptus pilularis	0.988	0		
+Eucalyptus piperita	Eucalyptus piperita	0.988	0		
+Eucalyptus resinifera	Eucalyptus resinifera	0.988	0		
+Eucalyptus robusta	Eucalyptus robusta	0.988	0		
+Eucalyptus saligna	Eucalyptus saligna	0.988	0		
+Eucalyptus	Eucalyptus	0.75	0		
+Eucalyptus tereticornis	Eucalyptus tereticornis	0.988	0		
+Eucalyptus tetrodonta	Eucalyptus tetrodonta	0.988	0		
+Eucalyptus viminalis	Eucalyptus viminalis	0.988	0		
+Eugenia monticola	Eugenia monticola	0.988	0		
+Eugenia parkeri	Eugenia parkeri	0.988	0		
+Eugenia	Eugenia	0.75	0		
+Euplassa pinnata	Euplassa pinnata	0.988	0		
+Euroschinus vieillardii	Euroschinus vieillardii	0.988	0		
+Euxylophora paraensis	Euxylophora paraensis	0.988	0		
+Excoecaria parvifolia	Excoecaria parvifolia	0.988	0		
+Fagara heitzii	Fagara heitzii	0.988	0		
+Fagara macrophylla	Fagara macrophylla	0.988	0		
+Fagraea schlechteri	Fagraea schlechteri	0.988	0		
+Fagus sylvatica	Fagus sylvatica	0.988	0		
+Faidherbia albida	Faidherbia albida	0.988	0		
+Faucherea ambrensis	Faucherea ambrensis	0.988	0		
+Faucherea laciniata	Faucherea laciniata	0.988	0		
+Faucherea parvifolia	Faucherea parvifolia	0.988	0		
+Faucherea	Faucherea	0.75	0		
+Faucherea thouvenotii	Faucherea thouvenotii	0.988	0		
+Ficus elastica	Ficus elastica	0.988	0		
+Ficus insipida	Ficus insipida	0.988	0		
+Ficus	Ficus	0.75	0		
+Ficus thonningii	Ficus thonningii	0.988	0		
+Fillaeopsis discophora	Fillaeopsis discophora	0.988	0		
+Fitzroya cupressoides	Fitzroya cupressoides	0.988	0		
+Flindersia fournieri	Flindersia fournieri	0.988	0		
+Flueggea flexuosa	Flueggea flexuosa	0.988	0		
+Foetidia clusioides	Foetidia clusioides	0.988	0		
+Foetidia	Foetidia	0.75	0		
+Fraxinus angustifolia	Fraxinus angustifolia	0.988	0		
+Fraxinus excelsior	Fraxinus excelsior	0.988	0		
+Gambeya africana	Gambeya africana	0.988	0		
+Gambeya boiviniana	Gambeya boiviniana	0.988	0		
+Gambeya comoriense	Gambeya	0.75	1		
+Gambeya lacourtiana	Gambeya lacourtiana	0.988	0		
+Gambeya perpulchra	Gambeya perpulchra	0.988	0		
+Gambeya	Gambeya	0.75	0		
+Gambeya subnuda	Gambeya subnuda	0.988	0		
+Gambeyobotrys gigantea	Gambeyobotrys gigantea	0.988	0		
+Ganophyllum giganteum	Ganophyllum giganteum	0.988	0		
+Garcinia verrucosa	Garcinia verrucosa	0.988	0		
+Gastrolepis austrocaledonica	Gastrolepis austrocaledonica	0.988	0		
+Geissois balansae	Geissois balansae	0.988	0		
+Geissois racemosa	Geissois racemosa	0.988	0		
+Geissois	Geissois	0.75	0		
+Gilbertiodendron brachystegioides	Gilbertiodendron brachystegioides	0.988	0		
+Gilbertiodendron dewevrei	Gilbertiodendron dewevrei	0.988	0		
+Gilbertiodendron grandiflorum	Gilbertiodendron grandiflorum	0.988	0		
+Gilbertiodendron klainei	Gilbertiodendron klainei	0.988	0		
+Gilbertiodendron mayumbense	Gilbertiodendron mayombense	0.75	1		
+Gilbertiodendron preussii	Gilbertiodendron preussii	0.988	0		
+Gilbertiodendron	Gilbertiodendron	0.75	0		
+Gilbertiodendron splendidum	Gilbertiodendron splendidum	0.988	0		
+Gluta turtur	Gluta	0.75	0	Gluta tourtour	
+Glycydendron amazonicum	Glycydendron amazonicum	0.988	0		
+Gmelina arborea	Gmelina arborea	0.988	0		
+Gmelina lignum-vitreum	Gmelina lignum-vitreum	0.988	0		
+Gmelina	Gmelina	0.75	0		
+Gonystylus	Gonystylus	0.75	0		
+Gossweilerodendron balsamiferum	Gossweilerodendron balsamiferum	0.988	0		
+Goupia glabra	Goupia glabra	0.988	0		
+Grevillea robusta	Grevillea robusta	0.988	0		
+Grewia oligoneura	Grewia oligoneura	0.988	0		
+Guarea cedrata	Guarea cedrata	0.988	0		
+Guarea gomma	Guarea gomma	0.988	0		
+Guarea guidonia	Guarea guidonia	0.988	0		
+Guarea macrophylla	Guarea macrophylla	0.988	0		
+Guarea punctulata	Guarea punctulata	0.988	0		
+Guarea thompsonii	Guarea thompsonii	0.988	0		
+Guibourtia arnoldiana	Guibourtia arnoldiana	0.988	0		
+Guibourtia demeusei	Guibourtia demeusei	0.988	0		
+Guibourtia ehie	Guibourtia ehie	0.988	0		
+Guibourtia pellegriniana	Guibourtia pellegriniana	0.988	0		
+Guibourtia	Guibourtia	0.75	0		
+Guibourtia tessmannii	Guibourtia tessmannii	0.988	0		
+Gymnostemon zaizou	Gymnostemon zaizou	0.988	0		
+Gymnostoma nodiflorum	Gymnostoma nodiflorum	0.988	0		
+Gyrocarpus americanus	Gyrocarpus americanus	0.988	0		
+Gyrostipula comorensis	Gyrostipula comorensis	0.988	0		
+Gyrostipula foveolata	Gyrostipula foveolata	0.988	0		
+Hallea ciliata	Hallea ciliata	0.988	0		
+Hallea stipulosa	Hallea stipulosa	0.988	0		
+Hannoa klaineana	Hannoa klaineana	0.988	0		
+Haplormosia monophylla	Haplormosia monophylla	0.988	0		
+Hernandia cordigera	Hernandia cordigera	0.988	0		
+Hernandia voyroni	Hernandia voyroni	0.988	0		
+Hevea brasiliensis	Hevea brasiliensis	0.988	0		
+Hevea	Hevea	0.75	0		
+Hexalobus crispiflorus	Hexalobus crispiflorus	0.988	0		
+Hibiscus lasiococcus	Hibiscus lasiococcus	0.988	0		
+Hibiscus tiliaceus	Hibiscus tiliaceus	0.988	0		
+Holoptelea grandis	Holoptelea grandis	0.988	0		
+Homalium letestui	Homalium letestui	0.988	0		
+Homalium racemosum	Homalium racemosum	0.988	0		
+Hopea odorata	Hopea odorata	0.988	0		
+Hopea sangal	Hopea sangal	0.988	0		
+Humbertia madagascariensis	Humbertia madagascariensis	0.988	0		
+Humiria balsamifera	Humiria balsamifera	0.988	0		
+Hura crepitans	Hura crepitans	0.988	0		
+Hylodendron gabunense	Hylodendron gabunense	0.988	0		
+Hymenaea courbaril	Hymenaea courbaril	0.988	0		
+Hymenaea intermedia	Hymenaea intermedia	0.988	0		
+Hymenaea parvifolia	Hymenaea parvifolia	0.988	0		
+Hymenaea	Hymenaea	0.75	0		
+Hymenolobium excelsum	Hymenolobium excelsum	0.988	0		
+Hymenolobium petraeum	Hymenolobium petraeum	0.988	0		
+Hymenolobium sericeum	Hymenolobium sericeum	0.988	0		
+Hymenolobium	Hymenolobium	0.75	0		
+Hymenostegia pellegrini	Hymenostegia pellegrinii	0.75	1		
+Ilex casiquiarensis	Ilex casiquiarensis	0.988	0		
+Ilex sebertii	Ilex sebertii	0.988	0		
+Ilex sideroxyloides	Ilex sideroxyloides	0.988	0		
+Inga alba	Inga alba	0.988	0		
+Inga capitata	Inga capitata	0.988	0		
+Inga ingoides	Inga ingoides	0.988	0		
+Inga	Inga	0.75	0		
+Inga vera	Inga vera	0.988	0		
+Intsia bijuga	Intsia bijuga	0.988	0		
+Intsia palembanica	Intsia palembanica	0.988	0		
+Irvingia gabonensis	Irvingia gabonensis	0.988	0		
+Irvingia grandifolia	Irvingia grandifolia	0.988	0		
+Iryanthera sagotiana	Iryanthera sagotiana	0.988	0		
+Iryanthera	Iryanthera	0.75	0		
+Iryanthera tricornis	Iryanthera tricornis	0.988	0		
+Isoberlinia doka	Isoberlinia doka	0.988	0		
+Jacaranda copaia	Jacaranda copaia	0.988	0		
+Jacaranda	Jacaranda	0.75	0		
+Juglans regia	Juglans regia	0.988	0		
+Julbernardia pellegriniana	Julbernardia pellegriniana	0.988	0		
+Julbernardia seretii	Julbernardia seretii	0.988	0		
+Juniperus oxycedrus	Juniperus oxycedrus	0.988	0		
+Juniperus thurifera	Juniperus thurifera	0.988	0		
+Kermadecia sinuata	Kermadecia sinuata	0.988	0		
+Keteleeria evelyniana	Keteleeria evelyniana	0.988	0		
+Khaya anthotheca	Khaya anthotheca	0.988	0		
+Khaya grandifoliola	Khaya grandifoliola	0.988	0		
+Khaya ivorensis	Khaya ivorensis	0.988	0		
+Khaya senegalensis	Khaya senegalensis	0.988	0		
+Khaya	Khaya	0.75	0		
+Klainedoxa gabonensis	Klainedoxa gabonensis	0.988	0		
+Labourdonnaisia calophylloides	Labourdonnaisia calophylloides	0.988	0		
+Laetia procera	Laetia procera	0.988	0		
+Lagerstroemia angustifolia	Lagerstroemia angustifolia	0.988	0		
+Lagerstroemia	Lagerstroemia	0.75	0		
+Lannea	Lannea	0.75	0		
+Lannea welwitschii	Lannea welwitschii	0.988	0		
+Larix	Larix	0.75	0		
+Laurelia philippiana	Laurelia philippiana	0.988	0		
+Laurelia	Laurelia	0.75	0		
+Lecomtedoxa klaineana	Lecomtedoxa klaineana	0.988	0		
+Lecythis corrugata	Lecythis corrugata	0.988	0		
+Lecythis idatimon	Lecythis idatimon	0.988	0		
+Lecythis persistens	Lecythis persistens	0.988	0		
+Lecythis pisonis	Lecythis pisonis	0.988	0		
+Lecythis zabucaja	Lecythis zabucajo	0.75	1		
+Lecythis zabucaja	Lecythis zabucayo	0.75	0		TRUE
+Leptolaena multiflora	Leptolaena multiflora	0.988	0		
+Letestua durissima	Letestua durissima	0.988	0		
+Librevillea klainei	Librevillea klainei	0.988	0		
+Licania alba	Licania alba	0.988	0		
+Licania canescens	Licania canescens	0.988	0		
+Licania licaniaeflora	Licania licaniiflora	0.75	1		
+Licania macrophylla	Licania macrophylla	0.988	0		
+Licania majuscula	Licania majuscula	0.988	0		
+Licania membranacea	Licania membranacea	0.988	0		
+Licania micrantha	Licania micrantha	0.988	0		
+Licania ovalifolia	Licania ovalifolia	0.988	0		
+Licania	Licania	0.75	0		
+Licania ternatensis	Licania ternatensis	0.988	0		
+Licaria aritu	Licaria aritu	0.988	0		
+Licaria canella	Licaria canella	0.988	0		
+Licaria cayennensis	Licaria cayennensis	0.988	0		
+Licaria chrysophylla	Licaria chrysophylla	0.988	0		
+Licaria polyphylla	Licaria polyphylla	0.988	0		
+Licaria	Licaria	0.75	0		
+Lithocarpus celebicus	Lithocarpus celebicus	0.988	0		
+Lithocarpus	Lithocarpus	0.75	0		
+Litsea costalis	Litsea costalis	0.988	0		
+Litsea vang	Litsea vang	0.988	0		
+Lonchocarpus heptaphyllus	Lonchocarpus heptaphyllus	0.988	0		
+Lophira alata	Lophira alata	0.988	0		
+Lophopetalum duperreanum	Lophopetalum duperreanum	0.988	0		
+Lovoa trichilioides	Lovoa trichilioides	0.988	0		
+Ludia	Ludia	0.75	0		
+Mabea speciosa	Mabea speciosa	0.988	0		
+Macadamia leptophylla	Macadamia leptophylla	0.988	0		
+Macarisia pyramidata	Macarisia pyramidata	0.988	0		
+Maclura tinctoria	Maclura tinctoria	0.988	0		
+Macrolobium bifolium	Macrolobium bifolium	0.988	0		
+Maesopsis eminii	Maesopsis eminii	0.988	0		
+Mammea africana	Mammea africana	0.988	0		
+Mammea americana	Mammea americana	0.988	0		
+Mammea bongo	Mammea bongo	0.988	0		
+Mammea	Mammea	0.75	0		
+Mangifera indica	Mangifera indica	0.988	0		
+Mangifera	Mangifera	0.75	0		
+Manilkara bidentata	Manilkara bidentata	0.988	0		
+Manilkara dissecta	Manilkara dissecta	0.988	0		
+Manilkara huberi	Manilkara huberi	0.988	0		
+Manilkara mabokeensis	Manilkara mabokeensis	0.988	0		
+Manilkara obovata	Manilkara obovata	0.988	0		
+Mansonia altissima	Mansonia altissima	0.988	0		
+Mansonia	Mansonia	0.75	0		
+Maquira coriacea	Maquira coriacea	0.988	0		
+Maranthes glabra	Maranthes glabra	0.988	0		
+Maranthes robusta	Maranthes robusta	0.988	0		
+Margaritaria nobilis	Margaritaria nobilis	0.988	0		
+Markhamia tomentosa	Markhamia tomentosa	0.988	0		
+Martiodendron	Martiodendron	0.75	0		
+Mauloutchia	Mauloutchia	0.75	0		
+Melaleuca dealbata	Melaleuca dealbata	0.988	0		
+Melaleuca leucadendron	Melaleuca leucadendron	0.988	0		
+Melia azedarach	Melia azedarach	0.988	0		
+Mezilaurus itauba	Mezilaurus itauba	0.988	0		
+Mezilaurus	Mezilaurus	0.75	0		
+Microberlinia bisulcata	Microberlinia bisulcata	0.988	0		
+Microberlinia brazzavillensis	Microberlinia brazzavillensis	0.988	0		
+Micropholis guianensis	Micropholis guyanensis	0.75	1		
+Micropholis melinoniana	Micropholis melinoniana	0.988	0		
+Micropholis	Micropholis	0.75	0		
+Micropholis venulosa	Micropholis venulosa	0.988	0		
+Milicia excelsa	Milicia excelsa	0.988	0		
+Milicia regia	Milicia regia	0.988	0		
+Milicia	Milicia	0.75	0		
+Millettia laurentii	Millettia laurentii	0.988	0		
+Mimusops maxima	Mimusops maxima	0.988	0		
+Mimusops	Mimusops	0.75	0		
+Minquartia guianensis	Minquartia guianensis	0.988	0		
+Monopetalanthus coriaceus	Monopetalanthus coriaceus	0.988	0		
+Monopetalanthus durandii	Monopetalanthus durandii	0.988	0		
+Monopetalanthus heitzii	Monopetalanthus heitzii	0.988	0		
+Monopetalanthus letestui	Monopetalanthus letestui	0.988	0		
+Monopetalanthus pellegrini	Monopetalanthus pellegrinii	0.75	1		
+Monopteryx inpae	Monopteryx inpae	0.988	0		
+Montrouziera cauliflora	Montrouziera cauliflora	0.988	0		
+Montrouziera	Montrouziera	0.75	0		
+Mora excelsa	Mora excelsa	0.988	0		
+Mora paraensis	Mora paraensis	0.988	0		
+Moronobea coccinea	Moronobea coccinea	0.988	0		
+Morus mesozygia	Morus mesozygia	0.988	0		
+Mouriri	Mouriri	0.75	0		
+Musanga cecropioides	Musanga cecropioides	0.988	0		
+Myodocarpus pinnatus	Myodocarpus pinnatus	0.988	0		
+Myrocarpus frondosus	Myrocarpus frondosus	0.988	0		
+Myroxylon balsamum	Myroxylon balsamum	0.988	0		
+Nageia comptonii	Nageia comptonii	0.988	0		
+Nageia mannii	Nageia mannii	0.988	0		
+Nauclea diderrichii	Nauclea diderrichii	0.988	0		
+Nectandra	Nectandra	0.75	0		
+Neea floribunda	Neea floribunda	0.988	0		
+Neoguillauminia cleopatra	Neoguillauminia cleopatra	0.988	0		
+Neolemonniera clitandrifolia	Neolemonniera clitandrifolia	0.988	0		
+Nesogordonia fouassieri	Nesogordonia fouassieri	0.988	0		
+Nesogordonia papaverifera	Nesogordonia papaverifera	0.988	0		
+Newtonia buchananii	Newtonia buchananii	0.988	0		
+Newtonia glandulifera	Newtonia glandulifera	0.988	0		
+Newtonia leucocarpa	Newtonia leucocarpa	0.988	0		
+Newtonia	Newtonia	0.75	0		
+Nothofagus aequilateralis	Nothofagus aequilateralis	0.988	0		
+Ochna calodendron	Ochna calodendron	0.988	0		
+Ochroma pyramidale	Ochroma pyramidale	0.988	0		
+Ochrosia borbonica	Ochrosia borbonica	0.988	0		
+Ochrothallus gordoniaefolius	Ochrothallus gordoniifolius	0.75	1		
+Ochrothallus multipetalus	Ochrothallus multipetalus	0.988	0		
+Ochrothallus sarlini	Ochrothallus sarlinii	0.75	1		
+Ocotea amazonica	Ocotea amazonica	0.988	0		
+Ocotea benthamiana	Ocotea benthamiana	0.988	0		
+Ocotea comoriensis	Ocotea comoriensis	0.988	0		
+Ocotea cymbarum	Ocotea cymbarum	0.988	0		
+Ocotea cymosa	Ocotea cymosa	0.988	0		
+Ocotea floribunda	Ocotea floribunda	0.988	0		
+Ocotea fragrantissima	Ocotea fragrantissima	0.988	0		
+Ocotea glomerata	Ocotea glomerata	0.988	0		
+Ocotea guianensis	Ocotea guianensis	0.988	0		
+Ocotea laevis	Ocotea laevis	0.988	0		
+Ocotea neesiana	Ocotea neesiana	0.988	0		
+Ocotea oblonga	Ocotea oblonga	0.988	0		
+Ocotea petalanthera	Ocotea petalanthera	0.988	0		
+Ocotea platydisca	Ocotea platydisca	0.988	0		
+Ocotea racemosa	Ocotea racemosa	0.988	0		
+Ocotea schomburgkiana	Ocotea schomburgkiana	0.988	0		
+Ocotea	Ocotea	0.75	0		
+Ocotea splendens	Ocotea splendens	0.988	0		
+Ocotea thouvenotii	Ocotea thouvenotii	0.988	0		
+Ocotea trichophlebia	Ocotea trichophlebia	0.988	0		
+Oddoniodendron normandii	Oddoniodendron normandii	0.988	0		
+Odyendyea gabonensis	Odyendyea gabonensis	0.988	0		
+Oldfieldia africana	Oldfieldia africana	0.988	0		
+Olea	Olea	0.75	0		
+Ongokea gore	Ongokea gore	0.988	0		
+Onychopetalum amazonicum	Onychopetalum amazonicum	0.988	0		
+Ormosia coccinea	Ormosia coccinea	0.988	0		
+Ormosia flava	Ormosia flava	0.988	0		
+Ormosia monosperma	Ormosia monosperma	0.988	0		
+Ormosia	Ormosia	0.75	0		
+Osteophloem platyspermum	Osteophloeum platyspermum	0.75	1		
+Oxystigma mannii	Oxystigma mannii	0.988	0		
+Oxystigma oxyphyllum	Oxystigma oxyphyllum	0.988	0		
+Pachira	Pachira	0.75	0		
+Pachypodanthium confine	Pachypodanthium confine	0.988	0		
+Pachypodanthium staudtii	Pachypodanthium staudtii	0.988	0		
+Pachytrophe dimepate	Pachytrophe dimepate	0.988	0		
+Palaquium	Palaquium	0.75	0		
+Pancheria brunhesii	Pancheria brunhesii	0.988	0		
+Pancheria sebertii	Pancheria sebertii	0.988	0		
+Pancheria ternata	Pancheria ternata	0.988	0		
+Parahancornia fasciculata	Parahancornia fasciculata	0.988	0		
+Paraserianthes falcataria	Paraserianthes falcataria	0.988	0		
+Parashorea malaanonan	Parashorea malaanonan	0.988	0		
+Parashorea	Parashorea	0.75	0		
+Parashorea stellata	Parashorea stellata	0.988	0		
+Parinari campestris	Parinari campestris	0.988	0		
+Parinari excelsa	Parinari excelsa	0.988	0		
+Parinari	Parinari	0.75	0		
+Parkia bicolor	Parkia bicolor	0.988	0		
+Parkia nitida	Parkia nitida	0.988	0		
+Parkia pendula	Parkia pendula	0.988	0		
+Parkia	Parkia	0.75	0		
+Parkia ulei	Parkia ulei	0.988	0		
+Pausinystalia brachythyrsa	Pausinystalia brachythyrsa	0.988	0		
+Peltogyne	Peltogyne	0.75	0		
+Peltogyne venosa	Peltogyne venosa	0.988	0		
+Peltophorum dubium	Peltophorum dubium	0.988	0		
+Pentace	Pentace	0.75	0		
+Pentaclethra macrophylla	Pentaclethra macrophylla	0.988	0		
+Pentadesma butyracea	Pentadesma butyracea	0.988	0		
+Pentadesma leptonema	Pentadesma leptonema	0.988	0		
+Pericopsis elata	Pericopsis elata	0.988	0		
+Petersianthus macrocarpus	Petersianthus macrocarpus	0.988	0		
+Petersianthus quadrialatus	Petersianthus quadrialatus	0.988	0		
+Phoebe elongata	Phoebe elongata	0.988	0		
+Phoebe porosa	Phoebe porosa	0.988	0		
+Phyllarthron articulatum	Phyllarthron articulatum	0.988	0		
+Phyllarthron madagascariense	Phyllarthron madagascariense	0.988	0		
+Picea abies	Picea abies	0.988	0		
+Piliocalyx laurifolius	Piliocalyx laurifolius	0.988	0		
+Piliocalyx	Piliocalyx	0.75	0		
+Pimenta racemosa	Pimenta racemosa	0.988	0		
+Pinus caribaea	Pinus caribaea	0.988	0		
+Pinus elliottii	Pinus elliottii	0.988	0		
+Pinus kesiya	Pinus kesiya	0.988	0		
+Pinus laricio	Pinus laricio	0.988	0		
+Pinus oocarpa	Pinus oocarpa	0.988	0		
+Pinus patula	Pinus patula	0.988	0		
+Pinus pinaster	Pinus pinaster	0.988	0		
+Pinus	Pinus	0.75	0		
+Pinus sylvestris	Pinus sylvestris	0.988	0		
+Piptadeniastrum africanum	Piptadeniastrum africanum	0.988	0		
+Plagiostyles africana	Plagiostyles africana	0.988	0		
+Planchonella amieuana	Planchonella amieuana	0.988	0		
+Planchonella microphylla	Planchonella microphylla	0.988	0		
+Platonia insignis	Platonia insignis	0.988	0		
+Platymiscium	Platymiscium	0.75	0		
+Platymiscium trinitatis	Platymiscium trinitatis	0.988	0		
+Platymiscium ulei	Platymiscium ulei	0.988	0		
+Podocarpus salicifolia	Podocarpus salicifolius	0.75	1		
+Podocarpus salicifolia	Morocarpus salicifolius	0.75	0		TRUE
+Podocarpus	Podocarpus	0.75	0		
+Podocarpus sylvestris	Podocarpus sylvestris	0.988	0		
+Poga oleosa	Poga oleosa	0.988	0		
+Polyalthia suaveolens	Polyalthia suaveolens	0.988	0		
+Polyscias ornifolia	Polyscias ornifolia	0.988	0		
+Pometia pinnata	Pometia pinnata	0.988	0		
+Populus deltoides	Populus deltoides	0.988	0		
+Porterandia cladantha	Porterandia cladantha	0.988	0		
+Potameia antavaratra	Potameia antevaratra	0.75	1		
+Pourouma	Pourouma	0.75	0		
+Pourouma villosa	Pourouma villosa	0.988	0		
+Pouteria guianensis	Pouteria guianensis	0.988	0		
+Pouteria pallida	Pouteria pallida	0.988	0		
+Pouteria	Pouteria	0.75	0		
+Pouteria torricellensis	Pouteria torricellensis	0.988	0		
+Pradosia cochlearia	Pradosia cochlearia	0.988	0		
+Pradosia schomburgkiana	Pradosia schomburgkiana	0.988	0		
+Pradosia	Pradosia	0.75	0		
+Prosopis africana	Prosopis africana	0.988	0		
+Protium sagotianum	Protium sagotianum	0.988	0		
+Protium	Protium	0.75	0		
+Protorhus ditimena	Protorhus ditimena	0.988	0		
+Prunus africana	Prunus africana	0.988	0		
+Prunus arborea	Prunus arborea	0.988	0		
+Pseudocedrela kotschyi	Pseudocedrela kotschyi	0.988	0		
+Pseudopiptadenia psilostachya	Pseudopiptadenia psilostachya	0.988	0		
+Pseudopiptadenia suaveolens	Pseudopiptadenia suaveolens	0.988	0		
+Pseudotsuga menziesii	Pseudotsuga menziesii	0.988	0		
+Psidium guajava	Psidium guajava	0.988	0		
+Pteleopsis hylodendron	Pteleopsis hylodendron	0.988	0		
+Pterocarpus erinaceus	Pterocarpus erinaceus	0.988	0		
+Pterocarpus officinalis	Pterocarpus officinalis	0.988	0		
+Pterocarpus soyauxii	Pterocarpus soyauxii	0.988	0		
+Pterocarpus	Pterocarpus	0.75	0		
+Pterocarpus tinctorius	Pterocarpus tinctorius	0.988	0		
+Pterogyne nitens	Pterogyne nitens	0.988	0		
+Pterygota macrocarpa	Pterygota macrocarpa	0.988	0		
+Pterygota	Pterygota	0.75	0		
+Pycnandra comptonii	Pycnandra comptonii	0.988	0		
+Pycnanthus angolensis	Pycnanthus angolensis	0.988	0		
+Pyriluma sphaerocarpum	Pyriluma sphaerocarpum	0.988	0		
+Qualea coerulea	Qualea coerulea	0.988	0		
+Qualea homosepala	Qualea homosepala	0.988	0		
+Qualea paraensis	Qualea paraensis	0.988	0		
+Qualea rosea	Qualea rosea	0.988	0		
+Qualea	Qualea	0.75	0		
+Quercus afares	Quercus afares	0.988	0		
+Quercus ilex	Quercus ilex	0.988	0		
+Quercus mirbeckii	Quercus mirbeckii	0.988	0		
+Quercus petraea	Quercus petraea	0.988	0		
+Quercus robur	Quercus robur	0.988	0		
+Quercus	Quercus	0.75	0		
+Quercus suber	Quercus suber	0.988	0		
+Rauvolfia caffra	Rauvolfia caffra	0.988	0		
+Ravensara ovalifolia	Ravensara ovalifolia	0.988	0		
+Ravensara retusa	Ravensara retusa	0.988	0		
+Ravensara	Ravensara	0.75	0		
+Recordoxylon amazonicum	Recordoxylon amazonicum	0.988	0		
+Recordoxylon speciosum	Recordoxylon speciosum	0.988	0		
+Rhabdodendron amazonicum	Rhabdodendron amazonicum	0.988	0		
+Rhizophora mangle	Rhizophora mangle	0.988	0		
+Rhizophora racemosa	Rhizophora racemosa	0.988	0		
+Rhizophora	Rhizophora	0.75	0		
+Rhodognaphalon brevicuspe	Rhodognaphalon brevicuspe	0.988	0		
+Rhodolaena bakeriana	Rhodolaena bakeriana	0.988	0		
+Rhodostemonodaphne grandis	Rhodostemonodaphne grandis	0.988	0		
+Rhodostemonodaphne kunthiana	Rhodostemonodaphne kunthiana	0.988	0		
+Rhus thouarsii	Rhus thouarsii	0.988	0		
+Richeria grandis	Richeria grandis	0.988	0		
+Richeria	Richeria	0.75	0		
+Ricinodendron heudelotii	Ricinodendron heudelotii	0.988	0		
+Ruizterania albiflora	Ruizterania albiflora	0.988	0		
+Sacoglottis cydonioides	Sacoglottis cydonioides	0.988	0		
+Sacoglottis gabonensis	Sacoglottis gabonensis	0.988	0		
+Sacoglottis guianensis	Sacoglottis guianensis	0.988	0		
+Samanea saman	Samanea saman	0.988	0		
+Santiria rubiginosa	Santiria rubiginosa	0.988	0		
+Santiria trimera	Santiria trimera	0.988	0		
+Scaphium macropodum	Scaphium macropodum	0.988	0		
+Scaphium	Scaphium	0.75	0		
+Schefflera andreana	Schefflera andraeana	0.75	1		
+Schefflera decaphylla	Schefflera decaphylla	0.988	0		
+Schefflera gabriellae	Schefflera gabriellae	0.988	0		
+Schefflera morototoni	Schefflera morototoni	0.988	0		
+Sclerolobium melanocarpum	Sclerolobium melanocarpum	0.988	0		
+Sclerolobium melinonii	Sclerolobium melinonii	0.988	0		
+Sclerolobium	Sclerolobium	0.75	0		
+Scleronema micranthum	Scleronema micranthum	0.988	0		
+Scolopia	Scolopia	0.75	0		
+Scorodophloeus zenkeri	Scorodophloeus zenkeri	0.988	0		
+Scottellia klaineana	Scottellia klaineana	0.988	0		
+Scyphocephalium mannii	Scyphocephalium mannii	0.988	0		
+Scytopetalum klaineanum	Scytopetalum klaineanum	0.988	0		
+Scytopetalum tieghemii	Scytopetalum tieghemii	0.988	0		
+Sebertia acuminata	Sebertia acuminata	0.988	0		
+Serianthes sachetae	Serianthes sachetae	0.988	0		
+Sextonia rubra	Sextonia rubra	0.988	0		
+Shorea assamica	Shorea assamica	0.988	0		
+Shorea hypochra	Shorea hypochra	0.988	0		
+Shorea polita	Shorea polita	0.988	0		
+Shorea contorta	Shorea contorta	0.988	0		
+Shorea	Shorea	0.75	0		
+Shorea hopeifolia	Shorea hopeifolia	0.988	0		
+Shorea almon	Shorea almon	0.988	0		
+Shorea leprosula	Shorea leprosula	0.988	0		
+Shorea negrosensis	Shorea negrosensis	0.988	0		
+Shorea palosapis	Shorea palosapis	0.988	0		
+Shorea pauciflora	Shorea pauciflora	0.988	0		
+Shorea polysperma	Shorea polysperma	0.988	0		
+Shorea guiso	Shorea guiso	0.988	0		
+Simaba multiflora	Simaba multiflora	0.988	0		
+Simarouba amara	Simarouba amara	0.988	0		
+Sindora klaineana	Sindora klaineana	0.988	0		
+Sindoropsis letestui	Sindoropsis letestui	0.988	0		
+Sleumerodendron austrocaledonicum	Sleumerodendron austrocaledonicum	0.988	0		
+Sloanea latifolia	Sloanea latifolia	0.988	0		
+Sloanea massoni	Sloanea massonii	0.75	1		
+Sloanea rhodantha	Sloanea rhodantha	0.988	0		
+Sloanea	Sloanea	0.75	0		
+Spondias mombin	Spondias mombin	0.988	0		
+Staudtia kamerunensis	Staudtia kamerunensis	0.988	0		
+Staudtia	Staudtia	0.75	0		
+Stemonocoleus micranthus	Stemonocoleus micranthus	0.988	0		
+Stenocarpus trinervis	Stenocarpus trinervis	0.988	0		
+Stephanostegia	Stephanostegia	0.75	0		
+Sterculia pruriens	Sterculia pruriens	0.988	0		
+Sterculia rhinopetala	Sterculia rhinopetala	0.988	0		
+Sterculia setigera	Sterculia setigera	0.988	0		
+Sterculia	Sterculia	0.75	0		
+Storckiella pancheri	Storckiella pancheri	0.988	0		
+Strephonema pseudocola	Strephonema pseudocola	0.988	0		
+Strombosia grandifolia	Strombosia grandifolia	0.988	0		
+Strombosia pustulata	Strombosia pustulata	0.988	0		
+Strychnos	Strychnos	0.75	0		
+Stryphnodendron polystachyum	Stryphnodendron polystachyum	0.988	0		
+Swartzia benthamiana	Swartzia benthamiana	0.988	0		
+Swartzia fistuloides	Swartzia fistuloides	0.988	0		
+Swartzia ingaefolia	Swartzia ingaefolia	0.988	0		
+Swartzia leptopetala	Swartzia leptopetala	0.988	0		
+Swartzia oblanceolata	Swartzia oblanceolata	0.988	0		
+Swartzia panacoco	Swartzia panacoco	0.988	0		
+Sweetia fruticosa	Sweetia fruticosa	0.988	0		
+Swietenia macrophylla	Swietenia macrophylla	0.988	0		
+Swietenia mahagoni	Swietenia mahagoni	0.988	0		
+Swietenia	Swietenia	0.75	0		
+Swintonia	Swintonia	0.75	0		
+Symphonia fasciculata	Symphonia fasciculata	0.988	0		
+Symphonia globulifera	Symphonia globulifera	0.988	0		
+Symphonia louvelii	Symphonia louvelii	0.988	0		
+Symphonia	Symphonia	0.75	0		
+Symphonia tanalensis	Symphonia tanalensis	0.988	0		
+Symphonia urophylla	Symphonia urophylla	0.988	0		
+Symplocos martinicensis	Symplocos martinicensis	0.988	0		
+Syzygium dyerianum	Syzygium dyerianum	0.988	0		
+Syzygium frutescens	Syzygium frutescens	0.988	0		
+Syzygium guineense	Syzygium guineense	0.988	0		
+Syzygium inophylloides	Syzygium inophylloides	0.988	0		
+Syzygium lateriflorum	Syzygium lateriflorum	0.988	0		
+Syzygium	Syzygium	0.75	0		
+Syzygium wagapense	Syzygium wagapense	0.988	0		
+Tabebuia fluviatilis	Tabebuia fluviatilis	0.988	0		
+Tabebuia heptaphylla	Tabebuia heptaphylla	0.988	0		
+Tabebuia heterophylla	Tabebuia heterophylla	0.988	0		
+Tabebuia pallida	Tabebuia pallida	0.988	0		
+Tabebuia serratifolia	Tabebuia serratifolia	0.988	0		
+Tabebuia	Tabebuia	0.75	0		
+Tachigali myrmecophila	Tachigali myrmecophila	0.988	0		
+Tachigali paniculata	Tachigali paniculata	0.988	0		
+Tachigali rusbyi	Tachigali rusbyi	0.988	0		
+Tachigali	Tachigali	0.75	0		
+Talauma dodecapetala	Talauma dodecapetala	0.988	0		
+Tambourissa tricophylla	Tambourissa trichophylla	0.75	1		
+Tapirira guianensis	Tapirira guianensis	0.988	0		
+Taralea oppositifolia	Taralea oppositifolia	0.988	0		
+Tarrietia densiflora	Tarrietia densiflora	0.988	0		
+Tarrietia javanica	Tarrietia javanica	0.988	0		
+Tarrietia simplicifolia	Tarrietia simplicifolia	0.988	0		
+Tarrietia	Tarrietia	0.75	0		
+Tarrietia utilis	Tarrietia utilis	0.988	0		
+Tectona grandis	Tectona grandis	0.988	0		
+Terminalia amazonia	Terminalia amazonia	0.988	0		
+Terminalia avicennioides	Terminalia avicennioides	0.988	0		
+Terminalia bellirica	Terminalia bellirica	0.988	0		
+Terminalia benzoin	Terminalia benzoin	0.988	0		
+Terminalia catappa	Terminalia catappa	0.988	0		
+Terminalia guianensis	Terminalia guianensis	0.988	0		
+Terminalia ivorensis	Terminalia ivorensis	0.988	0		
+Terminalia mantaly	Terminalia mantaly	0.988	0		
+Terminalia	Terminalia	0.75	0		
+Terminalia superba	Terminalia superba	0.988	0		
+Terminalia tetrandra	Terminalia tetrandra	0.988	0		
+Testulea gabonensis	Testulea gabonensis	0.988	0		
+Tetraberlinia bifoliolata	Tetraberlinia bifoliolata	0.988	0		
+Tetraberlinia tubmaniana	Tetraberlinia tubmaniana	0.988	0		
+Tetraclinis articulata	Tetraclinis articulata	0.988	0		
+Tetragastris altissima	Tetragastris altissima	0.988	0		
+Tetragastris hostmannii	Tetragastris hostmannii	0.988	0		
+Tetragastris panamensis	Tetragastris panamensis	0.988	0		
+Tetragastris	Tetragastris	0.75	0		
+Tetramerista	Tetramerista	0.75	0		
+Tetrapleura tetraptera	Tetrapleura tetraptera	0.988	0		
+Thuya plicata	Thuya plicata	0.988	0		
+Thuya	Thuya	0.75	0		
+Thyrsodium guianense	Thyrsodium guianense	0.988	0		
+Thyrsodium spruceanum	Thyrsodium spruceanum	0.988	0		
+Tieghemella africana	Tieghemella africana	0.988	0		
+Tieghemella heckelii	Tieghemella heckelii	0.988	0		
+Tinopsis apiculata	Tinopsis apiculata	0.988	0		
+Toona sureni	Toona sureni	0.988	0		
+Tovomita carinata	Tovomita carinata	0.988	0		
+Trattinickia burserifolia	Trattinnickia burserifolia	0.75	1		
+Trattinickia burserifolia	Trattinnickia burseraefolia	0.75	0	Trattinnickia burserifolia	
+Trattinickia rhoifolia	Trattinnickia rhoifolia	0.75	1		
+Trattinickia	Trattinickia	0.75	0	Trattinnickia	
+Trema orientalis	Trema orientalis	0.988	0		
+Trichilia tessmannii	Trichilia tessmannii	0.988	0		
+Trichoscypha arborea	Trichoscypha arborea	0.988	0		
+Trichoscypha	Trichoscypha	0.75	0		
+Triplaris weigeltiana	Triplaris weigeltiana	0.988	0		
+Triplochiton scleroxylon	Triplochiton scleroxylon	0.988	0		
+Tristania	Tristania	0.75	0		
+Tsuga heterophylla	Tsuga heterophylla	0.988	0		
+Turraeanthus africana	Turraeanthus africana	0.988	0		
+Uapaca densifolia	Uapaca densifolia	0.988	0		
+Uapaca esculenta	Uapaca esculenta	0.988	0		
+Uapaca guineensis	Uapaca guineensis	0.988	0		
+Uapaca heudelotii	Uapaca heudelotii	0.988	0		
+Uapaca louvelii	Uapaca louvelii	0.988	0		
+Uapaca paludosa	Uapaca paludosa	0.988	0		
+Uapaca	Uapaca	0.75	0		
+Ulmus minor	Ulmus minor	0.988	0		
+Vantanea	Vantanea	0.75	0		
+Vatairea paraensis	Vatairea paraensis	0.988	0		
+Vataireopsis	Vataireopsis	0.75	0		
+Vataireopsis surinamensis	Vataireopsis surinamensis	0.988	0		
+Virola michelii	Virola michelii	0.988	0		
+Virola pavonis	Virola pavonis	0.988	0		
+Virola	Virola	0.75	0		
+Virola surinamensis	Virola surinamensis	0.988	0		
+Vitellaria paradoxa	Vitellaria paradoxa	0.988	0		
+Vitex grandifolia	Vitex grandifolia	0.988	0		
+Vitex micrantha	Vitex micrantha	0.988	0		
+Vitex pachyphylla	Vitex pachyphylla	0.988	0		
+Vochysia cayennensis	Vochysia cayennensis	0.988	0		
+Vochysia guianensis	Vochysia guianensis	0.988	0		
+Vochysia neyratii	Vochysia neyratii	0.988	0		
+Vochysia	Vochysia	0.75	0		
+Vochysia speciosa	Vochysia speciosa	0.988	0		
+Vochysia tomentosa	Vochysia tomentosa	0.988	0		
+Vouacapoua americana	Vouacapoua americana	0.988	0		
+Walsura trichostemon	Walsura trichostemon	0.988	0		
+Weinmannia comorensis	Weinmannia comorensis	0.988	0		
+Weinmannia minutiflora	Weinmannia minutiflora	0.988	0		
+Weinmannia rutenbergii	Weinmannia rutenbergii	0.988	0		
+Weinmannia	Weinmannia	0.75	0		
+Xanthocercis madagascariensis	Xanthocercis madagascariensis	0.988	0		
+Xanthomyrtus hienghenensis	Xanthomyrtus hienghenensis	0.988	0		
+Xylia evansii	Xylia evansii	0.988	0		
+Xylopia aethiopica	Xylopia aethiopica	0.988	0		
+Xylopia grandiflora	Xylopia grandiflora	0.988	0		
+Xylopia hypolampra	Xylopia hypolampra	0.988	0		
+Xylopia quintasii	Xylopia quintasii	0.988	0		
+Xylopia sericea	Xylopia sericea	0.988	0		
+Xylopia vieillardii	Xylopia vieillardii	0.988	0		
+Zanthoxylum flavum	Zanthoxylum flavum	0.988	0		
+Zanthoxylum martinicense	Zanthoxylum martinicense	0.988	0		
+Zanthoxylum rhoifolium	Zanthoxylum rhoifolium	0.988	0		
+Zanthoxylum tsihanimposa	Zanthoxylum tsihanimposa	0.988	0		
+Ziziphus mauritiana	Ziziphus mauritiana	0.988	0		
+Zygia racemosa	Zygia racemosa	0.988	0		

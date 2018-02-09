@@ -1,0 +1,58 @@
+---
+title: '**Cover Letter**'
+csl: bib/global-change-biology.csl
+output:
+  pdf_document: default
+bibliography: bib/biblio.bib
+---
+
+Dr. Ghislain Vieilledent 
+
+CIRAD    
+UPR Forêts et Sociétés    
+F-34398 Montpellier    
+FRANCE
+
+Joint Research Center of the European Commission   
+Bio-economy Unit (JRC.D.1)  
+I-21027 Ispra (VA)  
+ITALY
+
+to
+
+Editors    
+_Methods in Ecology and Evolution_ 
+
+####
+
+Dear Editors,
+
+Please find enclosed the article untitled _**"New formula and conversion factor to compute tree species basic wood density from a global wood technology database"**_ by G. Vieilledent, F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard for publication in _Methods in Ecology and Evolution_.
+
+#### Summary of the scientific results
+
+Basic wood density, i.e. the ratio of dry mass over green volume, is an important trait for the study of woody species. It is used both to estimate tree and forest carbon stocks in carbon cycle studies [@Vieilledent2016] and estimate species performance and fitness in community ecology [@Kunstler2016]. Historically, wood density was measured at the equilibrium with the ambient air for construction purpose, with a wood moisture assumed to be close to 12%. Thereafter, the value of 12% moisture for measuring wood density was fixed by an international convention. For ecologists, basic wood density is a much more convenient metric as it allows to compute tree dry biomass and carbon stock directly from the estimate of a living tree volume [@Chave2014]. In the Global Wood Density Dataset [@Chave2009; @Zanne2009], basic wood density values are frequently (60% of the data) inferred from the wood density at 12% moisture (the ratio of mass over volume for a piece of wood at 12% moisture). 
+
+In the present study, we show that current methods used to infer basic wood density (Db) from wood density at 12% moisture (D12) are inconsistent. We provide an exact theoretical formula to compute basic wood density from wood density at 12% moisture using the definition of two wood technological properties, the volumetric shrinkage coefficient (R) and the fibre saturation point (S). Using this formula and an original global wood technology database providing values of R, S and D12 for 4022 trees, we estimated a new conversion factor to compute Db from D12: Db = 0.828 D12. 
+
+#### Importance of the results
+
+Our new conversion factor provides basic wood density values which are 4-5% lower than values obtained from previous conversion factors (0.861 in the case of @Zanne2009 and 0.872 in the case of @Chave2006). Using this new conversion factor is important in order not to overestimate forest carbon stocks in future studies. We are in the process of revising the Global Wood Density Dataset and the present study provides a firm basis for this revision.
+
+Our article also describes the methods used to measure D12, R and S and derive accurate basic wood densities of 4022 trees representing 872 species from 63 countries, mostly tropical. Among the 872 species, 201 are not present in the current version of the Global Wood Density Dataset. 
+
+The new conversion factor and the Cirad wood density database we provide are important contributions for future research. They can be used to compute more accurate estimates of forest carbon stocks and predict better the dynamics of tree species community on the basis of the wood density inter-specific variability.
+
+#### Reproducibility and transparency of the research
+
+Data (including the Cirad wood density database) and R script associated to the present study will be archived on the Cirad Dataverse research data repository (http://dataverse.cirad.fr). This would allow an entirely reproducible and transparent research and a public and permanent access to the Cirad wood density database for future research.
+
+We hope you will find our study interesting and suitable for publication in your journal.
+
+Sincerely,
+
+The authors.
+
+# References
+
+

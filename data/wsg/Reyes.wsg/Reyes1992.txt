@@ -1,0 +1,1181 @@
+Species	WSG	Continent	Estimated
+Acacia arabica	0.70 *	Tropical Asia	1
+Acacia catechu	0.88	Tropical Asia	0
+Acacia confusa	0.75	Tropical Asia	0
+Acacia leucophloea	0.76	Tropical Asia	0
+Acacia richii	0.69	Tropical Asia	0
+Adina cordifolia	0.58, 0.59 +	Tropical Asia	0
+Aegle marmelo	0.75	Tropical Asia	0
+Agathis dammara	0.41	Tropical Asia	0
+Agathis spp.	0.44	Tropical Asia	0
+Agathis vitiensis	0.45	Tropical Asia	0
+Aglaia diffusa	0.7	Tropical Asia	0
+Aglaia iloilo	0.53	Tropical Asia	0
+Aglaia llanosiana	0.89	Tropical Asia	0
+Alangium longiflorum	0.65	Tropical Asia	0
+Alangium meyeri	0.63	Tropical Asia	0
+Albizzia amara	0.70 *	Tropical Asia	1
+Albizzia falcataria	0.25	Tropical Asia	0
+Albizzia lebbek	0.55, 0.66 +	Tropical Asia	0
+Albizzia odoratissima	0.76	Tropical Asia	0
+Albizzia procera	0.52 *, 0.59 +	Tropical Asia	1
+Aleurites moluccana	0.25	Tropical Asia	0
+Aleurites trisperma	0.43	Tropical Asia	0
+Alnus japonica	0.43	Tropical Asia	0
+Alphitonia philippinensis	0.4	Tropical Asia	0
+Alphitonia zizyphoides	0.5	Tropical Asia	0
+Alphonsea arborea	0.69	Tropical Asia	0
+Alseodaphne longipes	0.49	Tropical Asia	0
+Alstonia macrophylla	0.62	Tropical Asia	0
+Alstonia scholaris	0.36	Tropical Asia	0
+Alstonia spp.	0.37	Tropical Asia	0
+Amoora aherniana	0.58	Tropical Asia	0
+Amoora macrocarpa	0.55	Tropical Asia	0
+Amoora spp.	0.6	Tropical Asia	0
+Anisophyllea zeylanica	0.46 *	Tropical Asia	1
+Anisoptera aurea	0.53	Tropical Asia	0
+Anisoptera spp.	0.54	Tropical Asia	0
+Anisoptera thurifera	0.54	Tropical Asia	0
+Anogeissus latifolia	0.78, 0.79 +	Tropical Asia	0
+Anthocephalus chinensis	0.36, 0.33 +	Tropical Asia	0
+Antidesma pleuricum	0.59	Tropical Asia	0
+Aphanamixis cumingiana	0.58	Tropical Asia	0
+Aphanamixis perrottetiana	0.52	Tropical Asia	0
+Araucaria bidwillii	0.43	Tropical Asia	0
+Artocarpus blancoi	0.43	Tropical Asia	0
+Artocarpus heterophylla	0.6	Tropical Asia	0
+Artocarpus lakoocha	0.53 *	Tropical Asia	1
+Artocarpus ovata	0.47	Tropical Asia	0
+Artocarpus spp.	0.58	Tropical Asia	0
+Azadirachta indica	0.69	Tropical Asia	0
+Azadirachta spp.	0.52	Tropical Asia	0
+Balanocarpus spp.	0.76	Tropical Asia	0
+Barringtonia edulis	0.48	Tropical Asia	0
+Bauhinia spp.	0.67	Tropical Asia	0
+Beilschmiedia tawa	0.58	Tropical Asia	0
+Berrya cordifolia	0.78 *	Tropical Asia	1
+Bischofia javanica	0.54, 0.58, 0.62 +	Tropical Asia	0
+Bleasdalea vitiensis	0.43	Tropical Asia	0
+Bombax ceiba	0.33	Tropical Asia	0
+Bombycidendron vidalianum	0.53	Tropical Asia	0
+Boswellia serrata	0.5	Tropical Asia	0
+Bridelia retusa	0.5	Tropical Asia	0
+Bridelia squamosa	0.5	Tropical Asia	0
+Buchanania lanzan	0.45	Tropical Asia	0
+Buchanania latifolia	0.45	Tropical Asia	0
+Bursera serrata	0.59	Tropical Asia	0
+Butea monosperma	0.48	Tropical Asia	0
+Calophyllum blancoi	0.51	Tropical Asia	0
+Calophyllum inophyllum	0.57	Tropical Asia	0
+Calophyllum neo-ebudicum	0.5	Tropical Asia	0
+Calophyllum obliquinervium	0.58	Tropical Asia	0
+Calophyllum spp.	0.53	Tropical Asia	0
+Calophyllum vitiense	0.5	Tropical Asia	0
+Calycarpa arborea	0.53	Tropical Asia	0
+Cananga odorata	0.29	Tropical Asia	0
+Canarium asperum var. asperum	0.50, 0.60 +	Tropical Asia	0
+Canarium hirsutum forma scabrum	0.4	Tropical Asia	0
+Canarium luzonicum	0.51	Tropical Asia	0
+Canarium spp.	0.44	Tropical Asia	0
+Canarium vanikoroense	0.54	Tropical Asia	0
+Canarium vitiense	0.54	Tropical Asia	0
+Canarium vrieseanum forma stenophyllum	0.56	Tropical Asia	0
+Canthium monstrosum	0.42	Tropical Asia	0
+Carallia calycina	0.66 *	Tropical Asia	1
+Cassia fistula	0.71	Tropical Asia	0
+Cassia javanica	0.69	Tropical Asia	0
+Cassia spectabilis	0.48	Tropical Asia	0
+Castanopsis philippensis	0.51	Tropical Asia	0
+Casuarina equisetifolia	0.83	Tropical Asia	0
+Casuarina nodiflora	0.85	Tropical Asia	0
+Cedrela odorata	0.38	Tropical Asia	0
+Cedrela spp.	0.42	Tropical Asia	0
+Cedrela toona	0.43	Tropical Asia	0
+Ceiba pentandra	0.23	Tropical Asia	0
+Celtis luzonica	0.49	Tropical Asia	0
+Chisocheton cumingianus	0.52	Tropical Asia	0
+Chisocheton pentandrus	0.52	Tropical Asia	0
+Chloroxylon swietenia	0.76, 0.79, 0.80 +	Tropical Asia	0
+Chukrassia tabularis	0.57	Tropical Asia	0
+Cinnamomum mercadoi	0.65	Tropical Asia	0
+Cinnamomum spp.	0.43	Tropical Asia	0
+Citrus grandis	0.59	Tropical Asia	0
+Cleidion speciflorum	0.5	Tropical Asia	0
+Cleistanthus collinus	0.88	Tropical Asia	0
+Cleistocalyx operculatus	0.66	Tropical Asia	0
+Cleistocalyx spp.	0.76	Tropical Asia	0
+Cochlospermum gossypium + religiosum	0.27	Tropical Asia	0
+Cocos nucifera	0.5	Tropical Asia	0
+Colona serratifolia	0.33	Tropical Asia	0
+Combretodendron quadrialatum	0.57	Tropical Asia	0
+Cordia spp.	0.53	Tropical Asia	0
+Cotylelobium spp.	0.69	Tropical Asia	0
+Crataeva religiosa	0.53 *	Tropical Asia	1
+Cratoxylon arborescens	0.4	Tropical Asia	0
+Cryptocarya spp.	0.59	Tropical Asia	0
+Cubilia cubili	0.49	Tropical Asia	0
+Cullenia excelsa	0.53	Tropical Asia	0
+Cynometra insularis	0.76, 0.91 +	Tropical Asia	0
+Cynometra ramiflora	0.7	Tropical Asia	0
+Cynometra spp.	0.8	Tropical Asia	0
+Dacrycarpus imbricatus	0.45, 0.47 +	Tropical Asia	0
+Dacrydium elatum	0.48	Tropical Asia	0
+Dacrydium nausoriensis	0.52	Tropical Asia	0
+Dacrydium nidulum	0.52	Tropical Asia	0
+Dacrydium spp.	0.46	Tropical Asia	0
+Dacryodes spp.	0.61	Tropical Asia	0
+Dalbergia latifolia	0.75	Tropical Asia	0
+Dalbergia paniculata	0.64	Tropical Asia	0
+Decussocarpus philippinensis	0.5	Tropical Asia	0
+Decussocarpus vitiensis	0.37	Tropical Asia	0
+Degeneria vitiensis	0.35	Tropical Asia	0
+Dehaasia triandra	0.64	Tropical Asia	0
+Dialium spp.	0.8	Tropical Asia	0
+Dillenia luzoniensis	0.69	Tropical Asia	0
+Dillenia megalantha	0.69	Tropical Asia	0
+Dillenia pentagyna	0.53	Tropical Asia	0
+Dillenia philippinensis	0.61	Tropical Asia	0
+Dillenia spp.	0.59	Tropical Asia	0
+Diospyros embryopteris	0.63 *	Tropical Asia	1
+Diospyros inclusa	0.68	Tropical Asia	0
+Diospyros melanoxylon	0.68	Tropical Asia	0
+Diospyros mindanaensis	0.69	Tropical Asia	0
+Diospyros nitida	0.71	Tropical Asia	0
+Diospyros philippensis	0.81	Tropical Asia	0
+Diospyros pilosanthera	0.8	Tropical Asia	0
+Diospyros poncei	0.81	Tropical Asia	0
+Diospyros pyrrhocarpa	0.6	Tropical Asia	0
+Diospyros spp.	0.7	Tropical Asia	0
+Diplodiscus paniculatus	0.63	Tropical Asia	0
+Dipterocarpus caudatus	0.61	Tropical Asia	0
+Dipterocarpus eurynchus	0.56	Tropical Asia	0
+Dipterocarpus gracilis	0.61	Tropical Asia	0
+Dipterocarpus grandiflorus	0.62	Tropical Asia	0
+Dipterocarpus kerrii	0.56	Tropical Asia	0
+Dipterocarpus kunstlerii	0.57	Tropical Asia	0
+Dipterocarpus spp.	0.61	Tropical Asia	0
+Dipterocarpus warburgii	0.52	Tropical Asia	0
+Dracontomelon dao	0.52	Tropical Asia	0
+Dracontomelon edule	0.46	Tropical Asia	0
+Dracontomelon spp.	0.5	Tropical Asia	0
+Dryobalanops spp.	0.61	Tropical Asia	0
+Drypetes bordenii	0.75	Tropical Asia	0
+Durio spp.	0.53	Tropical Asia	0
+Durio zibethinus	0.44, 0.53 +	Tropical Asia	0
+Dyera costulata	0.36	Tropical Asia	0
+Dysoxylum altissimum	0.42	Tropical Asia	0
+Dysoxylum decandrum	0.51	Tropical Asia	0
+Dysoxylum euphlebium	0.63	Tropical Asia	0
+Dysoxylum quercifolium	0.49	Tropical Asia	0
+Dysoxylum richii	0.49	Tropical Asia	0
+Elaeocarpus serratus	0.40 *	Tropical Asia	1
+Emblica officinalis	0.8	Tropical Asia	0
+Endiandra laxiflora	0.54	Tropical Asia	0
+Endospermum macrophyllum	0.4	Tropical Asia	0
+Endospermum peltatum	0.31	Tropical Asia	0
+Endospermum spp.	0.38	Tropical Asia	0
+Enterolobium cyclocarpum	0.35	Tropical Asia	0
+Epicharis cumingiana	0.73	Tropical Asia	0
+Erythrina fusca	0.25	Tropical Asia	0
+Erythrina suberosa	0.32	Tropical Asia	0
+Erythrina subumbrans	0.24	Tropical Asia	0
+Erythrophloeum densiflorum	0.65	Tropical Asia	0
+Eucalyptus citriodora	0.64	Tropical Asia	0
+Eucalyptus deglupta	0.34	Tropical Asia	0
+Eugenia spp.	0.65	Tropical Asia	0
+Fagraea gracilipes	0.84	Tropical Asia	0
+Fagraea spp.	0.73	Tropical Asia	0
+Ficus benjamina	0.65	Tropical Asia	0
+Ficus botryocarpa	0.43	Tropical Asia	0
+Ficus minahassae	0.42	Tropical Asia	0
+Ficus spp.	0.39	Tropical Asia	0
+Ficus variegata	0.28	Tropical Asia	0
+Ganua obovatifolia	0.59	Tropical Asia	0
+Garcinia myrtifolia	0.65	Tropical Asia	0
+Garcinia spp.	0.75	Tropical Asia	0
+Gardenia latifolia	0.64	Tropical Asia	0
+Gardenia turgida	0.64	Tropical Asia	0
+Garuga pinnata	0.51	Tropical Asia	0
+Gluta spp.	0.63	Tropical Asia	0
+Gmelina arborea	0.41, 0.45 +	Tropical Asia	0
+Gmelina vitiensis	0.54	Tropical Asia	0
+Gonocaryum calleryanum	0.64	Tropical Asia	0
+Gonystylus bancanus	0.52	Tropical Asia	0
+Gonystylus macrophyllus	0.52	Tropical Asia	0
+Gonystylus punctatus	0.57	Tropical Asia	0
+Grewia multiflora	0.46	Tropical Asia	0
+Grewia tiliaefolia	0.68	Tropical Asia	0
+Hardwickia binata	0.73	Tropical Asia	0
+Harpullia arborea	0.62	Tropical Asia	0
+Heritiera ornithocephala	0.68	Tropical Asia	0
+Heritiera spp.	0.56	Tropical Asia	0
+Heritiera sylvatica	0.77	Tropical Asia	0
+Hevea brasiliensis	0.53	Tropical Asia	0
+Hibiscus tiliaceus	0.57	Tropical Asia	0
+Homalanthus populneus	0.38	Tropical Asia	0
+Homalium spp.	0.76	Tropical Asia	0
+Hopea acuminata	0.62	Tropical Asia	0
+Hopea foxworthyi	0.64	Tropical Asia	0
+Hopea plagata	0.88	Tropical Asia	0
+Hopea spp.	0.64	Tropical Asia	0
+Intsia bijuga	0.61, 0.68, 0.74	Tropical Asia	0
+Intsia palembanica	0.68	Tropical Asia	0
+Kayea garciae	0.53	Tropical Asia	0
+Kingiodendron alternifolium	0.48	Tropical Asia	0
+Kleinhovia hospita	0.36	Tropical Asia	0
+Knema spp.	0.53	Tropical Asia	0
+Koompassia excelsa	0.63	Tropical Asia	0
+Koompassia malaccensis	0.72	Tropical Asia	0
+Koordersiodendron pinnatum	0.65, 0.69 +	Tropical Asia	0
+Kydia calycina	0.72	Tropical Asia	0
+Lagerstroemia parviflora	0.62	Tropical Asia	0
+Lagerstroemia piriformis	0.5	Tropical Asia	0
+Lagerstroemia speciosa	0.53	Tropical Asia	0
+Lagerstroemia spp.	0.55	Tropical Asia	0
+Lannea coromandelica	0.54	Tropical Asia	0
+Lannea grandis	0.5	Tropical Asia	0
+Leucaena leucocephala	0.64	Tropical Asia	0
+Litchi chinensis var. philippinensis	0.88	Tropical Asia	0
+Lithocarpus celebica	0.68	Tropical Asia	0
+Lithocarpus llanosii	0.63	Tropical Asia	0
+Lithocarpus soleriana	0.63	Tropical Asia	0
+Litsea garciae	0.34	Tropical Asia	0
+Litsea leytensis	0.35	Tropical Asia	0
+Litsea perrottetii	0.45	Tropical Asia	0
+Litsea spp.	0.4	Tropical Asia	0
+Lophopetalum spp.	0.46	Tropical Asia	0
+Macaranga bicolor	0.29	Tropical Asia	0
+Macaranga denticulata	0.53	Tropical Asia	0
+Madhuca fulva	0.53	Tropical Asia	0
+Madhuca longifolia var. latifolia	0.74	Tropical Asia	0
+Madhuca oblongifolia	0.53	Tropical Asia	0
+Mallotus multiglandulosus	0.42	Tropical Asia	0
+Mallotus philippensis	0.64	Tropical Asia	0
+Mangifera altissima	0.55	Tropical Asia	0
+Mangifera indica	0.52, 0.59 +	Tropical Asia	0
+Mangifera merrillii	0.52	Tropical Asia	0
+Mangifera spp.	0.52	Tropical Asia	0
+Maniltoa grandiflora	0.76	Tropical Asia	0
+Maniltoa minor	0.76	Tropical Asia	0
+Mastixia philippinensis	0.47	Tropical Asia	0
+Melanorrhea spp.	0.63	Tropical Asia	0
+Melia dubia	0.4	Tropical Asia	0
+Melicope triphylla	0.37	Tropical Asia	0
+Meliosma macrophylla	0.27	Tropical Asia	0
+Melochia umbellata	0.25	Tropical Asia	0
+Mesua ferrea	0.83, 0.85 +	Tropical Asia	0
+Metrosideros collina	0.70, 0.76 +	Tropical Asia	0
+Michelia platyphylla	0.51	Tropical Asia	0
+Michelia spp.	0.43	Tropical Asia	0
+Microcos stylocarpa	0.4	Tropical Asia	0
+Micromelum compressum	0.64	Tropical Asia	0
+Milliusa velutina	0.63	Tropical Asia	0
+Mimusops elengi	0.72 *	Tropical Asia	1
+Mitragyna parviflora	0.56	Tropical Asia	0
+Myristica castaneifolia	0.49	Tropical Asia	0
+Myristica chartacea	0.49	Tropical Asia	0
+Myristica gillespieana	0.49	Tropical Asia	0
+Myristica spp.	0.53	Tropical Asia	0
+Neesia spp.	0.53	Tropical Asia	0
+Neonauclea bernardoi	0.62	Tropical Asia	0
+Neotrewia cumingii	0.55	Tropical Asia	0
+Ochna foxworthyi	0.86	Tropical Asia	0
+Ochroma pyramidale	0.3	Tropical Asia	0
+Octomeles sumatrana	0.27, 0.32 +	Tropical Asia	0
+Oroxylon indicum	0.32	Tropical Asia	0
+Ougenia dalbergiodes	0.7	Tropical Asia	0
+Palaquium fidjiense	0.48	Tropical Asia	0
+Palaquium hornei	0.7	Tropical Asia	0
+Palaquium lanceolatum	0.55	Tropical Asia	0
+Palaquium luzoniense	0.45	Tropical Asia	0
+Palaquium philippense	0.41	Tropical Asia	0
+Palaquium spp.	0.55	Tropical Asia	0
+Palaquium tenuipetiolatum	0.5	Tropical Asia	0
+Palaquium vitilevuense	0.48	Tropical Asia	0
+Pangium edule	0.5	Tropical Asia	0
+Parashorea malaanonan	0.51	Tropical Asia	0
+Parashorea spp.	0.44	Tropical Asia	0
+Parashorea stellata	0.59	Tropical Asia	0
+Paratrophis glabra	0.77	Tropical Asia	0
+Parinari corymbosa	0.76	Tropical Asia	0
+Parinari insularum	0.65	Tropical Asia	0
+Parinari spp.	0.68	Tropical Asia	0
+Parkia roxburghii	0.34	Tropical Asia	0
+Payena spp.	0.55	Tropical Asia	0
+Peltophorum pterocarpum	0.62	Tropical Asia	0
+Pentace spp.	0.56	Tropical Asia	0
+Phaeanthus ebracteolatus	0.56	Tropical Asia	0
+Phyllocladus hypophyllus	0.53	Tropical Asia	0
+Pinus caribaea	0.48	Tropical Asia	0
+Pinus insularis	0.47, 0.48 +	Tropical Asia	0
+Pinus merkusii	0.54	Tropical Asia	0
+Pisonia umbellifera	0.21	Tropical Asia	0
+Pittosporum pentandrum	0.51	Tropical Asia	0
+Planchonella vitiensis	0.77	Tropical Asia	0
+Planchonia spectabilis	0.58	Tropical Asia	0
+Planchonia spp.	0.59	Tropical Asia	0
+Podocarpus neriifolius	0.52	Tropical Asia	0
+Podocarpus spp.	0.43	Tropical Asia	0
+Polyalthia flava	0.51	Tropical Asia	0
+Polyscias nodosa	0.38	Tropical Asia	0
+Pometia pinnata forma pinnata	0.58	Tropical Asia	0
+Pometia spp.	0.54	Tropical Asia	0
+Pouteria villamilii	0.47	Tropical Asia	0
+Premna tomentosa	0.96	Tropical Asia	0
+Pterocarpus indicus	0.52	Tropical Asia	0
+Pterocarpus marsupium	0.67	Tropical Asia	0
+Pterocymbium macrorater	0.47	Tropical Asia	0
+Pterocymbium tinctorium	0.28	Tropical Asia	0
+Pygeum vulgare	0.57	Tropical Asia	0
+Quercus spp.	0.7	Tropical Asia	0
+Radermachera pinnata	0.51	Tropical Asia	0
+Salmalia malabarica	0.32, 0.33 +	Tropical Asia	0
+Samanea saman	0.45, 0.46 +	Tropical Asia	0
+Sandoricum koetjape	0.44	Tropical Asia	0
+Sandoricum vidalii	0.43	Tropical Asia	0
+Sapindus saponaria	0.58	Tropical Asia	0
+Sapium luzonicum	0.4	Tropical Asia	0
+Schleichera oleosa	0.96	Tropical Asia	0
+Schrebera swietenoides	0.82	Tropical Asia	0
+Semicarpus anacardium	0.64	Tropical Asia	0
+Serialbizia acle	0.57	Tropical Asia	0
+Serianthes melanesica	0.48	Tropical Asia	0
+Sesbania grandiflora	0.4	Tropical Asia	0
+Shorea agsaboensis	0.35	Tropical Asia	0
+Shorea almon 	0.42	Tropical Asia	0
+Shorea assamica forma philippinensis	0.41	Tropical Asia	0
+Shorea astylosa	0.73	Tropical Asia	0
+Shorea ciliata	0.75	Tropical Asia	0
+Shorea contorta	0.44	Tropical Asia	0
+Shorea gisok	0.76	Tropical Asia	0
+Shorea guiso	0.68	Tropical Asia	0
+Shorea hopeifolia	0.44	Tropical Asia	0
+Shorea malibato	0.78	Tropical Asia	0
+Shorea negrosensis	0.44	Tropical Asia	0
+Shorea palosapis	0.39	Tropical Asia	0
+Shorea plagata	0.7	Tropical Asia	0
+Shorea polita	0.47	Tropical Asia	0
+Shorea polysperma	0.47	Tropical Asia	0
+Shorea robusta	0.72	Tropical Asia	0
+Shorea spp. balau group	0.7	Tropical Asia	0
+Shorea spp. dark red meranti	0.55	Tropical Asia	0
+Shorea spp. light red meranti	0.4	Tropical Asia	0
+Shorea spp. white meranti	0.48	Tropical Asia	0
+Shorea spp. yellow meranti	0.46	Tropical Asia	0
+Shorea virescens	0.42	Tropical Asia	0
+Sloanea javanica	0.53	Tropical Asia	0
+Soymida febrifuga	0.97	Tropical Asia	0
+Spathodea campanulata	0.25	Tropical Asia	0
+Stemonurus luzoniensis	0.37	Tropical Asia	0
+Sterculia ceramica	0.27	Tropical Asia	0
+Sterculia foetida	0.47 *	Tropical Asia	1
+Sterculia urens	0.67	Tropical Asia	0
+Sterculia vitiensis	0.31	Tropical Asia	0
+Stereospermum suaveolens	0.62	Tropical Asia	0
+Strombosia philippinensis	0.71	Tropical Asia	0
+Strychnos potatorum	0.88	Tropical Asia	0
+Swietenia macrophylla	0.49, 0.53 +	Tropical Asia	0
+Swintonia foxworthyi	0.62	Tropical Asia	0
+Swintonia spp.	0.61	Tropical Asia	0
+Sycopsis dunni	0.63	Tropical Asia	0
+Syzygium cumini	0.7	Tropical Asia	0
+Syzygium luzoniense	0.63	Tropical Asia	0
+Syzygium nitidum	0.74	Tropical Asia	0
+Syzygium simile	0.56	Tropical Asia	0
+Syzygium spp.	0.69, 0.76 +	Tropical Asia	0
+Tamarindus indica	0.75	Tropical Asia	0
+Tectona grandis	0 50, 0.55 +	Tropical Asia	0
+Teijsmanniodendron ahernianum	0.9	Tropical Asia	0
+Terminalia arjuna	0.68	Tropical Asia	0
+Terminalia belerica	0.72	Tropical Asia	0
+Terminalia catappa	0.52	Tropical Asia	0
+Terminalia chebula	0.96	Tropical Asia	0
+Terminalia citrina	0.71	Tropical Asia	0
+Terminalia copelandii	0.46	Tropical Asia	0
+Terminalia foetidissima	0.55	Tropical Asia	0
+Terminalia microcarpa	0.53	Tropical Asia	0
+Terminalia nitens	0.58	Tropical Asia	0
+Terminalia pterocarpa	0.48	Tropical Asia	0
+Terminalia tomentosa	0.73, 0.76, 0.77 +	Tropical Asia	0
+Ternstroemia megacarpa	0.53	Tropical Asia	0
+Tetrameles nudiflora	0.3	Tropical Asia	0
+Tetramerista glabra	0.61	Tropical Asia	0
+Thespesia populnea	0.52	Tropical Asia	0
+Toona calantas	0.29	Tropical Asia	0
+Trema orientalis	0.31	Tropical Asia	0
+Trichospermum richii	0.32	Tropical Asia	0
+Tristania decorticata	0.91	Tropical Asia	0
+Tristania micrantha	0.89	Tropical Asia	0
+Tristania spp.	0.8	Tropical Asia	0
+Turpinia ovalifolia	0.36	Tropical Asia	0
+Vateria indica	0.47 *	Tropical Asia	1
+Vatica mangachapoi	0.65	Tropical Asia	0
+Vatica obscura	1.04 *	Tropical Asia	1
+Vatica pachyphylla	0.78	Tropical Asia	0
+Vatica spp.	0.69	Tropical Asia	0
+Vitex parviflora	0.7	Tropical Asia	0
+Vitex peduncularis	0.96	Tropical Asia	0
+Vitex spp.	0.65	Tropical Asia	0
+Vitex turczaninowii	0.49	Tropical Asia	0
+Wallaceodendron celebicum	0.55, 0.57 +	Tropical Asia	0
+Weinmannia luzoniensis	0.49	Tropical Asia	0
+Wrightia tinctorea	0.75	Tropical Asia	0
+Xanthophyllum excelsum	0.63	Tropical Asia	0
+Xanthostemon verdugonianus	1.04	Tropical Asia	0
+Xylia xylocarpa	0.73, 0.81 +	Tropical Asia	0
+Zanthoxylum rhetsa	0.33	Tropical Asia	0
+Zizyphus spp.	0.76	Tropical Asia	0
+Zizyphus talanai	0.53	Tropical Asia	0
+Zizyphus xylopyra	0.85	Tropical Asia	0
+Albizzia caribaea	0.64	Tropical America	0
+Albizzia spp	0.52	Tropical America	0
+Alcornea latifolia	0.49	Tropical America	0
+Alcornea spp	0.34	Tropical America	0
+Alexa grandiflora	0.6	Tropical America	0
+Alexa imperatricis	0.41,0.51 +	Tropical America	0
+Alnus ferruginea	0.38	Tropical America	0
+Alnus jorullensis	0.38	Tropical America	0
+Anacardium excelsum	0.41	Tropical America	0
+Anacardium spruceanum	0.42	Tropical America	0
+Anadenanthera macrocarpa	0.86	Tropical America	0
+Anadenanthera rigida	0.63	Tropical America	0
+Andira inermis	0.63, 0.64 +	Tropical America	0
+Andira retusa	0.67	Tropical America	0
+Aniba perutilis	0.5	Tropical America	0
+Aniba riparia/duckei	0.62	Tropical America	0
+Aniba spp.	0.38, 0.60 +	Tropical America	0
+Antiaris africana	0.38	Tropical America	0
+Apeiba aspera	0.23	Tropical America	0
+Apeiba echinata	0.36	Tropical America	0
+Apeiba spp.	0.20, 0.24 +	Tropical America	0
+Apeiba tibourbon	0.12	Tropical America	0
+Artocarpus comunis	0.7	Tropical America	0
+Aspidosperma album	0.68	Tropical America	0
+Aspidosperma cruentum	0.71	Tropical America	0
+Aspidosperma dugandii	0.77	Tropical America	0
+Aspidosperma marchravianum	0.68	Tropical America	0
+Aspidosperma megalocarpum	0.71, 0.81 +	Tropical America	0
+Aspidosperma spp. (araracanga group)	0.75	Tropical America	0
+Aspidosperma spp. (peroba group)	0.62, 0.65 +	Tropical America	0
+Astronium graveolens	0.75, 0.80, 0.84, 0.89 +	Tropical America	0
+Astronium lecointei	0.73	Tropical America	0
+Bagassa guianensis	0.68, 0.69 +	Tropical America	0
+Banara guianensis	0.61	Tropical America	0
+Basiloxylon exelsum	0.58	Tropical America	0
+Beilschmiedia pendula	0.54	Tropical America	0
+Beilschmiedia sp.	0.61	Tropical America	0
+Berthollettia excelsa	0.59, 0.63 +	Tropical America	0
+Bixa arborea	0.32	Tropical America	0
+Bombacopsis quinatum	0.38, 0.45, 0.51 +	Tropical America	0
+Bombacopsis sepium	0.39	Tropical America	0
+Borojoa patinoi	0.52	Tropical America	0
+Bowdichia nitida	0.77	Tropical America	0
+Bowdichia spp.	0.74	Tropical America	0
+Brosimum acutifolium	0.55	Tropical America	0
+Brosimum parinarioides	0.57	Tropical America	0
+Brosimum potabile	0.53	Tropical America	0
+Brosimum rubescens	0.73	Tropical America	0
+Brosimum sp.	0.64, 0.84 +	Tropical America	0
+Brosimum spp. (alicastrum group)	0.64, 0.66 +	Tropical America	0
+Brosimum spp. (utile group)	0.43	Tropical America	0
+Brosimum utile	0.41, 0.46 +	Tropical America	0
+Brysenia adenophylla	0.54	Tropical America	0
+Buchenavia capitata	0.61, 0.63 +	Tropical America	0
+Buchenavia huberi	0.59, 0.79 +	Tropical America	0
+Bucida buceras	0.93	Tropical America	0
+Bulnesia arborea	1	Tropical America	0
+Bursera simaruba	0.29, 0.34 +	Tropical America	0
+Byrsonima aerugo	0.62	Tropical America	0
+Byrsonima coriacea	0.64	Tropical America	0
+Byrsonima coriacea var. spicata	0.61	Tropical America	0
+Byrsonima spp.	0.61, 0.64,0.75 +	Tropical America	0
+Cabralea cangerana	0.55	Tropical America	0
+Caesalpinia spp.	1.05	Tropical America	0
+Calophyllum brasiliense	0.51, 0.54, 0.55 +	Tropical America	0
+Calophyllum mariae	0.46	Tropical America	0
+Calophyllum sp.	0.65	Tropical America	0
+Calycophyllum candidisimum	0.67	Tropical America	0
+Campnosperma panamensis	0.33, 0.50 +	Tropical America	0
+Carapa guianensis	0.56	Tropical America	0
+Carapa sp.	0.47	Tropical America	0
+Caryocar nr. barbinerve	0.62	Tropical America	0
+Caryocar spp.	0.69, 0.72 +	Tropical America	0
+Caryocar villosum	0.72	Tropical America	0
+Casearia arborea	0.53	Tropical America	0
+Casearia guianensis	0.7	Tropical America	0
+Casearia praecox	0.69 *	Tropical America	1
+Casearia sp.	0.62	Tropical America	0
+Cassia moschata	0.71	Tropical America	0
+Cassia multijuga	0.57	Tropical America	0
+Casuarina equisetifolia	0.81	Tropical America	0
+Catostemma commune	0.51	Tropical America	0
+Catostemma spp.	0.55	Tropical America	0
+Cecropia peltata	0.29, 0.30, 0.36 +	Tropical America	0
+Cecropia spp.	0.36	Tropical America	0
+Cedrela angustifolia	0.36	Tropical America	0
+Cedrela huberi	0.38	Tropical America	0
+Cedrela odorata	0.43, 0.44, 0.45 +	Tropical America	0
+Cedrela spp.	0.40, 0.46 +	Tropical America	0
+Cedrelinga catenaeformis	0.41, 0.53 +	Tropical America	0
+Ceiba pentandra	0.23, 0.24, 0.25, 0.29 +	Tropical America	0
+Centrolobium paraense var. orinocensis	0.69	Tropical America	0
+Centrolobium spp.	0.65	Tropical America	0
+Cespedesia macrophylla	0.63	Tropical America	0
+Chaetocarpus schomburgkianus	0.8	Tropical America	0
+Chlorophora tinctoria	0.71, 0.75 +	Tropical America	0
+Clarisia racemosa	0.53, 0.57 +	Tropical America	0
+Clathrotropis brunnea	0.82	Tropical America	0
+Clathrotropis spp.	0.89	Tropical America	0
+Clusia rosea	0.67	Tropical America	0
+Cochlospermum orinocensis	0.26	Tropical America	0
+Copaifera duckei/reticulata	0.62	Tropical America	0
+Copaifera officinalis	0.59	Tropical America	0
+Copaifera spp.	0.46, 0.55 +	Tropical America	0
+Cordia alliodora	0.42, 0.47, 0.50, 0.57 +	Tropical America	0
+Cordia apurensis	0.66	Tropical America	0
+Cordia bicolor	0.43, 0.49 +	Tropical America	0
+Cordia borinquensis	0.7	Tropical America	0
+Cordia collococca	0.47	Tropical America	0
+Cordia exaltata	0.41	Tropical America	0
+Cordia fallax	0.36	Tropical America	0
+Cordia goeldiana	0.5	Tropical America	0
+Cordia sagotii	0.5	Tropical America	0
+Cordia spp. (gerascanthus group)	0.74	Tropical America	0
+Cordia spp. (alliodora group)	0.48	Tropical America	0
+Cordia sulcata	0.6	Tropical America	0
+Couepia sp.	0.7	Tropical America	0
+Couma macrocarpa	0.50, 0.53 +	Tropical America	0
+Couratari pulchra	0.50, 0.54 +	Tropical America	0
+Couratari spp.	0.5	Tropical America	0
+Couratari stellata	0.65, 0.78 +	Tropical America	0
+Croton xanthochloros	0.48	Tropical America	0
+Cupressus lusitanica	0.43, 0.44 +	Tropical America	0
+Cyrilla racemiflora	0.53	Tropical America	0
+Dacryodes colombiana	0.51	Tropical America	0
+Dacryodes excelsa	0.52, 0.53 +	Tropical America	0
+Dalbergia nigra	0.68	Tropical America	0
+Dalbergia retusa	0.89	Tropical America	0
+Dalbergia stevensonii	0.82	Tropical America	0
+Declinanona calycina	0.47	Tropical America	0
+Dialium guianensis	0.87	Tropical America	0
+Dialyanthera spp.	0.36, 0.48 +	Tropical America	0
+Dicorynia guianensis	0.60, 0.65 +	Tropical America	0
+Dicorynia paraensis	0.6	Tropical America	0
+Didymopanax morototoni	0.36, 0.40, 0.45 +	Tropical America	0
+Didymopanax pittieri	0.43	Tropical America	0
+Didymopanax sp.	0.74	Tropical America	0
+Dimorphandra mora	0.99 *	Tropical America	1
+Diplotropis purpurea	0.76, 0.77, 0.78 +	Tropical America	0
+Dipterix odorata	0.81, 0.86, 0.89 +	Tropical America	0
+Drypetes variabilis	0.69	Tropical America	0
+Dussia lehmannii	0.59	Tropical America	0
+Ecclinusa guianensis	0.63	Tropical America	0
+Endlicheria cocvirey	0.39	Tropical America	0
+Enterolobium cyclocarpum	0.34, 0.45 +	Tropical America	0
+Enterolobium schomburgkii	0.82	Tropical America	0
+Eperua spp.	0.78	Tropical America	0
+Eriotheca longipedicellatum	0.45	Tropical America	0
+Eriotheca sp.	0.4	Tropical America	0
+Erisma uncinatum	0.42, 0.48 +	Tropical America	0
+Erythrina sp.	0.23	Tropical America	0
+Eschweilera amara	0.85	Tropical America	0
+Eschweilera corrugata	0.66	Tropical America	0
+Eschweilera grata	0.88	Tropical America	0
+Eschweilera hologyne	0.76	Tropical America	0
+Eschweilera odora	0.81, 0.85 +	Tropical America	0
+Eschweilera sagotiana	0.82	Tropical America	0
+Eschweilera spp.	0.71, 0.79, 0.95 +	Tropical America	0
+Eschweilera subglandulosa	0.87, 0.89 +	Tropical America	0
+Eschweilera tenax	0.62	Tropical America	0
+Eschweilera trinitensis	0.77	Tropical America	0
+Eucalyptus robusta	0.51	Tropical America	0
+Eugenia compta	0.68	Tropical America	0
+Eugenia pseudosidium	0.62	Tropical America	0
+Eugenia stahlii	0.73	Tropical America	0
+Euxylophora paraensis	0.68, 0.70 +	Tropical America	0
+Fagara aff. F. martinicense	0.41	Tropical America	0
+Fagara sp.	0.57	Tropical America	0
+Fagara spp.	0.69	Tropical America	0
+Ficus citrifolia	0.4	Tropical America	0
+Ficus sp.	0.32	Tropical America	0
+Genipa americana	0.57, 0.58, 0.66 +	Tropical America	0
+Genipa spp.	0.75	Tropical America	0
+Goupia glabra	0.67, 0.72 +	Tropical America	0
+Guarea chalde	0.52	Tropical America	0
+Guarea spp.	0.52	Tropical America	0
+Guarea trichiloides	0.51, 0.52 +	Tropical America	0
+Guatteria spp.	0.36	Tropical America	0
+Guazuma ulmifolia	0.52, 0.50 +	Tropical America	0
+Guettarda scabra	0.65	Tropical America	0
+Guillielma gasipae	0.95, 1.25 +	Tropical America	0
+Gustavia sp.	0.56	Tropical America	0
+Helicostylis tomentosa	0.68, 0.72 +	Tropical America	0
+Hernandia sonora	0.29	Tropical America	0
+Hevea brasiliense	0.49	Tropical America	0
+Himatanthus articulata	0.40, 0.54 +	Tropical America	0
+Hirtella davisii	0.74	Tropical America	0
+Humiria balsamifera	0.66, 0.67 +	Tropical America	0
+Humiriastrum melanocarpum	0.6	Tropical America	0
+Humiriastrum procera	0.7	Tropical America	0
+Hura crepitans	0.36, 0.37, 0.38 +	Tropical America	0
+Hyeronima alchorneoides	0.60, 0.64 +	Tropical America	0
+Hyeronima laxiflora	0.59	Tropical America	0
+Hymenaea courbaril	0.54, 0.76, 0.77 +	Tropical America	0
+Hymenaea davisii	0.67	Tropical America	0
+Hymenolobium excelsum	0.63	Tropical America	0
+Hymenolobium sp.	0.64	Tropical America	0
+Inga alba	0.53	Tropical America	0
+Inga capitata	0.64	Tropical America	0
+Inga coruscans	0.72	Tropical America	0
+Inga floribunda	0.56	Tropical America	0
+Inga ingoides	0.5	Tropical America	0
+Inga laurina	0.62	Tropical America	0
+Inga marginata	0.72	Tropical America	0
+Inga sp.	0.49, 0.52, 0.58, 0.64 +	Tropical America	0
+Inga splendens	0.55	Tropical America	0
+Inga vera	0.59	Tropical America	0
+Iryanthera grandis	0.63	Tropical America	0
+Iryanthera hostmanii	0.5	Tropical America	0
+Iryanthera spp.	0.46	Tropical America	0
+Jacaranda copaia	0.35	Tropical America	0
+Jacaranda hesperia	0.35	Tropical America	0
+Jacaranda sp.	0.55	Tropical America	0
+Joannesia heveoides	0.39	Tropical America	0
+Lachmellea speciosa	0.73	Tropical America	0
+Laetia procera	0.68	Tropical America	0
+Lecythis davisii	0.82	Tropical America	0
+Lecythis ollaria	0.72	Tropical America	0
+Lecythis paraensis	0.88	Tropical America	0
+Lecythis sp.	0.83	Tropical America	0
+Lecythis spp.	0.77	Tropical America	0
+Licania aff. micrantha	0.86	Tropical America	0
+Licania alba	0.91	Tropical America	0
+Licania apetala	0.64, 0.78 +	Tropical America	0
+Licania densiflora	0.8	Tropical America	0
+Licania hypoleuca	0.9	Tropical America	0
+Licania macrophylla	0.76	Tropical America	0
+Licania parviflora	0.76	Tropical America	0
+Licania sp.	0.61, 0.79 +	Tropical America	0
+Licania spp.	0.78	Tropical America	0
+Licania cayennensis	0.99	Tropical America	0
+Licania spp.	0.82	Tropical America	0
+Lindackeria sp.	0.41	Tropical America	0
+Linociera domingensis	0.81	Tropical America	0
+Lonchocarpus sericens	0.78	Tropical America	0
+Lonchocarpus spp.	0.69	Tropical America	0
+Lonchocarpus straminens	0.75	Tropical America	0
+Loxopterygium sagotii	0.56	Tropical America	0
+Lucuma spp.	0.79	Tropical America	0
+Luehea cymulosa	0.55	Tropical America	0
+Luehea spp.	0.5	Tropical America	0
+Lueheopsis duckeana	0.64	Tropical America	0
+Mabea piriri	0.59	Tropical America	0
+Machaerium spp.	0.7	Tropical America	0
+Macoubea guianensis	0.40 *	Tropical America	1
+Magnolia sororum	0.5	Tropical America	0
+Magnolia splendens	0.59	Tropical America	0
+Magnolia spp.	0.52	Tropical America	0
+Maguira sclerophylla	0.57	Tropical America	0
+Mammea americana	0.62	Tropical America	0
+Mangifera indica	0.55	Tropical America	0
+Manilkara bidentata	0.82, 0.84, 0.85 +	Tropical America	0
+Manilkara sp.	0.89	Tropical America	0
+Marila sp.	0.63	Tropical America	0
+Marmaroxylon racemosum	0.78 *	Tropical America	1
+Matayba domingensis	0.7	Tropical America	0
+Matisia hirta	0.61	Tropical America	0
+Maytenus ficiformis	0.67	Tropical America	0
+Maytenus spp.	0.71	Tropical America	0
+Mezilaurus itauba	0.68	Tropical America	0
+Mezilaurus lindaviana	0.68	Tropical America	0
+Michropholis garciniaefolia	0.64	Tropical America	0
+Michropholis spp.	0.61	Tropical America	0
+Minquartia guianensis	0.76, 0.79 +	Tropical America	0
+Mora excelsa	0.8	Tropical America	0
+Mora gonggrijpi	0.8	Tropical America	0
+Mora magistosperma	0.88	Tropical America	0
+Mora sp.	0.77	Tropical America	0
+Mouriria guianensis	0.8	Tropical America	0
+Mouriria huberi	0.75	Tropical America	0
+Mouriria pseudo-germinata	0.65	Tropical America	0
+Mouriria sideroxylon	0.88	Tropical America	0
+Myrcia paivae	0.73	Tropical America	0
+Myrcia splendens	0.8	Tropical America	0
+Myrciaria floribunda	0.73	Tropical America	0
+Myristica spp.	0.46	Tropical America	0
+Myroxylon balsamum	0.74, 0.76, 0.78 +	Tropical America	0
+Nectandra antillana	0.42	Tropical America	0
+Nectandra concinna	0.54, 0.56 +	Tropical America	0
+Nectandra coriacea	0.51	Tropical America	0
+Nectandra rigida	0.59	Tropical America	0
+Nectandra rodioei	0.91	Tropical America	0
+Nectandra rubra	0.55	Tropical America	0
+Nectandra sp.	0.43, 0.48, 0.72 +	Tropical America	0
+Nectandra spp.	0.52	Tropical America	0
+Ocotea glandulosa	0.46	Tropical America	0
+Ocotea leucoxylon	0.45	Tropical America	0
+Ocotea moschata	0.61	Tropical America	0
+Ocotea rodioei	0.85, 0.86 +	Tropical America	0
+Ocotea rubra	0.54, 0.55, 0.56 +	Tropical America	0
+Ocotea spathulata	0.62	Tropical America	0
+Ocotea spp.	0.51	Tropical America	0
+Onychopetalum amazonicum	0.64	Tropical America	0
+Ormosia krugii	0.5	Tropical America	0
+Ormosia lignivalvis	0.58	Tropical America	0
+Ormosia spp.	0.59	Tropical America	0
+Ouratea sp.	0.66	Tropical America	0
+Pachira acuatica	0.43	Tropical America	0
+Paratecoma peroba	0.6	Tropical America	0
+Parinari campestris	0.69	Tropical America	0
+Parinari excelsa	0.64	Tropical America	0
+Parinari rodolfi	0.72	Tropical America	0
+Parinari spp.	0.68	Tropical America	0
+Parkia belutina	0.42	Tropical America	0
+Parkia multijuga	0.38	Tropical America	0
+Parkia oppositifolia	0.24	Tropical America	0
+Parkia pendula	0.51	Tropical America	0
+Parkia spp.	0.39	Tropical America	0
+Peltogyne porphyrocardia	0.92	Tropical America	0
+Peltogyne spp.	0.79	Tropical America	0
+Pentaclethra macroloba	0.65, 0.68 +	Tropical America	0
+Pera glabrata	0.65	Tropical America	0
+Pera schomburgkiana	0.59	Tropical America	0
+Persea spp.	0.40, 0.47, 0.52 +	Tropical America	0
+Petitia domingensis	0.66	Tropical America	0
+Pinus caribaea	0.51	Tropical America	0
+Pinus oocarpa	0.55	Tropical America	0
+Pinus patula	0.45	Tropical America	0
+Piptadenia communis	0.68	Tropical America	0
+Piptadenia macrocarpa	0.83 *	Tropical America	1
+Piptadenia pittieri	0.62, 0.76 +	Tropical America	0
+Piptadenia psilostachya	0.67	Tropical America	0
+Piptadenia rigida	0.73	Tropical America	0
+Piptadenia sp.	0.58	Tropical America	0
+Piptadenia suaveolens	0.72	Tropical America	0
+Piranhea longepedunculata	0.9	Tropical America	0
+Piratinera guianensis	0.96	Tropical America	0
+Pithecellobium guachapele (syn. Pseudosamea)	0.56	Tropical America	0
+Pithecellobium saman	0.48	Tropical America	0
+Platonia insignis	0.70 *	Tropical America	1
+Platymiscium pinnatum	0.80, 0.81 +	Tropical America	0
+Platymiscium polystachium	0.73	Tropical America	0
+Platymiscium spp.	0.71, 0.84 +	Tropical America	0
+Podocarpus oleifolius	0.46	Tropical America	0
+Podocarpus rospigliossi	0.4	Tropical America	0
+Podocarpus spp.	0.46	Tropical America	0
+Pourouma aff. apiculata	0.45	Tropical America	0
+Pourouma aspera	0.28	Tropical America	0
+Pourouma aff. guianensis	0.33	Tropical America	0
+Pourouma aff. melinonii	0.32	Tropical America	0
+Pouteria carabobensis	0.68	Tropical America	0
+Pouteria egregia	0.89	Tropical America	0
+Pouteria eugeniifolia	1.08	Tropical America	0
+Pouteria gonggrijpii	0.84	Tropical America	0
+Pouteria melinonii	0.63 *	Tropical America	1
+Pouteria multiflora	0.74	Tropical America	0
+Pouteria pomifera	0.76	Tropical America	0
+Pouteria sp.	0.73	Tropical America	0
+Pouteria spp.	0.64, 0.67 +	Tropical America	0
+Prioria copaifera	0.40, 0.41 +	Tropical America	0
+Protium crenatum	0.54	Tropical America	0
+Protium decandrum	0.56	Tropical America	0
+Protium heptaphyllum	0.40, 0.55 +	Tropical America	0
+Protium neglectum	0.58, 0.64 +	Tropical America	0
+Protium sp.	0.73	Tropical America	0
+Protium spp.	0.53, 0.64 +	Tropical America	0
+Protium tenuifolium	0.6	Tropical America	0
+Pseudolmedia laevigata	0.64	Tropical America	0
+Pterocarpus officinalis	0.32, 0.50 +	Tropical America	0
+Pterocarpus rohrii	0.41	Tropical America	0
+Pterocarpus sp.	0.46, 0.50 +	Tropical America	0
+Pterocarpus spp.	0.44	Tropical America	0
+Pterocarpus vernalis	0.59	Tropical America	0
+Pterogyne nitens	0.66	Tropical America	0
+Pterygota excelsa	0.58	Tropical America	0
+Qualea albiflora	0.5	Tropical America	0
+Qualea cf. lancifolia	0.58	Tropical America	0
+Qualea dinizii	0.58	Tropical America	0
+Qualea spp.	0.55	Tropical America	0
+Quararibaea guianensis	0.54	Tropical America	0
+Quercus alata	0.71	Tropical America	0
+Quercus costaricensis	0.61	Tropical America	0
+Quercus eugeniaefolia	0.67	Tropical America	0
+Quercus spp.	0.7	Tropical America	0
+Raputia sp.	0.55	Tropical America	0
+Rheedia spp.	0.72	Tropical America	0
+Rollinia exsucca	0.32	Tropical America	0
+Rollinia sp.	0.34, 0.36 +	Tropical America	0
+Rollinia spp.	0.36	Tropical America	0
+Saccoglottis cydonioides	0.72	Tropical America	0
+Sapium biglandulosum	0.45	Tropical America	0
+Sapium cf. jenmanni	0.41	Tropical America	0
+Sapium laurocerasus	0.38	Tropical America	0
+Sapium sp.	0.38, 0.48 +	Tropical America	0
+Sapium spp.	0.47, 0.72 +	Tropical America	0
+Schinopsis spp.	1	Tropical America	0
+Sclerolobium aff. chrysophyllum	0.62	Tropical America	0
+Sclerolobium guianensis	0.56	Tropical America	0
+Sclerolobium paniculatum	0.34	Tropical America	0
+Sclerolobium spp.	0.47	Tropical America	0
+Sickingia spp.	0.52	Tropical America	0
+Simaba multiflora	0.51	Tropical America	0
+Simarouba amara	0.32, 0.34, 0.38 +	Tropical America	0
+Sloanea berteriana	0.8	Tropical America	0
+Sloanea grandiflora	0.8	Tropical America	0
+Sloanea guianensis	0.79	Tropical America	0
+Spondias lutea	0.38	Tropical America	0
+Spondias mombin	0.39, 0.40, 0.41 +	Tropical America	0
+Sterculia apetala	0.33, 0.36 +	Tropical America	0
+Sterculia pilosa/speciosa	0.53	Tropical America	0
+Sterculia pruriens	0.46	Tropical America	0
+Sterculia spp.	0.55	Tropical America	0
+Stryphnodendron polystachum	0.52	Tropical America	0
+Stylogyne spp.	0.69	Tropical America	0
+Swartzia spp.	0.95	Tropical America	0
+Swietenia macrophylla	0.42, 0.45, 0.46, 0.54 +	Tropical America	0
+Symphonia globulifera	0.58	Tropical America	0
+Tabebuia guayacan	0.82	Tropical America	0
+Tabebuia heterophylla	0.58	Tropical America	0
+Tabebuia heterotricha	0.82	Tropical America	0
+Tabebuia pentaphylla	0.51	Tropical America	0
+Tabebuia rosea	0.54	Tropical America	0
+Tabebuia serratifolia	0.92, 0.95, 0.99 +	Tropical America	0
+Tabebuia spectabilis	1.07	Tropical America	0
+Tabebuia spp. (lapacho group)	0.91	Tropical America	0
+Tabebuia spp. (roble)	0.52	Tropical America	0
+Tabebuia spp. (white cedar)	0.57	Tropical America	0
+Tabebuia stenocalyx	0.55, 0.57 +	Tropical America	0
+Tachigalia myrmecophylla	0.56	Tropical America	0
+Talisia sp.	0.84	Tropical America	0
+Tapirira guianensis	0.47 *	Tropical America	1
+Terminalia amazonia	0.66	Tropical America	0
+Terminalia catappa	0.59	Tropical America	0
+Terminalia guianensis	0.63	Tropical America	0
+Terminalia lucida	0.65	Tropical America	0
+Terminalia sp.	0.50, 0.51, 0.58 +	Tropical America	0
+Tetragastris altisima	0.61	Tropical America	0
+Tetragastris balsamifera	0.63, 0.67 +	Tropical America	0
+Tetragastris panamensis	0.71	Tropical America	0
+Tetragastris spp.	0.71	Tropical America	0
+Toluifera balsamum	0.74	Tropical America	0
+Torrubia cuspidata	0.47	Tropical America	0
+Torrubia sp.	0.52	Tropical America	0
+Toulicia pulvinata	0.63	Tropical America	0
+Tovomita guianensis	0.6	Tropical America	0
+Trattinickia burserifolia	0.44	Tropical America	0
+Trattinickia rhoifolia	0.37	Tropical America	0
+Trattinickia sp.	0.38	Tropical America	0
+Trichilia propingua	0.58	Tropical America	0
+Trichosperma mexicanum	0.41	Tropical America	0
+Triplaris sp.	0.64	Tropical America	0
+Triplaris spp.	0.56	Tropical America	0
+Triplaris surinamensis	0.51	Tropical America	0
+Trophis sp.	0.54	Tropical America	0
+Vatairea lundellii	0.64	Tropical America	0
+Vatairea spp.	0.6	Tropical America	0
+Virola sebifera	0.48	Tropical America	0
+Virola spp.	0.40, 0.44, 0.48 +	Tropical America	0
+Virola surinamensis	0.37, 0.42 +	Tropical America	0
+Vismia spp.	0.41	Tropical America	0
+Vitex divaricata	0.62	Tropical America	0
+Vitex gaumeri	0.56	Tropical America	0
+Vitex orinocensis	0.53	Tropical America	0
+Vitex spp.	0.52, 0.56, 0.57 +	Tropical America	0
+Vitex stahelii	0.6	Tropical America	0
+Vochysia ferruginea	0.42, 0.47 +	Tropical America	0
+Vochysia guianensis	0.45	Tropical America	0
+Vochysia hondurensis	0.33	Tropical America	0
+Vochysia lehmannii	0.48	Tropical America	0
+Vochysia maxima	0.46	Tropical America	0
+Vochysia spp.	0.40, 0.47, 0.79 +	Tropical America	0
+Vochysia tetraphylla	0.48	Tropical America	0
+Vochysia tomentosa	0.36	Tropical America	0
+Vouacapoua americana	0.79	Tropical America	0
+Warszewicsia coccinea	0.56	Tropical America	0
+Xanthoxylum martinicensis	0.46	Tropical America	0
+Xanthoxylum spp.	0.44	Tropical America	0
+Xylopia columbiana	0.51	Tropical America	0
+Xylopia emarginata	0.59	Tropical America	0
+Xylopia frutescens	0.64 *	Tropical America	1
+Afzelia bipindensis	0.66 *	Tropical Africa	1
+Afzelia pachyloba	0.63 *	Tropical Africa	1
+Afzelia spp.	0.67	Tropical Africa	0
+Aidia ochroleuca	0.78 *	Tropical Africa	1
+Albizia ferruginea	0.47 *	Tropical Africa	1
+Albizia glaberrima	0.52 *	Tropical Africa	1
+Albizia gummifera	0.51 *	Tropical Africa	1
+Albizia spp.	0.52	Tropical Africa	0
+Albizia zygia	0.46 *	Tropical Africa	1
+Allanblackia floribunda	0.63 *	Tropical Africa	1
+Allophyllus africanus f. acuminatus	0.45	Tropical Africa	0
+Alstonia congensis	0.33	Tropical Africa	0
+Amphimas ferrugineus	0.63 *	Tropical Africa	1
+Amphimas pterocarpoides	0.63 *	Tropical Africa	1
+Anisophyllea obtusifolia	0.63 *	Tropical Africa	1
+Annonidium mannii	0.29 *	Tropical Africa	1
+Anopyxis klaineana	0.74 *	Tropical Africa	1
+Anthocleista keniensis	0.50 *	Tropical Africa	1
+Anthonotha macrophylla	0.78 *	Tropical Africa	1
+Anthostemma aubryanum	0.32 *	Tropical Africa	1
+Antiaris africana	0.37	Tropical Africa	0
+Antiaris spp.	0.38	Tropical Africa	0
+Antrocaryon klaineanum	0.50 *	Tropical Africa	1
+Aucoumea klaineana	0.37	Tropical Africa	0
+Autranella congolensis	0.78	Tropical Africa	0
+Baillonella toxisperma	0.71	Tropical Africa	0
+Balanites aegyptiaca	0.63 *	Tropical Africa	1
+Baphia kirkii	0.93 *	Tropical Africa	1
+Beilschmiedia corbisieri	0.63 *	Tropical Africa	1
+Beilschmiedia diversiflora	0.63 *	Tropical Africa	1
+Beilschmiedia kweo	0.56 *	Tropical Africa	1
+Beilschmiedia louisii	0.70 *	Tropical Africa	1
+Beilschmiedia membranifolia	0.50 *	Tropical Africa	1
+Beilschmiedia nitida	0.50 *	Tropical Africa	1
+Berlinia bracteosa	0.60 *	Tropical Africa	1
+Berlinia confusa	0.56 *	Tropical Africa	1
+Berlinia spp.	0.58	Tropical Africa	0
+Blighia welwitschii	0.74 *	Tropical Africa	1
+Bombax buonopozense	0.32 *	Tropical Africa	1
+Bombax chevalieri	0.41 *	Tropical Africa	1
+Bombax rhodognaphalon	0.36 *	Tropical Africa	1
+Bombax spp.	0.4	Tropical Africa	0
+Brachystegia cynometroides	0.56 *	Tropical Africa	1
+Brachystegia laurentii	0.45 *	Tropical Africa	1
+Brachystegia mildbraedii	0.50 *	Tropical Africa	1
+Brachystegia spp.	0.52	Tropical Africa	0
+Bridelia grandis	0.50 *	Tropical Africa	1
+Bridelia micrantha	0.47 *	Tropical Africa	1
+Calpocalyx heitzii	0.66 *	Tropical Africa	1
+Calpocalyx klainei	0.63 *	Tropical Africa	1
+Canarium schweinfurthii	0.40 *	Tropical Africa	1
+Canthium rubrocostratum	0.63 *	Tropical Africa	1
+Carapa procera	0.59	Tropical Africa	0
+Casearia battiscombei	0.5	Tropical Africa	0
+Cassipourea euryoides	0.70 *	Tropical Africa	1
+Cassipourea malosana	0.59 *	Tropical Africa	1
+Ceiba pentandra	0.26	Tropical Africa	0
+Celtis brieyi	0.50 *	Tropical Africa	1
+Celtis mildbraedii	0.56 *	Tropical Africa	1
+Celtis spp.	0.59	Tropical Africa	0
+Celtis zenkeri	0.59 *	Tropical Africa	1
+Chlorophora excelsa	0.55	Tropical Africa	0
+Chrysophyllum albidum	0.56 *	Tropical Africa	1
+Cleistanthus mildbraedii	0.87 *	Tropical Africa	1
+Cleistopholis patens	0.36 *	Tropical Africa	1
+Coelocaryon preussii	0.56 *	Tropical Africa	1
+Cola cordifolia	0.50 *	Tropical Africa	1
+Cola gigantea	0.46 *	Tropical Africa	1
+Cola gigantea var. glabrescens	0.46 *	Tropical Africa	1
+Cola natalensis	0.70 *	Tropical Africa	1
+Cola sp.	0.70 *	Tropical Africa	1
+Combretodendron macrocarpum	0.7	Tropical Africa	0
+Conopharyngia holstii	0.50 *	Tropical Africa	1
+Copaifera mildbraedii	0.63 *	Tropical Africa	1
+Copaifera religiosa	0.50 *	Tropical Africa	1
+Cordia africana	0.40 *	Tropical Africa	1
+Cordia millenii	0.34	Tropical Africa	0
+Cordia platythyrsa	0.36 *	Tropical Africa	1
+Corynanthe gabonensis	0.56 *	Tropical Africa	1
+Corynanthe pachyceras	0.63 *	Tropical Africa	1
+Coula edulis	0.78 *	Tropical Africa	1
+Croton macrostachyus	0.50 *	Tropical Africa	1
+Croton megalocarpus	0.57	Tropical Africa	0
+Cryptosepalum staudtii	0.70 *	Tropical Africa	1
+Ctenolophon englerianus	0.78 *	Tropical Africa	1
+Cylicodiscus gabonensis	0.8	Tropical Africa	0
+Cynometra alexandri	0.74	Tropical Africa	0
+Dacryodes buettneri	0.53 *	Tropical Africa	1
+Dacryodes edulis	0.50 *	Tropical Africa	1
+Dacryodes igaganga	0.53 *	Tropical Africa	1
+Dacryodes klaineana	0.70 *	Tropical Africa	1
+Dacryodes le-testui	0.50 *	Tropical Africa	1
+Dacryodes normandii	0.50 *	Tropical Africa	1
+Dacryodes spp.	0.61	Tropical Africa	0
+Daniellia klainei	0.45 *	Tropical Africa	1
+Daniellia ogea	0.40 *	Tropical Africa	1
+Daniellia soyauxii	0.45 *	Tropical Africa	1
+Desbordesia pierreana	0.87 *	Tropical Africa	1
+Detarium senegalensis	0.63 *	Tropical Africa	1
+Dialium bipindense	0.83 *	Tropical Africa	1
+Dialium dinklagei	0.72	Tropical Africa	0
+Dialium excelsum	0.78 *	Tropical Africa	1
+Didelotia africana	0.78 *	Tropical Africa	1
+Didelotia brevipaniculata	0.53	Tropical Africa	0
+Didelotia letouzeyi	0.50 *	Tropical Africa	1
+Diospyros kamerunensis	0.78 *	Tropical Africa	1
+Diospyros spp.	0.82	Tropical Africa	0
+Discoglypremna caloneura	0.32 *	Tropical Africa	1
+Distemonanthus benthamianus	0.58	Tropical Africa	0
+Drypetes gossweilleri	0.63 *	Tropical Africa	1
+Drypetes sp.	0.63 *	Tropical Africa	1
+Ehretia acuminata	0.51 *	Tropical Africa	1
+Enantia chlorantha	0.42 *	Tropical Africa	1
+Endodesmia calophylloides	0.66 *	Tropical Africa	1
+Entandrophragma angolensis	0.45	Tropical Africa	0
+Entandrophragma candollei	0.59	Tropical Africa	0
+Entandrophragma cylindricum	0.55	Tropical Africa	0
+Entandrophragma utile	0.53	Tropical Africa	0
+Eribroma oblongum	0.60 *	Tropical Africa	1
+Eriocoelum microspermum	0.50 *	Tropical Africa	1
+Erismadelphus exsul	0.56 *	Tropical Africa	1
+Erythrina vogelii	0.25 *	Tropical Africa	1
+Erythrophleum ivorense	0.72	Tropical Africa	0
+Erythroxylum mannii	0.5	Tropical Africa	0
+Fagara heitzii	0.41 *	Tropical Africa	1
+Fagara macrophylla	0.69	Tropical Africa	0
+Ficus iteophylla	0.40 *	Tropical Africa	1
+Ficus mucuso	0.39 *	Tropical Africa	1
+Funtumia africana	0.40 *	Tropical Africa	1
+Fumtumia latifolia	0.45 *	Tropical Africa	1
+Gambeya africana	0.63	Tropical Africa	0
+Gambeya lacourtiana	0.63 *	Tropical Africa	1
+Gambeya madagascariensis	0.56 *	Tropical Africa	1
+Gambeya spp.	0.56 *	Tropical Africa	1
+Garcinia gerardii	0.66 *	Tropical Africa	1
+Garcinia mannii	0.78 *	Tropical Africa	1
+Garcinia punctata	0.78 *	Tropical Africa	1
+Gilbertiodendron dewevrei	0.65 *	Tropical Africa	1
+Gilbertiodendron grandiflorum	0.66 *	Tropical Africa	1
+Gilbertiodendron mayombense	0.63 *	Tropical Africa	1
+Gilletiodendron mildbraedii	0.87 *	Tropical Africa	1
+Gossweilerodendron balsamiferum	0.4	Tropical Africa	0
+Guarea cedrata	0.48	Tropical Africa	0
+Guarea laurentii	0.56 *	Tropical Africa	1
+Guarea thompsonii	0.55 *	Tropical Africa	1
+Guibourtia arnoldiana	0.64	Tropical Africa	0
+Guibourtia demeusei	0.70 *	Tropical Africa	1
+Guibourtia ehie	0.67	Tropical Africa	0
+Guibourtia pellegriniana	0.74 *	Tropical Africa	1
+Guibourtia spp.	0.72	Tropical Africa	0
+Guibourtia tessmannii	0.74 *	Tropical Africa	1
+Hannoa klaineana	0.28 *	Tropical Africa	1
+Harungana madagascariensis	0.45 *	Tropical Africa	1
+Hexalobus crispiflorus	0.48 *	Tropical Africa	1
+Holoptelea grandis	0.59 *	Tropical Africa	1
+Homalium letestui	0.66 *	Tropical Africa	1
+Homalium spp.	0.7	Tropical Africa	0
+Hylodendron gabonense	0.78 *	Tropical Africa	1
+Hymenostegia afzelii	0.78 *	Tropical Africa	1
+Hymenostegia pellegrini	0.78 *	Tropical Africa	1
+Irvingia gabonensis	0.71	Tropical Africa	0
+Irvingia grandifolia	0.78 *	Tropical Africa	1
+Julbernardia globiflora	0.78	Tropical Africa	0
+Khaya grandifoliola	0.6	Tropical Africa	0
+Khaya ivorensis	0.44	Tropical Africa	0
+Khaya senegalensis	0.6	Tropical Africa	0
+Klainedoxa gabonensis	0.87	Tropical Africa	0
+Lannea welwitschii	0.45 *	Tropical Africa	1
+Lecomtedoxa klaineana	0.78 *	Tropical Africa	1
+Letestua durissima	0.87 *	Tropical Africa	1
+Lophira alata	0.87 *	Tropical Africa	1
+Lovoa trichilioides	0.45 *	Tropical Africa	1
+Macaranga conglomerata	0.40 *	Tropical Africa	1
+Macaranga kilimandscharica	0.40 *	Tropical Africa	1
+Maesopsis eminii	0.41	Tropical Africa	0
+Malacantha sp. aff. alnifolia	0.45 *	Tropical Africa	1
+Mammea africana	0.62	Tropical Africa	0
+Manilkara cuneifolia	0.81 *	Tropical Africa	1
+Manilkara lacera	0.78 *	Tropical Africa	1
+Markhamia hildebrandtii	0.50 *	Tropical Africa	1
+Markhamia platycalyx	0.45 *	Tropical Africa	1
+Memecylon capitellatum	0.77 *	Tropical Africa	1
+Microberlinia bisulcata	0.63 *	Tropical Africa	1
+Microberlinia brazzavillensis	0.7	Tropical Africa	0
+Microcos coriaceus	0.42 *	Tropical Africa	1
+Milletia laurentii	0.70 *	Tropical Africa	1
+Milletia spp.	0.72	Tropical Africa	0
+Mitragyna ciliata	0.45	Tropical Africa	0
+Mitragyna stipulosa	0.47	Tropical Africa	0
+Monopetalanthus coriaceus	0.45 *	Tropical Africa	1
+Monopetalanthus durandii	0.50 *	Tropical Africa	1
+Monopetalanthus heitzii	0.39	Tropical Africa	0
+Monopetalanthus letestui	0.50 *	Tropical Africa	1
+Monopetalanthus pellegrinii	0.47 *	Tropical Africa	1
+Musanga cecropioides	0.23	Tropical Africa	0
+Nauclea diderrichii	0.63	Tropical Africa	0
+Neopoutonia macrocalyx	0.32 *	Tropical Africa	1
+Nesogordonia fouassieri	0.70 *	Tropical Africa	1
+Nesogordonia papaverifera	0.65	Tropical Africa	0
+Newtonia buchananii	0.48 *	Tropical Africa	1
+Newtonia glandulifera	0.74 *	Tropical Africa	1
+Ochtocosmus africanus	0.78 *	Tropical Africa	1
+Odyendea gabonensis	0.32 *	Tropical Africa	1
+Odyendea spp.	0.32	Tropical Africa	0
+Oldfieldia africana	0.78 *	Tropical Africa	1
+Ongokea gore	0.72	Tropical Africa	0
+Oxystigma oxyphyllum	0.53	Tropical Africa	0
+Pachyelasma tessmannii	0.70 *	Tropical Africa	1
+Pachypodanthium confine	0.58 *	Tropical Africa	1
+Pachypodanthium staudtii	0.58 *	Tropical Africa	1
+Paraberlinia bifoliolata	0.56 *	Tropical Africa	1
+Parinari excelsa	0.69	Tropical Africa	0
+Parinari glabra	0.87 *	Tropical Africa	1
+Parinari goetzeniana	0.78 *	Tropical Africa	1
+Parkia bicolor	0.36 *	Tropical Africa	1
+Pausinystalia brachythyrsa	0.56 *	Tropical Africa	1
+Pausinystalia cf. talbotii	0.56 *	Tropical Africa	1
+Pentaclethra eetveldeana	0.63 *	Tropical Africa	1
+Pentaclethra macrophylla	0.78 *	Tropical Africa	1
+Pentadesma butyracea	0.78 *	Tropical Africa	1
+Phyllanthus discoideus	0.76 *	Tropical Africa	1
+Pierreodendron africanum	0.70 *	Tropical Africa	1
+Piptadenia gabunensis	0.70 *	Tropical Africa	1
+Piptadeniastrum africanum	0.56	Tropical Africa	0
+Plagiostyles africana	0.70 *	Tropical Africa	1
+Poga oleosa	0.36	Tropical Africa	0
+Polyalthia suaveolens	0.66 *	Tropical Africa	1
+Premna angolensis	0.63 *	Tropical Africa	1
+Pteleopsis hylodendron	0.63 *	Tropical Africa	1
+Pterocarpus angolensis	0.59	Tropical Africa	0
+Pterocarpus soyauxii	0.61	Tropical Africa	0
+Pterygota bequaertii	0.56 *	Tropical Africa	1
+Pterygota spp.	0.52	Tropical Africa	0
+Pycnanthus angolensis	0.4	Tropical Africa	0
+Randia cladantha	0.78 *	Tropical Africa	1
+Rauwolfia macrophylla	0.47 *	Tropical Africa	1
+Ricinodendron heudelotii	0.2	Tropical Africa	0
+Saccoglottis gabonensis	0.74 *	Tropical Africa	1
+Santiria trimera	0.53 *	Tropical Africa	1
+Sapium ellipticum	0.50 *	Tropical Africa	1
+Schrebera arborea	0.63 *	Tropical Africa	1
+Sclorodophloeus zenkeri	0.68 *	Tropical Africa	1
+Scottellia chevalieri	0.50 *	Tropical Africa	1
+Scottellia coriacea	0.56	Tropical Africa	0
+Scyphocephalium ochocoa	0.48	Tropical Africa	0
+Scytopetalum tieghemii	0.56 *	Tropical Africa	1
+Sindoropsis letestui	0.56 *	Tropical Africa	1
+Staudtia stipitata	0.75	Tropical Africa	0
+Stemonocoleus micranthus	0.56 *	Tropical Africa	1
+Sterculia oblonga	0.61	Tropical Africa	0
+Sterculia rhinopetala	0.64	Tropical Africa	0
+Strephonema pseudocola	0.56 *	Tropical Africa	1
+Strombosia glaucescens	0.8	Tropical Africa	0
+Strombosia grandifolia	0.74 *	Tropical Africa	1
+Strombosiopsis tetrandra	0.63 *	Tropical Africa	1
+Swartzia fistuloides	0.82	Tropical Africa	0
+Symphonia globulifera	0.58 *	Tropical Africa	1
+Syzygium cordatum	0.59 *	Tropical Africa	1
+Tarrietia densiflora	0.63	Tropical Africa	0
+Tarrietia utilis	0.54 *	Tropical Africa	1
+Terminalia superba	0.45	Tropical Africa	0
+Tessmania africana	0.85 *	Tropical Africa	1
+Testulea gabonensis	0.6	Tropical Africa	0
+Tetraberlinia bifoliolata	0.54 *	Tropical Africa	1
+Tetraberlinia tubmaniana	0.60 *	Tropical Africa	1
+Tetrapleura tetraptera	0.50 *	Tropical Africa	1
+Tieghemella africana	0.55	Tropical Africa	0
+Tieghemella heckelii	0.55 *	Tropical Africa	1
+Trema guineensis	0.40 *	Tropical Africa	1
+Trema sp.	0.40 *	Tropical Africa	1
+Trichilia heudelotii	0.50 *	Tropical Africa	1
+Trichilia prieureana	0.63 *	Tropical Africa	1
+Trichoscypha arborea	0.59 *	Tropical Africa	1
+Triplochiton scleroxylon	0.32	Tropical Africa	0
+Uapaca spp.	0.6	Tropical Africa	0
+Vepris undulata	0.70 *	Tropical Africa	1
+Vitex doniana	0.4	Tropical Africa	0
+Xylopia aethiopica	0.50 *	Tropical Africa	1
+Xylopia chrysophylla	0.70 *	Tropical Africa	1
+Xylopia hypolambra	0.63 *	Tropical Africa	1
+Xylopia quintasii	0.70 *	Tropical Africa	1
+Xylopia staudtii	0.36 *	Tropical Africa	1
