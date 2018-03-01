@@ -1,6 +1,5 @@
 ---
 title: '**Cover Letter**'
-csl: bib/global-change-biology.csl
 output:
   pdf_document:
     citation_package: natbib
