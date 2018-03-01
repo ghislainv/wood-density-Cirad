@@ -21,13 +21,13 @@ ITALY
 to
 
 Editors    
-_Methods in Ecology and Evolution_ 
+_American Journal of Botany_ 
 
 ####
 
 Dear Editors,
 
-Please find enclosed the article untitled _**"New formula and conversion factor to compute tree species basic wood density from a global wood technology database"**_ by G. Vieilledent, F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard for publication in _Methods in Ecology and Evolution_.
+Please find enclosed the article untitled _**"New formula and conversion factor to compute tree species basic wood density from a global wood technology database"**_ by G. Vieilledent, F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard for publication in _American Journal of Botany_.
 
 #### Summary of the scientific results
 

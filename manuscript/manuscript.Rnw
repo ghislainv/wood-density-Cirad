@@ -100,17 +100,17 @@
 
 \begin{abstract}
 
-\noindent 1. Basic wood density is an important ecological trait for the study of woody plants. It is important to characterize species performance and fitness in community ecology, and to compute tree and forest biomass in carbon cycle studies. While wood density has been historically measured at 12\% moisture for construction purpose, it is convenient to convert this measure to basic wood density, i.e. the ratio of dry mass over green volume. Basic wood density can then be used to compute tree dry biomass from living tree volume.\\
+\noindent Basic wood density is an important ecological trait for woody plants. It is used to characterize species performance and fitness in community ecology, and to compute tree and forest biomass in carbon cycle studies. While wood density has been historically measured at 12\% moisture for construction purpose, it is convenient to convert this measure to basic wood density, i.e. the ratio of dry mass over green volume. Basic wood density can then be used to compute tree dry biomass from living tree volume.\\
 
-\noindent 2. Here, we show that previous conversion factors used to convert densities at 12\% moisture into basic wood densities are inconsistent. We derive a new, exact formula to compute the basic wood density $D_b$ from the density at moisture content $w$ denoted $D_w$, the fibre saturation point $S$, and the volumetric shrinkage coefficient $R$. We estimated a new conversion factor using a global wood technology database where values to use this formula are available for 4022 trees collected in 63 countries (mostly tropical) and representing 872 species.\\
+\noindent Here, we show that previous conversion factors used to convert densities at 12\% moisture into basic wood densities are inconsistent. We derive a new, exact formula to compute the basic wood density $D_b$ from the density at moisture content $w$ denoted $D_w$, the fibre saturation point $S$, and the volumetric shrinkage coefficient $R$. We estimated a new conversion factor using a global wood technology database where values to use this formula are available for 4022 trees collected in 63 countries (mostly tropical) and representing 872 species.\\
 
-\noindent 3. Based on theory and data, we found that basic wood density could be inferred from the density at 12\% moisture using the following formula: $D_b = 0.828 D_{12}$. This value of 0.828 provides basic wood density estimates 4-5\% smaller than values inferred from previous methods.\\
+\noindent Based on theory and data, we found that basic wood density could be inferred from the density at 12\% moisture using the following formula: $D_b = 0.828 D_{12}$. This value of 0.828 provides basic wood density estimates 4-5\% smaller than values inferred from previous methods.\\
 
-\noindent 4. This new conversion factor should be used to derive basic wood densities in global wood density databases. This would prevent overestimating global forest carbon stocks and allow predicting better tree species community dynamics from wood density.
+\noindent This new conversion factor should be used to derive basic wood densities in global wood density databases. This would prevent overestimating global forest carbon stocks and allow predicting better tree species community dynamics from wood density.
 
 \vspace{0.5cm}
 
-\keywords{biomass, basic wood density, carbon stock, fibre saturation point, forest dynamics, functional trait, wood specific gravity, tropical forest, tree species}
+\keywords{basic wood density, biomass, carbon stock, fibre saturation point, forest dynamics, functional trait, tree species, tropical forest, wood specific gravity}
 
 \end{abstract}
 
@@ -301,7 +301,7 @@ GV, FF, JC, and JG conceived the ideas and designed methodology; DG, PL, and JG 
 
 \section{Data accessibility}
 
-Data (including the Cirad wood density database) and R script associated to the present study will be archived on the Cirad Dataverse research data repository (\url{https://dataverse.cirad.fr}).
+Data (including the Cirad wood density database) and R script associated to the present study have been archived on the Cirad Dataverse research data repository (\url{http://dx.doi.org/10.18167/DVN1/KRVF0E}) \citep{Vieilledent2017-CWDD}.
 
 %%in a GitHub repository at \url{https://github.com/ghislainv/wood-density-Cirad} and archived on Zenodo at \url{https://doi.org/10.5281/zenodo.1095453} \citep{Vieilledent2017-CWDD}.
 
