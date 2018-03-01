@@ -2,8 +2,18 @@
 title: '**Cover Letter**'
 csl: bib/global-change-biology.csl
 output:
-  pdf_document: default
+  pdf_document:
+    citation_package: natbib
+    keep_tex: no
+    latex_engine: pdflatex
+    number_sections: no
+    toc: no
+linkcolor: Maroon
+citecolor: Blue
+urlcolor: Maroon
 bibliography: bib/biblio.bib
+biblio-style: bib/mee.bst
+link-citations: yes
 ---
 
 Dr. Ghislain Vieilledent 
