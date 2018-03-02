@@ -52,7 +52,7 @@ Our article also describes the methods used to measure D12, R and S and derive a
 
 The new conversion factor and the Cirad wood density database we provide are important contributions for future research. They can be used to compute more accurate estimates of forest carbon stocks and predict better the dynamics of tree species community on the basis of the wood density inter-specific variability. We are in the process of revising the Global Wood Density Dataset and the present study provides a firm basis for this revision.
 
-Data (including the Cirad wood density database) and R script associated to the present study is archived on the Cirad Dataverse research data repository (https://doi.org/10.18167/DVN1/KRVF0E). This allows an entirely reproducible and transparent research and a public and permanent access to the Cirad wood density database for future research.
+Data (including the Cirad wood density database) and R script associated to the present study are available on GitHub: https://github.com/ghislainv/wood-density-Cirad. The repository will be archived with a DOI on the Cirad Dataverse (https://dataverse.cirad.fr) as soon as the article is accepted. This will allow an entirely reproducible and transparent research and a public and permanent access to the Cirad wood density database for future research.
 
 We hope you will find our study interesting and suitable for publication in your journal.
 
