@@ -1,0 +1,205 @@
+---
+title: '**Cover Letter**'
+output:
+  pdf_document:
+    citation_package: natbib
+    keep_tex: no
+    latex_engine: pdflatex
+    number_sections: no
+    toc: no
+linkcolor: Maroon
+citecolor: Blue
+urlcolor: Maroon
+bibliography: bib/biblio.bib
+biblio-style: bib/mee.bst
+link-citations: yes
+---
+
+Dr. Ghislain Vieilledent 
+
+CIRAD    
+UPR Forêts et Sociétés    
+F-34398 Montpellier    
+FRANCE
+
+Joint Research Center of the European Commission   
+Bio-economy Unit (JRC.D.1)  
+I-21027 Ispra (VA)  
+ITALY
+
+to
+
+Editors    
+_American Journal of Botany_ 
+
+Object: Manuscript AJB-D-18-00085, answers to reviewers' comments.
+
+####
+
+Dear Editor,
+
+Please find enclosed a new version of our article untitled _"New formula and conversion factor to compute tree species basic wood density from a global wood technology database"_. We thank the two Reviewers for their careful reading of our manuscript and their constructive remarks. We made our best to answer to Reviewers' comments and we modified our manuscript accordingly. We hope that you will find this new version of our article suitable for publication in _American Journal of Botany_.
+
+Best regards,
+
+The authors
+
+# Associate Editor's comment
+
+**Dear authors,**
+
+**Thank your for giving us the opportunity to review your manuscript for publication in the American Journal of Botany. We have now received two reviews of your manuscript, both of which were favorable. Based on the advice received from the reviewers and my own evaluation, there are a number of minor issues that will require your attention before the manuscript can be recommended for publication. Both reviewers liked the manuscript and find that it will make a significant advancement in the field, but some additional clarification and edits need to be made.**
+
+**Sincerely,**
+
+**Craig R. Brodersen**
+**Associate Editor**
+
+# Answers to remarks by Reviewer 1
+
+**The study "New formula and conversion factor to compute tree species basic wood density from a global wood technology database" is based on a solid dataset and could be an important contribution for future forest (modelling) ecology studies. In that regard it is not necessary to "advertise" the new model throughout the manuscript. The manuscript could benefit from shortening, there are some repeats and some messages in the introduction and discussion are rather vague and would profit from a more detailed recherché of relevant ecophysiological literature. Some methodological details are as well not clear to me. Also some analysis approaches are not logical, for instance when a tree mean value is produced from several measurements along the stem. Please find more specific comments below.**
+
+## Abstract
+
+**Lines 20-21, it does not overestimate basic wood density when compared to Reyes' relationship.**
+
+## Introduction
+
+**Line 30, plants**
+
+Corrected.
+
+**Line 33, wood density is not directly related to physiological functions, see Lachenbruch and McCulloh, 2014. New Phytologist 204: 747-764. <doi:10.1111/nph.13035>**
+
+**Line 34, wood density, forests**
+
+Corrected.
+
+**Line 35, climate change**
+
+Corrected.
+
+**Line 40, see also the publication of: Greenwood et al. 2017. Ecology Letters, 20: 539-553**
+
+**Lines 43-44, rephrase this sentence, or just skip it**
+
+**Line 45, this literature should be also cited, since there are conversion tables in Chapter 4: Forest Products Laboratory. 2010. Wood handbook—Wood as an engineering material. General Technical Report FPL-GTR-190. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 508 p.**
+
+**Line 53, "green volume" is a rather vague terminology, as is water saturated, because volumetric changes can occur also above fiber saturation, see Rosner et al., 2009 Tree Physiology 29: 1419-1431. <doi:10.1093/treephys/tpp077>**
+
+**Line 110, make a paragraph here**
+
+Done.
+
+## Materials and Methods
+
+**Lines 137-138, whenever dropping names give also the citations (even if the citation is repeated).**
+
+**Lines 139-159, it is not clear if the study makes use of existing data (because there are several methods described) or performed new measurements. Please clarify and provide a table (or add to Table 1) all samples where the full dataset was available, meaning R, S and both densities.**
+
+**Lines162-204, how many measurements new or existing? Please provide a table**
+
+**Line 166, see Rosner et al. (2009), wood can shrink as well already above fiber saturation, this should be mentioned.**
+
+**Lines 168-170, did you use green wood for your experiments? Wood that was once dried is difficult to re-saturate and shows different shrinkage behavior.**
+
+## Discussion
+
+**Lines 328-330, since there is not much difference thus a better argumentation should be found!**
+
+**Lines 332-360, this chapter could be shortened and traits could be explained better**
+
+**Line 336, 201 additional tree species**
+
+**Lines 338-340, this sentence is really not necessary! It may be put in the methods part.**
+
+**Lines 346-350, please explain this better; plant physiologists are not used to this terminology, mention also "free water" and that "bound water" is water in the cell walls and capillary water**
+
+**Lines 351-354, I do not understand the logics of this argumentation (Lines 355-356). The mean value is contra productive regarding the variability that is possible within a tree, what is the advantage of this? I would expect that is better to include the point measurements along the trunk in order to include the within tree variability. See Rosner (2017) Journal of Plant Hydraulics. <https://doi.org/10.20870/jph.2017.e001>**     
+**Could you provide a regression for the single data points? In a supplement figure?**
+
+**Line 364, forests**
+
+Corrected.
+
+**Line 366, literature**
+
+Corrected.
+
+**Line 375 basic wood density**
+
+Corrected.
+
+**Lines 371-377, this part is confusing: what do you derive from what for which purpose - compare that to you message in line 58-60, there it is written that from basic density the carbon stock is derived; you are calculating basic density from dry (12%) wood density, then you would overestimate the carbon stock, right? On the other hand, when you calculate dry density (12%) from basic density you will receive a higher basic wood density. It would be helpful to explain this with regard of the differences in the volume in the fully saturated state and the volume at 12% and the consequences for modeling the carbon stock, since it seems that in earlier studies the volumetric changes were underestimated!**
+
+**Lines 380-387, there are newer studies (Greenwood et al. 2017.) and also more critic studies, see Anderegg et al. (2015) PNAS <www.pnas.org/cgi/doi/10.1073/pnas.1525678113>**
+
+**Table 1, provide the number of samples that were measured for the study**
+
+**Table 2, refer to Table S1**
+
+# Answers to remarks by Reviewer 2
+
+## Main comments
+
+**The manuscript defines the relationship between basic wood density (0% moisture content) and classically defined "air dry" wood density (12% or 15% MC). The authors provide a theoretical justification for the relationship which includes a volumetric shrinking coefficient where shrinkage is a function of moisture lost once the fiber saturation point has been passed. More importantly, the authors determine the empirical relationship between basic density and density at 12% and 15% mc from a large sample of woods.**
+
+**Although the difference between the new relationship and prior relationships appears to be a relatively small bias 3-4%, the importance of such differences to models of global carbon balance should not be overlooked. Such models compare CO2 inputs to Carbon fixation rates, so a few percent can result in major differences in CO2 accumulation rates and hence rates of global climate change.**
+
+**Overall, the manuscript is a meaningful contribution, which is likely to be widely cited and referenced, by ecologists and foresters as well as the few remaining plant anatomists in the world.**
+
+**I would recommend the authors add a small section about limits of their study which might include:**
+
+**1. A statement about tropical vs temperate woods. The authors state that their sample is mostly tropical woods, but it should be noted that median Db is 0.60 whereas most temperate angiosperms fall into the 0.3-0.7 class. Therefore, the percent bias in previous studies is likely to be small for temperate woods relative to prior studies of tropical woods.**
+
+**2. The authors might note the composition of the datasets in regard to gymnosperms and angiosperms.**
+
+**3. Within the data base, there are relatively few low density woods, one at 0.19 and a at most a dozen in the range 0.2-03, as I judge from Fig 2.  This is probably a bias of past sampling by foresters whose interests rested in structural woods.  But it should be noted because these woods often have large bans of parenchyma alternating with fibers, so they may exhibit a different relationships between basic and airdry densities.  The authors could test this with the lower density woods in their database.**
+
+**4. I'm sure the authors know that the relationships discussed are not chemically "ideal"—for examples, not all free water is lost before some bond water is lost, and some low molecular weight organic compounds are lost during drying.  The analogy of ideal gas laws and real gas relationships is clear.  It might be useful to note this for young scientists endeavoring to determine densities of their wood samples—a given wood sample may vary somewhat from the relationships described in this ms.**
+
+**Fig. 1 is unnecessary, and it duplicates the Table 1.**
+
+## Minor suggestions
+
+**Here are some minor suggestions for syntax and orthography.**     
+**line 5 delete "for construction purposes"**
+
+Corrected.
+
+**line 5 add "it is convenient for ecological purposes"**
+
+Corrected
+
+**line 34 do not hyphenate wood-density**
+
+Corrected.
+
+**line 35 do not hyphenate climate-change**
+
+Corrected.
+
+**line 98 "address" should be "addressing"**
+
+Corrected.
+
+**line 157 "measuring" should be "to measure"**
+
+Corrected.
+
+**line 366 "litterature" should be "literature" [lol]**
+
+Corrected.
+
+**line 386 "allow to properly estimate species difference" should be "allow proper estimates of species' differences"**
+
+Corrected.
+
+**line 389 "warmely" should be "warmly"**
+
+Corrected.
+
+**Congratulations to the authors,**     
+**--G. Bruce Williamson**
+
+We thank G. Bruce Williamson for his careful review of our manuscript.
