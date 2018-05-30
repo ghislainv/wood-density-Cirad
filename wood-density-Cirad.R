@@ -59,7 +59,7 @@ country.eng <- c("Portugal","Algeria",NA,NA,NA,"Australia","Benin","Brazil","Bra
                  "Malaysia","Mali","Morocco","Martinique","Mauritius","Mayotte","Mexico","Burma","Nicaragua","Niger",
                  "New Caledonia","New Zealand","New Zealand","Papua New Guinea","Paraguay","Peru","Philippines",
                  "French Polynesia","Portugal","Central African Republic","Democratic Republic of the Congo",
-                 "Democratic Republic of the Congo","Reunion","Malaysia","Dominican Republic","Solomon Islands","Senegal",
+                 "Congo","Reunion","Malaysia","Dominican Republic","Solomon Islands","Senegal",
                  "Seychelles","Sweden","Suriname","United Republic of Tanzania","Thailand","Togo","Trinidad and Tobago",
                  "Uruguay","Vanuatu","Venezuela","Viet Nam","Wallis and Futuna Islands")
 
@@ -73,11 +73,16 @@ continent.eng <- c("Europe","Africa","North-America","Asia","Asia","Australia","
                    "Pacific ocean","Africa","Indian ocean","Europe","South-America","Africa","Asia","Africa","Carribean",
                    "South-America","Pacific ocean","South-America","Asia","Pacific ocean")
 
+biome <- rep("tropical",length(country.eng))
+biome[continent.eng %in% c("Europe","North-America","Australia") | country.eng %in% c("Algeria", "Paraguay", "Japan")] <- "temperate"
+
 data$country <- NA
 data$continent <- NA
+data$biome <- NA
 for (i in 1:length(Levels.Country)) {
     data$country[data$Country==Levels.Country[i]] <- country.eng[i]
-    data$continent[data$Country==Levels.Country[i]] <- continent.eng[i] 
+    data$continent[data$Country==Levels.Country[i]] <- continent.eng[i]
+    data$biome[data$Country==Levels.Country[i]] <- biome[i]
 }
 
 #=================================
@@ -92,7 +97,6 @@ for (i in 1:nrow(data)) {
     data$species[i] <- List.species.spread[[i]][2]
 }
 data$taxa <- paste(data$genus,data$species,sep=" ")
-data$taxa <- data$Species
 # Correct Shorea genus
 data$taxa <- gsub("Shorea-[a-z]+ ","Shorea ",x=data$taxa)
 # Remove sp for genus
@@ -102,35 +106,40 @@ data$taxa <- gsub(" sp$","",x=data$taxa)
 # http://viktoriawagner.weebly.com/blog/cleaning-species-names-with-r-i-taxonstand
 # http://viktoriawagner.weebly.com/blog/cleaning-species-names-with-r-ii-taxize
 
+# Taxonomic correction
+taxo_correction <- FALSE
+
 # Import specific libraries
-library(taxize)
-library(dplyr)
-library(magrittr)
+require(taxize)
+require(dplyr)
+require(magrittr)
 
 #= taxize
-# We first use taxize to potentially correct for species *and* genus name
-# List of taxa
-taxa.list <- levels(as.factor(data$taxa))
-# Run global name resolver
-src <- c("EOL", "The International Plant Names Index", "Tropicos - Missouri Botanical Garden")
-subset(gnr_datasources(), title %in% src)
-result.long <- gnr_resolve(taxa.list, data_source_ids = c(12, 165, 167), 
-                           with_canonical_ranks=TRUE)
-# Remove duplicates
-result.short <- result.long %>%
-  select(submitted_name, matched_name2, score) %>%
-  distinct()
-# See if matched name is different
-result.short$implement <- 1
-result.short$implement[result.short$matched_name2==result.short$submitted_name] <- 0
-# Export results
-write.table(result.short, "output/result_gnr.txt", sep="\t", row.names=FALSE, quote=FALSE)
-
-# Manual verification of taxize results
-# Three new columns:
-# "implement" - should the name suggested by GNR be used? (TRUE/FALSE)
-# "alternative" - write an alternative name here
-# "duplicate" - Is this entry a duplicate? (TRUE/FALSE)
+if (taxo_correction) {
+  # We first use taxize to potentially correct for species *and* genus name
+  # List of taxa
+  taxa.list <- levels(as.factor(data$taxa))
+  # Run global name resolver
+  src <- c("EOL", "The International Plant Names Index", "Tropicos - Missouri Botanical Garden")
+  subset(gnr_datasources(), title %in% src)
+  result.long <- gnr_resolve(taxa.list, data_source_ids = c(12, 165, 167), 
+                             with_canonical_ranks=TRUE)
+  # Remove duplicates
+  result.short <- result.long %>%
+    select(submitted_name, matched_name2, score) %>%
+    distinct()
+  # See if matched name is different
+  result.short$implement <- 1
+  result.short$implement[result.short$matched_name2==result.short$submitted_name] <- 0
+  # Export results
+  write.table(result.short, "output/result_gnr.txt", sep="\t", row.names=FALSE, quote=FALSE)
+  
+  # Manual verification of taxize results
+  # Three new columns:
+  # "implement" - should the name suggested by GNR be used? (TRUE/FALSE)
+  # "alternative" - write an alternative name here
+  # "duplicate" - Is this entry a duplicate? (TRUE/FALSE)
+}
 
 # Import the spreadsheet back into R
 corr.df <- read.table("output/result_gnr_comments.txt", 
@@ -141,22 +150,24 @@ corr.df$duplicate[is.na(corr.df$duplicate)] <- FALSE
 corr.df %<>% filter(!duplicate==TRUE)
 # Join tables
 taxize.df <- data %>% 
-  left_join(corr.df, by=c("latin.name"="submitted_name")) %>%
+  left_join(corr.df, by=c("taxa"="submitted_name")) %>%
   mutate(new.latin=ifelse(implement==1, matched_name2,
-                          ifelse(implement==0 & is.na(alternative), latin.name, alternative)))
+                          ifelse(implement==0 & is.na(alternative), taxa, alternative)))
 
 #= Taxonstand
-# To identify accepted, synonym or unresolved names for species
-library(Taxonstand)
-new.taxa.list <- levels(as.factor(taxize.df$new.latin))
-# Only select species, not genus
-w.sp <- grep(" ", new.taxa.list)
-species.list <- new.taxa.list[w.sp]
-# Run TPL
-tpl <- Taxonstand::TPL(species.list)
-tpl.2 <- tpl %>% select(Taxon,Family,New.Genus,New.Species,New.Authority,New.ID,New.Taxonomic.status)
-# Export results
-write.table(tpl.2, "output/result_tpl.txt", sep="\t", row.names=FALSE, quote=FALSE)
+if (taxo_correction) {
+  # To identify accepted, synonym or unresolved names for species
+  library(Taxonstand)
+  new.taxa.list <- levels(as.factor(taxize.df$new.latin))
+  # Only select species, not genus
+  w.sp <- grep(" ", new.taxa.list)
+  species.list <- new.taxa.list[w.sp]
+  # Run TPL
+  tpl <- Taxonstand::TPL(species.list)
+  tpl.2 <- tpl %>% select(Taxon,Family,New.Genus,New.Species,New.Authority,New.ID,New.Taxonomic.status)
+  # Export results
+  write.table(tpl.2, "output/result_tpl.txt", sep="\t", row.names=FALSE, quote=FALSE)
+}
 
 # Manual corrections of the file result_tpl.txt with the help of the plant list and tropicos websites
 # http://www.theplantlist.org/
@@ -173,9 +184,10 @@ data2 <- taxize.df %>%
   mutate(taxon_tpl2=ifelse(is.na(taxon_tpl),paste(new.latin,"sp"),taxon_tpl)) %>%
   select(Code=Code,Species=taxon_tpl2,Authority=New.Authority,TPL_ID=New.ID,
          Family=Family,TPL_status=New.Taxonomic.status,
-         Country=country,Continent=continent,D12,R,S)
+         Country=country,Continent=continent,Biome=biome,D12,R,S)
 
-#= Add taxonomic family from genus
+# ===============================
+# Add taxonomic family from genus
 # List of genus
 mat.genus.sp <- matrix(unlist(strsplit(data2$Species," ")),byrow=TRUE,ncol=2)
 data2$genus <- mat.genus.sp[,1]
@@ -206,13 +218,21 @@ family.df[family.df$genus.corr=="Cratoxylon",c(3,2)] <- c("Cratoxylum","Hyperica
 family.df[family.df$genus.corr=="Gambeya",c(3,2)] <- c("Chrysophyllum","Sapotaceae")
 family.df[family.df$genus.corr=="Stephanostegia",c(3,2)] <- c("Stephanostegia","Apocynaceae")
 family.df[family.df$genus.corr=="Thuya",c(3,2)] <- c("Thuja","Cupressaceae")
+# Replace Fabaceae with Leguminosae for Martiodendron
+family.df$family[family.df$family=="Fabaceae"] <- "Leguminosae"
+
+# Gymnosperms and angiosperms
+TPL_families <- tpl_families()
+
 # Join with data2
 data3 <- data2 %>%
   left_join(y=family.df,by="genus") %>%
+  left_join(y=TPL_families,by="family") %>%
   mutate(Species=ifelse(species=="sp",paste(genus.corr,"sp"),Species)) %>%
-  select(Code,Taxa=Species,Authority,TPL_ID,Family=family,TPL_status,
-         Country,Continent,D12,R,S) %>%
+  select(Code,Taxa=Species,Authority,TPL_ID,Family=family,Clade=group,TPL_status,
+         Country,Continent,Biome,D12,R,S) %>%
   arrange(Taxa,Country)
+
 # Backup table
 write.table(data3,file="output/wsg_Cirad_clean_taxo.txt",sep="\t",row.names=FALSE)
 
@@ -225,7 +245,8 @@ data <- read.table("output/wsg_Cirad_clean_taxo.txt",sep="\t",header=TRUE,string
 head(data)
 
 #= Rename columns
-names(data) <- c("code","taxa","authority","tpl_id","family","tpl_status","country","continent","D12","R","S")
+names(data) <- c("code","taxa","authority","tpl_id","family","clade","tpl_status","country",
+                 "continent","biome","D12","R","S")
 
 #= Add species and genus
 mat.genus.sp <- matrix(unlist(strsplit(data$taxa," ")),byrow=TRUE,ncol=2)
@@ -255,17 +276,18 @@ n.accepted.species <- length(Levels.accepted.species) # 832
 
 #= Number of countries
 Levels.country <- levels(as.factor(data$country[data$id.species==1]))
-n.country <- length(Levels.country) # 63
+n.country <- length(Levels.country) # 64
 
 #= Taxa per country
-library(dplyr)
-library(magrittr)
+require(dplyr)
+require(magrittr)
 taxa.per.country <- data %>%
   group_by(continent,country,taxa) %>%
   summarise(count=n()) %>%
   group_by(continent,country) %>%
   summarise(nspecies=n()) %>%
-  arrange(continent,country,nspecies)
+  arrange(continent,country,nspecies) %>%
+  as.data.frame()
 write.table(taxa.per.country,file="output/taxa_per_country.txt",sep="\t",row.names=FALSE)
 
 #= Species per country
@@ -275,18 +297,38 @@ species.per.country <- data %>%
   summarise(count=n()) %>%
   group_by(continent,country) %>%
   summarise(nspecies=n()) %>%
-  arrange(continent,country,nspecies)
+  arrange(country,nspecies) %>%
+  as.data.frame()
 write.table(species.per.country,file="output/species_per_country.txt",sep="\t",row.names=FALSE)
+
+#= Number of observations per clade and biome
+obs.per.clade <- data %>%
+  group_by(clade,biome) %>%
+  summarise(count=n()) %>%
+  as.data.frame()
+write.table(obs.per.clade,file="output/obs_per_clade.txt",sep="\t",row.names=FALSE)
+
+#= Number of species per clade and biome
+species.per.clade <- data %>%
+  filter(id.species==1) %>%
+  group_by(clade,biome,taxa) %>%
+  summarise(count=n()) %>%
+  group_by(clade,biome) %>%
+  summarise(nspecies=n()) %>%
+  as.data.frame()
+write.table(obs.per.clade,file="output/species_per_clade.txt",sep="\t",row.names=FALSE)
+# Note: Some "cultivated" species might be found in the two biomes: 
+## ex. Juglans regia, Quercus ilex, Pseudotsuga menziesii
 
 #===============================
 # Map with country and species
 #===============================
 
 #= Libraries
-library(rgdal)
-library(sp)
-library(ggplot2)
-library(grid) # for plot.margin
+require(rgdal)
+require(sp)
+require(ggplot2)
+require(grid) # for plot.margin
 
 #= Country boundaries and coordinates
 world.bound <- readOGR(dsn="data/gis/world.shapefile/",layer="TM_WORLD_BORDERS_SIMPL-0.3")
@@ -300,7 +342,7 @@ for (i in 1:n.country) {
     LAT.country[i] <- wb.data$LAT[wb.data$NAME==Levels.country[i]]
 }
 coords <- cbind(LON.country,LAT.country)
-data.country <- data.frame(country=Levels.country,nspecies=as.numeric(species.per.country[,1]),LONG=LON.country,LAT=LAT.country)
+data.country <- data.frame(country=Levels.country,nspecies=as.numeric(species.per.country$nspecies),LONG=LON.country,LAT=LAT.country)
 data.country <- SpatialPointsDataFrame(coords=coords,data=data.country,proj4string=CRS("+proj=longlat +ellps=WGS84 +datum=WGS84"))
 
 #= Map with ggplot
@@ -458,6 +500,57 @@ data_save <- data %>%
          Continent=continent,D12,R,S,Db) %>%
   arrange(Taxa,Country)
 write.csv(data_save,file="Cirad-wood-density-database.csv",quote=FALSE,row.names=FALSE)
+
+#=======================================================
+# Effect of clade, biome and low-high density
+#=======================================================
+
+# Distribution of D12 per clade
+density_D12_clade <- ggplot(data2, aes(D12,fill=clade)) + 
+  geom_density(alpha=0.5) + 
+  scale_fill_manual(values=c(grey(0.7),grey(0.3))) +
+  xlab(expression(italic(D[12])~(g/cm^3))) +
+  theme(legend.position=c(0.8,0.8),legend.title = element_blank())
+ggsave("manuscript/figs/density_D12_clade.pdf", density_D12_clade)
+# Model
+mod_clade <- lm(Db~clade:D12-1,data=data2) 
+sink("output/anova_clade.txt")
+mod_clade
+anova(mod_clade)
+sink()
+
+# Distribution of D12 per biome
+density_D12_biome <- ggplot(data2, aes(D12,fill=biome)) + 
+  geom_density(alpha=0.5) + 
+  scale_fill_manual(values=c(grey(0.7),grey(0.3))) +
+  xlab(expression(italic(D[12])~(g/cm^3))) +
+  theme(legend.position=c(0.8,0.8),legend.title = element_blank())
+ggsave("manuscript/figs/density_D12_biome.pdf", density_D12_biome)
+# Model
+mod_biome <- lm(Db~biome:D12-1,data=data2)
+sink("output/anova_biome.txt")
+mod_biome
+anova(mod_biome)
+sink()
+
+# Distribution of D12
+density_D12 <- ggplot(data2, aes(D12)) + 
+  geom_density(alpha=0.5, fill=grey(0.7)) + 
+  xlab(expression(italic(D[12])~(g/cm^3)))
+ggsave("manuscript/figs/density_D12.pdf", density_D12_clade)
+# Model
+data2$woodtype <- "heavy"
+data2$woodtype[data2$D12<0.5] <- "light"
+data2.Angio <- data2 %>% filter(clade=="Angiosperms")
+nobs_woodtype <- data2.Angio %>% 
+  group_by(woodtype) %>%
+  summarise(nobs=n())
+mod_woodtype <- lm(Db~woodtype:D12-1,data=data2.Angio)
+sink("output/anova_woodtype.txt")
+mod_woodtype
+summary(mod_woodtype)
+anova(mod_woodtype)
+sink()
 
 #=======================================================
 # Coefficient between R_T and Db (see Stamm1964, Simpson1993 and Glass2010)
@@ -685,7 +778,7 @@ Db_target <- 0.483
 #=======================================================
 
 # Library
-library(knitr)
+require(knitr)
 
 # Set knitr chunk default options
 opts_chunk$set(echo=FALSE, cache=FALSE,
@@ -697,7 +790,7 @@ options(knitr.kable.NA="-")
 opts_knit$set(root.dir="manuscript")
 
 ## Knit
-knitr::knit2pdf("manuscript/manuscript.Rnw", output="manuscript/manuscript.tex")
+knitr::knit2pdf("manuscript/manuscript2.Rnw", output="manuscript/manuscript2.tex")
 
 ## Cover letter
 #rmarkdown::render("manuscript/coverletter.md", output_format=c("pdf_document"),
