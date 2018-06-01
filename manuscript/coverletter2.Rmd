@@ -59,11 +59,14 @@ The authors
 
 **The study "New formula and conversion factor to compute tree species basic wood density from a global wood technology database" is based on a solid dataset and could be an important contribution for future forest (modelling) ecology studies. In that regard it is not necessary to "advertise" the new model throughout the manuscript. The manuscript could benefit from shortening, there are some repeats and some messages in the introduction and discussion are rather vague and would profit from a more detailed recherche of relevant ecophysiological literature. Some methodological details are as well not clear to me. Also some analysis approaches are not logical, for instance when a tree mean value is produced from several measurements along the stem. Please find more specific comments below.**
 
+We provide below answers to Reviewer 1's remarks on some methodological details. We hope our explanations and the modifications of the text will make these methodological points appear clearer and more logical.
+
 ## Abstract
 
 **Lines 20-21, it does not overestimate basic wood density when compared to Reyes' relationship.**
 
 We have modified the sentence to be more specific:     
+
 "This value of 0.828 provides basic wood density estimates 4-5% smaller than values inferred from previous conversion factors."
 
 ## Introduction
@@ -74,7 +77,10 @@ Corrected.
 
 **Line 33, wood density is not directly related to physiological functions, see Lachenbruch and McCulloh, 2014. New Phytologist 204: 747-764. <doi:10.1111/nph.13035>**
 
-We totally agree. In the introduction, we just underline that wood density has strong correlations with many measures of plant performance (as acknowledged in the abstract and text of Lachenbruch and McCulloh, 2014) even if without direct causality.
+We totally agree. In the introduction, we just underline that wood density has strong correlations with many measures of plant performance (as acknowledged in the abstract and text of Lachenbruch and McCulloh, 2014), even if without direct causality. We modified the text and added the suggested reference:     
+
+"In community ecology, wood density is a proxy for species performance (Lachenbruch & McCulloh, 2014), reflecting a trade-off
+between growth potential and mortality risk from biomechanical or hydraulic failure (Diaz et al. , 2016). Fast-growing, short-lived species tend to have a lower wood density while slow-growing, long-lived species tend to have a higher wood density (Chave et al., 2009; Greenwood et al., 2017)."
 
 **Line 34, wood density, forests**
 
@@ -90,21 +96,21 @@ We have added the reference to the text.
 
 **Lines 43-44, rephrase this sentence, or just skip it**
 
-We reformulated: "This explains why wood density has been commonly measured in forestry institutes where wood was principally studied for construction or paper making."
+We reformulated: "This explains why wood density has been commonly measured in forestry institutes, where wood was principally studied for construction or paper making."
 
 **Line 45, this literature should be also cited, since there are conversion tables in Chapter 4: Forest Products Laboratory. 2010. Wood handbook—Wood as an engineering material. General Technical Report FPL-GTR-190. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 508 p.**
 
-We have added this reference here and in section 2.2.1.
+We have added this reference here and also in section 2.1.2 "Measuring wood mass, moisture content, and volume".
 
 **Line 53, "green volume" is a rather vague terminology, as is water saturated, because volumetric changes can occur also above fiber saturation, see Rosner et al., 2009 Tree Physiology 29: 1419-1431. <doi:10.1093/treephys/tpp077>**
 
-We agree that this terminology is debatable. Nonetheless, the term green volume is commonly used, see for example p. 9 of Chapter 4 of the suggested reference: 
+We agree that this terminology is debatable. Nonetheless, the term green volume is commonly used in wood technology, see for example p. 9 of Chapter 4 of the previously suggested reference: 
 
 "Commonly used bases for volume are (a) ovendry, (b) green, and (c) 12% moisture content."
 
 "The combination of ovendry mass and green volume is referred to as basic specific gravity Gb"
 
-Moreover, we now discuss the limitations of our approach in the Discussion part. In particular, we discuss the theory around the definition of the fibre saturation point.
+Moreover, we now discuss the theory around the definition of the fibre saturation point in the Discussion part.
 
 **Line 110, make a paragraph here**
 
@@ -118,11 +124,17 @@ We have added the citations.
 
 **Lines 139-159, it is not clear if the study makes use of existing data (because there are several methods described) or performed new measurements. Please clarify and provide a table (or add to Table 1) all samples where the full dataset was available, meaning R, S and both densities.**
 
+The study only make use of historical existing data. We now specify this more clearly at the end of section 2.1.3 "Measuring fibre saturation point, volumetric shrinkage coefficient, and wood density at 12% moisture":     
+
+"In the Cirad database, average values for $S$, $R$ and $D_{12}$ for each tree were historically recorded using $>10$ wood samples taken at various positions in the trunk. Out of the 4022 trees present in the Cirad database, 190 trees had only measurements for $D_{12}$, with no values for $S$ and $R$. Definitions and units of wood physical and mechanical properties used in the present study are all summarized in Supp. Info. S1."
+
 **Lines 162-204, how many measurements new or existing? Please provide a table**
+
+See previous answer.
 
 **Line 166, see Rosner et al. (2009), wood can shrink as well already above fiber saturation, this should be mentioned.**
 
-We have now mentioned this in the discussion part. 
+We now discuss the theory around the definition of the fibre saturation point in the Discussion part. We added the suggested reference to the text.
 
 **Lines 168-170, did you use green wood for your experiments? Wood that was once dried is difficult to re-saturate and shows different shrinkage behavior.**
 
@@ -136,11 +148,11 @@ We provide arguments about why the value of 0.828 derived from our approach shou
 
 "The conversion factor of 0.828 is based on a larger and more consistent database than the one used by Reyes (1992). Database used by Reyes combined density data at the species and genera level and included air-dry densities not stabilized at 12\% (Chudnoff 1984)."
 
-The value of 0.821 derived from Reyes's relationship just reinforce our findings saying that using a conversion factor value of 0.828 should be prefered to values of 0.861 or 0.872 previously found in the literature.
+The value of 0.821 derived from Reyes's relationship just reinforce our findings saying that the conversion factor value of 0.828 should be prefered to the values of 0.861 or 0.872 previously used in the literature.
 
 **Lines 332-360, this chapter could be shortened and traits could be explained better**
 
-We made our best to shorten that part. Regarding traits describe in this part, we have sticked to the terminology used in Berry and Roderick 2015 which is cited as reference.
+We made our best to shorten that part. Regarding traits described in this part, please see the answer below for lines 346-350.
 
 **Line 336, 201 additional tree species**
 
@@ -148,20 +160,24 @@ Corrected.
 
 **Lines 338-340, this sentence is really not necessary! It may be put in the methods part.**
 
-We removed this sentence from the discussion. In the method part, we added the following lines in section 2.1.3:
+We removed this sentence from the discussion. In the method part, we have added the following lines in section 2.1.3:
 
 "Given the precision of wood mass and volume measurements (see sec. 2.1.2), uncertainty regarding wood densities at 12\% moisture for individual samples was considered to be of about 0.01 g/cm$^3$.""
 
 **Lines 346-350, please explain this better; plant physiologists are not used to this terminology, mention also "free water" and that "bound water" is water in the cell walls and capillary water**
 
-As said previously, 
+In the first version of the manuscript, we referred to the terminology used in Berry and Roderick, 2005. The terms "solid" and "liquid" water were introduced by physical chemist and wood scientist A. J. Stamm. We agree that using the terms "free water" and "bound water" here would more consistent, as we have already introduced this terms when defining the fibre saturation point $S$ in section 2.1.3. The term "fresh" was also replaced by "green". We thus modified the text:     
+
+"The fibre saturation point is an essential wood characteristic that can be used, in combination with the green volume, the green mass and the dry mass, to estimate the volume of water for each of the three bulk phases in a tree: (1) "free" liquid water in cell lumens and cavities, (2) water vapor in the gas-filled voids, and (3) "bound" water held chemically within cell walls (sometimes also called "solid" water, see (Berry and Roderick, 2005). The volume of "bound" water is an essential plant functional trait as it determines wood strength and constraints on plant architecture (Niklas, 1993), as is the volume of "free" liquid water which is the ultimate source of the biochemical activity in living plants (Berry and Roderick, 2005)."
 
 **Lines 351-354, I do not understand the logics of this argumentation (Lines 355-356). The mean value is contra productive regarding the variability that is possible within a tree, what is the advantage of this? I would expect that is better to include the point measurements along the trunk in order to include the within tree variability. See Rosner (2017) Journal of Plant Hydraulics. <https://doi.org/10.20870/jph.2017.e001>**     
 **Could you provide a regression for the single data points? In a supplement figure?**
 
-We totally agree with the reviewer that it would have been preferable to provide point measurements along the trunk in the database to be able to estimate within tree variability (also called intra-individual variability). Unfortunately, it is the averages of >10 samples at the tree level which have been historically recorded in the Cirad database, with the underlying assumption that intra-specific and inter-specific variability was much greater than intra-individual variability. We have modified the text in the Methods and Discussion parts to be clearer.
+We totally agree with the reviewer that it would have been preferable to provide point measurements along the trunk in the database to be able to estimate within tree variability (also called intra-individual variability). Unfortunately, it is the averages of >10 samples at the tree level which have been historically recorded in the Cirad database, with the underlying assumption that intra-specific and inter-specific variability was greater than intra-individual variability. We have modified the text in the Methods and Discussion parts (section 2.1.3) to be clearer:     
 
-Nonetheless, as we say text, it is still possible to estimate the intra-specific and inter-specific variability of wood characteristics with the Cirad database.
+"In the Cirad database, average values for $S$, $R$ and $D_{12}$ for each tree were historically recorded using $>10$ wood samples taken at various positions in the trunk."
+
+Nonetheless, as we say in the text, the Cirad database can be used to estimate the intra-specific and inter-specific variability of the wood characteristics available in the database.
 
 **Line 364, forests**
 
@@ -181,19 +197,27 @@ We think there is a misunderstanding here. As underlined in the introduction (li
 
 Although it would have been statistically possible to derive allometric models to estimate dry biomass from wood density at 12% moisture (mass at 12%/volume at 12%), this makes less sense on a theoretical point of view, and to our knowledge no scientific study has published such models.
 
-In this part of the discussion, we just discuss the fact that basic wood densities in the Global Wood Density Database (GWDD) are overestimated by +3.05% on average. This is in line with the fact that 60% of the basic wood densities in GWDD have been derived from an overestimated conversion factor of 0.861.
+In this part of the discussion, we just discuss the fact that basic wood densities in the Global Wood Density Database (GWDD) are overestimated by +3.05% on average. This is in line with the fact that 60% of the basic wood densities in the GWDD have been derived from an overestimated conversion factor of 0.861.
 
 Consequently, studies using basic wood density values from GWDD to compute tree biomass are likely to provide overestimated forest carbon stock values.
 
 **Lines 380-387, there are newer studies (Greenwood et al. 2017.) and also more critic studies, see Anderegg et al. (2015) PNAS <www.pnas.org/cgi/doi/10.1073/pnas.1525678113>**
 
-We added the reference Greenwood et al. 2017 that has been already added in the introduction. In the second article (Anderegg et al. 2015), the importance of wood density to explain drought-induce tree mortality is clear for Angiosperms ().  
+We modified the text including a citation to Greenwood et al. 2017 study:     
+
+"This study will also provide a firmer basis for future ecological research on wood density as a functional trait. Indeed, wood density is often considered as a key tree functional trait determining species performance and fitness (Baraloto et al., 2010; Chave et al., 2009; Diaz et al., 2016; Greenwood et al., 2017; Kunstler et al., 2016). For example, recent global studies have demonstrated that values of wood density explained the competition outcome between pairs of tree species (Kunstler et al., 2016), and that drought-induced mortality was promoted by lower wood densities (Greenwood et al., 2017). Using a wood density database with unbiased values of basic wood densities would allow proper estimates of species' differences with regards to this trait and predict better the dynamics of tree species community."
 
 **Table 1, provide the number of samples that were measured for the study**
 
+This number is now provided in the text, section 2.1.3 "Measuring fibre saturation point, volumetric shrinkage coefficient, and wood density at 12% moisture":     
+
+"In the Cirad database, average values for $S$, $R$ and $D_{12}$ for each tree were historically recorded using $>10$ wood samples taken at various positions in the trunk. Out of the 4022 trees present in the Cirad database, 190 trees had only measurements for $D_{12}$, with no values for $S$ and $R$. Definitions and units of wood physical and mechanical properties used in the present study are all summarized in Supp. Info. S1."
+
 **Table 2, refer to Table S1**
 
-We thank Reviewer 1 for his/her careful review of our manuscript and the many additional references he/she provided.
+Done.
+
+We thank Reviewer 1 for his/her careful review of our manuscript and the additional relevant references he/she provided.
 
 # Answers to remarks by Reviewer 2
 
@@ -217,7 +241,8 @@ We thank Reviewer 1 for his/her careful review of our manuscript and the many ad
 
 **Fig. 1 is unnecessary, and it duplicates the Table 1.**
 
-In Tab. 1, we list countries with more than 20 tree species in the Cirad wood density database. In Fig. 1, we identify every countries with at least one tree species. We think Fig. 1 is useful and complementary to Tab. 1 as it provides information on the spatial repartition of the data at the global scale (total extent of the data, total number of countries, temperate vs. tropical, data abundance per country, etc.). We have thus decided to retain that figure in the new version of the manuscript.
+In Tab. 1, we list countries with more than 20 tree species in the Cirad wood density database. In Fig. 1, we identify every countries with at least one tree species. We think Fig. 1 is useful and complementary to Tab. 1 as it provides information on the spatial repartition of the data at the global scale (total extent of the data, total number of countries, temperate vs. tropical, data abundance per country, etc.). We have thus decided to retain that figure in the new version of the manuscript, modifying its title and legend to better describe the information it provides:     
+"Figure 1: **Global repartition of the data available in the Cirad wood density database.** Data repartition is provided in number of species per country. Most of the species in the database (830/872) are found in the tropics (materialized by the grey band on the map)."
 
 ## Minor suggestions
 

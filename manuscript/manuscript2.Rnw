@@ -121,7 +121,7 @@
 
 %% Context: Importance of wood density for community ecology, global carbon cycle and wood science.
 
-Wood density of woody plants is a key functional trait \citep{Violle2007, Chave2009}. It helps understand the functionning of forest ecosystems both in terms of carbon sequestration \citep{Chave2005, Vieilledent2012} and community dynamics \citep{Westoby2006, Kunstler2016, Diaz2016}. In carbon cycle research, tree wood density is used to compute forest carbon stock and assess the role of forests in mitigating climate change \citep{Pan2011, Vieilledent2016} or evaluate the impact of deforestation on climate \citep{Achard2014}. In community ecology, wood density reflects a trade-off between growth potential and mortality risk from biomechanical or hydraulic failure \citep{Diaz2016}. Fast-growing, short-lived species tend to have a lower wood density while slow-growing, long-lived species tend to have a higher wood density \citep{Chave2009, Greenwood2017}. In wood technology, most physical and mechanical properties of wood (strength, stiffness, porosity, heat transmission, yield of pulp per unit volume, etc.) are closely related to wood density \citep{Sallenave1955, Thibaut2001, Shmulsky2011}. This explains why wood density has been commonly measured in forestry institutes where wood was principally studied for construction or paper making.
+Wood density of woody plants is a key functional trait \citep{Violle2007, Chave2009}. It helps understand the functionning of forest ecosystems both in terms of carbon sequestration \citep{Chave2005, Vieilledent2012} and community dynamics \citep{Westoby2006, Kunstler2016, Diaz2016}. In carbon cycle research, tree wood density is used to compute forest carbon stock and assess the role of forests in mitigating climate change \citep{Pan2011, Vieilledent2016} or evaluate the impact of deforestation on climate \citep{Achard2014}. In community ecology, wood density is a proxy for species performance \citep{Lachenbruch2014}, reflecting a trade-off between growth potential and mortality risk from biomechanical or hydraulic failure \citep{Diaz2016}. Fast-growing, short-lived species tend to have a lower wood density while slow-growing, long-lived species tend to have a higher wood density \citep{Chave2009, Greenwood2017}. In wood technology, most physical and mechanical properties of wood (strength, stiffness, porosity, heat transmission, yield of pulp per unit volume, etc.) are closely related to wood density \citep{Sallenave1955, Thibaut2001, Shmulsky2011}. This explains why wood density has been commonly measured in forestry institutes, where wood was principally studied for construction or paper making.
 
 %% Conversion between D_12 and D_b
 
@@ -164,7 +164,7 @@ In this study, we present a new and exact formula to convert wood density at any
 
 \subsubsection{A global database including 872 tree species}
 
-The Cirad wood technology database includes data from 4022 trees. Tree species names (latin binomial) were first spell-checked with the Global Names Resolver available in the \texttt{taxize} R package \citep{Chamberlain2013} using The Encyclopedia of Life, The International Plant Names Index, and the Tropicos databases as references. Then, we searched for synonyms in the list of species names and corrected the species names when necessary using The Plant List version 1.1 (\url{http://www.theplantlist.org}) as reference. We used the \texttt{Taxonstand} R package \citep{Cayuela2017} to do so. Taxonomic families were retrieved from updated species names using The Plant List. Trees belong to 1010 taxa from 484 genera and 94 taxonomic families. Most of the taxa (872) were identified up to the species level, with varieties and subspecies combined. Out of the 872 species names, 832 were ``accepted'' species names and 40 were ``unresolved'', according to The Plant List. The rest of the taxa (138) were identified up to the genus level. The dataset includes trees from 64 countries but the major part of the trees come from 13 tropical countries (countries with more than 20 tree species) mostly in South America, Africa and in Oceanic islands (Tab.~\ref{tab:Countries} and Fig.~\ref{fig:Location}). Sallenave was working for a tropical forestry institute now part of Cirad, the database is thus the direct continuation and extension of Sallenave's work (\citeyear{Sallenave1955, Sallenave1964, Sallenave1971}).
+The Cirad wood technology database includes data from 4022 trees. Tree species names (latin binomial) were first spell-checked with the Global Names Resolver available in the \texttt{taxize} R package \citep{Chamberlain2013} using The Encyclopedia of Life, The International Plant Names Index, and the Tropicos databases as references. Then, we searched for synonyms in the list of species names and corrected the species names when necessary using The Plant List version 1.1 (\url{http://www.theplantlist.org}) as reference. We used the \texttt{Taxonstand} R package \citep{Cayuela2017} to do so. Taxonomic families were retrieved from updated species names using The Plant List. Trees belong to 1010 taxa from 484 genera and 94 taxonomic families. Most of the taxa (872) were identified up to the species level, with varieties and subspecies combined. Out of the 872 species names, 832 were ``accepted'' species names and 40 were ``unresolved'', according to The Plant List. The rest of the taxa (138) were identified up to the genus level. The dataset includes 834 angiosperm species and 38 gymnosperm species. The dataset includes trees from 64 countries but the major part of the trees come from 13 tropical countries (countries with more than 20 tree species) mostly in South America, Africa and in Oceanic islands (Tab.~\ref{tab:Countries} and Fig.~\ref{fig:Location}). Sallenave was working for a tropical forestry institute now part of Cirad, the database is thus the direct continuation and extension of Sallenave's work (\citeyear{Sallenave1955, Sallenave1964, Sallenave1971}).
 
 \subsubsection{Measuring wood mass, moisture content, and volume}
 \label{seq:mass-volume}
@@ -177,7 +177,7 @@ Wood volume $V_w$ (in cm$^3$) was measured with three different methods. For woo
 
 \subsubsection{Measuring fibre saturation point, volumetric shrinkage coefficient, and wood density at 12\% moisture}
 
-The fibre saturation point $S$ (in \%) is the water content above which the wood volume does not increase \citep{Skaar1988}. This is also the point in the wood drying process at which the only remaining water is that bound to the cell walls, no free water remaining in the cell cavities. Further drying of the wood results in the strengthening of the wood fibres, and is usually accompanied by shrinkage \citep{Skaar1988}.
+The fibre saturation point $S$ (in \%) is commonly defined as the water content above which the wood volume does not increase \citep{Skaar1988}. Water can exist in wood as liquid water (``free'' water) or water vapor in cell lumens and cavities, and as water held chemically within cell walls (``bound'' water). The fibre saturation point is the point in the wood drying process at which the only remaining water is that ``bound'' to the cell walls. Further drying of the wood results in the strengthening of the wood fibres, and is usually accompanied by shrinkage \citep{Skaar1988}.
 
 To estimate the fibre saturation point $S$, we first measured wood volume at the saturated state $V_S$ using the water displacement method. To reach a state saturated in water, whith $w>S$, wood samples were autoclaved, subjected to one hour of vacuum (to accelerate water impregnation) and then soaked in water during 15 hours at 5 bar pressure. Then, wood samples were stabilized at four decreasing moisture contents $w$ until reaching the anhydrous state. First, wood samples were put in a stove at 30$^\circ$C temperature and 85\% humidity to reach a moisture content close to 18\%. Second, wood samples were put in an air-conditioned room at 20$^\circ$C temperature and 65\% humidity to reach a moisture content close to 12\%. Third, they were put in a stove at 20$^\circ$C temperature and 50\% humidity to reach a moisture content close to 9\%. Fourth, they were put in a stove at 103$^\circ$C to reach the anhydrous state. Wood mass $m_w$ and wood volume $V_w$ were measured at each of the four stabilized stages. The exact water content $w$ at the three stabilized states previous to the anhydrous state was computed from the mass $m_w$ and the anhydrous mass $m_0$. Three volumetric shrinkage values $\Delta{V}/V = 100(V_S-V_w)/V_S$ were computed between the saturated state and the three other stabilized states. The fibre saturation point $S$ was defined as the intercept of the linear model $w = S + b \times \Delta{V}/V$ \citep{Stamm1964}. To minimise the errors in estimating $S$, only the relationships with a coefficient of determination $r^2 > 98\%$ were considered.
 
@@ -185,7 +185,7 @@ The volumetric shrinkage coefficient $R$ (in \%/\%) is the variation in volume p
 
 Wood density at 12\% moisture ($D_{12}$ in g/cm$^3$) was obtained computing the ratio $m_w/V_w$ with $w$ close to 12\% moisture (when wood samples were stabilized at 20$^\circ$C temperature and 65\% humidity). Because the moisture content $w$ was not exactly 12\%, densities were initially corrected using the ``hygroscopicity'' term $d$ defined by Sallenave and the following formula $D_{12}=D_w-(w-12)d$ \citep{Sallenave1971}. This correction affected only the third decimal of the wood density value, so it was progressively abandonned. Given the precision of wood mass and volume measurements (see sec.~\ref{seq:mass-volume}), uncertainty regarding wood densities at 12\% moisture for individual samples was considered to be of about 0.01 g/cm$^3$.
 
-Mean values for $S$, $R$ and $D_{12}$ for each tree were estimated using $>$10 wood samples taken at various positions in the trunk. Definitions and units of wood physical and mechanical properties used in the present study are all summarized in Supp.~Info.~\ref{sm:Definitions}.
+In the Cirad database, average values for $S$, $R$ and $D_{12}$ for each tree were historically recorded using $>$10 wood samples taken at various positions in the trunk. Out of the 4022 trees present in the Cirad database, 190 trees had only measurements for $D_{12}$, with no values for $S$ and $R$. Definitions and units of wood physical and mechanical properties used in the present study are all summarized in Supp.~Info.~\ref{sm:Definitions}.
 
 \subsection{Model relating $D_{w}$ and $D_b$}
 
@@ -282,15 +282,15 @@ If only $D_{12}$ and no other measurement is available, we recommend the use of 
 
 Using the new formula we obtained in this study (Eq.~\ref{eq:Db-Dw-new}), the new estimated conversion factor 0.828, and the Cirad database, we estimated the basic wood density of 4022 trees belonging to 872 species (1010 taxa), 484 genus and 94 families. Compared with the Global Wood Density Database \citep{Zanne2009}, we provide basic wood density for 201 additional tree species. Most of the 872 species come from 13 oceanic tropical islands or countries.
 
-In the Cirad wood density database, the fibre saturation point is provided for each tree. The fibre saturation point is an essential wood characteristic that can be used, in combination with the fresh volume, the fresh mass and the dry mass, to estimate the volume of water for each of the three bulk phases (``solid'' or bound water, liquid and gas) in a tree \citep{Berry2005}. The volume of ``solid'' water is an essential plant functional trait as it determines wood strength and constraints on plant architecture \citep{Niklas1993}, as is the volume of liquid water which is the ultimate source of the biochemical activity in living plants \citep{Berry2005}.
+In the Cirad wood density database, the fibre saturation point is provided for each tree. The fibre saturation point is an essential wood characteristic that can be used, in combination with the green volume, the green mass and the dry mass, to estimate the volume of water for each of the three bulk phases in a tree: (1) ``free'' liquid water in cell lumens and cavities, (2) water vapor in the gas-filled voids, and (3) ``bound'' water held chemically within cell walls (sometimes also called ``solid'' water, see \citet{Berry2005}). The volume of ``bound'' water is an essential plant functional trait as it determines wood strength and constraints on plant architecture \citep{Niklas1993}, as is the volume of ``free'' liquid water which is the ultimate source of the biochemical activity in living plants \citep{Berry2005}.
 
 Wood characteristic values for trees in the Cirad database are the average of $>$10 wood samples taken at various position in the trunk. These values integrate the intra-individual variability (e.g. difference in wood density values for the same tree which can vary with the position in the trunk \citep{Bastin2015}). Providing wood characteristics for individual trees, the Cirad database can be used to compute both intra-specific and inter-specific trait variability. Intra-specific trait variability, due to genetic variability and phenotypic plasticity, participates in determining species fitness and community assemblages \citep{Courbaud2012, Albert2011, Roughgarden1979}. The Cirad database could also help quantify phylogenetic conservatism and divergences of wood densities in tree species \citep{Flores2011}.
 
 \subsection{Consequences of the new conversion factor value for ecological studies}
 
-This new value of 0.828 for the conversion factor has significant implications for the study of the role of forests in the global carbon cycle. The error on the conversion factor between wood density at 12\% moisture and basic wood density propagates to forest carbon stock. Combined with biomass allometric equations available in the literature \citep{Chave2005, Chave2014, Vieilledent2012}, these wood density values have been used to compute forest carbon maps globally \citep{Saatchi2011, Baccini2012, Avitabile2016, Baccini2017}. About 60\% of the basic wood densities in the Global Wood Density Database have been estimated with an overestimated conversion factor. On the basis of 411 tree species, we showed that the GWDD overestimates wood densities by +3.05\% on average. It is hard to quantify precisely the consequences of this bias on forest carbon stock estimates as it depends on relative species abundance in the forest and relative tree size distribution between species. However, if dominant species (in terms of size and abundance) have an overestimated basic wood density, due to the use of an inaccurate conversion factor (0.872 or 0.861 in \citep{Chave2006, Chave2009} against 0.828 in our study), it can potentially lead to an overestimation of 4-5\% of the forest biomass and carbon stock. We are currently in the process of updating the GWDD and the present study provides a firm basis for this revision.
+This new value of 0.828 for the conversion factor has significant implications for the study of the role of forests in the global carbon cycle. The error on the conversion factor between wood density at 12\% moisture and basic wood density propagates to forest carbon stock. Combined with biomass allometric equations available in the literature \citep{Chave2005, Chave2014, Vieilledent2012}, these wood density values have been used to compute forest carbon maps globally \citep{Saatchi2011, Baccini2012, Avitabile2016, Baccini2017}. About 60\% of the basic wood densities in the Global Wood Density Database have been estimated with an overestimated conversion factor. On the basis of 411 tree species, we showed that the GWDD overestimates wood densities by +3.05\% on average. It is hard to quantify precisely the consequences of this bias on forest carbon stock estimates as it depends on relative species abundance in the forest and relative tree size distribution between species. However, if dominant species (in terms of size and abundance) have an overestimated basic wood density, due to the use of an inaccurate conversion factor (0.872 or 0.861 in \citet{Chave2006, Chave2009} against 0.828 in our study), it can potentially lead to an overestimation of 4-5\% of the forest biomass and carbon stock. We are currently in the process of updating the GWDD and the present study provides a firm basis for this revision.
 
-This study will also provide a firmer basis for future ecological research on wood density as a functional trait. Indeed, wood density is often considered as a key tree functional trait determining species performance and fitness \citep{Chave2009, Baraloto2010, Kunstler2016, Diaz2016, Greenwood2017}. For example, \citet{Kunstler2016} have demonstrated that values of wood density explained the competition outcome between pairs of tree species at the global scale. Using a wood density database with unbiased values of basic wood densities would allow proper estimates of species' differences with regards to this trait and predict better the dynamics of tree species community.
+This study will also provide a firmer basis for future ecological research on wood density as a functional trait. Indeed, wood density is often considered as a key tree functional trait determining species performance and fitness \citep{Chave2009, Baraloto2010, Kunstler2016, Diaz2016, Greenwood2017}. For example, recent global studies have demonstrated that values of wood density explained the competition outcome between pairs of tree species \citep{Kunstler2016}, and that drought-induced mortality was promoted by lower wood densities \citep{Greenwood2017}. Using a wood density database with unbiased values of basic wood densities would allow proper estimates of species' differences with regards to this trait and predict better the dynamics of tree species community.
 
 \newpage
 
@@ -361,7 +361,7 @@ Data (including the Cirad wood density database) and R script associated to the 
     Cameroon & 83 \\
     Central African Republic & 27 \\
     Côte d'Ivoire & 117 \\
-    Congo-Brazzaville & 59 \\
+    Congo--Brazzaville & 59 \\
     Gabon & 105 \\
     Guinea & 20 \\
     \textbf{Asia} & ~ \\
@@ -379,7 +379,8 @@ Data (including the Cirad wood density database) and R script associated to the 
 \vspace*{\stretch{1}}
   \begin{longtable}{@{}lrrrrrr@{}} 
     \caption{\textbf{Descriptive statistics at the species level (872 species) for the
-      wood physical and mechanical properties in the Cirad database.}}\label{tab:Stat}\\
+      wood physical and mechanical properties in the Cirad database.}
+      See Supp.~Info.~\ref{sm:Definitions} for variable definitions.}\label{tab:Stat}\\
     \toprule
     Variable & min & max & mean & median & sd & 95\% quantiles \\
     \midrule
@@ -400,8 +401,7 @@ Data (including the Cirad wood density database) and R script associated to the 
     \begin{center} 
       \includegraphics[width=\textwidth]{figs/Location.pdf}
 
-      \caption{\textbf{Number of tree species by country in the Cirad wood density
-          database}.}
+      \caption{\textbf{Global repartition of the data available in the Cirad wood density database}. Data repartition is provided in number of species per country. Most of the species in the database (830/872) are found in the tropics (materialized by the grey band on the map).}
 
       \label{fig:Location}
     \end{center}
@@ -476,29 +476,25 @@ Data (including the Cirad wood density database) and R script associated to the 
 \renewcommand{\thetable}{S\arabic{table}}
 \renewcommand{\theHtable}{SuppInfo.\thetable}
 
-% \setcounter{figure}{0}
-% %\renewcommand{\figurename}{Appendix}
-% \renewcommand{\thefigure}{A\arabic{figure}}
-% \renewcommand{\captionlabeldelim}{:}
-
 \begin{longtable}{@{}lL{8cm}r@{}}
   \caption{\textbf{Definition and unit of wood physical and mechanical properties.}}\label{sm:Definitions}\\
   \toprule
   Notation & Definition & Unit \\
   \midrule
   $w$ & water content or moisture \newline $w=100 (m_w-m_0)/m_0$ & \% of the dry mass \\
-  $m_w$ & mass at moisture $=w$ & g \\
-  $m_0$ & anhydrous mass or ``oven dry mass'' & g \\
   $S$ & fibre saturation point (water content above which the wood volume does not
   increase) & \% \\
+  $m_w$ & mass at moisture $=w$ & g \\
+  $m_0$ & anhydrous mass or ``oven dry mass'' & g \\
   $V_w$ & volume at moisture $=w$ & cm$^3$ \\
+  $V_0$ & anhydrous volume & cm$^3$ \\
   $V_S$ & volume at $w=S$ or ``green volume'' & cm$^3$ \\
+  $R$ & volumetric shrinkage coefficient (variation in volume
+  per 1\% change in water content) \newline $R=100 (V_S-V_0) / (V_S S)$ & \%/\% \\
   $D_b$ & basic wood density ($m_0/V_S$) or ``wood specific gravity'' & g/cm$^3$ \\
   $D_{12}$ & wood density at 12\% moisture ($m_{12}/V_{12}$) & g/cm$^3$ \\
   $D_{15}$ & wood density at 15\% moisture ($m_{15}/V_{15}$) & g/cm$^3$ \\
   $D_0$ & anhydrous wood density ($m_0/V_0$) & g/cm$^3$ \\
-  $R$ & volumetric shrinkage coefficient (variation in volume
-  per 1\% change in water content) \newline $R=100 (V_S-V_0) / (V_S S)$ & \%/\% \\
   \bottomrule\\
 \end{longtable}
 
@@ -521,5 +517,23 @@ Data (including the Cirad wood density database) and R script associated to the 
   be written $D_b=(V_0/V_{12})(D_{12}-12d)/(1+(\nu/100)(S-12))$.
   This demonstrates that Sallenave's formula is true only if $V_0=V_{12}$.\\
 \end{longtable}
+
+\newpage
+
+\setcounter{figure}{2}
+\renewcommand{\figurename}{Supporting Information}
+\renewcommand{\thefigure}{S\arabic{figure}}
+%\renewcommand{\captionlabeldelim}{:}
+
+\begin{figure}[!ht] 
+    \begin{center} 
+
+      \caption{\textbf{Distribution of wood density values at 12\% moisture for angiosperms
+      and gymnosperms in the Cirad wood density database.}}\label{fig:dist-angio-gymn}
+      \vspace{1cm}
+      \includegraphics[width=12cm]{figs/density_D12_clade.pdf}
+      
+    \end{center}
+\end{figure}
 
 \end{document}

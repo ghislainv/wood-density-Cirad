@@ -74,7 +74,8 @@ continent.eng <- c("Europe","Africa","North-America","Asia","Asia","Australia","
                    "South-America","Pacific ocean","South-America","Asia","Pacific ocean")
 
 biome <- rep("tropical",length(country.eng))
-biome[continent.eng %in% c("Europe","North-America","Australia") | country.eng %in% c("Algeria", "Paraguay", "Japan")] <- "temperate"
+biome[continent.eng %in% c("Europe","North-America","Australia") | 
+        country.eng %in% c("Algeria","Chile","Japan","Morocco","New Zealand","Paraguay")] <- "temperate"
 
 data$country <- NA
 data$continent <- NA
@@ -301,24 +302,77 @@ species.per.country <- data %>%
   as.data.frame()
 write.table(species.per.country,file="output/species_per_country.txt",sep="\t",row.names=FALSE)
 
-#= Number of observations per clade and biome
+#= Number of observations per clade
 obs.per.clade <- data %>%
-  group_by(clade,biome) %>%
+  group_by(clade) %>%
   summarise(count=n()) %>%
   as.data.frame()
 write.table(obs.per.clade,file="output/obs_per_clade.txt",sep="\t",row.names=FALSE)
 
-#= Number of species per clade and biome
+#= Number of observations per biome
+obs.per.biome <- data %>%
+  group_by(biome) %>%
+  summarise(count=n()) %>%
+  as.data.frame()
+write.table(obs.per.biome,file="output/obs_per_biome.txt",sep="\t",row.names=FALSE)
+
+#= Number of species per clade
 species.per.clade <- data %>%
   filter(id.species==1) %>%
-  group_by(clade,biome,taxa) %>%
+  group_by(clade,taxa) %>%
   summarise(count=n()) %>%
-  group_by(clade,biome) %>%
+  group_by(clade) %>%
   summarise(nspecies=n()) %>%
   as.data.frame()
-write.table(obs.per.clade,file="output/species_per_clade.txt",sep="\t",row.names=FALSE)
+write.table(species.per.clade,file="output/species_per_clade.txt",sep="\t",row.names=FALSE)
+
+#= Number of species per biome
+species.per.biome <- data %>%
+  filter(id.species==1) %>%
+  group_by(biome,taxa) %>%
+  summarise(count=n()) %>%
+  group_by(biome) %>%
+  summarise(nspecies=n()) %>%
+  as.data.frame()
+write.table(species.per.biome,file="output/species_per_biome.txt",sep="\t",row.names=FALSE)
 # Note: Some "cultivated" species might be found in the two biomes: 
 ## ex. Juglans regia, Quercus ilex, Pseudotsuga menziesii
+
+#=======================================================
+# Distribution of D12
+#=======================================================
+
+# Theme options
+theme_dens <- theme(
+  legend.position = c(0.8, 0.8),
+  legend.title = element_blank(),
+  legend.text = element_text(size = 14),
+  axis.text = element_text(size = 14),
+  axis.title = element_text(size = 14)
+)
+
+# Distribution of D12 per clade
+density_D12_clade <- ggplot(data, aes(D12,fill=clade)) + 
+  geom_density(alpha=0.5) + 
+  scale_fill_manual(values=c(grey(0.7),grey(0.3))) +
+  xlab(expression(italic(D[12])~(g/cm^3))) +
+  theme_dens
+ggsave("manuscript/figs/density_D12_clade.pdf", density_D12_clade)
+
+# Distribution of D12 per biome
+density_D12_biome <- ggplot(data, aes(D12,fill=biome)) + 
+  geom_density(alpha=0.5) + 
+  scale_fill_manual(values=c(grey(0.7),grey(0.3))) +
+  xlab(expression(italic(D[12])~(g/cm^3))) +
+  theme_dens
+ggsave("manuscript/figs/density_D12_biome.pdf", density_D12_biome)
+
+# Distribution of D12
+density_D12 <- ggplot(data, aes(D12)) + 
+  geom_density(alpha=0.5, fill=grey(0.7)) + 
+  xlab(expression(italic(D[12])~(g/cm^3))) +
+  theme_dens
+ggsave("manuscript/figs/density_D12.pdf", density_D12_clade)
 
 #===============================
 # Map with country and species
@@ -359,14 +413,15 @@ countries_robin_df <- fortify(countries_robin)
 # Create a blank ggplot theme
 theme_opts <- list(theme(panel.grid.minor = element_blank(),
                          panel.grid.major = element_blank(),
+                         panel.border = element_blank(),
                          panel.background = element_blank(),
-                         plot.margin = unit(c(0,0,0,0),"cm"),
+                         panel.spacing = unit(c(0,0,0,0), "cm"),
+                         plot.margin = margin(-1,1.5,-1,-1,"cm"),
                          plot.background = element_rect(fill="white"),
                          legend.key = element_rect(fill="white"),
-                         # legend.position = c(0.85, 0.3),
-                         legend.text = element_text(size=14),
+                         # legend.text = element_text(size=14),
                          legend.title = element_text(size=16),
-                         panel.border = element_blank(),
+                         legend.margin = margin(-1,-1,-1,-1,"cm"),
                          axis.line = element_blank(),
                          axis.text.x = element_blank(),
                          axis.text.y = element_blank(),
@@ -386,6 +441,17 @@ grat_df_robin <- fortify(grat_robin)
 bbox_robin <- spTransform(bbox, CRS("+proj=robin"))  # reproject bounding box
 bbox_robin_df <- fortify(bbox_robin)
 
+# Polygon for tropical zone
+x <- c(seq(-180,180,length.out=100),rep(180,98),seq(180,-180,length.out=100),rep(-180,99))
+y <- c(rep(23.4369,100),seq(23.4369,-23.4369,length.out=98),rep(-23.4369,100),seq(-23.4369,23.4369,length.out=99))
+mat.xy <- cbind(x,y)
+p = Polygon(mat.xy)
+ps = Polygons(list(p),1)
+trop = SpatialPolygons(list(ps))
+proj4string(trop) <- CRS("+init=epsg:4326")
+trop_robin <- spTransform(trop, CRS("+proj=robin"))
+trop_robin_df <- fortify(trop_robin)
+
 # Bubble plot
 nbspecies <- data.country
 nbspecies_robin <- spTransform(nbspecies, CRS("+proj=robin"))
@@ -393,18 +459,19 @@ nbspecies_robin_df <- as(nbspecies_robin, "data.frame")
 
 # Plot map
 ggplot(bbox_robin_df, aes(long,lat, group=group)) +
-    geom_polygon(fill="white",color=grey(0.7),linetype=3) +
-    #geom_polygon(fill="white") +
-    geom_polygon(data=countries_robin_df, aes(long,lat, group=group, fill=hole)) +
-    geom_point(data=nbspecies_robin_df, aes(LON.country, LAT.country, group=NULL, fill=NULL, size=nspecies),
-               color=grey(0.4), alpha=I(8/10)) +
-    geom_path(data=countries_robin_df, aes(long,lat, group=group), color="black", size=0.3) +
-    # geom_path(data=grat_df_robin, aes(long, lat, group=group, fill=NULL), linetype="dashed", color="grey50") +
-    coord_equal() +
-    theme_opts +
-    scale_fill_manual(values=c(grey(0.95),"white"), guide="none")+ # change colors and remove legend
-    scale_size_continuous(name=expression(paste(italic(n)," species")), range=c(1,20), limits=c(1,170), breaks=c(1,10,50,100,150),
-                          labels=c("1","10","50","100","150"))
+  geom_polygon(fill="white",color=grey(0.7),linetype=3) +
+  #geom_polygon(fill="white") +
+  geom_polygon(data=countries_robin_df, aes(long,lat, group=group, fill=hole)) +
+  scale_fill_manual(values=c(grey(0.95),"white"), guide="none") + # change colors and remove legend
+  geom_polygon(data=trop_robin_df, aes(long,lat), fill=grey(0.8), alpha=0.8) +
+  geom_point(data=nbspecies_robin_df, aes(LON.country, LAT.country, group=NULL, fill=NULL, size=nspecies),
+             color=grey(0.3), alpha=I(8/10)) +
+  geom_path(data=countries_robin_df, aes(long,lat, group=group), color="black", size=0.3) +
+  # geom_path(data=grat_df_robin, aes(long, lat, group=group, fill=NULL), linetype="dashed", color="grey50") +
+  coord_equal() +
+  theme_opts +
+  scale_size_continuous(name=expression(paste(italic(n)," species")), range=c(1,20), limits=c(1,170),
+                        breaks=c(1,10,50,100,150),labels=c("1","10","50","100","150"))
 
 ggsave("manuscript/figs/Location.pdf", width=12.5, height=6)
 
@@ -505,40 +572,21 @@ write.csv(data_save,file="Cirad-wood-density-database.csv",quote=FALSE,row.names
 # Effect of clade, biome and low-high density
 #=======================================================
 
-# Distribution of D12 per clade
-density_D12_clade <- ggplot(data2, aes(D12,fill=clade)) + 
-  geom_density(alpha=0.5) + 
-  scale_fill_manual(values=c(grey(0.7),grey(0.3))) +
-  xlab(expression(italic(D[12])~(g/cm^3))) +
-  theme(legend.position=c(0.8,0.8),legend.title = element_blank())
-ggsave("manuscript/figs/density_D12_clade.pdf", density_D12_clade)
-# Model
+# Model clade
 mod_clade <- lm(Db~clade:D12-1,data=data2) 
 sink("output/anova_clade.txt")
 mod_clade
 anova(mod_clade)
 sink()
 
-# Distribution of D12 per biome
-density_D12_biome <- ggplot(data2, aes(D12,fill=biome)) + 
-  geom_density(alpha=0.5) + 
-  scale_fill_manual(values=c(grey(0.7),grey(0.3))) +
-  xlab(expression(italic(D[12])~(g/cm^3))) +
-  theme(legend.position=c(0.8,0.8),legend.title = element_blank())
-ggsave("manuscript/figs/density_D12_biome.pdf", density_D12_biome)
-# Model
+# Model biome
 mod_biome <- lm(Db~biome:D12-1,data=data2)
 sink("output/anova_biome.txt")
 mod_biome
 anova(mod_biome)
 sink()
 
-# Distribution of D12
-density_D12 <- ggplot(data2, aes(D12)) + 
-  geom_density(alpha=0.5, fill=grey(0.7)) + 
-  xlab(expression(italic(D[12])~(g/cm^3)))
-ggsave("manuscript/figs/density_D12.pdf", density_D12_clade)
-# Model
+# Model light-high density
 data2$woodtype <- "heavy"
 data2$woodtype[data2$D12<0.5] <- "light"
 data2.Angio <- data2 %>% filter(clade=="Angiosperms")
@@ -687,29 +735,29 @@ n.species.common <- sum(!is.na(wsg.comp$wsg.dryad[wsg.comp$Sallevane==0])) # 411
 n.species.new <- sum(is.na(wsg.comp$wsg.dryad)) # 201
 n.species.Sallevane+n.species.common+n.species.new==n.species # check OK
 
-#= Origin of new species
-sp.new <- wsg.comp$latin.name[is.na(wsg.comp$wsg.dryad)]
-country.new <- sort(unique(data$country[data$taxa %in% sp.new]))
-nbspecies_robin_df_new <- nbspecies_robin_df[nbspecies_robin_df$country %in% country.new,]
-species.per.country.new <- as.matrix(tapply(data$taxa[data$taxa %in% sp.new],
-                                            data$country[data$taxa %in% sp.new],f.ntaxa))
-nbspecies_robin_df_new$nspecies <- as.numeric(species.per.country.new)
-
-# Plot map
-ggplot(bbox_robin_df, aes(long,lat, group=group)) +
-    geom_polygon(fill="white") +
-    geom_polygon(data=countries_robin_df, aes(long,lat, group=group, fill=hole)) +
-    geom_point(data=nbspecies_robin_df_new, aes(LON.country, LAT.country, group=NULL, fill=NULL, size=nspecies),
-               color="red", alpha=I(8/10)) +
-    geom_path(data=countries_robin_df, aes(long,lat, group=group), color="white", size=0.3) +
-    # geom_path(data=grat_df_robin, aes(long, lat, group=group, fill=NULL), linetype="dashed", color="grey50") +
-    coord_equal() +
-    theme_opts +
-    scale_fill_manual(values=c("black", "white"), guide="none")+ # change colors and remove legend
-    scale_size_continuous(name="Number of species", range=c(1,20), limits=c(1,150), breaks=c(1,10,50,100,150),
-                          labels=c("1","10","50","100","150"))  
-
-ggsave("manuscript/figs/Location_new.png", width=12.5, height=8.25, dpi=150)
+# #= Origin of new species
+# sp.new <- wsg.comp$latin.name[is.na(wsg.comp$wsg.dryad)]
+# country.new <- sort(unique(data$country[data$taxa %in% sp.new]))
+# nbspecies_robin_df_new <- nbspecies_robin_df[nbspecies_robin_df$country %in% country.new,]
+# species.per.country.new <- as.matrix(tapply(data$taxa[data$taxa %in% sp.new],
+#                                             data$country[data$taxa %in% sp.new],f.ntaxa))
+# nbspecies_robin_df_new$nspecies <- as.numeric(species.per.country.new)
+# 
+# # Plot map
+# ggplot(bbox_robin_df, aes(long,lat, group=group)) +
+#     geom_polygon(fill="white") +
+#     geom_polygon(data=countries_robin_df, aes(long,lat, group=group, fill=hole)) +
+#     geom_point(data=nbspecies_robin_df_new, aes(LON.country, LAT.country, group=NULL, fill=NULL, size=nspecies),
+#                color="red", alpha=I(8/10)) +
+#     geom_path(data=countries_robin_df, aes(long,lat, group=group), color="white", size=0.3) +
+#     # geom_path(data=grat_df_robin, aes(long, lat, group=group, fill=NULL), linetype="dashed", color="grey50") +
+#     coord_equal() +
+#     theme_opts +
+#     scale_fill_manual(values=c("black", "white"), guide="none")+ # change colors and remove legend
+#     scale_size_continuous(name="Number of species", range=c(1,20), limits=c(1,150), breaks=c(1,10,50,100,150),
+#                           labels=c("1","10","50","100","150"))  
+# 
+# ggsave("manuscript/figs/Location_new.png", width=12.5, height=8.25, dpi=150)
 
 #= Amount of variability between Dryad and Cirad data at species level
 res <- wsg.comp$wsg.dryad[wsg.comp$Sallevane==0]-wsg.comp$wsg.Cirad[wsg.comp$Sallevane==0]
