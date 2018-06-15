@@ -342,6 +342,8 @@ write.table(species.per.biome,file="output/species_per_biome.txt",sep="\t",row.n
 # Distribution of D12
 #=======================================================
 
+require(ggplot2)
+
 # Theme options
 theme_dens <- theme(
   legend.position = c(0.8, 0.8),
@@ -381,7 +383,6 @@ ggsave("manuscript/figs/density_D12.pdf", density_D12_clade)
 #= Libraries
 require(rgdal)
 require(sp)
-require(ggplot2)
 require(grid) # for plot.margin
 
 #= Country boundaries and coordinates
@@ -572,18 +573,27 @@ write.csv(data_save,file="Cirad-wood-density-database.csv",quote=FALSE,row.names
 # Effect of clade, biome and low-high density
 #=======================================================
 
+# Unique regression for reference
+mod_ref <- lm(Db~D12-1,data=data2) 
+
 # Model clade
 mod_clade <- lm(Db~clade:D12-1,data=data2) 
+nobs_clade <- data2 %>% 
+  group_by(clade) %>%
+  summarise(nobs=n())
 sink("output/anova_clade.txt")
-mod_clade
-anova(mod_clade)
+summary(mod_clade)
+anova(mod_ref, mod_clade)
 sink()
 
 # Model biome
 mod_biome <- lm(Db~biome:D12-1,data=data2)
+nobs_biome <- data2 %>% 
+  group_by(biome) %>%
+  summarise(nobs=n())
 sink("output/anova_biome.txt")
-mod_biome
-anova(mod_biome)
+summary(mod_biome)
+anova(mod_ref,mod_biome)
 sink()
 
 # Model light-high density
@@ -593,11 +603,11 @@ data2.Angio <- data2 %>% filter(clade=="Angiosperms")
 nobs_woodtype <- data2.Angio %>% 
   group_by(woodtype) %>%
   summarise(nobs=n())
+mod_ref_Angio <- lm(Db~D12-1,data=data2.Angio) 
 mod_woodtype <- lm(Db~woodtype:D12-1,data=data2.Angio)
 sink("output/anova_woodtype.txt")
-mod_woodtype
 summary(mod_woodtype)
-anova(mod_woodtype)
+anova(mod_ref_Angio,mod_woodtype)
 sink()
 
 #=======================================================

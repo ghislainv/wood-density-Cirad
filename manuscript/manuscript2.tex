@@ -94,6 +94,9 @@
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+% Caption width
+\usepackage{caption}
+\captionsetup{width=\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -214,7 +217,7 @@ In this study, we present a new and exact formula to convert wood density at any
 
 \subsubsection{A global database including 872 tree species}
 
-The Cirad wood technology database includes data from 4022 trees. Tree species names (latin binomial) were first spell-checked with the Global Names Resolver available in the \texttt{taxize} R package \citep{Chamberlain2013} using The Encyclopedia of Life, The International Plant Names Index, and the Tropicos databases as references. Then, we searched for synonyms in the list of species names and corrected the species names when necessary using The Plant List version 1.1 (\url{http://www.theplantlist.org}) as reference. We used the \texttt{Taxonstand} R package \citep{Cayuela2017} to do so. Taxonomic families were retrieved from updated species names using The Plant List. Trees belong to 1010 taxa from 484 genera and 94 taxonomic families. Most of the taxa (872) were identified up to the species level, with varieties and subspecies combined. Out of the 872 species names, 832 were ``accepted'' species names and 40 were ``unresolved'', according to The Plant List. The rest of the taxa (138) were identified up to the genus level. The dataset includes 834 angiosperm species and 38 gymnosperm species. The dataset includes trees from 64 countries but the major part of the trees come from 13 tropical countries (countries with more than 20 tree species) mostly in South America, Africa and in Oceanic islands (Tab.~\ref{tab:Countries} and Fig.~\ref{fig:Location}). Sallenave was working for a tropical forestry institute now part of Cirad, the database is thus the direct continuation and extension of Sallenave's work (\citeyear{Sallenave1955, Sallenave1964, Sallenave1971}).
+The Cirad wood technology database includes data from 4022 trees. Tree species names (latin binomial) were first spell-checked with the Global Names Resolver available in the \texttt{taxize} R package \citep{Chamberlain2013} using The Encyclopedia of Life, The International Plant Names Index, and the Tropicos databases as references. Then, we searched for synonyms in the list of species names and corrected the species names when necessary using The Plant List version 1.1 (\url{http://www.theplantlist.org}) as reference. We used the \texttt{Taxonstand} R package \citep{Cayuela2017} to do so. Taxonomic families were retrieved from updated species names using The Plant List. Trees belong to 1010 taxa from 484 genera and 94 taxonomic families. Most of the taxa (872) were identified up to the species level, with varieties and subspecies combined. Out of the 872 species names, 832 were ``accepted'' species names and 40 were ``unresolved'', according to The Plant List. The rest of the taxa (138) were identified up to the genus level. The dataset includes 834 angiosperm species and 38 gymnosperm species. The dataset includes trees from 64 countries but the major part of the trees come from 13 tropical countries (countries with more than 20 tree species), mostly in South America, Africa, and in Oceanic islands (Tab.~\ref{tab:Countries} and Fig.~\ref{fig:Location}). Sallenave was working for a tropical forestry institute now part of Cirad, the database is thus the direct continuation and extension of Sallenave's work (\citeyear{Sallenave1955, Sallenave1964, Sallenave1971}).
 
 \subsubsection{Measuring wood mass, moisture content, and volume}
 \label{seq:mass-volume}
@@ -336,7 +339,9 @@ In the Cirad wood density database, the fibre saturation point is provided for e
 
 Wood characteristic values for trees in the Cirad database are the average of $>$10 wood samples taken at various position in the trunk. These values integrate the intra-individual variability (e.g. difference in wood density values for the same tree which can vary with the position in the trunk \citep{Bastin2015}). Providing wood characteristics for individual trees, the Cirad database can be used to compute both intra-specific and inter-specific trait variability. Intra-specific trait variability, due to genetic variability and phenotypic plasticity, participates in determining species fitness and community assemblages \citep{Courbaud2012, Albert2011, Roughgarden1979}. The Cirad database could also help quantify phylogenetic conservatism and divergences of wood densities in tree species \citep{Flores2011}.
 
-\subsection{Consequences of the new conversion factor value for ecological studies}
+\subsection{Limits and ecological perspectives of the new conversion factor value}
+
+We found a new empirical value of 0.828 for the conversion factor. This value is obtained from a theoretical equation derived from the exact definitions of $R$, $S$ and $D_{12}$. Some uncertainty, which comes from methodological limitations associated to the measurement of these variables, is surrounding this value. In particular, the fibre saturation point $S$ remains a theoretical concept. In practice, some ``free'' water is still present in wood cells when shrinkage (associated to the loss of ``bound'' water) starts during the drying process, and some low molecular weight organic compounds are lost during drying \citep{Rosner2009}. This introduces some uncertainty in the measurement of the water content at each stage of the drying process, and thus on the estimates of $S$ and $R$. Also, from the field to the laboratory, wood samples might have experienced some drying during the transport and storage, which explains why wood samples had to be re-saturated. Wood that has been re-saturated can show different shrinkage behavior \citep{Glass2010}, which introduces some uncertainty regarding the measurement of $S$ and $R$. Moreover, the conversion factor could theoretically vary between species or individuals having different wood anatomies. For example, the proportion of parenchyma (representing the bulk of living cells in wood) is typically higher in angiosperms, tropical, and low wood density species than in gymnosperms, temperate, and high wood density species, respectively \citep{Morris2016}. In our data-set, we found statistically significant differences between these groups of trees for the value of the conversion factor (Supp.~Info.~\ref{sm:anova}). But the magnitude of the differences between groups was of the same order ($\leq 0.01$) as the uncertainty for the wood density value at 12\% moisture $D_{12}$. So we considered these differences not meaningful.
 
 This new value of 0.828 for the conversion factor has significant implications for the study of the role of forests in the global carbon cycle. The error on the conversion factor between wood density at 12\% moisture and basic wood density propagates to forest carbon stock. Combined with biomass allometric equations available in the literature \citep{Chave2005, Chave2014, Vieilledent2012}, these wood density values have been used to compute forest carbon maps globally \citep{Saatchi2011, Baccini2012, Avitabile2016, Baccini2017}. About 60\% of the basic wood densities in the Global Wood Density Database have been estimated with an overestimated conversion factor. On the basis of 411 tree species, we showed that the GWDD overestimates wood densities by +3.05\% on average. It is hard to quantify precisely the consequences of this bias on forest carbon stock estimates as it depends on relative species abundance in the forest and relative tree size distribution between species. However, if dominant species (in terms of size and abundance) have an overestimated basic wood density, due to the use of an inaccurate conversion factor (0.872 or 0.861 in \citet{Chave2006, Chave2009} against 0.828 in our study), it can potentially lead to an overestimation of 4-5\% of the forest biomass and carbon stock. We are currently in the process of updating the GWDD and the present study provides a firm basis for this revision.
 
@@ -570,20 +575,22 @@ Data (including the Cirad wood density database) and R script associated to the 
 
 \newpage
 
-\setcounter{figure}{2}
-\renewcommand{\figurename}{Supporting Information}
-\renewcommand{\thefigure}{S\arabic{figure}}
-%\renewcommand{\captionlabeldelim}{:}
+\begin{longtable}{@{}L{6cm}rrrrr@{}}
+  \caption{\textbf{Analysis of variance results.} This table presents the results of three analysis of variance testing the difference between groups of trees for the value of the conversion factor. We tested the difference between (i) angiosperm and gymnosperm trees, (ii) tropical and temperate trees, and (iii) high wood density and low wood density angiosperm trees. We considered that a tree has a high wood density if $D_{12} \geq 0.5$ g/cm$^3$, and a low wood density if $D_{12} < 0.5$ g/cm$^3$. $n$ indicates the number of trees in each group, $d$ indicates the difference between groups' conversion factor values, $F$ indicates the value of the $F$-test (between group variability/within group variability), and $p$-value is the probability value of the null hypothesis (assuming no difference between groups).}\label{sm:anova}\\
+  \toprule
+  Groups & $n$ & conversion factor & $d$ & F & $p$-value \\
+  \midrule
+  Angiosperms	& 3631 & 0.828 & 0.01	& 17 & $<$0.001 \\
+  Gymnosperms	& 201	& 0.838	& ~ & ~ & ~ \\		
+  ~ & ~ & ~ & ~ & ~ & ~ \\
+  Tropical trees & 3700 & 0.828	& $<$0.01	& 5	& $<$0.05 \\
+  Temperate trees	& 132	& 0.824	& ~ & ~ & ~ \\
+  ~ & ~ & ~ & ~ & ~ & ~ \\
+  High $D_{12}$ angiosperm trees & 3238 & 0.828 & 0.01 & 36 & $<$0.001 \\
+  Low $D_{12}$ angiosperm trees & 393 & 0.838 & ~ & ~ & ~ \\
+  \bottomrule
+\end{longtable}
 
-\begin{figure}[!ht] 
-    \begin{center} 
-
-      \caption{\textbf{Distribution of wood density values at 12\% moisture for angiosperms
-      and gymnosperms in the Cirad wood density database.}}\label{fig:dist-angio-gymn}
-      \vspace{1cm}
-      \includegraphics[width=12cm]{figs/density_D12_clade.pdf}
-      
-    \end{center}
-\end{figure}
+Given the large number of samples in the different groups, the difference bewteen groups' conversion factor values was significant at the 95\% probability threshold ($p$-value $<$ 0.05) for the three tests. But the magnitude of the differences was lower or equal to 0.01, and of the same order as the uncertainty on $D_{12}$, which is of about 0.01 g/cm$^3$. So we considered these differences between groups not meaningful.
 
 \end{document}

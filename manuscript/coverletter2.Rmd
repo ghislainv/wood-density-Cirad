@@ -134,11 +134,11 @@ See previous answer.
 
 **Line 166, see Rosner et al. (2009), wood can shrink as well already above fiber saturation, this should be mentioned.**
 
-We now discuss the theory around the definition of the fibre saturation point in the Discussion part. We added the suggested reference to the text.
+We now discuss the theory around the definition of the fibre saturation point in the Discussion part (section 4.3). We added the suggested reference to the text.
 
 **Lines 168-170, did you use green wood for your experiments? Wood that was once dried is difficult to re-saturate and shows different shrinkage behavior.**
 
-From the field to the laboratory, wood samples might have experienced some drying during the transport and storage. That's why wood samples were re-saturated: "wood samples were autoclaved, subjected to one hour of vacuum (to accelerate water impregnation) and then soaked in water during 15 hours at 5 bar pressure". We have now underlined this limitation in the discussion part.
+From the field to the laboratory, wood samples might have experienced some drying during the transport and storage. That's why wood samples were re-saturated: "wood samples were autoclaved, subjected to one hour of vacuum (to accelerate water impregnation) and then soaked in water during 15 hours at 5 bar pressure". We have now underlined this limitation in the Discussion part (section 4.3).
 
 ## Discussion
 
@@ -168,12 +168,12 @@ We removed this sentence from the discussion. In the method part, we have added 
 
 In the first version of the manuscript, we referred to the terminology used in Berry and Roderick, 2005. The terms "solid" and "liquid" water were introduced by physical chemist and wood scientist A. J. Stamm. We agree that using the terms "free water" and "bound water" here would more consistent, as we have already introduced this terms when defining the fibre saturation point $S$ in section 2.1.3. The term "fresh" was also replaced by "green". We thus modified the text:     
 
-"The fibre saturation point is an essential wood characteristic that can be used, in combination with the green volume, the green mass and the dry mass, to estimate the volume of water for each of the three bulk phases in a tree: (1) "free" liquid water in cell lumens and cavities, (2) water vapor in the gas-filled voids, and (3) "bound" water held chemically within cell walls (sometimes also called "solid" water, see (Berry and Roderick, 2005). The volume of "bound" water is an essential plant functional trait as it determines wood strength and constraints on plant architecture (Niklas, 1993), as is the volume of "free" liquid water which is the ultimate source of the biochemical activity in living plants (Berry and Roderick, 2005)."
+"The fibre saturation point is an essential wood characteristic that can be used, in combination with the green volume, the green mass and the dry mass, to estimate the volume of water for each of the three bulk phases in a tree: (1) "free" liquid water in cell lumens and cavities, (2) water vapor in the gas-filled voids, and (3) "bound" water held chemically within cell walls (sometimes also called "solid" water, see Berry and Roderick, 2005). The volume of "bound" water is an essential plant functional trait as it determines wood strength and constraints on plant architecture (Niklas, 1993), as is the volume of "free" liquid water which is the ultimate source of the biochemical activity in living plants (Berry and Roderick, 2005)."
 
 **Lines 351-354, I do not understand the logics of this argumentation (Lines 355-356). The mean value is contra productive regarding the variability that is possible within a tree, what is the advantage of this? I would expect that is better to include the point measurements along the trunk in order to include the within tree variability. See Rosner (2017) Journal of Plant Hydraulics. <https://doi.org/10.20870/jph.2017.e001>**     
 **Could you provide a regression for the single data points? In a supplement figure?**
 
-We totally agree with the reviewer that it would have been preferable to provide point measurements along the trunk in the database to be able to estimate within tree variability (also called intra-individual variability). Unfortunately, it is the averages of >10 samples at the tree level which have been historically recorded in the Cirad database, with the underlying assumption that intra-specific and inter-specific variability was greater than intra-individual variability. We have modified the text in the Methods and Discussion parts (section 2.1.3) to be clearer:     
+We totally agree with the reviewer that it would have been preferable to provide point measurements along the trunk in the database to be able to estimate within tree variability (also called intra-individual variability). Unfortunately, it is the average of >10 samples at the tree level which has been historically recorded in the Cirad database, with the underlying assumption that intra-specific and inter-specific variability was greater than intra-individual variability. We have modified the text in the Methods and Discussion parts (section 2.1.3) to be clearer:     
 
 "In the Cirad database, average values for $S$, $R$ and $D_{12}$ for each tree were historically recorded using $>10$ wood samples taken at various positions in the trunk."
 
@@ -229,6 +229,8 @@ We thank Reviewer 1 for his/her careful review of our manuscript and the additio
 
 **Overall, the manuscript is a meaningful contribution, which is likely to be widely cited and referenced, by ecologists and foresters as well as the few remaining plant anatomists in the world.**
 
+Thanks for your positive comments.
+
 **I would recommend the authors add a small section about limits of their study which might include:**
 
 **1. A statement about tropical vs temperate woods. The authors state that their sample is mostly tropical woods, but it should be noted that median Db is 0.60 whereas most temperate angiosperms fall into the 0.3-0.7 class. Therefore, the percent bias in previous studies is likely to be small for temperate woods relative to prior studies of tropical woods.**
@@ -239,9 +241,12 @@ We thank Reviewer 1 for his/her careful review of our manuscript and the additio
 
 **4. I'm sure the authors know that the relationships discussed are not chemically "ideal" - for examples, not all free water is lost before some bound water is lost, and some low molecular weight organic compounds are lost during drying. The analogy of ideal gas laws and real gas relationships is clear. It might be useful to note this for young scientists endeavoring to determine densities of their wood samples - a given wood sample may vary somewhat from the relationships described in this MS.**
 
+We added a section to discuss each of these points in the Discussion part (section 4.3) and in Supplementary Information S3.
+
 **Fig. 1 is unnecessary, and it duplicates the Table 1.**
 
-In Tab. 1, we list countries with more than 20 tree species in the Cirad wood density database. In Fig. 1, we identify every countries with at least one tree species. We think Fig. 1 is useful and complementary to Tab. 1 as it provides information on the spatial repartition of the data at the global scale (total extent of the data, total number of countries, temperate vs. tropical, data abundance per country, etc.). We have thus decided to retain that figure in the new version of the manuscript, modifying its title and legend to better describe the information it provides:     
+In Tab. 1, we list countries with more than 20 tree species in the Cirad wood density database. In Fig. 1, we identify every countries with at least one tree species. We think Fig. 1 is useful and complementary to Tab. 1 as it provides information on the spatial repartition of the data at the global scale (total extent of the data, total number of countries, temperate vs. tropical, data abundance per country, etc.). We have thus decided to retain that figure in the new version of the manuscript, modifying its title and legend to better describe the information it provides:      
+
 "Figure 1: **Global repartition of the data available in the Cirad wood density database.** Data repartition is provided in number of species per country. Most of the species in the database (830/872) are found in the tropics (materialized by the grey band on the map)."
 
 ## Minor suggestions

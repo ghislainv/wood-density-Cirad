@@ -29,3 +29,9 @@ The development version of the data-base can be downloaded [here](https://github
 Versions of this repository, including versions of the Cirad wood density database, are archived on the Cirad Dataverse repository: 
 
 **Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** Code and data for: New formula and conversion factor to compute tree species basic wood density from a global wood technology database. _CIRAD Dataverse_. \[DOI: [10.18167/DVN1/KRVF0E](https://doi.org/10.18167/DVN1/KRVF0E)\].
+
+## Figure
+
+![](img/Location.png)
+
+Figure 1: *Global repartition of the data available in the Cirad wood density database*. Data repartition is provided in number of species per country. Most of the species in the database (830/872) are found in the tropics (materialized by the grey band on the map).
