@@ -34,4 +34,4 @@ Versions of this repository, including versions of the Cirad wood density databa
 
 ![](img/Location.png)
 
-Figure 1: *Global repartition of the data available in the Cirad wood density database*. Data repartition is provided in number of species per country. Most of the species in the database (830/872) are found in the tropics (materialized by the grey band on the map).
+Figure 1: **Global repartition of the data available in the Cirad wood density database**. Data repartition is provided in number of species per country. Most of the species in the database (830/872) are found in the tropics (materialized by the grey band on the map).
