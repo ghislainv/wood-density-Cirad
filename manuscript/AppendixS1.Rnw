@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preambule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt, leqno, dvipsnames]{article} %leqno: numéro d'équation à gauche
+\pagenumbering{arabic} % choose how to number the pages
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc} % accents interprétés
+\usepackage{graphicx}
+%\usepackage{subfig}
+%\usepackage[hmargin=2cm, vmargin = 2cm, noheadfoot]{geometry} %% Pour gérer le format des pages
+%\usepackage{layout} %% Pour avoir la longueur des marges
+\usepackage[round,sort]{natbib} %% Natbib is a popular style for formatting references.
+%\usepackage{multibib}
+%\newcites{secnm}{Bibliographie} 
+%\usepackage{verbatim} % for multiline comments
+\usepackage{amssymb} %symbole de maths
+\usepackage{amsmath} %idem
+%\usepackage{stmaryrd} %% Symbole flèche à l'envers
+%\usepackage{amsfonts}
+\usepackage[english]{babel} %% Les titres en anglais
+\usepackage{array} %% Pour centrer verticalement le contenu d'un tableau, entre autres...
+\setcounter{secnumdepth}{4} %% Profondeur des sections, subsections
+\usepackage{setspace} %% Gère l'interligne: singlespacing, doublespacing
+\usepackage{booktabs}
+%\singlespacing
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\setlength{\LTleft}{-5cm plus 1 fill}
+\setlength{\LTright}{-5cm plus 1 fill}
+\usepackage[colorlinks=true,citecolor=Blue,urlcolor=Maroon]{hyperref} %% Gère les hyperliens
+\usepackage{lineno} %% Numérotation des lignes
+%\linenumbers
+\newcommand{\logit}{\text{logit}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\p}{\text{p}}
+\newcommand{\R}{\textnormal{\sffamily\bfseries R}}
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+% For changes in tables
+%\newcommand{\SetRowColor}[1]{\noalign{\gdef\RowColorName{#1}}\rowcolor{\RowColorName}}
+%\definecolor{gray90}{gray}{0.9}
+%\newcommand{\mymulticolumn}[3]{\multicolumn{#1}{>{\columncolor{gray90}}#2}{#3}}
+%\newcommand{\sizeBigTable}{\fontsize{9pt}{9pt}\selectfont}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+% Caption width
+\usepackage{caption}
+\captionsetup{width=\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{}
+\author{}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\thispagestyle{empty} % Remove page number
+\begin{center}
+\textbf{Vieilledent \emph{et al.} -- American Journal of Botany 2018 -- Appendix S1}
+\end{center}
+
+\setcounter{table}{0}
+\renewcommand{\tablename}{Appendix}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theHtable}{Appendix.\thetable}
+
+\vspace{1cm}
+
+\begin{longtable}{@{}lL{8cm}r@{}}
+  \caption{\textbf{Definition and unit of wood physical and mechanical properties.}}\label{sm:Definitions}\\
+  \toprule
+  Notation & Definition & Unit \\
+  \midrule
+  $w$ & water content or moisture \newline $w=100 (m_w-m_0)/m_0$ & \% of the dry mass \\
+  $S$ & fibre saturation point (water content above which the wood volume does not
+  increase) & \% \\
+  $m_w$ & mass at moisture $=w$ & g \\
+  $m_0$ & anhydrous mass or ``oven dry mass'' & g \\
+  $V_w$ & volume at moisture $=w$ & cm$^3$ \\
+  $V_0$ & anhydrous volume & cm$^3$ \\
+  $V_S$ & volume at $w=S$ or ``green volume'' & cm$^3$ \\
+  $R$ & volumetric shrinkage coefficient (variation in volume
+  per 1\% change in water content) \newline $R=100 (V_S-V_0) / (V_S S)$ & \%/\% \\
+  $D_b$ & basic wood density ($m_0/V_S$) or ``wood specific gravity'' & g/cm$^3$ \\
+  $D_{12}$ & wood density at 12\% moisture ($m_{12}/V_{12}$) & g/cm$^3$ \\
+  $D_{15}$ & wood density at 15\% moisture ($m_{15}/V_{15}$) & g/cm$^3$ \\
+  $D_0$ & anhydrous wood density ($m_0/V_0$) & g/cm$^3$ \\
+  \bottomrule\\
+\end{longtable}
+
+\end{document}

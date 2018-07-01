@@ -1,0 +1,144 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preambule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt, leqno, dvipsnames]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt} %leqno: numéro d'équation à gauche
+\pagenumbering{arabic} % choose how to number the pages
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc} % accents interprétés
+\usepackage{graphicx}
+%\usepackage{subfig}
+%\usepackage[hmargin=2cm, vmargin = 2cm, noheadfoot]{geometry} %% Pour gérer le format des pages
+%\usepackage{layout} %% Pour avoir la longueur des marges
+\usepackage[round,sort]{natbib} %% Natbib is a popular style for formatting references.
+%\usepackage{multibib}
+%\newcites{secnm}{Bibliographie} 
+%\usepackage{verbatim} % for multiline comments
+\usepackage{amssymb} %symbole de maths
+\usepackage{amsmath} %idem
+%\usepackage{stmaryrd} %% Symbole flèche à l'envers
+%\usepackage{amsfonts}
+\usepackage[english]{babel} %% Les titres en anglais
+\usepackage{array} %% Pour centrer verticalement le contenu d'un tableau, entre autres...
+\setcounter{secnumdepth}{4} %% Profondeur des sections, subsections
+\usepackage{setspace} %% Gère l'interligne: singlespacing, doublespacing
+\usepackage{booktabs}
+%\singlespacing
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\setlength{\LTleft}{-5cm plus 1 fill}
+\setlength{\LTright}{-5cm plus 1 fill}
+\usepackage[colorlinks=true,citecolor=Blue,urlcolor=Maroon]{hyperref} %% Gère les hyperliens
+\usepackage{lineno} %% Numérotation des lignes
+%\linenumbers
+\newcommand{\logit}{\text{logit}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\p}{\text{p}}
+\newcommand{\R}{\textnormal{\sffamily\bfseries R}}
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+% For changes in tables
+%\newcommand{\SetRowColor}[1]{\noalign{\gdef\RowColorName{#1}}\rowcolor{\RowColorName}}
+%\definecolor{gray90}{gray}{0.9}
+%\newcommand{\mymulticolumn}[3]{\multicolumn{#1}{>{\columncolor{gray90}}#2}{#3}}
+%\newcommand{\sizeBigTable}{\fontsize{9pt}{9pt}\selectfont}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+% Caption width
+\usepackage{caption}
+\captionsetup{width=\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{}
+\author{}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\thispagestyle{empty} % Remove page number
+\begin{center}
+\textbf{Vieilledent \emph{et al.} -- American Journal of Botany 2018 -- Appendix S3}
+\end{center}
+
+\setcounter{table}{2}
+\renewcommand{\tablename}{Appendix}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theHtable}{Appendix.\thetable}
+
+\vspace{1cm}
+
+\begin{longtable}{@{}L{6cm}rrrrr@{}}
+  \caption{\textbf{Analysis of variance results.} This table presents the results of three analysis of variance testing the difference between groups of trees for the value of the conversion factor. We tested the difference between (i) angiosperm and gymnosperm trees, (ii) tropical and temperate trees, and (iii) high wood density and low wood density angiosperm trees. We considered that a tree has a high wood density if $D_{12} \geq 0.5$ g/cm$^3$, and a low wood density if $D_{12} < 0.5$ g/cm$^3$. $n$ indicates the number of trees in each group, $d$ indicates the difference between groups' conversion factor values, $F$ indicates the value of the $F$-test (between group variability/within group variability), and $p$-value is the probability value of the null hypothesis (assuming no difference between groups).}\label{sm:anova}\\
+  \toprule
+  Groups & $n$ & conversion factor & $d$ & F & $p$-value \\
+  \midrule
+  Angiosperms	& 3631 & 0.828 & 0.01	& 17 & $<$0.001 \\
+  Gymnosperms	& 201	& 0.838	& ~ & ~ & ~ \\		
+  ~ & ~ & ~ & ~ & ~ & ~ \\
+  Tropical trees & 3700 & 0.828	& $<$0.01	& 5	& $<$0.05 \\
+  Temperate trees	& 132	& 0.824	& ~ & ~ & ~ \\
+  ~ & ~ & ~ & ~ & ~ & ~ \\
+  High $D_{12}$ angiosperm trees & 3238 & 0.828 & 0.01 & 36 & $<$0.001 \\
+  Low $D_{12}$ angiosperm trees & 393 & 0.838 & ~ & ~ & ~ \\
+  \bottomrule
+\end{longtable}
+
+Given the large number of samples in the different groups, the difference bewteen groups' conversion factor values was significant at the 95\% probability threshold ($p$-value $<$ 0.05) for the three tests. But the magnitude of the differences was lower or equal to 0.01, and of the same order as the uncertainty on $D_{12}$, which is of about 0.01 g/cm$^3$. So we considered these differences between groups not meaningful.
+
+\end{document}

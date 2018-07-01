@@ -2,7 +2,7 @@
 
 The `wood-density-Cirad` GitHub repository includes the R script, data and results associated to the following scientific article:
 
-**Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** New formula and conversion factor to compute tree species basic wood density from a global wood technology database. _bioRxiv_. 274068. \[DOI: [10.1101/274068](https://doi.org/10.1101/274068)\].
+**Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** New formula and conversion factor to compute tree species basic wood density from a global wood technology database. _American Journal of Botany_. [bioRxiv:274068](https://doi.org/10.1101/274068).
 
 ## Summary
 

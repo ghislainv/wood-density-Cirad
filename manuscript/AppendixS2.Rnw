@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preambule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt, leqno, dvipsnames]{article} %leqno: numéro d'équation à gauche
+\pagenumbering{arabic} % choose how to number the pages
+\usepackage{a4wide}
+\usepackage[utf8]{inputenc} % accents interprétés
+\usepackage{graphicx}
+%\usepackage{subfig}
+%\usepackage[hmargin=2cm, vmargin = 2cm, noheadfoot]{geometry} %% Pour gérer le format des pages
+%\usepackage{layout} %% Pour avoir la longueur des marges
+\usepackage[round,sort]{natbib} %% Natbib is a popular style for formatting references.
+%\usepackage{multibib}
+%\newcites{secnm}{Bibliographie} 
+%\usepackage{verbatim} % for multiline comments
+\usepackage{amssymb} %symbole de maths
+\usepackage{amsmath} %idem
+%\usepackage{stmaryrd} %% Symbole flèche à l'envers
+%\usepackage{amsfonts}
+\usepackage[english]{babel} %% Les titres en anglais
+\usepackage{array} %% Pour centrer verticalement le contenu d'un tableau, entre autres...
+\setcounter{secnumdepth}{4} %% Profondeur des sections, subsections
+\usepackage{setspace} %% Gère l'interligne: singlespacing, doublespacing
+\usepackage{booktabs}
+%\singlespacing
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\setlength{\LTleft}{-5cm plus 1 fill}
+\setlength{\LTright}{-5cm plus 1 fill}
+\usepackage[colorlinks=true,citecolor=Blue,urlcolor=Maroon]{hyperref} %% Gère les hyperliens
+\usepackage{lineno} %% Numérotation des lignes
+%\linenumbers
+\newcommand{\logit}{\text{logit}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\p}{\text{p}}
+\newcommand{\R}{\textnormal{\sffamily\bfseries R}}
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+% For changes in tables
+%\newcommand{\SetRowColor}[1]{\noalign{\gdef\RowColorName{#1}}\rowcolor{\RowColorName}}
+%\definecolor{gray90}{gray}{0.9}
+%\newcommand{\mymulticolumn}[3]{\multicolumn{#1}{>{\columncolor{gray90}}#2}{#3}}
+%\newcommand{\sizeBigTable}{\fontsize{9pt}{9pt}\selectfont}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+% Caption width
+\usepackage{caption}
+\captionsetup{width=\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{}
+\author{}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\thispagestyle{empty} % Remove page number
+\begin{center}
+\textbf{Vieilledent \emph{et al.} -- American Journal of Botany 2018 -- Appendix S2}
+\end{center}
+
+\setcounter{table}{1}
+\renewcommand{\tablename}{Appendix}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theHtable}{Appendix.\thetable}
+
+\vspace{1cm}
+
+\begin{longtable}{@{}L{\textwidth}@{}}
+  \caption{\textbf{Correcting Sallenave formula.}}\label{sm:Correction}\\
+  \textbf{Step 1: Computing the anhydrous mass $m_0$}\\
+  Using $d$ the density conversion factor per 1\% change in moisture content defined by \citet{Sallenave1955},
+  we compute $D_0$, the anhydrous density: $D_0=D_{12}-12d$.
+  Because $D_0=m_0/V_0$, we obtain $m_0=V_0 (D_{12}-12d)$ (Eq.~A1).\\
+  ~\\
+  \textbf{Step 2: Computing the saturated volume $V_S$}\\
+  \citet{Sallenave1955} defined $\nu$ as the volumetric shrinkage coefficient (in \%/\%) using $V_0$
+  as the reference volume: $\nu=100(V_S-V_{12})/(V_0 (S-12))$.
+  We use this definition to derive $V_S=V_{12}(1+(\nu/100)(S-12))$ (Eq.~A2)\\
+  ~\\
+  \textbf{Step 3: Computing the basic wood density $D_b$}\\
+  Basic wood density $D_b$ is defined as $D_b=m_0/V_S$. Using Eq.~A1 and Eq.~A2, $D_b$ can
+  be written $D_b=(V_0/V_{12})(D_{12}-12d)/(1+(\nu/100)(S-12))$.
+  This demonstrates that Sallenave's formula is true only if $V_0=V_{12}$.\\
+\end{longtable}
+
+\renewcommand\refname{Literature Cited}
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Sallenave(1955)}]{Sallenave1955}
+Sallenave, P. (1955) {Propriétés physiques et mécaniques des bois tropicaux
+  de l'Union française. \url{https://doi.org/10.18167/agritrop/00359}}.
+\newblock Technical report, Nogent-sur-Marne, France.
+
+\end{thebibliography}
+
+\end{document}

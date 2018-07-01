@@ -848,7 +848,10 @@ options(knitr.kable.NA="-")
 opts_knit$set(root.dir="manuscript")
 
 ## Knit
-knitr::knit2pdf("manuscript/manuscript2.Rnw", output="manuscript/manuscript2.tex")
+knitr::knit2pdf("manuscript/manuscript_AJB.Rnw", output="manuscript/manuscript_AJB.tex")
+knitr::knit2pdf("manuscript/AppendixS1.Rnw", output="manuscript/AppendixS1.tex")
+knitr::knit2pdf("manuscript/AppendixS2.Rnw", output="manuscript/AppendixS2.tex")
+knitr::knit2pdf("manuscript/AppendixS3.Rnw", output="manuscript/AppendixS3.tex")
 
 ## Cover letter
 #rmarkdown::render("manuscript/coverletter.md", output_format=c("pdf_document"),
