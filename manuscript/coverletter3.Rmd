@@ -40,7 +40,7 @@ Dear Editor,
 
 Thank you for accepting to publish our article untitled _"New formula and conversion factor to compute tree species basic wood density from a global wood technology database"_ in _American Journal of Botany_.
 
-We have now answered the Editorial Office comments and formatted the manuscript following AJB formatting guidelines.
+We have answered the Editorial Office comments and formatted the manuscript following AJB formatting guidelines.
 
 Best regards,
 
@@ -50,7 +50,7 @@ The authors
 
 **1. Because the measurable impact of the article is diminished when citations are split between the pre-print (i.e., BioRxiv) and the published article, we ask that you, at the appropriate time: 1) update the entry on the pre-print server so that it links to and cites the DOI for the published version, and b) cite only the published article itself.**
 
-bioRxiv will usually automatically add a link to the published version within two-three weeks of journal publication (see https://www.biorxiv.org/about-biorxiv). I will contact them to add the DOI link to the publication in _American Journal of Botany_ as soon as possible.
+bioRxiv will usually automatically add a link to the published version within two-three weeks of journal publication (see https://www.biorxiv.org/about-biorxiv). We will contact them to add the DOI link to the publication in _American Journal of Botany_ as soon as possible.
 
 **2. For the final version of the manuscript please upload your article file in an editable format, preferably MS Word (.doc), and not as a PDF. However, if your original file is LaTeX, please follow the below instructions:**
 
@@ -60,7 +60,7 @@ bioRxiv will usually automatically add a link to the published version within tw
 **- LaTeX manuscripts should be accompanied by a PDF version of the paper. This is helpful for us to check and ensure that the LaTeX manuscript is complete and to query authors for any missing elements or if there are any discrepancies between the PDF version and the  LaTeX source code.**     
 **- It would help if the author-defined macros are kept to a minimum or avoided wherever possible.**
 
-I provide all the LaTex source files necessary to compile the manuscript. I also provide a PDF version of the manuscript.
+We have provided the LaTex source file necessary to compile the manuscript. We also have provided a PDF version of the manuscript.
 
 **3. Please follow the AJB formatting guidelines found at:**    **<https://onlinelibrary.wiley.com/page/journal/15372197/homepage/ForAuthors.html#ps>**     
 **Specifically:**     
@@ -70,7 +70,7 @@ I provide all the LaTex source files necessary to compile the manuscript. I also
 **- Third-level headings--(italic followed by an em-dash)**     
 **- Fourth-level headings--(regular text followed by an em-dash)**
 
-I modified the manuscript to follow AJB formatting guidelines.
+We have modified the manuscript to follow AJB formatting guidelines.
 
 **4. Please add the following headers to the abstract and, if necessary, modify/re-do the abstract text accordingly:**     
 **Premise of the study (why the work was done, what major questions of plant biology are addressed, and why it’s important to the broad AJB readership)**     
@@ -79,19 +79,19 @@ I modified the manuscript to follow AJB formatting guidelines.
 **Conclusions (what major points should the reader take from this article)**     
 **Note: the headers do not count in the <250-word requirement for abstracts**
 
-I modified the abstract accordingly.
+We have modified the abstract accordingly.
 
 **5. Key words can greatly enhance the discovery of your article. Please review your key words and consider whether they will help the reader find your work, i.e., by using words and phrases that are not already in the title or the abstract and/or including words that will widen the search-window of topics in your manuscript. For more details see "c. Key Words" at <https://onlinelibrary.wiley.com/page/journal/15372197/homepage/ForAuthors.html#ps>**
 
-I reviewed the keywords.
+We have reviewed the keywords.
 
 **6. Throughout the ms text, do not abbreviate "Table" as "Tab."**
 
-I corrected the manuscript accordingly.
+We have corrected the manuscript accordingly.
 
 **7. Would you like to thank the reviewers in the acknowledgements? It is not required, but we recommend it, especially if you found their comments helpful. (They don’t, as a rule, see your final response letter.)**
 
-I added a sentence in the ackowledgements section.
+We have added a sentence in the Ackowledgments section.
 
 **8. In the Literature Cited, for multi-authored works, list the first seven authors and then "et al." If there are only eight authors, then list all eight.**
 
@@ -99,11 +99,11 @@ Literature Cited has been reformated accordingly.
 
 **9. Please upload each of your figures as a separate high-resolution (at least 300 dpi) file, as you would like to see them published (1 column = 3.5 inches; 1.5 column = 5-6 inches; 2 columns = 7.25 inches wide), and do not include them with the manuscript text. If a figure has multiple panels, keep them together in a single file for that figure. For more details see "l. Figures/Illustrations" at <https://onlinelibrary.wiley.com/page/journal/15372197/homepage/ForAuthors.html#ps>**
 
-I uploaded all the figures as separated files at high resolution.
+We have uploaded all the figures as separated PDF files.
 
 **10. Keep the figure legends with the manuscript text file; place them after the tables.**
 
-I modified the manuscript accordingly.
+We have modified the manuscript accordingly.
 
 **11. For the Supporting Information (aka online supplements):**     
 **a. Please name them Appendix S1, S2, etc., in the order in which they are referred to in the ms text regardless of whether they are figures or tables.**            
@@ -112,4 +112,4 @@ I modified the manuscript accordingly.
 **d. On each file, place a header at the top of the page, using this format: "Smith et al. -- American Journal of Botany 2018 -- Appendix S1".**          
 **e. On each file, also include a title/legend, prefaced by, e.g., "Appendix S1" (we prefer the title to be on the file itself, but if necessary, for any given appendix its title can be placed after the figure legends instead. However, please do NOT provide a duplicate copy of any of the titles in a separate list as this adds confusion during the copyediting stage.)**
 
-I now provide the supporting information following the requested format.
+We now provide the Supporting Information following the requested format.
