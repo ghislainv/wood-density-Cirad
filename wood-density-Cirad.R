@@ -521,8 +521,8 @@ par(mar=c(4,5,0,0)+0.1,cex=1.4)
 plot(data2$D12,data2$Db,
      xlim=c(0,1.4),
      ylim=c(0,1.4),
-     ylab=expression(italic(D[b])~~(g/cm^3)),
-     xlab=expression(italic(D[12])~~(g/cm^3)),
+     ylab=expression(italic(D)[b]~~(g/cm^3)),
+     xlab=expression(italic(D)[12]~~(g/cm^3)),
      col=grey(0.6),
      bty="n",
      axes=FALSE)
@@ -551,7 +551,8 @@ panel.cor <- function(x, y, digits=2, prefix="", cex.cor, ...) {
 
 # Plot pairs
 pdf(file="manuscript/figs/Correlation.pdf")
-pairs(~R+S+D12, data=data2,
+lab <- c()
+pairs(~R+S+D12, labels=lab, data=data2,
       lower.panel=panel.cor, upper.panel=panel.smooth, 
       pch=20)
 dev.off()
