@@ -551,8 +551,8 @@ panel.cor <- function(x, y, digits=2, prefix="", cex.cor, ...) {
 
 # Plot pairs
 pdf(file="manuscript/figs/Correlation.pdf")
-lab <- c()
-pairs(~R+S+D12, labels=lab, data=data2,
+lab <- c(expression(italic(R)), expression(italic(S)), expression(italic(D)[12]))
+pairs(~R+S+D12, labels=lab, cex.labels=3, data=data2,
       lower.panel=panel.cor, upper.panel=panel.smooth, 
       pch=20)
 dev.off()
@@ -725,13 +725,13 @@ cor(wsg.comp$wsg.Cirad[wsg.comp$Sallevane==1],wsg.comp$wsg.dryad[wsg.comp$Sallev
 # Plot and correlation without data from Sallevane
 cor(wsg.comp$wsg.Cirad[wsg.comp$Sallevane==0],wsg.comp$wsg.dryad[wsg.comp$Sallevane==0],use="complete.obs") # 0.8629243
 
-pdf(file="manuscript/figs/Cirad-GWDD-Db.pdf")
+pdf(file="manuscript/figs/CIRAD-GWDD-Db.pdf")
 par(mar=c(4,5,0,0)+0.1,cex=1.4)
 plot(wsg.comp$wsg.Cirad[wsg.comp$Sallevane==0],wsg.comp$wsg.dryad[wsg.comp$Sallevane==0],
      xlim=c(0,1.4),
      ylim=c(0,1.4),
-     xlab=expression(paste(italic(D[b])," Cirad",~~(g/cm^3),sep="")),
-     ylab=expression(paste(italic(D[b])," GWDD",~~(g/cm^3),sep="")),
+     xlab=expression(paste(italic(D)[b]," CIRAD",~~(g/cm^3),sep="")),
+     ylab=expression(paste(italic(D)[b]," GWDD",~~(g/cm^3),sep="")),
      col=grey(0.5),
      bty="n",
      axes=FALSE)
