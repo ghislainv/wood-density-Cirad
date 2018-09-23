@@ -854,6 +854,16 @@ knitr::knit2pdf("manuscript/AppendixS1.Rnw", output="manuscript/AppendixS1.tex")
 knitr::knit2pdf("manuscript/AppendixS2.Rnw", output="manuscript/AppendixS2.tex")
 knitr::knit2pdf("manuscript/AppendixS3.Rnw", output="manuscript/AppendixS3.tex")
 
+# # Pandoc for docx
+# system("pandoc manuscript/manuscript_AJB.tex -s -smart --bibliography=manuscript/bib/biblio.bib \\
+#        --csl=manuscript/bib/american-journal-of-botany.csl -o manuscript/manuscript_AJB.docx")
+# system("pandoc manuscript/AppendixS1.tex -s -smart --bibliography=manuscript/bib/biblio.bib \\
+#        --csl=manuscript/bib/american-journal-of-botany.csl -o manuscript/AppendixS1.docx")
+# system("pandoc manuscript/AppendixS2.tex -s -smart --bibliography=manuscript/bib/biblio.bib \\
+#        --csl=manuscript/bib/american-journal-of-botany.csl -o manuscript/AppendixS2.docx")
+# system("pandoc manuscript/AppendixS3.tex -s -smart --bibliography=manuscript/bib/biblio.bib \\
+#        --csl=manuscript/bib/american-journal-of-botany.csl -o manuscript/AppendixS3.docx")
+
 ## Cover letter
 #rmarkdown::render("manuscript/coverletter.md", output_format=c("pdf_document"),
 #                  output_dir="manuscript") # pdf output
