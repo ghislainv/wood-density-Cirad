@@ -2,7 +2,7 @@
 
 The `wood-density-Cirad` GitHub repository includes the R script, data and results associated to the following scientific article:
 
-**Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** New formula and conversion factor to compute tree species basic wood density from a global wood technology database. _American Journal of Botany_. [bioRxiv:274068](https://doi.org/10.1101/274068).
+**Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** 2018. New formula and conversion factor to compute basic wood density of tree species using a global wood technology database. _American Journal of Botany_. \[doi:[10.1002/ajb2.1175](https://doi.org/10.1002/ajb2.1175)\]. [bioRxiv:274068](https://doi.org/10.1101/274068).
 
 ## Summary
 
@@ -28,7 +28,7 @@ The development version of the data-base can be downloaded [here](https://github
 
 Versions of this repository, including versions of the Cirad wood density database, are archived on the Cirad Dataverse repository: 
 
-**Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** Code and data for: New formula and conversion factor to compute tree species basic wood density from a global wood technology database. _CIRAD Dataverse_. \[DOI: [10.18167/DVN1/KRVF0E](https://doi.org/10.18167/DVN1/KRVF0E)\].
+**Vieilledent G., F. J. Fischer, J. Chave, D. Guibal, P. Langbour and J. Gérard.** 2018. Code and data for: New formula and conversion factor to compute basic wood density of tree species using a global wood technology database. _CIRAD Dataverse_. \[DOI: [10.18167/DVN1/KRVF0E](https://doi.org/10.18167/DVN1/KRVF0E)\].
 
 ## Figure
 

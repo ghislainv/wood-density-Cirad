@@ -864,9 +864,8 @@ knitr::knit2pdf("manuscript/AppendixS3.Rnw", output="manuscript/AppendixS3.tex")
 # system("pandoc manuscript/AppendixS3.tex -s -smart --bibliography=manuscript/bib/biblio.bib \\
 #        --csl=manuscript/bib/american-journal-of-botany.csl -o manuscript/AppendixS3.docx")
 
-## Cover letter
-#rmarkdown::render("manuscript/coverletter.md", output_format=c("pdf_document"),
-#                  output_dir="manuscript") # pdf output
+# Cover letter
+# rmarkdown::render("manuscript/coverletter3.Rmd") # pdf output
 
 ##===========================================================================
 ## End of script
