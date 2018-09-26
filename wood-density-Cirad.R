@@ -14,7 +14,7 @@
 # V: initial volume, R: volume coefficient of retraction (%/%)
 # D0=m0/V0, m0: anhydrous mass, V0: anhydrous volume
 # D12=m12/V12, m12: mass at w=12%, V12: volume at w=12%
-# S: fibre saturation point (%) (water content above which the wood volume does not increase)
+# S: fiber saturation point (%) (water content above which the wood volume does not increase)
 # Db=m0/Vsat, Db: basal density, Vsat: volume at w=S
 
 #= Importing data-set
